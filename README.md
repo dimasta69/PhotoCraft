@@ -26,4 +26,5 @@
    - pipenv --python 3.
    - pipenv install
 ## 8. Схема используемой базы данных 
-![UML class (1)](https://github.com/dimasta69/PhotoCraft/assets/136033339/7836c796-ff9c-480f-83c7-6ea215cea124)
+![UML class](https://github.com/dimasta69/PhotoCraft/assets/136033339/2ad41307-7169-45c9-a6bf-95fbb88aa4a5)
+
