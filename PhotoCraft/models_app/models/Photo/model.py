@@ -23,9 +23,9 @@ class Photo(models.Model):
                                  format='JPEG',
                                  options={'quality': 60})
     backup_photo = models.ImageField(verbose_name='Фотография до изменения')
-    category_id = models.ForeignKey(Categories, on_delete=models.SET_NULL, related_name='photo',
+    category_id = models.ForeignKey(Categories, on_delete=models.SET_NULL, related_name='photo', null=True,
                                     verbose_name='Категория')
-    status_id = models.ForeignKey(Status, on_delete=models.SET_NULL, related_name='photo',
+    status_id = models.ForeignKey(Status, on_delete=models.SET_NULL, related_name='photo', null=True,
                                   verbose_name='Статус')
 
     class Meta:
