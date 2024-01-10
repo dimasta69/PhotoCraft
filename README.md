@@ -9,6 +9,7 @@
 ## 4. Информация о зависимостях проекта и их версиях
  - Django 5.0.1
  - psycopg2
+ - ImageKit
 ## 5. Инструкция по установке проекта на локальной машине разработчика
  -  Склонируйте репозиторий проекта с git clone https://github.com/dimasta69/PhotoCraft.git.
  -  Перейдите в директорию проекта с помощью команды cd PhotoCraft.
@@ -26,5 +27,5 @@
    - pipenv --python 3.
    - pipenv install
 ## 8. Схема используемой базы данных 
-![UML class](https://github.com/dimasta69/PhotoCraft/assets/136033339/2ad41307-7169-45c9-a6bf-95fbb88aa4a5)
+![UML class (1)](https://github.com/dimasta69/PhotoCraft/assets/136033339/f4a2020f-363c-442d-91d1-101ad73763c1)
 
