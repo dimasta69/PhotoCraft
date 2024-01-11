@@ -1,1 +1,74 @@
 2024-01-10 22:13:00,301 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-10 23:32:07,618 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-10 23:32:09,992 django.request WARNING  Not Found: /favicon.ico
+2024-01-12 00:38:20,573 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-12 00:40:15,939 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-12 00:41:58,218 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-12 00:48:20,990 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-12 00:49:36,496 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-12 00:51:29,970 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\PhotoCraft\settings\django.py changed, reloading.
+2024-01-12 00:51:30,461 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-12 00:51:32,551 django.request WARNING  Not Found: /
+2024-01-12 00:51:32,649 django.request WARNING  Not Found: /favicon.ico
+2024-01-12 00:51:42,914 django.request WARNING  Not Found: /core_api/
+2024-01-12 00:52:00,777 django.request WARNING  Not Found: /core_api/photos/
+2024-01-12 00:52:11,830 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-01-12 00:52:12,314 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-12 00:52:13,411 django.request ERROR    Internal Server Error: /core_api/photos/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo_list_view\view.py", line 20, in get
+    return Response({'pagination': CustomPagination(outcome.process(), current_page=outcome.celaned_data['page'],
+                                                                                    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'PhotoListService' object has no attribute 'celaned_data'
+2024-01-12 00:52:14,602 django.request ERROR    Internal Server Error: /core_api/photos/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo_list_view\view.py", line 20, in get
+    return Response({'pagination': CustomPagination(outcome.process(), current_page=outcome.celaned_data['page'],
+                                                                                    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'PhotoListService' object has no attribute 'celaned_data'
+2024-01-12 00:52:31,050 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo_list_view\view.py changed, reloading.
+2024-01-12 00:52:31,582 django.utils.autoreload INFO     Watching for file changes with StatReloader

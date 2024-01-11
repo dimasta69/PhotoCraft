@@ -8,6 +8,9 @@ name = "pypi"
 [dev-packages]
 django = "*"
 psycopg2 = "*"
+django-imagekit = "*"
+djangorestframework = "*"
+django-service-objects = "*"
 
 [requires]
 python_version = "3.11"
