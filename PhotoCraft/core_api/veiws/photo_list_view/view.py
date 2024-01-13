@@ -19,4 +19,4 @@ class PhotoListView(APIView):
             return Response(outcome.errors, status.HTTP_400_BAD_REQUEST)
         return Response({'pagination': CustomPagination(outcome.process(), current_page=outcome.cleaned_data['page'],
                                                         per_page=outcome.cleaned_data['per_page']).to_json(),
-                         'results': PhotoListSerializer(outcome.process().object_list, many=True).data})
+                         'results': PhotoListSerializer(outcome.process().object_list, many=True).data},)

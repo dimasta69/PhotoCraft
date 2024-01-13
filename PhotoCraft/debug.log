@@ -72,3 +72,109 @@ Traceback (most recent call last):
 AttributeError: 'PhotoListService' object has no attribute 'celaned_data'
 2024-01-12 00:52:31,050 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo_list_view\view.py changed, reloading.
 2024-01-12 00:52:31,582 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-13 17:59:19,892 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-13 18:03:21,940 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-13 18:15:28,391 django.request WARNING  Not Found: /
+2024-01-13 18:15:28,454 django.request WARNING  Not Found: /favicon.ico
+2024-01-13 18:15:46,571 django.request WARNING  Not Found: /core_api/
+2024-01-13 20:28:39,233 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-13 21:28:42,679 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-13 21:29:01,787 django.request WARNING  Not Found: /
+2024-01-13 21:29:01,800 django.request WARNING  Not Found: /
+2024-01-13 21:29:01,873 django.request WARNING  Not Found: /favicon.ico
+2024-01-14 00:19:20,747 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-14 00:19:37,483 django.utils.autoreload INFO     D:\PhotoCraft\PhotoCraft\PhotoCraft\core_api\veiws\category_view\view.py changed, reloading.
+2024-01-14 00:19:38,190 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-14 00:19:40,794 django.request WARNING  Not Found: /
+2024-01-14 00:19:44,722 django.request WARNING  Not Found: /
+2024-01-14 00:19:45,604 django.request WARNING  Not Found: /
+2024-01-14 00:19:46,622 django.request WARNING  Not Found: /
+2024-01-14 00:19:58,988 django.request WARNING  Not Found: /core_api/
+2024-01-14 00:20:10,984 django.request ERROR    Internal Server Error: /core_api/categories/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-FQlYvGh1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-FQlYvGh1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-FQlYvGh1\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-FQlYvGh1\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-FQlYvGh1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-FQlYvGh1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-FQlYvGh1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-FQlYvGh1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: CategoryView.get() takes 1 positional argument but 2 were given
+2024-01-14 00:23:00,378 django.utils.autoreload INFO     D:\PhotoCraft\PhotoCraft\PhotoCraft\core_api\veiws\category_view\view.py changed, reloading.
+2024-01-14 00:23:01,055 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-14 00:23:05,088 django.request ERROR    Internal Server Error: /core_api/categories/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-FQlYvGh1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-FQlYvGh1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-FQlYvGh1\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-FQlYvGh1\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-FQlYvGh1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-FQlYvGh1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-FQlYvGh1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-FQlYvGh1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PhotoCraft\PhotoCraft\PhotoCraft\core_api\veiws\category_view\view.py", line 19, in get
+    return Response(CategorySerializer(outcome.process().object_list, many=True).data)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'object_list'
+2024-01-14 00:23:07,457 django.request ERROR    Internal Server Error: /core_api/categories/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-FQlYvGh1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-FQlYvGh1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-FQlYvGh1\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-FQlYvGh1\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-FQlYvGh1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-FQlYvGh1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-FQlYvGh1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-FQlYvGh1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PhotoCraft\PhotoCraft\PhotoCraft\core_api\veiws\category_view\view.py", line 19, in get
+    return Response(CategorySerializer(outcome.process().object_list, many=True).data)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'object_list'
+2024-01-14 00:26:05,759 django.utils.autoreload INFO     D:\PhotoCraft\PhotoCraft\PhotoCraft\core_api\veiws\category_view\view.py changed, reloading.
+2024-01-14 00:26:06,441 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-14 00:33:53,994 django.utils.autoreload INFO     D:\PhotoCraft\PhotoCraft\PhotoCraft\core_api\services\create_category_service\service.py changed, reloading.
+2024-01-14 00:33:54,702 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-14 00:39:38,724 django.utils.autoreload INFO     Watching for file changes with StatReloader

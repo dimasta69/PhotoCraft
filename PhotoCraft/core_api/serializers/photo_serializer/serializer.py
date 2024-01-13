@@ -4,9 +4,12 @@ from models_app.models.Liked.model import Liked
 from models_app.models.Comments.model import Comments
 
 
-class PhotoListSerializer(serializers.ModelSerializer):
+class PhotoSerializer(serializers.ModelSerializer):
     id = serializers.IntegerField()
     title = serializers.CharField()
+    description = serializers.CharField()
+    user_id = serializers.IntegerField()
+    publicated_at = serializers.DateTimeField()
     photo_space = serializers.ImageField()
     category_id = serializers.IntegerField()
     number_of_likes = serializers.SerializerMethodField()
@@ -21,6 +24,4 @@ class PhotoListSerializer(serializers.ModelSerializer):
         return Comments.objects.filter(photo_id=obj.id).count()
 
     class Meta:
-        ref_name = 'core_api_photo_list_serializer'
-
-
+        ref_name = 'core_api_photo_serializer'
