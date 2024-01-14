@@ -178,3 +178,58 @@ AttributeError: 'QuerySet' object has no attribute 'object_list'
 2024-01-14 00:33:53,994 django.utils.autoreload INFO     D:\PhotoCraft\PhotoCraft\PhotoCraft\core_api\services\create_category_service\service.py changed, reloading.
 2024-01-14 00:33:54,702 django.utils.autoreload INFO     Watching for file changes with StatReloader
 2024-01-14 00:39:38,724 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-14 01:52:10,303 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-14 01:52:33,777 django.request WARNING  Unauthorized: /core_api/categories/
+2024-01-14 02:07:43,012 django.utils.autoreload INFO     D:\PhotoCraft\PhotoCraft\PhotoCraft\core_api\veiws\category_view\view.py changed, reloading.
+2024-01-14 02:07:44,713 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-14 02:07:49,700 django.request WARNING  Unauthorized: /core_api/categories/
+2024-01-14 02:07:52,192 django.request WARNING  Unauthorized: /core_api/categories/
+2024-01-14 02:07:53,127 django.request WARNING  Unauthorized: /core_api/categories/
+2024-01-14 02:07:53,884 django.request WARNING  Unauthorized: /core_api/categories/
+2024-01-14 02:07:54,529 django.request WARNING  Unauthorized: /core_api/categories/
+2024-01-14 02:08:04,478 django.request WARNING  Unauthorized: /core_api/categories/
+2024-01-14 02:08:05,347 django.request WARNING  Unauthorized: /core_api/categories/
+2024-01-14 02:08:05,782 django.request WARNING  Unauthorized: /core_api/categories/
+2024-01-14 02:08:06,001 django.request WARNING  Unauthorized: /core_api/categories/
+2024-01-14 02:08:06,214 django.request WARNING  Unauthorized: /core_api/categories/
+2024-01-14 02:08:09,320 django.utils.autoreload INFO     D:\PhotoCraft\PhotoCraft\PhotoCraft\core_api\permissions.py changed, reloading.
+2024-01-14 02:08:10,612 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-14 02:08:32,351 django.utils.autoreload INFO     D:\PhotoCraft\PhotoCraft\PhotoCraft\core_api\permissions.py changed, reloading.
+2024-01-14 02:08:33,873 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-14 02:08:34,621 django.request WARNING  Unauthorized: /core_api/categories/
+2024-01-14 02:08:37,232 django.request WARNING  Unauthorized: /core_api/categories/
+2024-01-14 02:08:38,239 django.request WARNING  Unauthorized: /core_api/categories/
+2024-01-14 02:08:39,355 django.request WARNING  Unauthorized: /core_api/categories/
+2024-01-14 02:13:43,817 django.utils.autoreload INFO     D:\PhotoCraft\PhotoCraft\PhotoCraft\core_api\veiws\category_view\view.py changed, reloading.
+2024-01-14 02:13:45,220 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-14 02:15:45,940 django.utils.autoreload INFO     D:\PhotoCraft\PhotoCraft\PhotoCraft\core_api\veiws\category_view\view.py changed, reloading.
+2024-01-14 02:15:47,518 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-14 02:16:03,132 django.utils.autoreload INFO     D:\PhotoCraft\PhotoCraft\PhotoCraft\core_api\veiws\category_view\view.py changed, reloading.
+2024-01-14 02:16:04,686 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-14 02:16:09,314 django.utils.autoreload INFO     D:\PhotoCraft\PhotoCraft\PhotoCraft\core_api\veiws\category_view\view.py changed, reloading.
+2024-01-14 02:16:10,950 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-14 02:16:18,162 django.utils.autoreload INFO     D:\PhotoCraft\PhotoCraft\PhotoCraft\core_api\veiws\category_view\view.py changed, reloading.
+2024-01-14 02:16:19,528 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-14 02:16:31,351 django.utils.autoreload INFO     D:\PhotoCraft\PhotoCraft\PhotoCraft\core_api\veiws\category_view\view.py changed, reloading.
+2024-01-14 02:16:32,764 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-14 02:16:50,150 django.utils.autoreload INFO     D:\PhotoCraft\PhotoCraft\PhotoCraft\core_api\veiws\category_view\view.py changed, reloading.
+2024-01-14 02:16:51,695 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-14 02:16:52,677 django.request WARNING  Unauthorized: /core_api/categories/
+2024-01-14 02:16:54,826 django.request WARNING  Unauthorized: /core_api/categories/
+2024-01-14 02:16:55,723 django.request WARNING  Unauthorized: /core_api/categories/
+2024-01-14 02:16:56,490 django.request WARNING  Unauthorized: /core_api/categories/
+2024-01-14 02:16:57,302 django.request WARNING  Unauthorized: /core_api/categories/
+2024-01-14 02:16:58,636 django.request WARNING  Unauthorized: /core_api/categories/
+2024-01-14 02:17:09,193 django.utils.autoreload INFO     D:\PhotoCraft\PhotoCraft\PhotoCraft\core_api\veiws\category_view\view.py changed, reloading.
+2024-01-14 02:17:10,694 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-14 02:17:30,833 django.utils.autoreload INFO     D:\PhotoCraft\PhotoCraft\PhotoCraft\core_api\veiws\category_view\view.py changed, reloading.
+2024-01-14 02:17:32,237 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-14 02:17:32,978 django.request WARNING  Unauthorized: /core_api/categories/
+2024-01-14 02:17:41,724 django.utils.autoreload INFO     D:\PhotoCraft\PhotoCraft\PhotoCraft\core_api\veiws\category_view\view.py changed, reloading.
+2024-01-14 02:17:43,417 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-14 02:22:55,669 django.utils.autoreload INFO     D:\PhotoCraft\PhotoCraft\PhotoCraft\core_api\veiws\category_view\view.py changed, reloading.
+2024-01-14 02:22:57,282 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-14 02:23:44,461 django.utils.autoreload INFO     D:\PhotoCraft\PhotoCraft\PhotoCraft\core_api\veiws\category_view\view.py changed, reloading.
+2024-01-14 02:23:45,903 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-14 02:25:23,305 django.utils.autoreload INFO     D:\PhotoCraft\PhotoCraft\PhotoCraft\core_api\veiws\category_view\view.py changed, reloading.
+2024-01-14 02:25:24,810 django.utils.autoreload INFO     Watching for file changes with StatReloader
