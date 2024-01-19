@@ -233,3 +233,89 @@ AttributeError: 'QuerySet' object has no attribute 'object_list'
 2024-01-14 02:23:45,903 django.utils.autoreload INFO     Watching for file changes with StatReloader
 2024-01-14 02:25:23,305 django.utils.autoreload INFO     D:\PhotoCraft\PhotoCraft\PhotoCraft\core_api\veiws\category_view\view.py changed, reloading.
 2024-01-14 02:25:24,810 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-14 22:56:00,780 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-14 22:57:54,697 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\categories_view\view.py changed, reloading.
+2024-01-14 22:57:55,128 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-14 22:57:56,426 django.request WARNING  Not Found: /
+2024-01-14 22:57:56,540 django.request WARNING  Not Found: /favicon.ico
+2024-01-14 22:58:07,472 django.request WARNING  Not Found: /coer_api/
+2024-01-14 22:58:15,748 django.request WARNING  Not Found: /core_api/
+2024-01-14 22:58:35,600 django.request WARNING  Not Found: /core_api/catgeries/
+2024-01-14 22:58:45,247 django.request WARNING  Not Found: /core_api/categries/
+2024-01-14 23:00:18,026 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\categories_view\view.py changed, reloading.
+2024-01-14 23:00:18,472 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-14 23:14:19,432 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-01-14 23:14:19,883 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-14 23:14:27,480 django.request WARNING  Not Found: /core_api/
+2024-01-14 23:14:37,595 django.request ERROR    Internal Server Error: /core_api/photo/1
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo_view\view.py", line 19, in get
+    return Response(PhotoService(outcome.process()).data)
+                                 ^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo_service\service.py", line 13, in process
+    return Photo.objects.get(id=self.cleaned_data['id'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\db\models\query.py", line 647, in get
+    raise self.model.DoesNotExist(
+models_app.models.Photo.model.Photo.DoesNotExist: Photo matching query does not exist.
+2024-01-15 02:17:54,495 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo_view\view.py changed, reloading.
+2024-01-15 02:17:54,914 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-16 00:51:20,556 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-16 00:51:23,554 django.request WARNING  Not Found: /
+2024-01-16 00:51:23,684 django.request WARNING  Not Found: /favicon.ico
+2024-01-16 00:52:47,108 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\categories_view\view.py changed, reloading.
+2024-01-16 00:52:47,665 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-19 16:08:00,093 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-19 16:30:02,928 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-19 16:35:53,491 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\settings\database.py changed, reloading.
+2024-01-19 16:35:53,922 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-19 16:35:58,833 django.request WARNING  Not Found: /
+2024-01-19 16:35:58,865 django.request WARNING  Not Found: /favicon.ico
+2024-01-19 20:34:11,360 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-19 20:37:22,713 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\models_app\models\__init__.py changed, reloading.
+2024-01-19 20:37:23,166 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-19 20:38:28,870 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo_list\view.py changed, reloading.
+2024-01-19 20:38:29,289 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-19 20:38:42,729 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo\view.py changed, reloading.
+2024-01-19 20:38:43,147 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-19 20:38:45,131 django.request WARNING  Not Found: /
+2024-01-19 20:38:45,246 django.request WARNING  Not Found: /favicon.ico
+2024-01-19 20:50:05,188 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\models_app\models\comments\model.py changed, reloading.
+2024-01-19 20:50:05,617 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-19 20:55:06,579 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\models_app\models\liked\model.py changed, reloading.
+2024-01-19 20:55:07,011 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-19 21:01:05,040 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\models_app\models\photo\model.py changed, reloading.
+2024-01-19 21:01:05,454 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-19 21:04:26,924 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\models_app\models\photo\model.py changed, reloading.
+2024-01-19 21:04:27,354 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-19 21:27:51,457 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\models_app\models\photo\model.py changed, reloading.
+2024-01-19 21:27:51,964 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-19 21:29:45,672 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\models_app\models\photo\model.py changed, reloading.
+2024-01-19 21:29:46,106 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-19 21:50:18,160 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\models_app\models\photo\model.py changed, reloading.
+2024-01-19 21:50:18,609 django.utils.autoreload INFO     Watching for file changes with StatReloader

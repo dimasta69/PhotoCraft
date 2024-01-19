@@ -16,7 +16,7 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.CreateModel(
-            name='Categories',
+            name='categories',
             fields=[
                 ('id', models.AutoField(primary_key=True, serialize=False)),
                 ('title', models.CharField(max_length=150, verbose_name='Название')),
@@ -27,7 +27,7 @@ class Migration(migrations.Migration):
             },
         ),
         migrations.CreateModel(
-            name='Status',
+            name='status',
             fields=[
                 ('id', models.AutoField(primary_key=True, serialize=False)),
                 ('title', models.CharField(max_length=150, verbose_name='Название')),
@@ -38,7 +38,7 @@ class Migration(migrations.Migration):
             },
         ),
         migrations.CreateModel(
-            name='Users',
+            name='users',
             fields=[
                 ('user_ptr', models.OneToOneField(auto_created=True, on_delete=django.db.models.deletion.CASCADE, parent_link=True, primary_key=True, serialize=False, to=settings.AUTH_USER_MODEL)),
             ],
@@ -53,7 +53,7 @@ class Migration(migrations.Migration):
             ],
         ),
         migrations.CreateModel(
-            name='Photo',
+            name='photo',
             fields=[
                 ('id', models.AutoField(primary_key=True, serialize=False)),
                 ('title', models.CharField(max_length=100, verbose_name='Назавние')),
@@ -74,7 +74,7 @@ class Migration(migrations.Migration):
             },
         ),
         migrations.CreateModel(
-            name='Liked',
+            name='liked',
             fields=[
                 ('id', models.AutoField(primary_key=True, serialize=False)),
                 ('photo_id', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='like', to='models_app.photo', verbose_name='Фотография')),
@@ -86,7 +86,7 @@ class Migration(migrations.Migration):
             },
         ),
         migrations.CreateModel(
-            name='Comments',
+            name='comments',
             fields=[
                 ('id', models.AutoField(primary_key=True, serialize=False)),
                 ('publicated_at', models.DateField(auto_now_add=True, verbose_name='Дата публикации')),
@@ -102,7 +102,7 @@ class Migration(migrations.Migration):
             },
         ),
         migrations.CreateModel(
-            name='Administrators',
+            name='administrators',
             fields=[
             ],
             options={
@@ -118,7 +118,7 @@ class Migration(migrations.Migration):
             ],
         ),
         migrations.CreateModel(
-            name='Authors',
+            name='authors',
             fields=[
             ],
             options={
