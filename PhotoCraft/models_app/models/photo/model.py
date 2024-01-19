@@ -6,6 +6,8 @@ from imagekit.processors import ResizeToFill
 from models_app.models.categories.model import Categories
 from models_app.models.users.model import Users
 
+from utils.file_uploader import uploaded_file_path
+
 
 class Photo(models.Model):
     id = models.AutoField(primary_key=True)
@@ -15,7 +17,7 @@ class Photo(models.Model):
 
     title = models.CharField(max_length=100, null=False, verbose_name='Назавние')
     description = models.CharField(max_length=250, verbose_name='Описание', null=True)
-    photo = models.ImageField(verbose_name='Фото', null=False)
+    photo = models.ImageField(verbose_name='Фото', null=False, upload_to=uploaded_file_path)
     photo_space = ImageSpecField(source='photo',
                                  processors=[ResizeToFill(300, 165)],
                                  format='JPEG',

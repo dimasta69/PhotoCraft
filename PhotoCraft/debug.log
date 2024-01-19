@@ -319,3 +319,4 @@ models_app.models.Photo.model.Photo.DoesNotExist: Photo matching query does not 
 2024-01-19 21:29:46,106 django.utils.autoreload INFO     Watching for file changes with StatReloader
 2024-01-19 21:50:18,160 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\models_app\models\photo\model.py changed, reloading.
 2024-01-19 21:50:18,609 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-19 23:10:03,757 django.utils.autoreload INFO     Watching for file changes with StatReloader
