@@ -11,6 +11,9 @@ psycopg2 = "*"
 django-imagekit = "*"
 djangorestframework = "*"
 django-service-objects = "*"
+python-dotenv = "*"
+pillow = "*"
+olefile = "*"
 
 [requires]
 python_version = "3.11"

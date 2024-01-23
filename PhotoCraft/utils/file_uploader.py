@@ -7,6 +7,7 @@ from django.db.models.fields.files import FieldFile
 
 
 def uploaded_file_path(instance: models.Model, filename: str) -> str:
+    print(444)
     path = re.sub(r"(\d.+)(\d{3})(\d{3})$", r"\1/\2/\3", f"{instance.id:09d}")
     try:
         field_name = inspect.stack()[1].frame.f_locals["self"].name
