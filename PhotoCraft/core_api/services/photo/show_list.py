@@ -53,7 +53,7 @@ class PhotoListService(ServiceWithResult):
     @property
     def filter_by_category(self):
         if self.cleaned_data.get('category_id'):
-            return self.photo.filter(category_id=self.category)
+            return self.photo.filter(category=self.category)
         return self.photo
 
     @property

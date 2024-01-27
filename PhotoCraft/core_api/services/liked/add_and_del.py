@@ -1,26 +1,57 @@
-from service_objects.services import Service
+from functools import lru_cache
 
 from django import forms
+from django.core.exceptions import ObjectDoesNotExist
+
+from service_objects.fields import ModelField
 
 from models_app.models.liked.model import Liked
 from models_app.models.photo.model import Photo
-from models_app.models.users.model import Users
+from models_app.models.users.model import User
+
+from utils.services import ServiceWithResult
 
 
-class LikedService(Service):
+class LikedService(ServiceWithResult):
     photo_id = forms.IntegerField(required=True)
-    users_id = forms.IntegerField(required=True)
+    current_user = ModelField(User)
+
+    custom_validations = ['photo_presence']
 
     def process(self):
+        self.run_custom_validations()
         if self.is_valid():
-            return self._check_data
+            self.result = self._check_data
         return self
 
-    @property
     def _check_data(self):
-        photo = Photo.objects.get(id=self.cleaned_data['photo_id']).id
-        user = Users.objects.get(id=self.cleaned_data['user_id']).id
-        if Liked.objects.get(photo_id=photo, user_id=user):
-            Liked.objects.get(photo_id=photo, user_id=user).delete()
-            return Liked.objects.none()
-        return Liked.objects.create(photo_id=photo, user_id=user)
+        if not self.get_liked:
+            like = Liked.objects.create(photo=self.get_photo, user=self.cleaned_data['current_user'])
+            like.save()
+            print(777)
+            print(like.id)
+            return like
+        return self.get_liked.delete()
+
+    @property
+    @lru_cache()
+    def get_photo(self):
+        try:
+            return Photo.objects.get(id=self.cleaned_data['photo_id'])
+        except Photo.DoesNotExist:
+            return None
+
+    @property
+    @lru_cache()
+    def get_liked(self):
+        try:
+            print(111)
+            return Liked.objects.get(photo=self.get_photo, user=self.cleaned_data['current_user'])
+        except Liked.DoesNotExist:
+            return None
+
+    def photo_presence(self):
+        if self.cleaned_data['photo_id']:
+            if not self.get_photo:
+                self.add_error('photo_id', ObjectDoesNotExist(f"Photo with id="
+                                                              f"{self.cleaned_data['id']} not found"))
