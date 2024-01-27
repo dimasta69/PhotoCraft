@@ -5,11 +5,11 @@ from models_app.models.users.model import User
 
 
 class Comments(models.Model):
-    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='comment', verbose_name='Пользователь',
-                             null=False)
+    user_id = models.ForeignKey(User, on_delete=models.CASCADE, related_name='comment', verbose_name='Пользователь',
+                                null=False)
     reply_id = models.IntegerField(verbose_name='Ответ на комментарий', null=True)
-    photo = models.ForeignKey(Photo, on_delete=models.CASCADE, related_name='comment', verbose_name='Фотография',
-                              null=False)
+    photo_id = models.ForeignKey(Photo, on_delete=models.CASCADE, related_name='comment', verbose_name='Фотография',
+                                 null=False)
 
     text = models.CharField(max_length=200, null=False)
 

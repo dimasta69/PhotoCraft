@@ -5,9 +5,9 @@ from models_app.models.users.model import User
 
 
 class Liked(models.Model):
-    photo = models.ForeignKey(Photo, on_delete=models.CASCADE, related_name='like', verbose_name='Фотография',
+    photo_id = models.ForeignKey(Photo, on_delete=models.CASCADE, related_name='like', verbose_name='Фотография',
                               null=False)
-    users = models.ForeignKey(User, on_delete=models.CASCADE, related_name='like', verbose_name='Пользователь',
+    user_id = models.ForeignKey(User, on_delete=models.CASCADE, related_name='like', verbose_name='Пользователь',
                               null=False)
 
     class Meta:

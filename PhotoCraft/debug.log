@@ -16630,3 +16630,2446 @@ Traceback (most recent call last):
 AttributeError: Got AttributeError when attempting to get a value for field `id` on serializer `LikedSerializer`.
 The serializer field might be named incorrectly and not match any attribute or key on the `method` instance.
 Original exception text was: 'function' object has no attribute 'id'.
+2024-01-27 19:43:32,906 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-27 19:43:37,148 django.request WARNING  Not Found: /
+2024-01-27 19:43:37,188 django.request WARNING  Not Found: /favicon.ico
+2024-01-27 19:45:34,457 PIL.TiffImagePlugin DEBUG    tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-01-27 19:45:34,458 PIL.TiffImagePlugin DEBUG    tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-01-27 19:45:34,458 PIL.TiffImagePlugin DEBUG    tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-01-27 19:45:34,458 PIL.TiffImagePlugin DEBUG    tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-01-27 19:45:34,458 PIL.TiffImagePlugin DEBUG    tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Adobe Photoshop CC (Macintosh)\x00'
+2024-01-27 19:45:34,459 PIL.TiffImagePlugin DEBUG    tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 145 - value: b'2018:09:07 19:04:00\x00'
+2024-01-27 19:45:34,459 PIL.TiffImagePlugin DEBUG    tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xa8'
+2024-01-27 19:45:34,459 PIL.Image    DEBUG    Importing BlpImagePlugin
+2024-01-27 19:45:34,462 PIL.Image    DEBUG    Importing BmpImagePlugin
+2024-01-27 19:45:34,462 PIL.Image    DEBUG    Importing BufrStubImagePlugin
+2024-01-27 19:45:34,463 PIL.Image    DEBUG    Importing CurImagePlugin
+2024-01-27 19:45:34,463 PIL.Image    DEBUG    Importing DcxImagePlugin
+2024-01-27 19:45:34,465 PIL.Image    DEBUG    Importing DdsImagePlugin
+2024-01-27 19:45:34,468 PIL.Image    DEBUG    Importing EpsImagePlugin
+2024-01-27 19:45:34,469 PIL.Image    DEBUG    Importing FitsImagePlugin
+2024-01-27 19:45:34,470 PIL.Image    DEBUG    Importing FliImagePlugin
+2024-01-27 19:45:34,471 PIL.Image    DEBUG    Importing FpxImagePlugin
+2024-01-27 19:45:34,474 PIL.Image    DEBUG    Importing FtexImagePlugin
+2024-01-27 19:45:34,475 PIL.Image    DEBUG    Importing GbrImagePlugin
+2024-01-27 19:45:34,475 PIL.Image    DEBUG    Importing GifImagePlugin
+2024-01-27 19:45:34,476 PIL.Image    DEBUG    Importing GribStubImagePlugin
+2024-01-27 19:45:34,476 PIL.Image    DEBUG    Importing Hdf5StubImagePlugin
+2024-01-27 19:45:34,477 PIL.Image    DEBUG    Importing IcnsImagePlugin
+2024-01-27 19:45:34,481 PIL.Image    DEBUG    Importing IcoImagePlugin
+2024-01-27 19:45:34,482 PIL.Image    DEBUG    Importing ImImagePlugin
+2024-01-27 19:45:34,483 PIL.Image    DEBUG    Importing ImtImagePlugin
+2024-01-27 19:45:34,484 PIL.Image    DEBUG    Importing IptcImagePlugin
+2024-01-27 19:45:34,485 PIL.Image    DEBUG    Importing JpegImagePlugin
+2024-01-27 19:45:34,485 PIL.Image    DEBUG    Importing Jpeg2KImagePlugin
+2024-01-27 19:45:34,485 PIL.Image    DEBUG    Importing McIdasImagePlugin
+2024-01-27 19:45:34,486 PIL.Image    DEBUG    Importing MicImagePlugin
+2024-01-27 19:45:34,487 PIL.Image    DEBUG    Importing MpegImagePlugin
+2024-01-27 19:45:34,488 PIL.Image    DEBUG    Importing MpoImagePlugin
+2024-01-27 19:45:34,488 PIL.Image    DEBUG    Importing MspImagePlugin
+2024-01-27 19:45:34,489 PIL.Image    DEBUG    Importing PalmImagePlugin
+2024-01-27 19:45:34,491 PIL.Image    DEBUG    Importing PcdImagePlugin
+2024-01-27 19:45:34,491 PIL.Image    DEBUG    Importing PcxImagePlugin
+2024-01-27 19:45:34,491 PIL.Image    DEBUG    Importing PdfImagePlugin
+2024-01-27 19:45:34,495 PIL.Image    DEBUG    Importing PixarImagePlugin
+2024-01-27 19:45:34,496 PIL.Image    DEBUG    Importing PngImagePlugin
+2024-01-27 19:45:34,496 PIL.Image    DEBUG    Importing PpmImagePlugin
+2024-01-27 19:45:34,496 PIL.Image    DEBUG    Importing PsdImagePlugin
+2024-01-27 19:45:34,497 PIL.Image    DEBUG    Importing QoiImagePlugin
+2024-01-27 19:45:34,498 PIL.Image    DEBUG    Importing SgiImagePlugin
+2024-01-27 19:45:34,499 PIL.Image    DEBUG    Importing SpiderImagePlugin
+2024-01-27 19:45:34,500 PIL.Image    DEBUG    Importing SunImagePlugin
+2024-01-27 19:45:34,500 PIL.Image    DEBUG    Importing TgaImagePlugin
+2024-01-27 19:45:34,501 PIL.Image    DEBUG    Importing TiffImagePlugin
+2024-01-27 19:45:34,501 PIL.Image    DEBUG    Importing WebPImagePlugin
+2024-01-27 19:45:34,518 PIL.Image    DEBUG    Importing WmfImagePlugin
+2024-01-27 19:45:34,520 PIL.Image    DEBUG    Importing XbmImagePlugin
+2024-01-27 19:45:34,521 PIL.Image    DEBUG    Importing XpmImagePlugin
+2024-01-27 19:45:34,522 PIL.Image    DEBUG    Importing XVThumbImagePlugin
+2024-01-27 19:46:17,381 PIL.TiffImagePlugin DEBUG    tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-01-27 19:46:17,381 PIL.TiffImagePlugin DEBUG    tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-01-27 19:46:17,381 PIL.TiffImagePlugin DEBUG    tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-01-27 19:46:17,381 PIL.TiffImagePlugin DEBUG    tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-01-27 19:46:17,381 PIL.TiffImagePlugin DEBUG    tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Adobe Photoshop CC (Macintosh)\x00'
+2024-01-27 19:46:17,381 PIL.TiffImagePlugin DEBUG    tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 145 - value: b'2018:09:07 19:04:00\x00'
+2024-01-27 19:46:17,381 PIL.TiffImagePlugin DEBUG    tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xa8'
+2024-01-27 19:46:22,560 django.request WARNING  Method Not Allowed: /core_api/like/
+2024-01-27 19:46:25,579 django.request ERROR    Internal Server Error: /core_api/like/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\liked\add_and_del.py", line 21, in post
+    return Response(LikedSerializer(outcome.result).data, status.HTTP_201_CREATED)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `id` on serializer `LikedSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `method` instance.
+Original exception text was: 'function' object has no attribute 'id'.
+2024-01-27 19:48:14,210 django.request ERROR    Internal Server Error: /core_api/like/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\liked\add_and_del.py", line 21, in post
+    return Response(LikedSerializer(outcome.result).data, status.HTTP_201_CREATED)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `id` on serializer `LikedSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `method` instance.
+Original exception text was: 'function' object has no attribute 'id'.
+2024-01-27 19:49:13,025 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\services\liked\add_and_del.py changed, reloading.
+2024-01-27 19:49:13,492 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-27 19:49:13,811 django.request ERROR    Internal Server Error: /core_api/like/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\liked\add_and_del.py", line 18, in post
+    outcome = ServiceOutcome(LikedService, {'current_user': request.user} | request.data.dict())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\liked\add_and_del.py", line 24, in process
+    self.result = self._check_data()
+                  ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\liked\add_and_del.py", line 28, in _check_data
+    if not self.get_liked:
+           ^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\liked\add_and_del.py", line 49, in get_liked
+    return Liked.objects.get(photo=self.get_photo, user=self.cleaned_data['current_user'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\db\models\query.py", line 633, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\db\models\sql\query.py", line 1602, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\db\models\sql\query.py", line 1634, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\db\models\sql\query.py", line 1484, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\db\models\sql\query.py", line 1296, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\db\models\sql\query.py", line 1761, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'user' into field. Choices are: id, photo, photo_id, users, users_id
+2024-01-27 19:52:05,905 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\services\liked\add_and_del.py changed, reloading.
+2024-01-27 19:52:06,476 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-27 19:52:07,096 django.request ERROR    Internal Server Error: /core_api/like/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\liked\add_and_del.py", line 18, in post
+    outcome = ServiceOutcome(LikedService, {'current_user': request.user} | request.data.dict())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\liked\add_and_del.py", line 24, in process
+    self.result = self._check_data()
+                  ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\liked\add_and_del.py", line 29, in _check_data
+    like = Liked.objects.create(photo=self.get_photo, user=self.cleaned_data['current_user'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\db\models\query.py", line 675, in create
+    obj = self.model(**kwargs)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Liked() got unexpected keyword arguments: 'user'
+2024-01-27 19:52:11,402 django.request ERROR    Internal Server Error: /core_api/like/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\liked\add_and_del.py", line 18, in post
+    outcome = ServiceOutcome(LikedService, {'current_user': request.user} | request.data.dict())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\liked\add_and_del.py", line 24, in process
+    self.result = self._check_data()
+                  ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\liked\add_and_del.py", line 29, in _check_data
+    like = Liked.objects.create(photo=self.get_photo, user=self.cleaned_data['current_user'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\db\models\query.py", line 675, in create
+    obj = self.model(**kwargs)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Liked() got unexpected keyword arguments: 'user'
+2024-01-27 19:52:21,141 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\services\liked\add_and_del.py changed, reloading.
+2024-01-27 19:52:21,612 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-27 19:52:21,901 django.request ERROR    Internal Server Error: /core_api/like/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Liked' object has no attribute 'user_id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\liked\add_and_del.py", line 21, in post
+    return Response(LikedSerializer(outcome.result).data, status.HTTP_201_CREATED)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `user_id` on serializer `LikedSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `Liked` instance.
+Original exception text was: 'Liked' object has no attribute 'user_id'.
+2024-01-27 19:54:08,391 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\models_app\models\comments\model.py changed, reloading.
+2024-01-27 19:54:08,889 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-27 19:55:46,514 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\models_app\models\photo\model.py changed, reloading.
+2024-01-27 19:55:47,025 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-27 19:57:59,646 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-27 20:02:28,517 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\update.py changed, reloading.
+2024-01-27 20:02:28,972 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-27 20:02:46,264 PIL.TiffImagePlugin DEBUG    tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-01-27 20:02:46,264 PIL.TiffImagePlugin DEBUG    tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-01-27 20:02:46,266 PIL.TiffImagePlugin DEBUG    tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-01-27 20:02:46,266 PIL.TiffImagePlugin DEBUG    tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-01-27 20:02:46,266 PIL.TiffImagePlugin DEBUG    tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Adobe Photoshop CC (Macintosh)\x00'
+2024-01-27 20:02:46,266 PIL.TiffImagePlugin DEBUG    tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 145 - value: b'2018:09:07 19:04:00\x00'
+2024-01-27 20:02:46,266 PIL.TiffImagePlugin DEBUG    tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xa8'
+2024-01-27 20:02:46,266 PIL.Image    DEBUG    Importing BlpImagePlugin
+2024-01-27 20:02:46,267 PIL.Image    DEBUG    Importing BmpImagePlugin
+2024-01-27 20:02:46,267 PIL.Image    DEBUG    Importing BufrStubImagePlugin
+2024-01-27 20:02:46,268 PIL.Image    DEBUG    Importing CurImagePlugin
+2024-01-27 20:02:46,269 PIL.Image    DEBUG    Importing DcxImagePlugin
+2024-01-27 20:02:46,269 PIL.Image    DEBUG    Importing DdsImagePlugin
+2024-01-27 20:02:46,272 PIL.Image    DEBUG    Importing EpsImagePlugin
+2024-01-27 20:02:46,272 PIL.Image    DEBUG    Importing FitsImagePlugin
+2024-01-27 20:02:46,272 PIL.Image    DEBUG    Importing FliImagePlugin
+2024-01-27 20:02:46,273 PIL.Image    DEBUG    Importing FpxImagePlugin
+2024-01-27 20:02:46,276 PIL.Image    DEBUG    Importing FtexImagePlugin
+2024-01-27 20:02:46,276 PIL.Image    DEBUG    Importing GbrImagePlugin
+2024-01-27 20:02:46,277 PIL.Image    DEBUG    Importing GifImagePlugin
+2024-01-27 20:02:46,277 PIL.Image    DEBUG    Importing GribStubImagePlugin
+2024-01-27 20:02:46,278 PIL.Image    DEBUG    Importing Hdf5StubImagePlugin
+2024-01-27 20:02:46,278 PIL.Image    DEBUG    Importing IcnsImagePlugin
+2024-01-27 20:02:46,280 PIL.Image    DEBUG    Importing IcoImagePlugin
+2024-01-27 20:02:46,281 PIL.Image    DEBUG    Importing ImImagePlugin
+2024-01-27 20:02:46,282 PIL.Image    DEBUG    Importing ImtImagePlugin
+2024-01-27 20:02:46,282 PIL.Image    DEBUG    Importing IptcImagePlugin
+2024-01-27 20:02:46,283 PIL.Image    DEBUG    Importing JpegImagePlugin
+2024-01-27 20:02:46,283 PIL.Image    DEBUG    Importing Jpeg2KImagePlugin
+2024-01-27 20:02:46,283 PIL.Image    DEBUG    Importing McIdasImagePlugin
+2024-01-27 20:02:46,283 PIL.Image    DEBUG    Importing MicImagePlugin
+2024-01-27 20:02:46,283 PIL.Image    DEBUG    Importing MpegImagePlugin
+2024-01-27 20:02:46,284 PIL.Image    DEBUG    Importing MpoImagePlugin
+2024-01-27 20:02:46,284 PIL.Image    DEBUG    Importing MspImagePlugin
+2024-01-27 20:02:46,284 PIL.Image    DEBUG    Importing PalmImagePlugin
+2024-01-27 20:02:46,286 PIL.Image    DEBUG    Importing PcdImagePlugin
+2024-01-27 20:02:46,287 PIL.Image    DEBUG    Importing PcxImagePlugin
+2024-01-27 20:02:46,287 PIL.Image    DEBUG    Importing PdfImagePlugin
+2024-01-27 20:02:46,290 PIL.Image    DEBUG    Importing PixarImagePlugin
+2024-01-27 20:02:46,291 PIL.Image    DEBUG    Importing PngImagePlugin
+2024-01-27 20:02:46,291 PIL.Image    DEBUG    Importing PpmImagePlugin
+2024-01-27 20:02:46,291 PIL.Image    DEBUG    Importing PsdImagePlugin
+2024-01-27 20:02:46,291 PIL.Image    DEBUG    Importing QoiImagePlugin
+2024-01-27 20:02:46,292 PIL.Image    DEBUG    Importing SgiImagePlugin
+2024-01-27 20:02:46,293 PIL.Image    DEBUG    Importing SpiderImagePlugin
+2024-01-27 20:02:46,293 PIL.Image    DEBUG    Importing SunImagePlugin
+2024-01-27 20:02:46,294 PIL.Image    DEBUG    Importing TgaImagePlugin
+2024-01-27 20:02:46,295 PIL.Image    DEBUG    Importing TiffImagePlugin
+2024-01-27 20:02:46,295 PIL.Image    DEBUG    Importing WebPImagePlugin
+2024-01-27 20:02:46,309 PIL.Image    DEBUG    Importing WmfImagePlugin
+2024-01-27 20:02:46,309 PIL.Image    DEBUG    Importing XbmImagePlugin
+2024-01-27 20:02:46,311 PIL.Image    DEBUG    Importing XpmImagePlugin
+2024-01-27 20:02:46,312 PIL.Image    DEBUG    Importing XVThumbImagePlugin
+2024-01-27 20:02:46,343 django.request ERROR    Internal Server Error: /core_api/photos/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo_list.py", line 32, in post
+    outcome = ServiceOutcome(CreatePhotoService, {'current_user': request.user} | request.data.dict(), request.FILES)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\create.py", line 27, in process
+    self.result = self._create()
+                  ^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\create.py", line 31, in _create
+    photo = Photo.objects.create(title=self.cleaned_data['title'],
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\db\models\query.py", line 675, in create
+    obj = self.model(**kwargs)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Photo() got unexpected keyword arguments: 'user', 'category'
+2024-01-27 20:03:43,164 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\create.py changed, reloading.
+2024-01-27 20:03:43,630 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-27 20:03:43,934 PIL.TiffImagePlugin DEBUG    tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-01-27 20:03:43,934 PIL.TiffImagePlugin DEBUG    tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-01-27 20:03:43,934 PIL.TiffImagePlugin DEBUG    tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-01-27 20:03:43,934 PIL.TiffImagePlugin DEBUG    tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-01-27 20:03:43,936 PIL.TiffImagePlugin DEBUG    tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Adobe Photoshop CC (Macintosh)\x00'
+2024-01-27 20:03:43,936 PIL.TiffImagePlugin DEBUG    tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 145 - value: b'2018:09:07 19:04:00\x00'
+2024-01-27 20:03:43,936 PIL.TiffImagePlugin DEBUG    tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xa8'
+2024-01-27 20:03:43,936 PIL.Image    DEBUG    Importing BlpImagePlugin
+2024-01-27 20:03:43,937 PIL.Image    DEBUG    Importing BmpImagePlugin
+2024-01-27 20:03:43,937 PIL.Image    DEBUG    Importing BufrStubImagePlugin
+2024-01-27 20:03:43,938 PIL.Image    DEBUG    Importing CurImagePlugin
+2024-01-27 20:03:43,938 PIL.Image    DEBUG    Importing DcxImagePlugin
+2024-01-27 20:03:43,939 PIL.Image    DEBUG    Importing DdsImagePlugin
+2024-01-27 20:03:43,942 PIL.Image    DEBUG    Importing EpsImagePlugin
+2024-01-27 20:03:43,942 PIL.Image    DEBUG    Importing FitsImagePlugin
+2024-01-27 20:03:43,943 PIL.Image    DEBUG    Importing FliImagePlugin
+2024-01-27 20:03:43,943 PIL.Image    DEBUG    Importing FpxImagePlugin
+2024-01-27 20:03:43,945 PIL.Image    DEBUG    Importing FtexImagePlugin
+2024-01-27 20:03:43,947 PIL.Image    DEBUG    Importing GbrImagePlugin
+2024-01-27 20:03:43,947 PIL.Image    DEBUG    Importing GifImagePlugin
+2024-01-27 20:03:43,947 PIL.Image    DEBUG    Importing GribStubImagePlugin
+2024-01-27 20:03:43,948 PIL.Image    DEBUG    Importing Hdf5StubImagePlugin
+2024-01-27 20:03:43,948 PIL.Image    DEBUG    Importing IcnsImagePlugin
+2024-01-27 20:03:43,950 PIL.Image    DEBUG    Importing IcoImagePlugin
+2024-01-27 20:03:43,950 PIL.Image    DEBUG    Importing ImImagePlugin
+2024-01-27 20:03:43,951 PIL.Image    DEBUG    Importing ImtImagePlugin
+2024-01-27 20:03:43,952 PIL.Image    DEBUG    Importing IptcImagePlugin
+2024-01-27 20:03:43,953 PIL.Image    DEBUG    Importing JpegImagePlugin
+2024-01-27 20:03:43,953 PIL.Image    DEBUG    Importing Jpeg2KImagePlugin
+2024-01-27 20:03:43,953 PIL.Image    DEBUG    Importing McIdasImagePlugin
+2024-01-27 20:03:43,953 PIL.Image    DEBUG    Importing MicImagePlugin
+2024-01-27 20:03:43,954 PIL.Image    DEBUG    Importing MpegImagePlugin
+2024-01-27 20:03:43,954 PIL.Image    DEBUG    Importing MpoImagePlugin
+2024-01-27 20:03:43,955 PIL.Image    DEBUG    Importing MspImagePlugin
+2024-01-27 20:03:43,955 PIL.Image    DEBUG    Importing PalmImagePlugin
+2024-01-27 20:03:43,956 PIL.Image    DEBUG    Importing PcdImagePlugin
+2024-01-27 20:03:43,956 PIL.Image    DEBUG    Importing PcxImagePlugin
+2024-01-27 20:03:43,956 PIL.Image    DEBUG    Importing PdfImagePlugin
+2024-01-27 20:03:43,961 PIL.Image    DEBUG    Importing PixarImagePlugin
+2024-01-27 20:03:43,961 PIL.Image    DEBUG    Importing PngImagePlugin
+2024-01-27 20:03:43,961 PIL.Image    DEBUG    Importing PpmImagePlugin
+2024-01-27 20:03:43,961 PIL.Image    DEBUG    Importing PsdImagePlugin
+2024-01-27 20:03:43,962 PIL.Image    DEBUG    Importing QoiImagePlugin
+2024-01-27 20:03:43,962 PIL.Image    DEBUG    Importing SgiImagePlugin
+2024-01-27 20:03:43,963 PIL.Image    DEBUG    Importing SpiderImagePlugin
+2024-01-27 20:03:43,964 PIL.Image    DEBUG    Importing SunImagePlugin
+2024-01-27 20:03:43,964 PIL.Image    DEBUG    Importing TgaImagePlugin
+2024-01-27 20:03:43,965 PIL.Image    DEBUG    Importing TiffImagePlugin
+2024-01-27 20:03:43,965 PIL.Image    DEBUG    Importing WebPImagePlugin
+2024-01-27 20:03:43,966 PIL.Image    DEBUG    Importing WmfImagePlugin
+2024-01-27 20:03:43,967 PIL.Image    DEBUG    Importing XbmImagePlugin
+2024-01-27 20:03:43,967 PIL.Image    DEBUG    Importing XpmImagePlugin
+2024-01-27 20:03:43,968 PIL.Image    DEBUG    Importing XVThumbImagePlugin
+2024-01-27 20:03:55,937 django.request WARNING  Method Not Allowed: /core_api/like/
+2024-01-27 20:03:58,491 django.request ERROR    Internal Server Error: /core_api/like/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\liked\add_and_del.py", line 18, in post
+    outcome = ServiceOutcome(LikedService, {'current_user': request.user} | request.data.dict())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\liked\add_and_del.py", line 24, in process
+    self.result = self._check_data()
+                  ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\liked\add_and_del.py", line 28, in _check_data
+    if not self.get_liked:
+           ^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\liked\add_and_del.py", line 49, in get_liked
+    return Liked.objects.get(photo=self.get_photo, users=self.cleaned_data['current_user'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\db\models\query.py", line 633, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\db\models\sql\query.py", line 1602, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\db\models\sql\query.py", line 1634, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\db\models\sql\query.py", line 1484, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\db\models\sql\query.py", line 1296, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\db\models\sql\query.py", line 1761, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'photo' into field. Choices are: id, photo_id, photo_id_id, user_id, user_id_id
+2024-01-27 20:05:06,131 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\services\liked\add_and_del.py changed, reloading.
+2024-01-27 20:05:06,609 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-27 20:05:06,887 django.request ERROR    Internal Server Error: /core_api/like/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\liked\add_and_del.py", line 21, in post
+    return Response(LikedSerializer(outcome.result).data, status.HTTP_201_CREATED)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\fields.py", line 915, in to_representation
+    return int(value)
+           ^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'Photo'
+2024-01-27 20:06:12,466 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\services\liked\add_and_del.py changed, reloading.
+2024-01-27 20:06:12,942 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-27 20:06:14,409 django.request ERROR    Internal Server Error: /core_api/like/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\liked\add_and_del.py", line 21, in post
+    return Response(LikedSerializer(outcome.result).data, status.HTTP_201_CREATED)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `id` on serializer `LikedSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `tuple` instance.
+Original exception text was: 'tuple' object has no attribute 'id'.
+2024-01-27 20:06:37,941 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\services\liked\add_and_del.py changed, reloading.
+2024-01-27 20:06:38,419 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-27 20:06:39,152 django.request ERROR    Internal Server Error: /core_api/like/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\liked\add_and_del.py", line 21, in post
+    return Response(LikedSerializer(outcome.result).data, status.HTTP_201_CREATED)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\fields.py", line 915, in to_representation
+    return int(value)
+           ^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'Photo'
+2024-01-27 20:07:50,424 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\services\liked\add_and_del.py changed, reloading.
+2024-01-27 20:07:50,902 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-27 20:07:51,436 django.request ERROR    Internal Server Error: /core_api/like/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\liked\add_and_del.py", line 21, in post
+    return Response(LikedSerializer(outcome.result).data, status.HTTP_201_CREATED)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `id` on serializer `LikedSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `tuple` instance.
+Original exception text was: 'tuple' object has no attribute 'id'.
+2024-01-27 20:08:22,945 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\services\liked\add_and_del.py changed, reloading.
+2024-01-27 20:08:23,408 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-27 20:08:23,650 django.request ERROR    Internal Server Error: /core_api/like/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\liked\add_and_del.py", line 21, in post
+    return Response(LikedSerializer(outcome.result).data, status.HTTP_201_CREATED)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\fields.py", line 915, in to_representation
+    return int(value)
+           ^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'Photo'
+2024-01-27 20:08:43,747 PIL.TiffImagePlugin DEBUG    tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-01-27 20:08:43,747 PIL.TiffImagePlugin DEBUG    tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-01-27 20:08:43,748 PIL.TiffImagePlugin DEBUG    tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-01-27 20:08:43,748 PIL.TiffImagePlugin DEBUG    tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-01-27 20:08:43,748 PIL.TiffImagePlugin DEBUG    tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Adobe Photoshop CC (Macintosh)\x00'
+2024-01-27 20:08:43,748 PIL.TiffImagePlugin DEBUG    tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 145 - value: b'2018:09:07 19:04:00\x00'
+2024-01-27 20:08:43,748 PIL.TiffImagePlugin DEBUG    tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xa8'
+2024-01-27 20:09:59,123 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\services\liked\add_and_del.py changed, reloading.
+2024-01-27 20:09:59,598 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-27 20:10:00,321 django.request ERROR    Internal Server Error: /core_api/like/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\liked\add_and_del.py", line 21, in post
+    return Response(LikedSerializer(outcome.result).data, status.HTTP_201_CREATED)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `id` on serializer `LikedSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `tuple` instance.
+Original exception text was: 'tuple' object has no attribute 'id'.
+2024-01-27 20:10:08,103 django.request ERROR    Internal Server Error: /core_api/like/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\liked\add_and_del.py", line 21, in post
+    return Response(LikedSerializer(outcome.result).data, status.HTTP_201_CREATED)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\fields.py", line 915, in to_representation
+    return int(value)
+           ^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'Photo'
+2024-01-27 20:13:25,021 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\services\liked\add_and_del.py changed, reloading.
+2024-01-27 20:13:25,502 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-27 20:13:26,001 django.request ERROR    Internal Server Error: /core_api/like/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\liked\add_and_del.py", line 21, in post
+    return Response(LikedSerializer(outcome.result).data, status.HTTP_201_CREATED)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `id` on serializer `LikedSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `tuple` instance.
+Original exception text was: 'tuple' object has no attribute 'id'.
+2024-01-27 20:17:26,596 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\services\liked\add_and_del.py changed, reloading.
+2024-01-27 20:17:27,088 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-27 20:17:27,439 django.request ERROR    Internal Server Error: /core_api/like/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\liked\add_and_del.py", line 21, in post
+    return Response(LikedSerializer(outcome.result).data, status.HTTP_201_CREATED)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\fields.py", line 915, in to_representation
+    return int(value)
+           ^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'Photo'
+2024-01-27 20:17:41,831 django.request ERROR    Internal Server Error: /core_api/like/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\liked\add_and_del.py", line 21, in post
+    return Response(LikedSerializer(outcome.result).data, status.HTTP_201_CREATED)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\fields.py", line 915, in to_representation
+    return int(value)
+           ^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'Photo'
+2024-01-27 20:20:51,526 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\services\liked\add_and_del.py changed, reloading.
+2024-01-27 20:20:51,997 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-27 20:20:55,976 django.request ERROR    Internal Server Error: /core_api/like/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\liked\add_and_del.py", line 21, in post
+    return Response(LikedSerializer(outcome.result).data, status.HTTP_201_CREATED)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\fields.py", line 915, in to_representation
+    return int(value)
+           ^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'Photo'
+2024-01-27 20:23:10,799 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\serializers\liked\liked.py changed, reloading.
+2024-01-27 20:23:11,265 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-27 20:42:52,521 django.request WARNING  Method Not Allowed: /core_api/like/
+2024-01-27 20:46:03,112 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\services\categories\show_list.py changed, reloading.
+2024-01-27 20:46:03,619 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-27 20:49:49,653 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\services\categories\show_list.py changed, reloading.
+2024-01-27 20:49:50,090 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-27 20:49:55,649 django.request WARNING  Not Found: /category/
+2024-01-27 20:50:12,425 django.request ERROR    Internal Server Error: /core_api/categories/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\categories\category_list.py", line 16, in get
+    outcome = ServiceOutcome(CategoriesService)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 79, in execute
+    instance.service_clean()
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 195, in service_clean
+    raise InvalidInputsError(errors, self.non_field_errors())
+utils.errors.InvalidInputsError: ({}, [])
+2024-01-27 20:51:37,083 django.request WARNING  Not Found: /core_api/photo/1/
+2024-01-27 20:51:44,897 django.request WARNING  Not Found: /core_api/photo/1/
+2024-01-27 20:54:48,977 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo.py changed, reloading.
+2024-01-27 20:54:49,452 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-27 22:06:12,161 django.request WARNING  Not Found: /core_api/comments
+2024-01-27 22:08:36,300 django.request WARNING  Not Found: /core_api/comments
+2024-01-27 22:08:36,371 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-01-27 22:08:36,873 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-27 22:08:37,705 django.request ERROR    Internal Server Error: /core_api/comments/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\comments\show_list.py", line 18, in get
+    outcome = ServiceOutcome(CommentsListService, dict(request.GET.items()))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 79, in execute
+    instance.service_clean()
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 195, in service_clean
+    raise InvalidInputsError(errors, self.non_field_errors())
+utils.errors.InvalidInputsError: ({'photo_id': [ValidationError(['This field is required.'])], 'per_page': [ValidationError(['This field is required.'])], 'page': [ValidationError(['This field is required.'])]}, [])
+2024-01-27 22:08:38,857 django.request ERROR    Internal Server Error: /core_api/comments/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\comments\show_list.py", line 18, in get
+    outcome = ServiceOutcome(CommentsListService, dict(request.GET.items()))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 79, in execute
+    instance.service_clean()
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 195, in service_clean
+    raise InvalidInputsError(errors, self.non_field_errors())
+utils.errors.InvalidInputsError: ({'photo_id': [ValidationError(['This field is required.'])], 'per_page': [ValidationError(['This field is required.'])], 'page': [ValidationError(['This field is required.'])]}, [])
+2024-01-27 22:10:41,367 django.request ERROR    Internal Server Error: /core_api/comments/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\comments\show_list.py", line 18, in get
+    outcome = ServiceOutcome(CommentsListService, dict(request.GET.items()))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 79, in execute
+    instance.service_clean()
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 195, in service_clean
+    raise InvalidInputsError(errors, self.non_field_errors())
+utils.errors.InvalidInputsError: ({'photo_id': [ValidationError(['This field is required.'])], 'per_page': [ValidationError(['This field is required.'])], 'page': [ValidationError(['This field is required.'])]}, [])
+2024-01-27 22:10:41,923 django.request ERROR    Internal Server Error: /core_api/comments/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\comments\show_list.py", line 18, in get
+    outcome = ServiceOutcome(CommentsListService, dict(request.GET.items()))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 79, in execute
+    instance.service_clean()
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 195, in service_clean
+    raise InvalidInputsError(errors, self.non_field_errors())
+utils.errors.InvalidInputsError: ({'photo_id': [ValidationError(['This field is required.'])], 'per_page': [ValidationError(['This field is required.'])], 'page': [ValidationError(['This field is required.'])]}, [])
+2024-01-27 22:10:42,192 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-01-27 22:10:42,631 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-27 22:10:43,005 django.request ERROR    Internal Server Error: /core_api/comments/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\comments\show_list.py", line 18, in get
+    outcome = ServiceOutcome(CommentsListService, dict(request.GET.items()))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 79, in execute
+    instance.service_clean()
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 195, in service_clean
+    raise InvalidInputsError(errors, self.non_field_errors())
+utils.errors.InvalidInputsError: ({'photo_id': [ValidationError(['This field is required.'])], 'per_page': [ValidationError(['This field is required.'])], 'page': [ValidationError(['This field is required.'])]}, [])
+2024-01-27 22:11:07,198 django.request ERROR    Internal Server Error: /core_api/comments/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\comments\show_list.py", line 18, in get
+    outcome = ServiceOutcome(CommentsListService, dict(request.GET.items()))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 79, in execute
+    instance.service_clean()
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 195, in service_clean
+    raise InvalidInputsError(errors, self.non_field_errors())
+utils.errors.InvalidInputsError: ({'per_page': [ValidationError(['This field is required.'])], 'page': [ValidationError(['This field is required.'])]}, [])
+2024-01-27 22:11:55,134 django.request ERROR    Internal Server Error: /core_api/comments/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\comments\show_list.py", line 18, in get
+    outcome = ServiceOutcome(CommentsListService, dict(request.GET.items()))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 79, in execute
+    instance.service_clean()
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 195, in service_clean
+    raise InvalidInputsError(errors, self.non_field_errors())
+utils.errors.InvalidInputsError: ({'per_page': [ValidationError(['This field is required.'])], 'page': [ValidationError(['This field is required.'])]}, [])
+2024-01-27 22:11:55,646 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py changed, reloading.
+2024-01-27 22:11:56,111 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-27 22:11:56,465 django.request ERROR    Internal Server Error: /core_api/comments/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\comments\show_list.py", line 18, in get
+    outcome = ServiceOutcome(CommentsListService, dict(request.GET.items()))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 23, in process
+    self.run_custom_validations()
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 186, in run_custom_validations
+    getattr(self, custom_validation)()
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 51, in photo_presence
+    if self.cleaned_data['id']:
+       ~~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'id'
+2024-01-27 22:11:58,105 django.request ERROR    Internal Server Error: /core_api/comments/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\comments\show_list.py", line 18, in get
+    outcome = ServiceOutcome(CommentsListService, dict(request.GET.items()))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 23, in process
+    self.run_custom_validations()
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 186, in run_custom_validations
+    getattr(self, custom_validation)()
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 51, in photo_presence
+    if self.cleaned_data['id']:
+       ~~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'id'
+2024-01-27 22:12:37,010 django.request ERROR    Internal Server Error: /core_api/comments/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\comments\show_list.py", line 18, in get
+    outcome = ServiceOutcome(CommentsListService, dict(request.GET.items()))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 23, in process
+    self.run_custom_validations()
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 186, in run_custom_validations
+    getattr(self, custom_validation)()
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 51, in photo_presence
+    if self.cleaned_data['id']:
+       ~~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'id'
+2024-01-27 22:12:37,396 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py changed, reloading.
+2024-01-27 22:12:37,847 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-27 22:12:38,246 django.request ERROR    Internal Server Error: /core_api/comments/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\comments\show_list.py", line 18, in get
+    outcome = ServiceOutcome(CommentsListService, dict(request.GET.items()))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 23, in process
+    self.run_custom_validations()
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 186, in run_custom_validations
+    getattr(self, custom_validation)()
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 51, in photo_presence
+    if self.cleaned_data['id']:
+       ~~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'id'
+2024-01-27 22:12:40,398 django.request ERROR    Internal Server Error: /core_api/comments/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\comments\show_list.py", line 18, in get
+    outcome = ServiceOutcome(CommentsListService, dict(request.GET.items()))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 23, in process
+    self.run_custom_validations()
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 186, in run_custom_validations
+    getattr(self, custom_validation)()
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 51, in photo_presence
+    if self.cleaned_data['id']:
+       ~~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'id'
+2024-01-27 22:13:09,253 django.request ERROR    Internal Server Error: /core_api/comments/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\comments\show_list.py", line 18, in get
+    outcome = ServiceOutcome(CommentsListService, dict(request.GET.items()))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 23, in process
+    self.run_custom_validations()
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 186, in run_custom_validations
+    getattr(self, custom_validation)()
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 51, in photo_presence
+    if self.cleaned_data['photo_id']:
+       ^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'id'
+2024-01-27 22:13:09,863 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py changed, reloading.
+2024-01-27 22:13:10,309 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-27 22:13:10,720 django.request ERROR    Internal Server Error: /core_api/comments/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\comments\show_list.py", line 18, in get
+    outcome = ServiceOutcome(CommentsListService, dict(request.GET.items()))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 25, in process
+    self.result = self._comments()
+                  ^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 33, in _comments
+    return Paginator(self.get_comment, per_page=(per_page or REST_FRAMEWORK['PAGE_SIZE'])).page(page or 1)
+                     ^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 48, in get_comment
+    return Comments.objects.filter(photo_id=self.photo_id)
+                                            ^^^^^^^^^^^^^
+AttributeError: 'CommentsListService' object has no attribute 'photo_id'
+2024-01-27 22:21:19,091 django.request ERROR    Internal Server Error: /core_api/comments/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\comments\show_list.py", line 18, in get
+    outcome = ServiceOutcome(CommentsListService, dict(request.GET.items()))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 25, in process
+    self.result = self._comments()
+                  ^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 33, in _comments
+    return Paginator(self.get_comment, per_page=(per_page or REST_FRAMEWORK['PAGE_SIZE'])).page(page or 1)
+                     ^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 48, in get_comment
+    return Comments.objects.filter(photo_id=self.photo_id)
+                                            ^^^^^^^^^^^^^
+AttributeError: 'CommentsListService' object has no attribute 'photo_id'
+2024-01-27 22:21:19,651 django.request ERROR    Internal Server Error: /core_api/comments/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\comments\show_list.py", line 18, in get
+    outcome = ServiceOutcome(CommentsListService, dict(request.GET.items()))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 25, in process
+    self.result = self._comments()
+                  ^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 33, in _comments
+    return Paginator(self.get_comment, per_page=(per_page or REST_FRAMEWORK['PAGE_SIZE'])).page(page or 1)
+                     ^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 48, in get_comment
+    return Comments.objects.filter(photo_id=self.photo_id)
+                                            ^^^^^^^^^^^^^
+AttributeError: 'CommentsListService' object has no attribute 'photo_id'
+2024-01-27 22:21:19,898 django.request ERROR    Internal Server Error: /core_api/comments/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\comments\show_list.py", line 18, in get
+    outcome = ServiceOutcome(CommentsListService, dict(request.GET.items()))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 25, in process
+    self.result = self._comments()
+                  ^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 33, in _comments
+    return Paginator(self.get_comment, per_page=(per_page or REST_FRAMEWORK['PAGE_SIZE'])).page(page or 1)
+                     ^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 48, in get_comment
+    return Comments.objects.filter(photo_id=self.photo_id)
+                                            ^^^^^^^^^^^^^
+AttributeError: 'CommentsListService' object has no attribute 'photo_id'
+2024-01-27 22:22:58,891 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-27 22:23:01,028 django.request ERROR    Internal Server Error: /core_api/comments/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\comments\show_list.py", line 18, in get
+    outcome = ServiceOutcome(CommentsListService, dict(request.GET.items()))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 25, in process
+    self.result = self._comments()
+                  ^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 33, in _comments
+    return Paginator(self.get_comment, per_page=(per_page or REST_FRAMEWORK['PAGE_SIZE'])).page(page or 1)
+                     ^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 48, in get_comment
+    return Comments.objects.filter(photo_id=self.photo_id)
+                                            ^^^^^^^^^^^^^
+AttributeError: 'CommentsListService' object has no attribute 'photo_id'
+2024-01-27 22:23:02,789 django.request ERROR    Internal Server Error: /core_api/comments/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\comments\show_list.py", line 18, in get
+    outcome = ServiceOutcome(CommentsListService, dict(request.GET.items()))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 25, in process
+    self.result = self._comments()
+                  ^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 33, in _comments
+    return Paginator(self.get_comment, per_page=(per_page or REST_FRAMEWORK['PAGE_SIZE'])).page(page or 1)
+                     ^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 48, in get_comment
+    return Comments.objects.filter(photo_id=self.photo_id)
+                                            ^^^^^^^^^^^^^
+AttributeError: 'CommentsListService' object has no attribute 'photo_id'
+2024-01-27 22:23:03,316 django.request ERROR    Internal Server Error: /core_api/comments/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\comments\show_list.py", line 18, in get
+    outcome = ServiceOutcome(CommentsListService, dict(request.GET.items()))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 25, in process
+    self.result = self._comments()
+                  ^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 33, in _comments
+    return Paginator(self.get_comment, per_page=(per_page or REST_FRAMEWORK['PAGE_SIZE'])).page(page or 1)
+                     ^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 48, in get_comment
+    return Comments.objects.filter(photo_id=self.photo_id)
+                                            ^^^^^^^^^^^^^
+AttributeError: 'CommentsListService' object has no attribute 'photo_id'
+2024-01-27 22:23:03,628 django.request ERROR    Internal Server Error: /core_api/comments/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\comments\show_list.py", line 18, in get
+    outcome = ServiceOutcome(CommentsListService, dict(request.GET.items()))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 25, in process
+    self.result = self._comments()
+                  ^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 33, in _comments
+    return Paginator(self.get_comment, per_page=(per_page or REST_FRAMEWORK['PAGE_SIZE'])).page(page or 1)
+                     ^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 48, in get_comment
+    return Comments.objects.filter(photo_id=self.photo_id)
+                                            ^^^^^^^^^^^^^
+AttributeError: 'CommentsListService' object has no attribute 'photo_id'
+2024-01-27 22:26:09,874 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py changed, reloading.
+2024-01-27 22:26:10,323 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-27 22:26:21,859 django.request ERROR    Internal Server Error: /core_api/comments/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\comments\show_list.py", line 18, in get
+    outcome = ServiceOutcome(CommentsListService, dict(request.GET.items()))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 25, in process
+    self.result = self._comments()
+                  ^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 33, in _comments
+    return Paginator(self.get_comment, per_page=(per_page or REST_FRAMEWORK['PAGE_SIZE'])).page(page or 1)
+                     ^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 49, in get_comment
+    return Comments.objects.filter(photo_id=self.photo_id)
+                                            ^^^^^^^^^^^^^
+AttributeError: 'CommentsListService' object has no attribute 'photo_id'
+2024-01-27 22:26:22,705 django.request ERROR    Internal Server Error: /core_api/comments/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\comments\show_list.py", line 18, in get
+    outcome = ServiceOutcome(CommentsListService, dict(request.GET.items()))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 25, in process
+    self.result = self._comments()
+                  ^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 33, in _comments
+    return Paginator(self.get_comment, per_page=(per_page or REST_FRAMEWORK['PAGE_SIZE'])).page(page or 1)
+                     ^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 49, in get_comment
+    return Comments.objects.filter(photo_id=self.photo_id)
+                                            ^^^^^^^^^^^^^
+AttributeError: 'CommentsListService' object has no attribute 'photo_id'
+2024-01-27 22:26:24,285 django.request ERROR    Internal Server Error: /core_api/comments/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\comments\show_list.py", line 18, in get
+    outcome = ServiceOutcome(CommentsListService, dict(request.GET.items()))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 25, in process
+    self.result = self._comments()
+                  ^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 33, in _comments
+    return Paginator(self.get_comment, per_page=(per_page or REST_FRAMEWORK['PAGE_SIZE'])).page(page or 1)
+                     ^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 49, in get_comment
+    return Comments.objects.filter(photo_id=self.photo_id)
+                                            ^^^^^^^^^^^^^
+AttributeError: 'CommentsListService' object has no attribute 'photo_id'
+2024-01-27 22:26:26,430 django.request ERROR    Internal Server Error: /core_api/comments/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\comments\show_list.py", line 18, in get
+    outcome = ServiceOutcome(CommentsListService, dict(request.GET.items()))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 25, in process
+    self.result = self._comments()
+                  ^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 33, in _comments
+    return Paginator(self.get_comment, per_page=(per_page or REST_FRAMEWORK['PAGE_SIZE'])).page(page or 1)
+                     ^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 49, in get_comment
+    return Comments.objects.filter(photo_id=self.photo_id)
+                                            ^^^^^^^^^^^^^
+AttributeError: 'CommentsListService' object has no attribute 'photo_id'
+2024-01-27 22:27:23,485 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py changed, reloading.
+2024-01-27 22:27:23,933 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-27 22:27:24,389 django.request ERROR    Internal Server Error: /core_api/comments/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\comments\show_list.py", line 18, in get
+    outcome = ServiceOutcome(CommentsListService, dict(request.GET.items()))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 25, in process
+    self.result = self._comments()
+                  ^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 33, in _comments
+    return Paginator(self.get_comment, per_page=(per_page or REST_FRAMEWORK['PAGE_SIZE'])).page(page or 1)
+                     ^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 49, in get_comment
+    return Comments.objects.filter(photo_id=self.photo_id)
+                                            ^^^^^^^^^^^^^
+AttributeError: 'CommentsListService' object has no attribute 'photo_id'
+2024-01-27 22:27:26,495 django.request ERROR    Internal Server Error: /core_api/comments/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\comments\show_list.py", line 18, in get
+    outcome = ServiceOutcome(CommentsListService, dict(request.GET.items()))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 25, in process
+    self.result = self._comments()
+                  ^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 33, in _comments
+    return Paginator(self.get_comment, per_page=(per_page or REST_FRAMEWORK['PAGE_SIZE'])).page(page or 1)
+                     ^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 49, in get_comment
+    return Comments.objects.filter(photo_id=self.photo_id)
+                                            ^^^^^^^^^^^^^
+AttributeError: 'CommentsListService' object has no attribute 'photo_id'
+2024-01-27 22:27:27,137 django.request ERROR    Internal Server Error: /core_api/comments/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\comments\show_list.py", line 18, in get
+    outcome = ServiceOutcome(CommentsListService, dict(request.GET.items()))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 25, in process
+    self.result = self._comments()
+                  ^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 33, in _comments
+    return Paginator(self.get_comment, per_page=(per_page or REST_FRAMEWORK['PAGE_SIZE'])).page(page or 1)
+                     ^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py", line 49, in get_comment
+    return Comments.objects.filter(photo_id=self.photo_id)
+                                            ^^^^^^^^^^^^^
+AttributeError: 'CommentsListService' object has no attribute 'photo_id'
+2024-01-27 22:28:01,099 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\services\comments\show_list.py changed, reloading.
+2024-01-27 22:28:01,551 django.utils.autoreload INFO     Watching for file changes with StatReloader

@@ -31,3 +31,6 @@ class PhotoView(APIView,
             return Response(outcome.errors, status.HTTP_400_BAD_REQUEST)
         return Response(PhotoSerializer(outcome.result).data, status.HTTP_200_OK)
 
+    def delete(self, request, *args, **kwargs):
+        return super().delete(request, *args, **kwargs)
+

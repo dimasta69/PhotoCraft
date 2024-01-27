@@ -21,17 +21,17 @@ class LikedService(ServiceWithResult):
     def process(self):
         self.run_custom_validations()
         if self.is_valid():
-            self.result = self._check_data
+            self.result = self._check_data()
         return self
 
     def _check_data(self):
         if not self.get_liked:
-            like = Liked.objects.create(photo=self.get_photo, user=self.cleaned_data['current_user'])
+            like = Liked.objects.create(photo_id=self.get_photo, user_id=self.cleaned_data['current_user'])
+            print(1234)
+            print(like.photo_id)
             like.save()
-            print(777)
-            print(like.id)
             return like
-        return self.get_liked.delete()
+        self.get_liked.delete()
 
     @property
     @lru_cache()
@@ -45,8 +45,7 @@ class LikedService(ServiceWithResult):
     @lru_cache()
     def get_liked(self):
         try:
-            print(111)
-            return Liked.objects.get(photo=self.get_photo, user=self.cleaned_data['current_user'])
+            return Liked.objects.get(photo_id=self.get_photo, user_id=self.cleaned_data['current_user'])
         except Liked.DoesNotExist:
             return None
 

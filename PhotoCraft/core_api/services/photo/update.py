@@ -32,7 +32,7 @@ class UpdatePhotoService(ServiceWithResult):
         photo = self.get_photo
         photo.title = self.cleaned_data['title']
         photo.description = self.cleaned_data['description']
-        photo.get_category_id = self.get_category
+        photo.get_category_id = self.get_category.id
         if self.cleaned_data['photo']:
             photo.backup_photo = photo.photo
             photo.photo = self.cleaned_data['photo']
@@ -53,14 +53,6 @@ class UpdatePhotoService(ServiceWithResult):
         try:
             return Categories.objects.get(id=self.cleaned_data['category_id'])
         except Categories.DoesNotExist:
-            return None
-
-    @property
-    @lru_cache()
-    def get_user(self):
-        try:
-            return User.objects.get(id=self.cleaned_data['current_user'])
-        except User.DoesNotExist:
             return None
 
     def photo_presence(self):
