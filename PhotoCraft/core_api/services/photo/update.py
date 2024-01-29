@@ -68,7 +68,7 @@ class UpdatePhotoService(ServiceWithResult):
                                                                  f"{self.cleaned_data['category_id']} not found"))
 
     def user_ratio(self):
-        if not ((self.get_photo.user.id == self.cleaned_data['current_user'].id) or
+        if not ((self.get_photo.user_id.id == self.cleaned_data['current_user'].id) or
                 self.cleaned_data['current_user'].is_superuser):
             self.add_error('current_user', ObjectDoesNotExist(f"User with id="
                                                               f"{self.cleaned_data['current_user']} is not the author "

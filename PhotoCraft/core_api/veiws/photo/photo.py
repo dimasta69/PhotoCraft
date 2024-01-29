@@ -7,6 +7,7 @@ from models_app.models.photo.model import Photo
 from core_api.serializers.photo.photo import PhotoSerializer
 from core_api.services.photo.show import PhotoService
 from core_api.services.photo.update import UpdatePhotoService
+from core_api.services.photo.delete import PhotoDeleteService
 from core_api.permissions import IsAuthenticatedAndIsPostRequest
 
 from utils.services import ServiceOutcome
@@ -31,6 +32,9 @@ class PhotoView(APIView,
             return Response(outcome.errors, status.HTTP_400_BAD_REQUEST)
         return Response(PhotoSerializer(outcome.result).data, status.HTTP_200_OK)
 
-    def delete(self, request, *args, **kwargs):
-        return super().delete(request, *args, **kwargs)
+    def delete(self, request, **kwargs):
+        outcome = ServiceOutcome(PhotoDeleteService, {'id': kwargs['id'], 'current_user': request.user})
+        if bool(outcome.errors):
+            return Response(outcome.errors, status.HTTP_400_BAD_REQUEST)
+        return Response({'message': 'Object deleted successfully.'}, status.HTTP_200_OK)
 

@@ -7,7 +7,8 @@ from models_app.models.users.model import User
 class Comments(models.Model):
     user_id = models.ForeignKey(User, on_delete=models.CASCADE, related_name='comment', verbose_name='Пользователь',
                                 null=False)
-    reply_id = models.IntegerField(verbose_name='Ответ на комментарий', null=True)
+    reply_id = models.ForeignKey('self', on_delete=models.CASCADE, related_name='replies',
+                                 verbose_name='Ответ на коментарий', null=True, blank=True)
     photo_id = models.ForeignKey(Photo, on_delete=models.CASCADE, related_name='comment', verbose_name='Фотография',
                                  null=False)
 
