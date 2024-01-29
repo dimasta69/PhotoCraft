@@ -13,8 +13,8 @@ class Comments(models.Model):
 
     text = models.CharField(max_length=200, null=False)
 
-    publicated_at = models.DateField(auto_now_add=True, null=False, verbose_name='Дата публикации')
-    updated_at = models.DateField(null=True)
+    publicated_at = models.DateTimeField(auto_now_add=True, null=False, verbose_name='Дата публикации')
+    updated_at = models.BooleanField(default=False)
 
     class Meta:
         verbose_name = 'Комментарий'

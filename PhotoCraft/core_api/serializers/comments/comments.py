@@ -11,3 +11,4 @@ class CommentsSerializer(serializers.Serializer):
     reply_id = serializers.IntegerField()
     text = serializers.CharField()
     publicated_at = serializers.DateTimeField()
+    updated_at = serializers.BooleanField()
