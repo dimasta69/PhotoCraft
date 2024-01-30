@@ -15,5 +15,8 @@ class CategoriesService(ServiceWithResult):
     @property
     @lru_cache()
     def category(self):
-        return Categories.objects.all()
+        try:
+            return Categories.objects.all()
+        except Categories.DoesNotExist:
+            return 0
 

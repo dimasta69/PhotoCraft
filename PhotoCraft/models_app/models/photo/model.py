@@ -10,7 +10,7 @@ from utils.file_uploader import uploaded_file_path
 
 
 class Photo(models.Model):
-    category_id = models.ForeignKey(Categories, on_delete=models.SET_NULL, related_name='photo', null=True,
+    category_id = models.ForeignKey(Categories, on_delete=models.SET_NULL, related_name='photo', null=True, blank=True,
                                     verbose_name='Категория')
     user_id = models.ForeignKey(User, on_delete=models.CASCADE, related_name='photo', verbose_name='Автор', null=False)
 

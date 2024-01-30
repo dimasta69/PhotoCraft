@@ -1,21 +1,21 @@
 from django import forms
 from django.core.exceptions import ObjectDoesNotExist
 
-from models_app.models.photo.model import Photo
+from models_app.models.categories.model import Categories
 from models_app.models.users.model import User
+
+from service_objects.fields import ModelField
 
 from functools import lru_cache
 
 from utils.services import ServiceWithResult
 
-from service_objects.fields import ModelField
 
-
-class PhotoDeleteService(ServiceWithResult):
+class CategoryDeleteServcie(ServiceWithResult):
     id = forms.IntegerField(required=True)
     current_user = ModelField(User)
 
-    custom_validations = ['photo_presence', 'user_ratio']
+    custom_validations = ['category_presence', 'user_ratio']
 
     def process(self):
         self.run_custom_validations()
@@ -24,27 +24,26 @@ class PhotoDeleteService(ServiceWithResult):
         return self
 
     def _delete(self):
-        photo = self.get_photo
-        photo.delete()
-        return Photo.objects.none()
+        category = self.category
+        category.delete()
+        return Categories.objects.none()
 
     @property
     @lru_cache()
-    def get_photo(self):
+    def category(self):
         try:
-            return Photo.objects.get(id=self.cleaned_data['id'])
-        except Photo.DoesNotExist:
+            return Categories.objects.get(id=self.cleaned_data['id'])
+        except Categories.DoesNotExist:
             return None
 
-    def photo_presence(self):
+    def category_presence(self):
         if self.cleaned_data['id']:
-            if not self.get_photo:
-                self.add_error('photo_id', ObjectDoesNotExist(f"Photo with id="
-                                                              f"{self.cleaned_data['id']} not found"))
+            if not self.category:
+                self.add_error('id', ObjectDoesNotExist(f"Category with id="
+                                                        f"{self.cleaned_data['category_id']} not found"))
 
     def user_ratio(self):
-        if not ((self.get_photo.user_id.id == self.cleaned_data['current_user'].id) or
-                self.cleaned_data['current_user'].is_superuser):
+        if not self.cleaned_data['current_user'].is_superuser:
             self.add_error('current_user', ObjectDoesNotExist(f"User with id="
                                                               f"{self.cleaned_data['current_user']} is not the author "
                                                               f"of the post"))

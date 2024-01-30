@@ -3,6 +3,7 @@ from rest_framework import serializers
 from models_app.models.liked.model import Liked
 from models_app.models.comments.model import Comments
 from models_app.models.users.model import User
+from models_app.models.categories.model import Categories
 
 
 class PhotoSerializer(serializers.Serializer):
@@ -11,7 +12,7 @@ class PhotoSerializer(serializers.Serializer):
     description = serializers.CharField()
     user_id = serializers.PrimaryKeyRelatedField(queryset=User.objects.all())
     photo = serializers.ImageField()
-    category_id = serializers.IntegerField()
+    category_id = serializers.PrimaryKeyRelatedField(queryset=Categories.objects.all(), allow_null=True, required=False)
     number_of_likes = serializers.SerializerMethodField()
     number_of_comments = serializers.SerializerMethodField()
 
