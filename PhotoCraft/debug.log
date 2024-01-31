@@ -25491,3 +25491,571 @@ Traceback (most recent call last):
 TypeError: int() argument must be a string, a bytes-like object or a real number, not 'Categories'
 2024-01-30 20:21:15,016 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\serializers\photo\photo_list.py changed, reloading.
 2024-01-30 20:21:15,464 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 01:54:29,588 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 01:54:31,365 django.request WARNING  Not Found: /
+2024-01-31 01:54:31,471 django.request WARNING  Not Found: /favicon.ico
+2024-01-31 01:54:46,817 django.request WARNING  Not Found: /core_api/
+2024-01-31 01:54:57,355 django.request WARNING  Not Found: /core_api/auth/
+2024-01-31 01:55:18,240 django.request WARNING  Not Found: /core_api/auth/users/
+2024-01-31 01:57:46,566 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-01-31 01:57:47,053 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 01:58:41,304 django.request WARNING  Unauthorized: /core_api/auth/users/
+2024-01-31 01:59:25,369 django.request WARNING  Bad Request: /core_api/auth/users/
+2024-01-31 01:59:41,542 django.request WARNING  Not Found: /core_api/auth/login/
+2024-01-31 02:00:09,840 django.request WARNING  Unauthorized: /core_api/auth/users/
+2024-01-31 02:00:24,288 django.request WARNING  Not Found: /core_api/auth/login/
+2024-01-31 02:00:54,576 django.request WARNING  Not Found: /core_api/auth/login/
+2024-01-31 02:00:58,374 django.request WARNING  Not Found: /core_api/auth/login/
+2024-01-31 02:01:06,025 django.request WARNING  Not Found: /core_api/auth/user/
+2024-01-31 02:01:18,237 django.request WARNING  Not Found: /core_api/auth/user/
+2024-01-31 02:01:20,535 django.request WARNING  Not Found: /core_api/auth/user/
+2024-01-31 02:01:24,284 django.request WARNING  Unauthorized: /core_api/auth/users/
+2024-01-31 02:01:30,312 django.request WARNING  Unauthorized: /core_api/auth/users/
+2024-01-31 02:02:56,817 django.request WARNING  Unauthorized: /core_api/auth/users/
+2024-01-31 02:05:51,327 django.request WARNING  Method Not Allowed: /core_api/auth/token/login/
+2024-01-31 02:09:11,710 django.request WARNING  Unauthorized: /core_api/auth/users/
+2024-01-31 02:09:35,383 django.request WARNING  Unauthorized: /core_api/auth/users/
+2024-01-31 02:09:42,278 django.request WARNING  Unauthorized: /core_api/auth/users/
+2024-01-31 02:14:40,140 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\settings\__init__.py changed, reloading.
+2024-01-31 02:47:47,325 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 02:47:51,938 django.request ERROR    Internal Server Error: /core_api/auth/users/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\djoser\views.py", line 140, in perform_create
+    settings.EMAIL.activation(self.request, context).send(to)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\templated_mail\mail.py", line 68, in send
+    self.render()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\templated_mail\mail.py", line 60, in render
+    context = make_context(self.get_context_data(), request=self.request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\djoser\email.py", line 18, in get_context_data
+    context["url"] = settings.ACTIVATION_URL.format(**context)
+                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\utils\functional.py", line 253, in inner
+    return func(_wrapped, *args)
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Settings' object has no attribute 'ACTIVATION_URL'
+2024-01-31 02:48:57,124 django.request WARNING  Unauthorized: /core_api/auth/users/
+2024-01-31 02:48:57,403 django.request WARNING  Unauthorized: /core_api/auth/users/
+2024-01-31 02:49:15,098 django.request WARNING  Bad Request: /core_api/auth/users/
+2024-01-31 02:49:28,402 django.request WARNING  Unauthorized: /core_api/auth/users/
+2024-01-31 03:12:20,755 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 03:12:26,999 django.request ERROR    Internal Server Error: /core_api/auth/users/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\djoser\views.py", line 140, in perform_create
+    settings.EMAIL.activation(self.request, context).send(to)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\templated_mail\mail.py", line 68, in send
+    self.render()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\templated_mail\mail.py", line 60, in render
+    context = make_context(self.get_context_data(), request=self.request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\djoser\email.py", line 18, in get_context_data
+    context["url"] = settings.ACTIVATION_URL.format(**context)
+                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\utils\functional.py", line 253, in inner
+    return func(_wrapped, *args)
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Settings' object has no attribute 'ACTIVATION_URL'
+2024-01-31 03:12:30,971 django.request WARNING  Bad Request: /core_api/auth/users/
+2024-01-31 03:12:37,535 django.request WARNING  Bad Request: /core_api/auth/users/
+2024-01-31 03:14:07,480 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\settings\djoser.py changed, reloading.
+2024-01-31 03:14:07,944 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 03:14:47,647 django.request ERROR    Internal Server Error: /core_api/auth/users/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\djoser\views.py", line 140, in perform_create
+    settings.EMAIL.activation(self.request, context).send(to)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\templated_mail\mail.py", line 68, in send
+    self.render()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\templated_mail\mail.py", line 60, in render
+    context = make_context(self.get_context_data(), request=self.request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\djoser\email.py", line 18, in get_context_data
+    context["url"] = settings.ACTIVATION_URL.format(**context)
+                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\utils\functional.py", line 253, in inner
+    return func(_wrapped, *args)
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Settings' object has no attribute 'ACTIVATION_URL'
+2024-01-31 03:16:22,023 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\settings\djoser.py changed, reloading.
+2024-01-31 03:16:22,498 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 03:16:27,728 django.request WARNING  Bad Request: /core_api/auth/users/
+2024-01-31 03:16:41,953 django.request ERROR    Internal Server Error: /core_api/auth/users/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\djoser\views.py", line 140, in perform_create
+    settings.EMAIL.activation(self.request, context).send(to)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\templated_mail\mail.py", line 68, in send
+    self.render()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\templated_mail\mail.py", line 60, in render
+    context = make_context(self.get_context_data(), request=self.request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\djoser\email.py", line 18, in get_context_data
+    context["url"] = settings.ACTIVATION_URL.format(**context)
+                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\utils\functional.py", line 253, in inner
+    return func(_wrapped, *args)
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Settings' object has no attribute 'ACTIVATION_URL'
+2024-01-31 03:17:10,088 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 03:17:14,017 django.request ERROR    Internal Server Error: /core_api/auth/users/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\djoser\views.py", line 140, in perform_create
+    settings.EMAIL.activation(self.request, context).send(to)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\templated_mail\mail.py", line 68, in send
+    self.render()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\templated_mail\mail.py", line 60, in render
+    context = make_context(self.get_context_data(), request=self.request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\djoser\email.py", line 18, in get_context_data
+    context["url"] = settings.ACTIVATION_URL.format(**context)
+                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\utils\functional.py", line 253, in inner
+    return func(_wrapped, *args)
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Settings' object has no attribute 'ACTIVATION_URL'
+2024-01-31 03:17:18,810 django.request WARNING  Bad Request: /core_api/auth/users/
+2024-01-31 03:19:15,006 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\settings\djoser.py changed, reloading.
+2024-01-31 03:19:21,439 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 03:19:36,690 django.request ERROR    Internal Server Error: /core_api/auth/users/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\djoser\views.py", line 140, in perform_create
+    settings.EMAIL.activation(self.request, context).send(to)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\templated_mail\mail.py", line 78, in send
+    super(BaseEmailMessage, self).send(*args, **kwargs)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\mail\message.py", line 300, in send
+    return self.get_connection(fail_silently).send_messages([self])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\mail\backends\smtp.py", line 127, in send_messages
+    new_conn_created = self.open()
+                       ^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\mail\backends\smtp.py", line 94, in open
+    self.connection.login(self.username, self.password)
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ^^^^^^^^^^
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials m6-20020a056512358600b005101ef3c7b4sm1631341lfr.232 - gsmtp')
+2024-01-31 12:17:38,593 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 12:18:53,139 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\settings\djoser.py changed, reloading.
+2024-01-31 12:18:53,605 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 12:20:02,800 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\settings\django.py changed, reloading.
+2024-01-31 12:20:03,308 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 12:20:45,075 django.request WARNING  Not Found: /
+2024-01-31 12:20:45,172 django.request WARNING  Not Found: /favicon.ico
+2024-01-31 12:20:45,947 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\settings\django.py changed, reloading.
+2024-01-31 12:20:46,392 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 12:20:56,262 django.request WARNING  Not Found: /core_api/
+2024-01-31 12:21:03,794 django.request WARNING  Unauthorized: /core_api/auth/users/
+2024-01-31 12:21:14,980 django.request WARNING  Bad Request: /core_api/auth/users/
+2024-01-31 12:21:26,904 django.request ERROR    Internal Server Error: /core_api/auth/users/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\djoser\views.py", line 140, in perform_create
+    settings.EMAIL.activation(self.request, context).send(to)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\templated_mail\mail.py", line 78, in send
+    super(BaseEmailMessage, self).send(*args, **kwargs)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\mail\message.py", line 300, in send
+    return self.get_connection(fail_silently).send_messages([self])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\mail\backends\smtp.py", line 127, in send_messages
+    new_conn_created = self.open()
+                       ^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\mail\backends\smtp.py", line 94, in open
+    self.connection.login(self.username, self.password)
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ^^^^^^^^^^
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.0 NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED')
+2024-01-31 12:24:20,931 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\settings\djoser.py changed, reloading.
+2024-01-31 12:24:21,401 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 12:37:06,603 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\settings\djoser.py changed, reloading.
+2024-01-31 12:37:07,063 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 12:37:15,651 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\settings\djoser.py changed, reloading.
+2024-01-31 12:37:16,116 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 12:38:44,790 django.request WARNING  Unauthorized: /core_api/auth/users/
+2024-01-31 12:38:54,120 django.request ERROR    Internal Server Error: /core_api/auth/users/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\djoser\views.py", line 140, in perform_create
+    settings.EMAIL.activation(self.request, context).send(to)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\templated_mail\mail.py", line 78, in send
+    super(BaseEmailMessage, self).send(*args, **kwargs)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\mail\message.py", line 300, in send
+    return self.get_connection(fail_silently).send_messages([self])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\mail\backends\smtp.py", line 135, in send_messages
+    sent = self._send(message)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\mail\backends\smtp.py", line 154, in _send
+    self.connection.sendmail(
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\smtplib.py", line 887, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (550, b'not local sender over smtp', 'webmaster@localhost')
+2024-01-31 12:45:44,326 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\settings\djoser.py changed, reloading.
+2024-01-31 12:45:44,792 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 12:45:54,378 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\settings\djoser.py changed, reloading.
+2024-01-31 12:45:54,823 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 12:46:08,044 django.request WARNING  Unauthorized: /core_api/auth/users/
+2024-01-31 12:46:19,071 django.request ERROR    Internal Server Error: /core_api/auth/users/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\djoser\views.py", line 140, in perform_create
+    settings.EMAIL.activation(self.request, context).send(to)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\templated_mail\mail.py", line 78, in send
+    super(BaseEmailMessage, self).send(*args, **kwargs)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\mail\message.py", line 300, in send
+    return self.get_connection(fail_silently).send_messages([self])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\mail\backends\smtp.py", line 135, in send_messages
+    sent = self._send(message)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\mail\backends\smtp.py", line 154, in _send
+    self.connection.sendmail(
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\smtplib.py", line 887, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (550, b'not local sender over smtp', 'webmaster@localhost')
+2024-01-31 12:48:09,161 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\settings\djoser.py changed, reloading.
+2024-01-31 12:48:09,638 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 12:48:38,141 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 12:48:41,134 django.request WARNING  Unauthorized: /core_api/auth/users/
+2024-01-31 12:49:41,199 django.request WARNING  Unauthorized: /core_api/auth/users/
+2024-01-31 12:49:51,279 django.request WARNING  Bad Request: /core_api/auth/users/
+2024-01-31 12:52:37,666 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 12:52:50,689 django.request WARNING  Unauthorized: /core_api/auth/users/
+2024-01-31 12:53:06,407 django.request WARNING  Bad Request: /core_api/auth/users/
+2024-01-31 12:54:30,299 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\settings\djoser.py changed, reloading.
+2024-01-31 12:54:30,837 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 12:54:31,216 django.request WARNING  Bad Request: /core_api/auth/users/
+2024-01-31 12:55:23,498 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 12:55:29,022 django.request ERROR    Internal Server Error: /core_api/auth/users/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\djoser\views.py", line 140, in perform_create
+    settings.EMAIL.activation(self.request, context).send(to)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\templated_mail\mail.py", line 78, in send
+    super(BaseEmailMessage, self).send(*args, **kwargs)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\mail\message.py", line 300, in send
+    return self.get_connection(fail_silently).send_messages([self])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\mail\backends\smtp.py", line 135, in send_messages
+    sent = self._send(message)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\mail\backends\smtp.py", line 154, in _send
+    self.connection.sendmail(
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\smtplib.py", line 887, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (550, b'not local sender over smtp', 'webmaster@localhost')
+2024-01-31 12:56:06,455 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 12:56:09,945 django.request WARNING  Unauthorized: /core_api/auth/users/
+2024-01-31 12:56:17,699 django.request ERROR    Internal Server Error: /core_api/auth/users/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\djoser\views.py", line 140, in perform_create
+    settings.EMAIL.activation(self.request, context).send(to)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\templated_mail\mail.py", line 78, in send
+    super(BaseEmailMessage, self).send(*args, **kwargs)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\mail\message.py", line 300, in send
+    return self.get_connection(fail_silently).send_messages([self])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\mail\backends\smtp.py", line 135, in send_messages
+    sent = self._send(message)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\mail\backends\smtp.py", line 154, in _send
+    self.connection.sendmail(
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\smtplib.py", line 887, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (550, b'not local sender over smtp', 'webmaster@localhost')
+2024-01-31 12:56:39,540 django.request WARNING  Unauthorized: /core_api/auth/users/
+2024-01-31 12:56:58,161 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 12:57:16,040 django.request WARNING  Unauthorized: /core_api/auth/users/
+2024-01-31 12:57:24,639 django.request WARNING  Bad Request: /core_api/auth/users/
+2024-01-31 12:57:52,175 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\settings\djoser.py changed, reloading.
+2024-01-31 12:57:52,669 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 12:58:40,304 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\settings\djoser.py changed, reloading.
+2024-01-31 12:58:40,777 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 12:58:47,654 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 12:58:54,742 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 12:58:59,454 django.request WARNING  Unauthorized: /core_api/auth/users/
+2024-01-31 13:00:33,912 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 13:00:36,793 django.request WARNING  Unauthorized: /core_api/auth/users/
+2024-01-31 13:01:40,243 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\settings\djoser.py changed, reloading.
+2024-01-31 13:01:40,707 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 13:01:47,105 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 13:01:50,863 django.request WARNING  Unauthorized: /core_api/auth/users/
+2024-01-31 13:02:00,154 django.request WARNING  Bad Request: /core_api/auth/users/
+2024-01-31 13:03:28,398 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\settings\djoser.py changed, reloading.
+2024-01-31 13:03:28,855 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 13:03:29,280 django.request WARNING  Bad Request: /core_api/auth/users/
+2024-01-31 13:03:58,539 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 13:04:02,654 django.request WARNING  Unauthorized: /core_api/auth/users/
+2024-01-31 13:04:35,643 django.request WARNING  Not Found: /
+2024-01-31 13:08:48,261 django.request WARNING  Not Found: /auth/users/activation/
+2024-01-31 13:11:54,481 django.request WARNING  Not Found: /auth/token/login/
+2024-01-31 13:12:07,509 django.request WARNING  Not Found: /auth/token/login/
+2024-01-31 13:12:22,829 django.request WARNING  Not Found: /auth/token/login/
+2024-01-31 13:12:43,216 django.request WARNING  Not Found: /auth/token/login/
+2024-01-31 13:13:25,350 django.request WARNING  Bad Request: /core_api/auth/token/login/

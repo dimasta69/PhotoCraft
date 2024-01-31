@@ -1,5 +1,5 @@
 from django.conf.urls.static import static
-from django.urls import path
+from django.urls import path, include, re_path
 
 from core_api.veiws.photo.photo_list import PhotoListView
 from core_api.veiws.photo.photo import PhotoView
@@ -18,6 +18,8 @@ urlpatterns = [
     path('like/', LikedView.as_view()),
     path('comments/', CommentsView.as_view()),
     path('comment/<int:id>/', CommentView.as_view()),
+    path('auth/', include('djoser.urls')),
+    re_path(r'^auth/', include('djoser.urls.authtoken')),
 
 ]
 

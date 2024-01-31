@@ -14,6 +14,7 @@ django-service-objects = "*"
 python-dotenv = "*"
 pillow = "*"
 olefile = "*"
+djoser = "*"
 
 [requires]
 python_version = "3.11"
