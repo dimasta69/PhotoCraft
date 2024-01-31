@@ -36,6 +36,7 @@ class UpdatePhotoService(ServiceWithResult):
         if self.cleaned_data['photo']:
             photo.backup_photo = photo.photo
             photo.photo = self.cleaned_data['photo']
+        photo.update()
         photo.save()
         return photo
 
@@ -73,3 +74,5 @@ class UpdatePhotoService(ServiceWithResult):
             self.add_error('current_user', ObjectDoesNotExist(f"User with id="
                                                               f"{self.cleaned_data['current_user']} is not the author "
                                                               f"of the post"))
+
+

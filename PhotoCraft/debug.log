@@ -26059,3 +26059,2038 @@ smtplib.SMTPSenderRefused: (550, b'not local sender over smtp', 'webmaster@local
 2024-01-31 13:12:22,829 django.request WARNING  Not Found: /auth/token/login/
 2024-01-31 13:12:43,216 django.request WARNING  Not Found: /auth/token/login/
 2024-01-31 13:13:25,350 django.request WARNING  Bad Request: /core_api/auth/token/login/
+2024-01-31 15:36:09,984 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 18:19:57,827 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 18:19:59,057 django.request WARNING  Not Found: /
+2024-01-31 18:19:59,186 django.request WARNING  Not Found: /favicon.ico
+2024-01-31 18:22:14,252 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\show.py changed, reloading.
+2024-01-31 18:22:14,830 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 18:23:44,236 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\show.py changed, reloading.
+2024-01-31 18:23:44,818 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 18:25:32,845 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 18:27:10,608 PIL.TiffImagePlugin DEBUG    tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-01-31 18:27:10,608 PIL.TiffImagePlugin DEBUG    tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-01-31 18:27:10,608 PIL.TiffImagePlugin DEBUG    tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-01-31 18:27:10,608 PIL.TiffImagePlugin DEBUG    tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-01-31 18:27:10,608 PIL.TiffImagePlugin DEBUG    tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Adobe Photoshop CC (Macintosh)\x00'
+2024-01-31 18:27:10,608 PIL.TiffImagePlugin DEBUG    tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 145 - value: b'2018:09:07 19:04:00\x00'
+2024-01-31 18:27:10,608 PIL.TiffImagePlugin DEBUG    tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xa8'
+2024-01-31 18:27:10,608 PIL.Image    DEBUG    Importing BlpImagePlugin
+2024-01-31 18:27:10,609 PIL.Image    DEBUG    Importing BmpImagePlugin
+2024-01-31 18:27:10,609 PIL.Image    DEBUG    Importing BufrStubImagePlugin
+2024-01-31 18:27:10,610 PIL.Image    DEBUG    Importing CurImagePlugin
+2024-01-31 18:27:10,610 PIL.Image    DEBUG    Importing DcxImagePlugin
+2024-01-31 18:27:10,613 PIL.Image    DEBUG    Importing DdsImagePlugin
+2024-01-31 18:27:10,615 PIL.Image    DEBUG    Importing EpsImagePlugin
+2024-01-31 18:27:10,616 PIL.Image    DEBUG    Importing FitsImagePlugin
+2024-01-31 18:27:10,617 PIL.Image    DEBUG    Importing FliImagePlugin
+2024-01-31 18:27:10,618 PIL.Image    DEBUG    Importing FpxImagePlugin
+2024-01-31 18:27:10,620 PIL.Image    DEBUG    Importing FtexImagePlugin
+2024-01-31 18:27:10,621 PIL.Image    DEBUG    Importing GbrImagePlugin
+2024-01-31 18:27:10,622 PIL.Image    DEBUG    Importing GifImagePlugin
+2024-01-31 18:27:10,622 PIL.Image    DEBUG    Importing GribStubImagePlugin
+2024-01-31 18:27:10,623 PIL.Image    DEBUG    Importing Hdf5StubImagePlugin
+2024-01-31 18:27:10,624 PIL.Image    DEBUG    Importing IcnsImagePlugin
+2024-01-31 18:27:10,627 PIL.Image    DEBUG    Importing IcoImagePlugin
+2024-01-31 18:27:10,627 PIL.Image    DEBUG    Importing ImImagePlugin
+2024-01-31 18:27:10,628 PIL.Image    DEBUG    Importing ImtImagePlugin
+2024-01-31 18:27:10,628 PIL.Image    DEBUG    Importing IptcImagePlugin
+2024-01-31 18:27:10,629 PIL.Image    DEBUG    Importing JpegImagePlugin
+2024-01-31 18:27:10,629 PIL.Image    DEBUG    Importing Jpeg2KImagePlugin
+2024-01-31 18:27:10,629 PIL.Image    DEBUG    Importing McIdasImagePlugin
+2024-01-31 18:27:10,631 PIL.Image    DEBUG    Importing MicImagePlugin
+2024-01-31 18:27:10,632 PIL.Image    DEBUG    Importing MpegImagePlugin
+2024-01-31 18:27:10,632 PIL.Image    DEBUG    Importing MpoImagePlugin
+2024-01-31 18:27:10,633 PIL.Image    DEBUG    Importing MspImagePlugin
+2024-01-31 18:27:10,634 PIL.Image    DEBUG    Importing PalmImagePlugin
+2024-01-31 18:27:10,634 PIL.Image    DEBUG    Importing PcdImagePlugin
+2024-01-31 18:27:10,635 PIL.Image    DEBUG    Importing PcxImagePlugin
+2024-01-31 18:27:10,635 PIL.Image    DEBUG    Importing PdfImagePlugin
+2024-01-31 18:27:10,641 PIL.Image    DEBUG    Importing PixarImagePlugin
+2024-01-31 18:27:10,642 PIL.Image    DEBUG    Importing PngImagePlugin
+2024-01-31 18:27:10,642 PIL.Image    DEBUG    Importing PpmImagePlugin
+2024-01-31 18:27:10,643 PIL.Image    DEBUG    Importing PsdImagePlugin
+2024-01-31 18:27:10,644 PIL.Image    DEBUG    Importing QoiImagePlugin
+2024-01-31 18:27:10,644 PIL.Image    DEBUG    Importing SgiImagePlugin
+2024-01-31 18:27:10,645 PIL.Image    DEBUG    Importing SpiderImagePlugin
+2024-01-31 18:27:10,646 PIL.Image    DEBUG    Importing SunImagePlugin
+2024-01-31 18:27:10,647 PIL.Image    DEBUG    Importing TgaImagePlugin
+2024-01-31 18:27:10,647 PIL.Image    DEBUG    Importing TiffImagePlugin
+2024-01-31 18:27:10,647 PIL.Image    DEBUG    Importing WebPImagePlugin
+2024-01-31 18:27:10,664 PIL.Image    DEBUG    Importing WmfImagePlugin
+2024-01-31 18:27:10,665 PIL.Image    DEBUG    Importing XbmImagePlugin
+2024-01-31 18:27:10,666 PIL.Image    DEBUG    Importing XpmImagePlugin
+2024-01-31 18:27:10,667 PIL.Image    DEBUG    Importing XVThumbImagePlugin
+2024-01-31 18:28:24,431 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\show.py changed, reloading.
+2024-01-31 18:28:25,053 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 18:35:03,434 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\update.py changed, reloading.
+2024-01-31 18:35:03,939 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 18:35:09,128 django.request ERROR    Internal Server Error: /core_api/photo/3/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo.py", line 29, in put
+    outcome = ServiceOutcome(UpdatePhotoService, {'id': kwargs['id'], 'current_user': request.user} |
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\update.py", line 28, in process
+    self.result = self._update_photo()
+                  ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\update.py", line 39, in _update_photo
+    photo.update()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django_fsm\__init__.py", line 573, in _change_state
+    return fsm_meta.field.change_state(instance, func, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django_fsm\__init__.py", line 339, in change_state
+    raise TransitionNotAllowed(
+django_fsm.TransitionNotAllowed: Can't switch from state '1' using method 'update'
+2024-01-31 18:36:04,139 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\models_app\models\photo\model.py changed, reloading.
+2024-01-31 18:36:04,649 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 18:36:15,138 django.request ERROR    Internal Server Error: /core_api/photo/3/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo.py", line 29, in put
+    outcome = ServiceOutcome(UpdatePhotoService, {'id': kwargs['id'], 'current_user': request.user} |
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\update.py", line 28, in process
+    self.result = self._update_photo()
+                  ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\update.py", line 39, in _update_photo
+    photo.update()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django_fsm\__init__.py", line 573, in _change_state
+    return fsm_meta.field.change_state(instance, func, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django_fsm\__init__.py", line 339, in change_state
+    raise TransitionNotAllowed(
+django_fsm.TransitionNotAllowed: Can't switch from state '1' using method 'update'
+2024-01-31 18:36:51,932 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 18:37:02,716 PIL.TiffImagePlugin DEBUG    tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-01-31 18:37:02,717 PIL.TiffImagePlugin DEBUG    tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-01-31 18:37:02,718 PIL.TiffImagePlugin DEBUG    tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-01-31 18:37:02,718 PIL.TiffImagePlugin DEBUG    tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-01-31 18:37:02,718 PIL.TiffImagePlugin DEBUG    tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Adobe Photoshop CC (Macintosh)\x00'
+2024-01-31 18:37:02,718 PIL.TiffImagePlugin DEBUG    tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 145 - value: b'2018:09:07 19:04:00\x00'
+2024-01-31 18:37:02,718 PIL.TiffImagePlugin DEBUG    tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xa8'
+2024-01-31 18:37:13,151 django.request ERROR    Internal Server Error: /core_api/photo/3/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo.py", line 29, in put
+    outcome = ServiceOutcome(UpdatePhotoService, {'id': kwargs['id'], 'current_user': request.user} |
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\update.py", line 28, in process
+    self.result = self._update_photo()
+                  ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\update.py", line 39, in _update_photo
+    photo.update()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django_fsm\__init__.py", line 573, in _change_state
+    return fsm_meta.field.change_state(instance, func, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django_fsm\__init__.py", line 339, in change_state
+    raise TransitionNotAllowed(
+django_fsm.TransitionNotAllowed: Can't switch from state '1' using method 'update'
+2024-01-31 18:43:45,260 PIL.TiffImagePlugin DEBUG    tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-01-31 18:43:45,260 PIL.TiffImagePlugin DEBUG    tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-01-31 18:43:45,260 PIL.TiffImagePlugin DEBUG    tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-01-31 18:43:45,260 PIL.TiffImagePlugin DEBUG    tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-01-31 18:43:45,260 PIL.TiffImagePlugin DEBUG    tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Adobe Photoshop CC (Macintosh)\x00'
+2024-01-31 18:43:45,260 PIL.TiffImagePlugin DEBUG    tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 145 - value: b'2018:09:07 19:04:00\x00'
+2024-01-31 18:43:45,261 PIL.TiffImagePlugin DEBUG    tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xa8'
+2024-01-31 18:43:45,261 PIL.Image    DEBUG    Importing BlpImagePlugin
+2024-01-31 18:43:45,262 PIL.Image    DEBUG    Importing BmpImagePlugin
+2024-01-31 18:43:45,262 PIL.Image    DEBUG    Importing BufrStubImagePlugin
+2024-01-31 18:43:45,263 PIL.Image    DEBUG    Importing CurImagePlugin
+2024-01-31 18:43:45,264 PIL.Image    DEBUG    Importing DcxImagePlugin
+2024-01-31 18:43:45,264 PIL.Image    DEBUG    Importing DdsImagePlugin
+2024-01-31 18:43:45,268 PIL.Image    DEBUG    Importing EpsImagePlugin
+2024-01-31 18:43:45,269 PIL.Image    DEBUG    Importing FitsImagePlugin
+2024-01-31 18:43:45,270 PIL.Image    DEBUG    Importing FliImagePlugin
+2024-01-31 18:43:45,270 PIL.Image    DEBUG    Importing FpxImagePlugin
+2024-01-31 18:43:45,272 PIL.Image    DEBUG    Importing FtexImagePlugin
+2024-01-31 18:43:45,273 PIL.Image    DEBUG    Importing GbrImagePlugin
+2024-01-31 18:43:45,274 PIL.Image    DEBUG    Importing GifImagePlugin
+2024-01-31 18:43:45,274 PIL.Image    DEBUG    Importing GribStubImagePlugin
+2024-01-31 18:43:45,274 PIL.Image    DEBUG    Importing Hdf5StubImagePlugin
+2024-01-31 18:43:45,275 PIL.Image    DEBUG    Importing IcnsImagePlugin
+2024-01-31 18:43:45,277 PIL.Image    DEBUG    Importing IcoImagePlugin
+2024-01-31 18:43:45,278 PIL.Image    DEBUG    Importing ImImagePlugin
+2024-01-31 18:43:45,279 PIL.Image    DEBUG    Importing ImtImagePlugin
+2024-01-31 18:43:45,280 PIL.Image    DEBUG    Importing IptcImagePlugin
+2024-01-31 18:43:45,280 PIL.Image    DEBUG    Importing JpegImagePlugin
+2024-01-31 18:43:45,280 PIL.Image    DEBUG    Importing Jpeg2KImagePlugin
+2024-01-31 18:43:45,280 PIL.Image    DEBUG    Importing McIdasImagePlugin
+2024-01-31 18:43:45,281 PIL.Image    DEBUG    Importing MicImagePlugin
+2024-01-31 18:43:45,282 PIL.Image    DEBUG    Importing MpegImagePlugin
+2024-01-31 18:43:45,283 PIL.Image    DEBUG    Importing MpoImagePlugin
+2024-01-31 18:43:45,283 PIL.Image    DEBUG    Importing MspImagePlugin
+2024-01-31 18:43:45,284 PIL.Image    DEBUG    Importing PalmImagePlugin
+2024-01-31 18:43:45,284 PIL.Image    DEBUG    Importing PcdImagePlugin
+2024-01-31 18:43:45,285 PIL.Image    DEBUG    Importing PcxImagePlugin
+2024-01-31 18:43:45,286 PIL.Image    DEBUG    Importing PdfImagePlugin
+2024-01-31 18:43:45,290 PIL.Image    DEBUG    Importing PixarImagePlugin
+2024-01-31 18:43:45,290 PIL.Image    DEBUG    Importing PngImagePlugin
+2024-01-31 18:43:45,290 PIL.Image    DEBUG    Importing PpmImagePlugin
+2024-01-31 18:43:45,291 PIL.Image    DEBUG    Importing PsdImagePlugin
+2024-01-31 18:43:45,291 PIL.Image    DEBUG    Importing QoiImagePlugin
+2024-01-31 18:43:45,292 PIL.Image    DEBUG    Importing SgiImagePlugin
+2024-01-31 18:43:45,292 PIL.Image    DEBUG    Importing SpiderImagePlugin
+2024-01-31 18:43:45,293 PIL.Image    DEBUG    Importing SunImagePlugin
+2024-01-31 18:43:45,293 PIL.Image    DEBUG    Importing TgaImagePlugin
+2024-01-31 18:43:45,294 PIL.Image    DEBUG    Importing TiffImagePlugin
+2024-01-31 18:43:45,294 PIL.Image    DEBUG    Importing WebPImagePlugin
+2024-01-31 18:43:45,295 PIL.Image    DEBUG    Importing WmfImagePlugin
+2024-01-31 18:43:45,296 PIL.Image    DEBUG    Importing XbmImagePlugin
+2024-01-31 18:43:45,297 PIL.Image    DEBUG    Importing XpmImagePlugin
+2024-01-31 18:43:45,298 PIL.Image    DEBUG    Importing XVThumbImagePlugin
+2024-01-31 18:43:50,758 django.request ERROR    Internal Server Error: /core_api/photos/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo_list.py", line 32, in post
+    outcome = ServiceOutcome(CreatePhotoService, {'current_user': request.user} | request.data.dict(), request.FILES)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 79, in execute
+    instance.service_clean()
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 195, in service_clean
+    raise InvalidInputsError(errors, self.non_field_errors())
+utils.errors.InvalidInputsError: ({'photo': [ValidationError(['This field is required.'])]}, [])
+2024-01-31 18:44:04,778 django.request ERROR    Internal Server Error: /core_api/photo/4/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo.py", line 29, in put
+    outcome = ServiceOutcome(UpdatePhotoService, {'id': kwargs['id'], 'current_user': request.user} |
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\update.py", line 28, in process
+    self.result = self._update_photo()
+                  ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\update.py", line 39, in _update_photo
+    photo.update()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django_fsm\__init__.py", line 573, in _change_state
+    return fsm_meta.field.change_state(instance, func, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django_fsm\__init__.py", line 339, in change_state
+    raise TransitionNotAllowed(
+django_fsm.TransitionNotAllowed: Can't switch from state '1' using method 'update'
+2024-01-31 18:45:01,589 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\update.py changed, reloading.
+2024-01-31 18:45:02,098 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 18:45:08,026 django.request ERROR    Internal Server Error: /core_api/photo/4/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo.py", line 29, in put
+    outcome = ServiceOutcome(UpdatePhotoService, {'id': kwargs['id'], 'current_user': request.user} |
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\update.py", line 28, in process
+    self.result = self._update_photo()
+                  ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\update.py", line 39, in _update_photo
+    photo.reject()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django_fsm\__init__.py", line 573, in _change_state
+    return fsm_meta.field.change_state(instance, func, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django_fsm\__init__.py", line 339, in change_state
+    raise TransitionNotAllowed(
+django_fsm.TransitionNotAllowed: Can't switch from state '1' using method 'reject'
+2024-01-31 18:47:28,668 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\models_app\models\photo\model.py changed, reloading.
+2024-01-31 18:47:29,163 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 18:47:36,473 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 18:47:51,802 PIL.TiffImagePlugin DEBUG    tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-01-31 18:47:51,802 PIL.TiffImagePlugin DEBUG    tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-01-31 18:47:51,802 PIL.TiffImagePlugin DEBUG    tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-01-31 18:47:51,802 PIL.TiffImagePlugin DEBUG    tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-01-31 18:47:51,802 PIL.TiffImagePlugin DEBUG    tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Adobe Photoshop CC (Macintosh)\x00'
+2024-01-31 18:47:51,803 PIL.TiffImagePlugin DEBUG    tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 145 - value: b'2018:09:07 19:04:00\x00'
+2024-01-31 18:47:51,803 PIL.TiffImagePlugin DEBUG    tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xa8'
+2024-01-31 18:47:51,803 PIL.Image    DEBUG    Importing BlpImagePlugin
+2024-01-31 18:47:51,804 PIL.Image    DEBUG    Importing BmpImagePlugin
+2024-01-31 18:47:51,804 PIL.Image    DEBUG    Importing BufrStubImagePlugin
+2024-01-31 18:47:51,805 PIL.Image    DEBUG    Importing CurImagePlugin
+2024-01-31 18:47:51,806 PIL.Image    DEBUG    Importing DcxImagePlugin
+2024-01-31 18:47:51,806 PIL.Image    DEBUG    Importing DdsImagePlugin
+2024-01-31 18:47:51,809 PIL.Image    DEBUG    Importing EpsImagePlugin
+2024-01-31 18:47:51,810 PIL.Image    DEBUG    Importing FitsImagePlugin
+2024-01-31 18:47:51,811 PIL.Image    DEBUG    Importing FliImagePlugin
+2024-01-31 18:47:51,812 PIL.Image    DEBUG    Importing FpxImagePlugin
+2024-01-31 18:47:51,814 PIL.Image    DEBUG    Importing FtexImagePlugin
+2024-01-31 18:47:51,815 PIL.Image    DEBUG    Importing GbrImagePlugin
+2024-01-31 18:47:51,816 PIL.Image    DEBUG    Importing GifImagePlugin
+2024-01-31 18:47:51,816 PIL.Image    DEBUG    Importing GribStubImagePlugin
+2024-01-31 18:47:51,816 PIL.Image    DEBUG    Importing Hdf5StubImagePlugin
+2024-01-31 18:47:51,816 PIL.Image    DEBUG    Importing IcnsImagePlugin
+2024-01-31 18:47:51,818 PIL.Image    DEBUG    Importing IcoImagePlugin
+2024-01-31 18:47:51,819 PIL.Image    DEBUG    Importing ImImagePlugin
+2024-01-31 18:47:51,820 PIL.Image    DEBUG    Importing ImtImagePlugin
+2024-01-31 18:47:51,820 PIL.Image    DEBUG    Importing IptcImagePlugin
+2024-01-31 18:47:51,821 PIL.Image    DEBUG    Importing JpegImagePlugin
+2024-01-31 18:47:51,821 PIL.Image    DEBUG    Importing Jpeg2KImagePlugin
+2024-01-31 18:47:51,821 PIL.Image    DEBUG    Importing McIdasImagePlugin
+2024-01-31 18:47:51,822 PIL.Image    DEBUG    Importing MicImagePlugin
+2024-01-31 18:47:51,822 PIL.Image    DEBUG    Importing MpegImagePlugin
+2024-01-31 18:47:51,823 PIL.Image    DEBUG    Importing MpoImagePlugin
+2024-01-31 18:47:51,823 PIL.Image    DEBUG    Importing MspImagePlugin
+2024-01-31 18:47:51,825 PIL.Image    DEBUG    Importing PalmImagePlugin
+2024-01-31 18:47:51,825 PIL.Image    DEBUG    Importing PcdImagePlugin
+2024-01-31 18:47:51,826 PIL.Image    DEBUG    Importing PcxImagePlugin
+2024-01-31 18:47:51,826 PIL.Image    DEBUG    Importing PdfImagePlugin
+2024-01-31 18:47:51,829 PIL.Image    DEBUG    Importing PixarImagePlugin
+2024-01-31 18:47:51,830 PIL.Image    DEBUG    Importing PngImagePlugin
+2024-01-31 18:47:51,830 PIL.Image    DEBUG    Importing PpmImagePlugin
+2024-01-31 18:47:51,830 PIL.Image    DEBUG    Importing PsdImagePlugin
+2024-01-31 18:47:51,831 PIL.Image    DEBUG    Importing QoiImagePlugin
+2024-01-31 18:47:51,831 PIL.Image    DEBUG    Importing SgiImagePlugin
+2024-01-31 18:47:51,832 PIL.Image    DEBUG    Importing SpiderImagePlugin
+2024-01-31 18:47:51,832 PIL.Image    DEBUG    Importing SunImagePlugin
+2024-01-31 18:47:51,832 PIL.Image    DEBUG    Importing TgaImagePlugin
+2024-01-31 18:47:51,833 PIL.Image    DEBUG    Importing TiffImagePlugin
+2024-01-31 18:47:51,833 PIL.Image    DEBUG    Importing WebPImagePlugin
+2024-01-31 18:47:51,834 PIL.Image    DEBUG    Importing WmfImagePlugin
+2024-01-31 18:47:51,835 PIL.Image    DEBUG    Importing XbmImagePlugin
+2024-01-31 18:47:51,835 PIL.Image    DEBUG    Importing XpmImagePlugin
+2024-01-31 18:47:51,836 PIL.Image    DEBUG    Importing XVThumbImagePlugin
+2024-01-31 18:48:02,056 django.request ERROR    Internal Server Error: /core_api/photo/5/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo.py", line 29, in put
+    outcome = ServiceOutcome(UpdatePhotoService, {'id': kwargs['id'], 'current_user': request.user} |
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\update.py", line 28, in process
+    self.result = self._update_photo()
+                  ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\update.py", line 39, in _update_photo
+    photo.reject()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django_fsm\__init__.py", line 573, in _change_state
+    return fsm_meta.field.change_state(instance, func, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django_fsm\__init__.py", line 339, in change_state
+    raise TransitionNotAllowed(
+django_fsm.TransitionNotAllowed: Can't switch from state '1' using method 'reject'
+2024-01-31 18:49:50,202 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\models_app\models\photo\model.py changed, reloading.
+2024-01-31 18:49:50,807 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 18:50:08,541 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 18:50:32,929 PIL.TiffImagePlugin DEBUG    tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-01-31 18:50:32,929 PIL.TiffImagePlugin DEBUG    tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-01-31 18:50:32,929 PIL.TiffImagePlugin DEBUG    tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-01-31 18:50:32,929 PIL.TiffImagePlugin DEBUG    tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-01-31 18:50:32,929 PIL.TiffImagePlugin DEBUG    tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Adobe Photoshop CC (Macintosh)\x00'
+2024-01-31 18:50:32,929 PIL.TiffImagePlugin DEBUG    tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 145 - value: b'2018:09:07 19:04:00\x00'
+2024-01-31 18:50:32,929 PIL.TiffImagePlugin DEBUG    tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xa8'
+2024-01-31 18:50:32,929 PIL.Image    DEBUG    Importing BlpImagePlugin
+2024-01-31 18:50:32,930 PIL.Image    DEBUG    Importing BmpImagePlugin
+2024-01-31 18:50:32,931 PIL.Image    DEBUG    Importing BufrStubImagePlugin
+2024-01-31 18:50:32,931 PIL.Image    DEBUG    Importing CurImagePlugin
+2024-01-31 18:50:32,932 PIL.Image    DEBUG    Importing DcxImagePlugin
+2024-01-31 18:50:32,933 PIL.Image    DEBUG    Importing DdsImagePlugin
+2024-01-31 18:50:32,935 PIL.Image    DEBUG    Importing EpsImagePlugin
+2024-01-31 18:50:32,935 PIL.Image    DEBUG    Importing FitsImagePlugin
+2024-01-31 18:50:32,936 PIL.Image    DEBUG    Importing FliImagePlugin
+2024-01-31 18:50:32,936 PIL.Image    DEBUG    Importing FpxImagePlugin
+2024-01-31 18:50:32,938 PIL.Image    DEBUG    Importing FtexImagePlugin
+2024-01-31 18:50:32,939 PIL.Image    DEBUG    Importing GbrImagePlugin
+2024-01-31 18:50:32,939 PIL.Image    DEBUG    Importing GifImagePlugin
+2024-01-31 18:50:32,939 PIL.Image    DEBUG    Importing GribStubImagePlugin
+2024-01-31 18:50:32,940 PIL.Image    DEBUG    Importing Hdf5StubImagePlugin
+2024-01-31 18:50:32,940 PIL.Image    DEBUG    Importing IcnsImagePlugin
+2024-01-31 18:50:32,942 PIL.Image    DEBUG    Importing IcoImagePlugin
+2024-01-31 18:50:32,943 PIL.Image    DEBUG    Importing ImImagePlugin
+2024-01-31 18:50:32,943 PIL.Image    DEBUG    Importing ImtImagePlugin
+2024-01-31 18:50:32,944 PIL.Image    DEBUG    Importing IptcImagePlugin
+2024-01-31 18:50:32,945 PIL.Image    DEBUG    Importing JpegImagePlugin
+2024-01-31 18:50:32,945 PIL.Image    DEBUG    Importing Jpeg2KImagePlugin
+2024-01-31 18:50:32,945 PIL.Image    DEBUG    Importing McIdasImagePlugin
+2024-01-31 18:50:32,945 PIL.Image    DEBUG    Importing MicImagePlugin
+2024-01-31 18:50:32,946 PIL.Image    DEBUG    Importing MpegImagePlugin
+2024-01-31 18:50:32,946 PIL.Image    DEBUG    Importing MpoImagePlugin
+2024-01-31 18:50:32,947 PIL.Image    DEBUG    Importing MspImagePlugin
+2024-01-31 18:50:32,947 PIL.Image    DEBUG    Importing PalmImagePlugin
+2024-01-31 18:50:32,948 PIL.Image    DEBUG    Importing PcdImagePlugin
+2024-01-31 18:50:32,948 PIL.Image    DEBUG    Importing PcxImagePlugin
+2024-01-31 18:50:32,948 PIL.Image    DEBUG    Importing PdfImagePlugin
+2024-01-31 18:50:32,953 PIL.Image    DEBUG    Importing PixarImagePlugin
+2024-01-31 18:50:32,954 PIL.Image    DEBUG    Importing PngImagePlugin
+2024-01-31 18:50:32,954 PIL.Image    DEBUG    Importing PpmImagePlugin
+2024-01-31 18:50:32,954 PIL.Image    DEBUG    Importing PsdImagePlugin
+2024-01-31 18:50:32,954 PIL.Image    DEBUG    Importing QoiImagePlugin
+2024-01-31 18:50:32,955 PIL.Image    DEBUG    Importing SgiImagePlugin
+2024-01-31 18:50:32,955 PIL.Image    DEBUG    Importing SpiderImagePlugin
+2024-01-31 18:50:32,956 PIL.Image    DEBUG    Importing SunImagePlugin
+2024-01-31 18:50:32,956 PIL.Image    DEBUG    Importing TgaImagePlugin
+2024-01-31 18:50:32,957 PIL.Image    DEBUG    Importing TiffImagePlugin
+2024-01-31 18:50:32,957 PIL.Image    DEBUG    Importing WebPImagePlugin
+2024-01-31 18:50:32,958 PIL.Image    DEBUG    Importing WmfImagePlugin
+2024-01-31 18:50:32,959 PIL.Image    DEBUG    Importing XbmImagePlugin
+2024-01-31 18:50:32,959 PIL.Image    DEBUG    Importing XpmImagePlugin
+2024-01-31 18:50:32,960 PIL.Image    DEBUG    Importing XVThumbImagePlugin
+2024-01-31 18:50:41,752 django.request ERROR    Internal Server Error: /core_api/photo/6/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo.py", line 29, in put
+    outcome = ServiceOutcome(UpdatePhotoService, {'id': kwargs['id'], 'current_user': request.user} |
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\update.py", line 28, in process
+    self.result = self._update_photo()
+                  ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\update.py", line 39, in _update_photo
+    photo.reject()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django_fsm\__init__.py", line 573, in _change_state
+    return fsm_meta.field.change_state(instance, func, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django_fsm\__init__.py", line 339, in change_state
+    raise TransitionNotAllowed(
+django_fsm.TransitionNotAllowed: Can't switch from state '1' using method 'reject'
+2024-01-31 18:52:37,632 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\update.py changed, reloading.
+2024-01-31 18:52:38,195 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 18:52:39,474 django.request ERROR    Internal Server Error: /core_api/photo/6/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo.py", line 29, in put
+    outcome = ServiceOutcome(UpdatePhotoService, {'id': kwargs['id'], 'current_user': request.user} |
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\update.py", line 28, in process
+    self.result = self._update_photo()
+                  ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\update.py", line 41, in _update_photo
+    photo.reject()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django_fsm\__init__.py", line 573, in _change_state
+    return fsm_meta.field.change_state(instance, func, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django_fsm\__init__.py", line 339, in change_state
+    raise TransitionNotAllowed(
+django_fsm.TransitionNotAllowed: Can't switch from state '1' using method 'reject'
+2024-01-31 18:56:09,188 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 18:56:18,108 PIL.TiffImagePlugin DEBUG    tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-01-31 18:56:18,108 PIL.TiffImagePlugin DEBUG    tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-01-31 18:56:18,108 PIL.TiffImagePlugin DEBUG    tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-01-31 18:56:18,108 PIL.TiffImagePlugin DEBUG    tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-01-31 18:56:18,109 PIL.TiffImagePlugin DEBUG    tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Adobe Photoshop CC (Macintosh)\x00'
+2024-01-31 18:56:18,109 PIL.TiffImagePlugin DEBUG    tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 145 - value: b'2018:09:07 19:04:00\x00'
+2024-01-31 18:56:18,109 PIL.TiffImagePlugin DEBUG    tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xa8'
+2024-01-31 18:56:18,109 PIL.Image    DEBUG    Importing BlpImagePlugin
+2024-01-31 18:56:18,111 PIL.Image    DEBUG    Importing BmpImagePlugin
+2024-01-31 18:56:18,111 PIL.Image    DEBUG    Importing BufrStubImagePlugin
+2024-01-31 18:56:18,111 PIL.Image    DEBUG    Importing CurImagePlugin
+2024-01-31 18:56:18,112 PIL.Image    DEBUG    Importing DcxImagePlugin
+2024-01-31 18:56:18,113 PIL.Image    DEBUG    Importing DdsImagePlugin
+2024-01-31 18:56:18,116 PIL.Image    DEBUG    Importing EpsImagePlugin
+2024-01-31 18:56:18,117 PIL.Image    DEBUG    Importing FitsImagePlugin
+2024-01-31 18:56:18,118 PIL.Image    DEBUG    Importing FliImagePlugin
+2024-01-31 18:56:18,119 PIL.Image    DEBUG    Importing FpxImagePlugin
+2024-01-31 18:56:18,121 PIL.Image    DEBUG    Importing FtexImagePlugin
+2024-01-31 18:56:18,122 PIL.Image    DEBUG    Importing GbrImagePlugin
+2024-01-31 18:56:18,123 PIL.Image    DEBUG    Importing GifImagePlugin
+2024-01-31 18:56:18,123 PIL.Image    DEBUG    Importing GribStubImagePlugin
+2024-01-31 18:56:18,123 PIL.Image    DEBUG    Importing Hdf5StubImagePlugin
+2024-01-31 18:56:18,124 PIL.Image    DEBUG    Importing IcnsImagePlugin
+2024-01-31 18:56:18,125 PIL.Image    DEBUG    Importing IcoImagePlugin
+2024-01-31 18:56:18,126 PIL.Image    DEBUG    Importing ImImagePlugin
+2024-01-31 18:56:18,127 PIL.Image    DEBUG    Importing ImtImagePlugin
+2024-01-31 18:56:18,127 PIL.Image    DEBUG    Importing IptcImagePlugin
+2024-01-31 18:56:18,128 PIL.Image    DEBUG    Importing JpegImagePlugin
+2024-01-31 18:56:18,128 PIL.Image    DEBUG    Importing Jpeg2KImagePlugin
+2024-01-31 18:56:18,128 PIL.Image    DEBUG    Importing McIdasImagePlugin
+2024-01-31 18:56:18,128 PIL.Image    DEBUG    Importing MicImagePlugin
+2024-01-31 18:56:18,130 PIL.Image    DEBUG    Importing MpegImagePlugin
+2024-01-31 18:56:18,131 PIL.Image    DEBUG    Importing MpoImagePlugin
+2024-01-31 18:56:18,131 PIL.Image    DEBUG    Importing MspImagePlugin
+2024-01-31 18:56:18,132 PIL.Image    DEBUG    Importing PalmImagePlugin
+2024-01-31 18:56:18,133 PIL.Image    DEBUG    Importing PcdImagePlugin
+2024-01-31 18:56:18,133 PIL.Image    DEBUG    Importing PcxImagePlugin
+2024-01-31 18:56:18,133 PIL.Image    DEBUG    Importing PdfImagePlugin
+2024-01-31 18:56:18,137 PIL.Image    DEBUG    Importing PixarImagePlugin
+2024-01-31 18:56:18,138 PIL.Image    DEBUG    Importing PngImagePlugin
+2024-01-31 18:56:18,138 PIL.Image    DEBUG    Importing PpmImagePlugin
+2024-01-31 18:56:18,138 PIL.Image    DEBUG    Importing PsdImagePlugin
+2024-01-31 18:56:18,139 PIL.Image    DEBUG    Importing QoiImagePlugin
+2024-01-31 18:56:18,139 PIL.Image    DEBUG    Importing SgiImagePlugin
+2024-01-31 18:56:18,140 PIL.Image    DEBUG    Importing SpiderImagePlugin
+2024-01-31 18:56:18,141 PIL.Image    DEBUG    Importing SunImagePlugin
+2024-01-31 18:56:18,141 PIL.Image    DEBUG    Importing TgaImagePlugin
+2024-01-31 18:56:18,142 PIL.Image    DEBUG    Importing TiffImagePlugin
+2024-01-31 18:56:18,142 PIL.Image    DEBUG    Importing WebPImagePlugin
+2024-01-31 18:56:18,143 PIL.Image    DEBUG    Importing WmfImagePlugin
+2024-01-31 18:56:18,143 PIL.Image    DEBUG    Importing XbmImagePlugin
+2024-01-31 18:56:18,145 PIL.Image    DEBUG    Importing XpmImagePlugin
+2024-01-31 18:56:18,145 PIL.Image    DEBUG    Importing XVThumbImagePlugin
+2024-01-31 18:57:21,881 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\update.py changed, reloading.
+2024-01-31 18:57:22,397 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 18:57:23,424 django.request ERROR    Internal Server Error: /core_api/photo/7/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo.py", line 29, in put
+    outcome = ServiceOutcome(UpdatePhotoService, {'id': kwargs['id'], 'current_user': request.user} |
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\update.py", line 28, in process
+    self.result = self._update_photo()
+                  ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\update.py", line 39, in _update_photo
+    photo.update()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django_fsm\__init__.py", line 573, in _change_state
+    return fsm_meta.field.change_state(instance, func, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django_fsm\__init__.py", line 339, in change_state
+    raise TransitionNotAllowed(
+django_fsm.TransitionNotAllowed: Can't switch from state 'Rejected' using method 'update'
+2024-01-31 18:59:08,749 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\models_app\models\photo\model.py changed, reloading.
+2024-01-31 21:29:41,678 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-01-31 21:29:41,683 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-01-31 21:29:41,683 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-01-31 21:29:41,683 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-01-31 21:29:41,685 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-01-31 21:29:41,685 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-01-31 21:29:41,685 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-01-31 21:29:41,685 celery.utils.functional DEBUG    
+def _delete(self):
+    return 1
+
+2024-01-31 21:29:41,685 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-01-31 21:29:41,685 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-01-31 21:29:41,685 celery.utils.functional DEBUG    
+def _schedule_deletion(self):
+    return 1
+
+2024-01-31 21:29:41,685 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-01-31 21:30:29,258 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-01-31 21:30:29,258 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-01-31 21:30:29,268 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-01-31 21:30:29,268 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-01-31 21:30:29,268 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-01-31 21:30:29,268 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-01-31 21:30:29,268 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-01-31 21:30:29,268 celery.utils.functional DEBUG    
+def _delete(self):
+    return 1
+
+2024-01-31 21:30:29,268 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-01-31 21:30:29,270 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-01-31 21:30:29,270 celery.utils.functional DEBUG    
+def _schedule_deletion(self):
+    return 1
+
+2024-01-31 21:30:29,270 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-01-31 21:30:41,527 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-01-31 21:30:41,527 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-01-31 21:30:41,527 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-01-31 21:30:41,527 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-01-31 21:30:41,527 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-01-31 21:30:41,527 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-01-31 21:30:41,527 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-01-31 21:30:41,527 celery.utils.functional DEBUG    
+def _delete(self):
+    return 1
+
+2024-01-31 21:30:41,535 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-01-31 21:30:41,535 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-01-31 21:30:41,535 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-01-31 21:30:41,535 celery.utils.functional DEBUG    
+def _schedule_deletion(self):
+    return 1
+
+2024-01-31 21:30:48,618 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 21:30:48,698 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-01-31 21:30:48,698 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-01-31 21:30:48,698 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-01-31 21:30:48,698 celery.utils.functional DEBUG    
+def _schedule_deletion(self):
+    return 1
+
+2024-01-31 21:30:48,698 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-01-31 21:30:48,698 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-01-31 21:30:48,698 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-01-31 21:30:48,698 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-01-31 21:30:48,703 celery.utils.functional DEBUG    
+def _delete(self):
+    return 1
+
+2024-01-31 21:30:48,703 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-01-31 21:30:48,703 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-01-31 21:30:48,703 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-01-31 21:30:54,068 django.request WARNING  Not Found: /
+2024-01-31 21:31:01,158 django.request WARNING  Not Found: /photo/
+2024-01-31 21:31:06,659 PIL.TiffImagePlugin DEBUG    tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-01-31 21:31:06,659 PIL.TiffImagePlugin DEBUG    tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-01-31 21:31:06,659 PIL.TiffImagePlugin DEBUG    tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-01-31 21:31:06,660 PIL.TiffImagePlugin DEBUG    tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-01-31 21:31:06,660 PIL.TiffImagePlugin DEBUG    tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Adobe Photoshop CC (Macintosh)\x00'
+2024-01-31 21:31:06,660 PIL.TiffImagePlugin DEBUG    tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 145 - value: b'2018:09:07 19:04:00\x00'
+2024-01-31 21:31:06,660 PIL.TiffImagePlugin DEBUG    tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xa8'
+2024-01-31 21:31:19,570 PIL.TiffImagePlugin DEBUG    tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-01-31 21:31:19,570 PIL.TiffImagePlugin DEBUG    tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-01-31 21:31:19,571 PIL.TiffImagePlugin DEBUG    tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-01-31 21:31:19,571 PIL.TiffImagePlugin DEBUG    tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-01-31 21:31:19,571 PIL.TiffImagePlugin DEBUG    tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Adobe Photoshop CC (Macintosh)\x00'
+2024-01-31 21:31:19,571 PIL.TiffImagePlugin DEBUG    tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 145 - value: b'2018:09:07 19:04:00\x00'
+2024-01-31 21:31:19,571 PIL.TiffImagePlugin DEBUG    tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xa8'
+2024-01-31 21:31:19,571 PIL.Image    DEBUG    Importing BlpImagePlugin
+2024-01-31 21:31:19,572 PIL.Image    DEBUG    Importing BmpImagePlugin
+2024-01-31 21:31:19,572 PIL.Image    DEBUG    Importing BufrStubImagePlugin
+2024-01-31 21:31:19,573 PIL.Image    DEBUG    Importing CurImagePlugin
+2024-01-31 21:31:19,573 PIL.Image    DEBUG    Importing DcxImagePlugin
+2024-01-31 21:31:19,574 PIL.Image    DEBUG    Importing DdsImagePlugin
+2024-01-31 21:31:19,576 PIL.Image    DEBUG    Importing EpsImagePlugin
+2024-01-31 21:31:19,578 PIL.Image    DEBUG    Importing FitsImagePlugin
+2024-01-31 21:31:19,578 PIL.Image    DEBUG    Importing FliImagePlugin
+2024-01-31 21:31:19,579 PIL.Image    DEBUG    Importing FpxImagePlugin
+2024-01-31 21:31:19,581 PIL.Image    DEBUG    Importing FtexImagePlugin
+2024-01-31 21:31:19,581 PIL.Image    DEBUG    Importing GbrImagePlugin
+2024-01-31 21:31:19,582 PIL.Image    DEBUG    Importing GifImagePlugin
+2024-01-31 21:31:19,582 PIL.Image    DEBUG    Importing GribStubImagePlugin
+2024-01-31 21:31:19,582 PIL.Image    DEBUG    Importing Hdf5StubImagePlugin
+2024-01-31 21:31:19,583 PIL.Image    DEBUG    Importing IcnsImagePlugin
+2024-01-31 21:31:19,584 PIL.Image    DEBUG    Importing IcoImagePlugin
+2024-01-31 21:31:19,585 PIL.Image    DEBUG    Importing ImImagePlugin
+2024-01-31 21:31:19,586 PIL.Image    DEBUG    Importing ImtImagePlugin
+2024-01-31 21:31:19,586 PIL.Image    DEBUG    Importing IptcImagePlugin
+2024-01-31 21:31:19,587 PIL.Image    DEBUG    Importing JpegImagePlugin
+2024-01-31 21:31:19,587 PIL.Image    DEBUG    Importing Jpeg2KImagePlugin
+2024-01-31 21:31:19,587 PIL.Image    DEBUG    Importing McIdasImagePlugin
+2024-01-31 21:31:19,588 PIL.Image    DEBUG    Importing MicImagePlugin
+2024-01-31 21:31:19,588 PIL.Image    DEBUG    Importing MpegImagePlugin
+2024-01-31 21:31:19,588 PIL.Image    DEBUG    Importing MpoImagePlugin
+2024-01-31 21:31:19,588 PIL.Image    DEBUG    Importing MspImagePlugin
+2024-01-31 21:31:19,589 PIL.Image    DEBUG    Importing PalmImagePlugin
+2024-01-31 21:31:19,590 PIL.Image    DEBUG    Importing PcdImagePlugin
+2024-01-31 21:31:19,590 PIL.Image    DEBUG    Importing PcxImagePlugin
+2024-01-31 21:31:19,590 PIL.Image    DEBUG    Importing PdfImagePlugin
+2024-01-31 21:31:19,594 PIL.Image    DEBUG    Importing PixarImagePlugin
+2024-01-31 21:31:19,595 PIL.Image    DEBUG    Importing PngImagePlugin
+2024-01-31 21:31:19,595 PIL.Image    DEBUG    Importing PpmImagePlugin
+2024-01-31 21:31:19,595 PIL.Image    DEBUG    Importing PsdImagePlugin
+2024-01-31 21:31:19,595 PIL.Image    DEBUG    Importing QoiImagePlugin
+2024-01-31 21:31:19,596 PIL.Image    DEBUG    Importing SgiImagePlugin
+2024-01-31 21:31:19,596 PIL.Image    DEBUG    Importing SpiderImagePlugin
+2024-01-31 21:31:19,597 PIL.Image    DEBUG    Importing SunImagePlugin
+2024-01-31 21:31:19,598 PIL.Image    DEBUG    Importing TgaImagePlugin
+2024-01-31 21:31:19,598 PIL.Image    DEBUG    Importing TiffImagePlugin
+2024-01-31 21:31:19,599 PIL.Image    DEBUG    Importing WebPImagePlugin
+2024-01-31 21:31:19,600 PIL.Image    DEBUG    Importing WmfImagePlugin
+2024-01-31 21:31:19,600 PIL.Image    DEBUG    Importing XbmImagePlugin
+2024-01-31 21:31:19,601 PIL.Image    DEBUG    Importing XpmImagePlugin
+2024-01-31 21:31:19,601 PIL.Image    DEBUG    Importing XVThumbImagePlugin
+2024-01-31 21:31:44,028 django.request ERROR    Internal Server Error: /core_api/photo/8/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo.py", line 23, in get
+    outcome = ServiceOutcome(PhotoService, {'id': kwargs['id']})
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 227, in execute
+    raise ServiceObjectLogicError(errors_dict=outcome.errors, response_status=response_status)
+utils.errors.ServiceObjectLogicError: Invalid request data
+2024-01-31 21:32:19,497 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\delete.py changed, reloading.
+2024-01-31 21:32:20,168 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 21:32:31,718 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\delete.py changed, reloading.
+2024-01-31 21:32:32,299 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 21:32:32,378 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-01-31 21:32:32,378 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-01-31 21:32:32,378 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-01-31 21:32:32,387 celery.utils.functional DEBUG    
+def _schedule_deletion(self):
+    return 1
+
+2024-01-31 21:32:32,387 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-01-31 21:32:32,387 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-01-31 21:32:32,387 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-01-31 21:32:32,387 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-01-31 21:32:32,387 celery.utils.functional DEBUG    
+def _delete(self):
+    return 1
+
+2024-01-31 21:32:32,387 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-01-31 21:32:32,387 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-01-31 21:32:32,387 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-01-31 21:35:04,879 PIL.TiffImagePlugin DEBUG    tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-01-31 21:35:04,879 PIL.TiffImagePlugin DEBUG    tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-01-31 21:35:04,879 PIL.TiffImagePlugin DEBUG    tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-01-31 21:35:04,879 PIL.TiffImagePlugin DEBUG    tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-01-31 21:35:04,879 PIL.TiffImagePlugin DEBUG    tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Adobe Photoshop CC (Macintosh)\x00'
+2024-01-31 21:35:04,879 PIL.TiffImagePlugin DEBUG    tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 145 - value: b'2018:09:07 19:04:00\x00'
+2024-01-31 21:35:04,879 PIL.TiffImagePlugin DEBUG    tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xa8'
+2024-01-31 21:35:04,879 PIL.Image    DEBUG    Importing BlpImagePlugin
+2024-01-31 21:35:04,880 PIL.Image    DEBUG    Importing BmpImagePlugin
+2024-01-31 21:35:04,880 PIL.Image    DEBUG    Importing BufrStubImagePlugin
+2024-01-31 21:35:04,881 PIL.Image    DEBUG    Importing CurImagePlugin
+2024-01-31 21:35:04,882 PIL.Image    DEBUG    Importing DcxImagePlugin
+2024-01-31 21:35:04,884 PIL.Image    DEBUG    Importing DdsImagePlugin
+2024-01-31 21:35:04,886 PIL.Image    DEBUG    Importing EpsImagePlugin
+2024-01-31 21:35:04,887 PIL.Image    DEBUG    Importing FitsImagePlugin
+2024-01-31 21:35:04,887 PIL.Image    DEBUG    Importing FliImagePlugin
+2024-01-31 21:35:04,887 PIL.Image    DEBUG    Importing FpxImagePlugin
+2024-01-31 21:35:04,914 PIL.Image    DEBUG    Importing FtexImagePlugin
+2024-01-31 21:35:04,915 PIL.Image    DEBUG    Importing GbrImagePlugin
+2024-01-31 21:35:04,916 PIL.Image    DEBUG    Importing GifImagePlugin
+2024-01-31 21:35:04,916 PIL.Image    DEBUG    Importing GribStubImagePlugin
+2024-01-31 21:35:04,916 PIL.Image    DEBUG    Importing Hdf5StubImagePlugin
+2024-01-31 21:35:04,917 PIL.Image    DEBUG    Importing IcnsImagePlugin
+2024-01-31 21:35:04,918 PIL.Image    DEBUG    Importing IcoImagePlugin
+2024-01-31 21:35:04,919 PIL.Image    DEBUG    Importing ImImagePlugin
+2024-01-31 21:35:04,919 PIL.Image    DEBUG    Importing ImtImagePlugin
+2024-01-31 21:35:04,920 PIL.Image    DEBUG    Importing IptcImagePlugin
+2024-01-31 21:35:04,920 PIL.Image    DEBUG    Importing JpegImagePlugin
+2024-01-31 21:35:04,920 PIL.Image    DEBUG    Importing Jpeg2KImagePlugin
+2024-01-31 21:35:04,920 PIL.Image    DEBUG    Importing McIdasImagePlugin
+2024-01-31 21:35:04,921 PIL.Image    DEBUG    Importing MicImagePlugin
+2024-01-31 21:35:04,922 PIL.Image    DEBUG    Importing MpegImagePlugin
+2024-01-31 21:35:04,922 PIL.Image    DEBUG    Importing MpoImagePlugin
+2024-01-31 21:35:04,922 PIL.Image    DEBUG    Importing MspImagePlugin
+2024-01-31 21:35:04,923 PIL.Image    DEBUG    Importing PalmImagePlugin
+2024-01-31 21:35:04,924 PIL.Image    DEBUG    Importing PcdImagePlugin
+2024-01-31 21:35:04,924 PIL.Image    DEBUG    Importing PcxImagePlugin
+2024-01-31 21:35:04,925 PIL.Image    DEBUG    Importing PdfImagePlugin
+2024-01-31 21:35:04,927 PIL.Image    DEBUG    Importing PixarImagePlugin
+2024-01-31 21:35:04,929 PIL.Image    DEBUG    Importing PngImagePlugin
+2024-01-31 21:35:04,929 PIL.Image    DEBUG    Importing PpmImagePlugin
+2024-01-31 21:35:04,929 PIL.Image    DEBUG    Importing PsdImagePlugin
+2024-01-31 21:35:04,929 PIL.Image    DEBUG    Importing QoiImagePlugin
+2024-01-31 21:35:04,930 PIL.Image    DEBUG    Importing SgiImagePlugin
+2024-01-31 21:35:04,931 PIL.Image    DEBUG    Importing SpiderImagePlugin
+2024-01-31 21:35:04,931 PIL.Image    DEBUG    Importing SunImagePlugin
+2024-01-31 21:35:04,931 PIL.Image    DEBUG    Importing TgaImagePlugin
+2024-01-31 21:35:04,933 PIL.Image    DEBUG    Importing TiffImagePlugin
+2024-01-31 21:35:04,933 PIL.Image    DEBUG    Importing WebPImagePlugin
+2024-01-31 21:35:04,934 PIL.Image    DEBUG    Importing WmfImagePlugin
+2024-01-31 21:35:04,935 PIL.Image    DEBUG    Importing XbmImagePlugin
+2024-01-31 21:35:04,936 PIL.Image    DEBUG    Importing XpmImagePlugin
+2024-01-31 21:35:04,936 PIL.Image    DEBUG    Importing XVThumbImagePlugin
+2024-01-31 21:35:15,838 django.request ERROR    Internal Server Error: /core_api/photo/9/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo.py", line 36, in delete
+    outcome = ServiceOutcome(PhotoDeleteService, {'id': kwargs['id'], 'current_user': request.user})
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\delete.py", line 27, in process
+    self.result = self._status()
+                  ^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\delete.py", line 34, in _status
+    self.get_photo.schedule_deletion()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django_fsm\__init__.py", line 573, in _change_state
+    return fsm_meta.field.change_state(instance, func, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django_fsm\__init__.py", line 339, in change_state
+    raise TransitionNotAllowed(
+django_fsm.TransitionNotAllowed: Can't switch from state 'Moderation' using method 'schedule_deletion'
+2024-01-31 21:35:55,331 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\delete.py changed, reloading.
+2024-01-31 21:35:55,920 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 21:35:56,019 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-01-31 21:35:56,019 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-01-31 21:35:56,019 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-01-31 21:35:56,019 celery.utils.functional DEBUG    
+def _schedule_deletion(self):
+    return 1
+
+2024-01-31 21:35:56,019 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-01-31 21:35:56,019 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-01-31 21:35:56,019 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-01-31 21:35:56,019 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-01-31 21:35:56,019 celery.utils.functional DEBUG    
+def _delete(self):
+    return 1
+
+2024-01-31 21:35:56,019 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-01-31 21:35:56,019 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-01-31 21:35:56,019 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-01-31 21:35:58,899 django.request ERROR    Internal Server Error: /core_api/photo/9/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo.py", line 36, in delete
+    outcome = ServiceOutcome(PhotoDeleteService, {'id': kwargs['id'], 'current_user': request.user})
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\delete.py", line 27, in process
+    self.result = self._status()
+                  ^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\delete.py", line 35, in _status
+    self._schedule_deletion()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\local.py", line 182, in __call__
+    return self._get_current_object()(*a, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\app\task.py", line 411, in __call__
+    return self.run(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: PhotoDeleteService._schedule_deletion() missing 1 required positional argument: 'self'
+2024-01-31 21:37:09,689 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\delete.py changed, reloading.
+2024-01-31 21:37:10,294 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 21:37:10,379 celery.utils.functional DEBUG    
+def delete(self):
+    return 1
+
+2024-01-31 21:37:10,379 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-01-31 21:37:10,379 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-01-31 21:37:10,379 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-01-31 21:37:10,379 celery.utils.functional DEBUG    
+def _schedule_deletion(self):
+    return 1
+
+2024-01-31 21:37:10,379 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-01-31 21:37:10,379 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-01-31 21:37:10,379 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-01-31 21:37:10,379 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-01-31 21:37:10,379 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-01-31 21:37:10,379 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-01-31 21:37:10,379 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-01-31 21:39:28,775 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\delete.py changed, reloading.
+2024-01-31 21:39:29,363 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 21:39:29,443 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-01-31 21:39:29,443 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-01-31 21:39:29,449 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-01-31 21:39:29,449 celery.utils.functional DEBUG    
+def _schedule_deletion(self):
+    return 1
+
+2024-01-31 21:39:29,449 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-01-31 21:39:29,449 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-01-31 21:39:29,449 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-01-31 21:39:29,449 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-01-31 21:39:29,449 celery.utils.functional DEBUG    
+def _delete(self):
+    return 1
+
+2024-01-31 21:39:29,449 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-01-31 21:39:29,449 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-01-31 21:39:29,449 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-01-31 21:43:07,592 django.request ERROR    Internal Server Error: /core_api/photo/9/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo.py", line 36, in delete
+    outcome = ServiceOutcome(PhotoDeleteService, {'id': kwargs['id'], 'current_user': request.user})
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\delete.py", line 27, in process
+    self.result = self._status()
+                  ^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\delete.py", line 35, in _status
+    self._schedule_deletion()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\local.py", line 182, in __call__
+    return self._get_current_object()(*a, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\app\task.py", line 411, in __call__
+    return self.run(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: PhotoDeleteService._schedule_deletion() missing 1 required positional argument: 'self'
+2024-01-31 22:11:05,334 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\models_app\models\photo\model.py changed, reloading.
+2024-01-31 22:11:05,932 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 22:12:09,951 celery.utils.functional DEBUG    
+def delete_photo(photo):
+    return 1
+
+2024-01-31 22:12:09,951 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-01-31 22:12:09,951 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-01-31 22:12:09,951 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-01-31 22:12:09,951 celery.utils.functional DEBUG    
+def schedule_photo_deletion(photo):
+    return 1
+
+2024-01-31 22:12:09,951 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-01-31 22:12:09,951 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-01-31 22:12:09,951 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-01-31 22:12:09,951 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-01-31 22:12:09,951 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-01-31 22:12:09,951 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-01-31 22:12:09,951 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-01-31 22:12:09,961 kombu.connection WARNING  No hostname was supplied. Reverting to default 'localhost'
+2024-01-31 22:12:10,042 django.request ERROR    Internal Server Error: /core_api/photo/9/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\kombu\serialization.py", line 41, in _reraise_errors
+    yield
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\kombu\serialization.py", line 220, in dumps
+    payload = encoder(data)
+              ^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\kombu\utils\json.py", line 57, in dumps
+    return _dumps(s, cls=cls, **dict(default_kwargs, **kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\kombu\utils\json.py", line 45, in default
+    return super().default(o)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Photo is not JSON serializable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo.py", line 36, in delete
+    outcome = ServiceOutcome(PhotoDeleteService, {'id': kwargs['id'], 'current_user': request.user})
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\delete.py", line 23, in process
+    self.result = self._status()
+                  ^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\delete.py", line 31, in _status
+    schedule_photo_deletion(self.get_photo)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\local.py", line 182, in __call__
+    return self._get_current_object()(*a, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\app\task.py", line 411, in __call__
+    return self.run(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\task.py", line 11, in schedule_photo_deletion
+    delete_photo.apply_async(args=(photo,), countdown=180)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\app\task.py", line 594, in apply_async
+    return app.send_task(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\app\base.py", line 799, in send_task
+    amqp.send_task_message(P, name, message, **options)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\app\amqp.py", line 518, in send_task_message
+    ret = producer.publish(
+          ^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\kombu\messaging.py", line 175, in publish
+    body, content_type, content_encoding = self._prepare(
+                                           ^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\kombu\messaging.py", line 268, in _prepare
+    body) = dumps(body, serializer=serializer)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\kombu\serialization.py", line 219, in dumps
+    with _reraise_errors(EncodeError):
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\kombu\serialization.py", line 45, in _reraise_errors
+    reraise(wrapper, wrapper(exc), sys.exc_info()[2])
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\kombu\exceptions.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\kombu\serialization.py", line 41, in _reraise_errors
+    yield
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\kombu\serialization.py", line 220, in dumps
+    payload = encoder(data)
+              ^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\kombu\utils\json.py", line 57, in dumps
+    return _dumps(s, cls=cls, **dict(default_kwargs, **kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\kombu\utils\json.py", line 45, in default
+    return super().default(o)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+kombu.exceptions.EncodeError: Object of type Photo is not JSON serializable
+2024-01-31 22:28:46,493 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\utils\task.py changed, reloading.
+2024-01-31 22:28:47,093 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 22:30:18,263 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\delete.py changed, reloading.
+2024-01-31 22:30:18,933 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 22:30:21,623 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-01-31 22:30:21,623 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-01-31 22:30:21,623 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-01-31 22:30:21,623 celery.utils.functional DEBUG    
+def schedule_photo_deletion(photo_id):
+    return 1
+
+2024-01-31 22:30:21,627 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-01-31 22:30:21,627 celery.utils.functional DEBUG    
+def delete_photo(photo_id):
+    return 1
+
+2024-01-31 22:30:21,627 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-01-31 22:30:21,627 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-01-31 22:30:21,627 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-01-31 22:30:21,627 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-01-31 22:30:21,627 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-01-31 22:30:21,627 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-01-31 22:30:21,633 kombu.connection WARNING  No hostname was supplied. Reverting to default 'localhost'
+2024-01-31 22:30:27,748 django.request ERROR    Internal Server Error: /core_api/photo/9/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\kombu\utils\functional.py", line 32, in __call__
+    return self.__value__
+           ^^^^^^^^^^^^^^
+AttributeError: 'ChannelPromise' object has no attribute '__value__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\kombu\connection.py", line 472, in _reraise_as_library_errors
+    yield
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\kombu\connection.py", line 459, in _ensure_connection
+    return retry_over_time(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\kombu\utils\functional.py", line 318, in retry_over_time
+    return fun(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\kombu\connection.py", line 934, in _connection_factory
+    self._connection = self._establish_connection()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\kombu\connection.py", line 860, in _establish_connection
+    conn = self.transport.establish_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\kombu\transport\pyamqp.py", line 203, in establish_connection
+    conn.connect()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\amqp\connection.py", line 324, in connect
+    self.transport.connect()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\amqp\transport.py", line 129, in connect
+    self._connect(self.host, self.port, self.connect_timeout)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\amqp\transport.py", line 184, in _connect
+    self.sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo.py", line 36, in delete
+    outcome = ServiceOutcome(PhotoDeleteService, {'id': kwargs['id'], 'current_user': request.user})
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\delete.py", line 23, in process
+    self.result = self._status()
+                  ^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\delete.py", line 31, in _status
+    task = schedule_photo_deletion(self.get_photo.id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\local.py", line 182, in __call__
+    return self._get_current_object()(*a, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\app\task.py", line 411, in __call__
+    return self.run(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\task.py", line 13, in schedule_photo_deletion
+    delete_photo.apply_async(args=(photo_id,), countdown=180)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\app\task.py", line 594, in apply_async
+    return app.send_task(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\app\base.py", line 799, in send_task
+    amqp.send_task_message(P, name, message, **options)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\app\amqp.py", line 518, in send_task_message
+    ret = producer.publish(
+          ^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\kombu\messaging.py", line 186, in publish
+    return _publish(
+           ^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\kombu\connection.py", line 556, in _ensured
+    return fun(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\kombu\messaging.py", line 195, in _publish
+    channel = self.channel
+              ^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\kombu\messaging.py", line 218, in _get_channel
+    channel = self._channel = channel()
+                              ^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\kombu\utils\functional.py", line 34, in __call__
+    value = self.__value__ = self.__contract__()
+                             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\kombu\messaging.py", line 234, in <lambda>
+    channel = ChannelPromise(lambda: connection.default_channel)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\kombu\connection.py", line 953, in default_channel
+    self._ensure_connection(**conn_opts)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\kombu\connection.py", line 458, in _ensure_connection
+    with ctx():
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\kombu\connection.py", line 476, in _reraise_as_library_errors
+    raise ConnectionError(str(exc)) from exc
+kombu.exceptions.OperationalError: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+2024-01-31 23:08:55,338 celery.utils.functional DEBUG    
+def delete_photo(photo_id):
+    return 1
+
+2024-01-31 23:08:55,339 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-01-31 23:08:55,339 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-01-31 23:08:55,339 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-01-31 23:08:55,340 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-01-31 23:08:55,340 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-01-31 23:08:55,340 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-01-31 23:08:55,341 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-01-31 23:08:55,341 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-01-31 23:08:55,342 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-01-31 23:08:55,342 celery.utils.functional DEBUG    
+def schedule_photo_deletion(photo_id):
+    return 1
+
+2024-01-31 23:08:55,342 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-01-31 23:11:53,692 celery.utils.functional DEBUG    
+def schedule_photo_deletion(photo_id):
+    return 1
+
+2024-01-31 23:11:53,692 celery.utils.functional DEBUG    
+def delete_photo(photo_id):
+    return 1
+
+2024-01-31 23:11:53,692 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-01-31 23:11:53,693 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-01-31 23:11:53,693 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-01-31 23:11:53,693 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-01-31 23:11:53,693 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-01-31 23:11:53,694 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-01-31 23:11:53,694 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-01-31 23:11:53,694 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-01-31 23:11:53,694 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-01-31 23:11:53,695 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-01-31 23:14:28,874 celery.utils.functional DEBUG    
+def delete_photo(photo_id):
+    return 1
+
+2024-01-31 23:14:28,875 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-01-31 23:14:28,875 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-01-31 23:14:28,875 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-01-31 23:14:28,876 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-01-31 23:14:28,876 celery.utils.functional DEBUG    
+def schedule_photo_deletion(photo_id):
+    return 1
+
+2024-01-31 23:14:28,876 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-01-31 23:14:28,877 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-01-31 23:14:28,877 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-01-31 23:14:28,877 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-01-31 23:14:28,877 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-01-31 23:14:28,878 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-01-31 23:16:14,631 celery.utils.functional DEBUG    
+def delete_photo(photo_id):
+    return 1
+
+2024-01-31 23:16:14,631 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-01-31 23:16:14,631 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-01-31 23:16:14,632 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-01-31 23:16:14,632 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-01-31 23:16:14,632 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-01-31 23:16:14,632 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-01-31 23:16:14,633 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-01-31 23:16:14,633 celery.utils.functional DEBUG    
+def schedule_photo_deletion(photo_id):
+    return 1
+
+2024-01-31 23:16:14,633 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-01-31 23:16:14,634 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-01-31 23:16:14,635 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-01-31 23:17:03,661 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-01-31 23:35:52,196 celery.utils.functional DEBUG    
+def delete_photo(photo_id):
+    return 1
+
+2024-01-31 23:35:52,196 celery.utils.functional DEBUG    
+def schedule_photo_deletion(photo_id):
+    return 1
+
+2024-01-31 23:35:52,196 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-01-31 23:35:52,196 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-01-31 23:35:52,196 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-01-31 23:35:52,196 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-01-31 23:35:52,196 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-01-31 23:35:52,196 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-01-31 23:35:52,196 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-01-31 23:35:52,196 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-01-31 23:35:52,196 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-01-31 23:35:52,202 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+

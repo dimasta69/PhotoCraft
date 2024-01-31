@@ -7,7 +7,7 @@ from models_app.models.users.model import User
 from functools import lru_cache
 
 from utils.services import ServiceWithResult
-
+from utils.task import schedule_photo_deletion
 from service_objects.fields import ModelField
 
 
@@ -20,13 +20,19 @@ class PhotoDeleteService(ServiceWithResult):
     def process(self):
         self.run_custom_validations()
         if self.is_valid():
-            self.result = self._delete()
+            self.result = self._status()
         return self
 
-    def _delete(self):
-        photo = self.get_photo
-        photo.delete()
-        return Photo.objects.none()
+    def _status(self):
+        if self.get_photo.status in ('Moderation', 'Reject'):
+            self.get_photo.delete()
+            return {'message': 'Object deleted successfully.'}
+        elif self.get_photo.status == 'Delete':
+            return {'message': f'The object will be deleted in {self.get_photo.deleted_at}'}
+        elif self.get_photo.status == 'Published':
+            task = schedule_photo_deletion(self.get_photo.id)
+            self.scheduled_deletion_task_id = task.id
+            return {'message': f'The object will be deleted in {self.get_photo.deleted_at}'}
 
     @property
     @lru_cache()

@@ -36,5 +36,5 @@ class PhotoView(APIView,
         outcome = ServiceOutcome(PhotoDeleteService, {'id': kwargs['id'], 'current_user': request.user})
         if bool(outcome.errors):
             return Response(outcome.errors, status.HTTP_400_BAD_REQUEST)
-        return Response({'message': 'Object deleted successfully.'}, status.HTTP_200_OK)
+        return Response(outcome.result, status.HTTP_200_OK)
 
