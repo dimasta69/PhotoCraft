@@ -28094,3 +28094,3485 @@ def chunks(task, it, n):
 def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
     return 1
 
+2024-02-01 21:59:45,376 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-01 21:59:45,377 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-01 21:59:45,378 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-01 21:59:45,378 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-01 21:59:45,378 celery.utils.functional DEBUG    
+def delete_photos_with_status_delete():
+    return 1
+
+2024-02-01 21:59:45,379 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-01 21:59:45,380 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-01 21:59:45,380 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-01 21:59:45,382 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-01 21:59:45,382 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-01 21:59:45,382 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-01 21:59:45,397 kombu.connection WARNING  No hostname was supplied. Reverting to default 'localhost'
+2024-02-01 22:04:15,074 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-01 22:04:15,074 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-01 22:04:15,075 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-01 22:04:15,075 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-01 22:04:15,075 celery.utils.functional DEBUG    
+def delete_expired_photos():
+    return 1
+
+2024-02-01 22:04:15,076 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-01 22:04:15,076 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-01 22:04:15,077 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-01 22:04:15,077 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-01 22:04:15,077 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-01 22:04:15,078 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-01 22:04:15,087 kombu.connection WARNING  No hostname was supplied. Reverting to default 'localhost'
+2024-02-01 22:04:46,984 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-01 22:04:46,984 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-01 22:04:46,985 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-01 22:04:46,985 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-01 22:04:46,986 celery.utils.functional DEBUG    
+def delete_expired_photos():
+    return 1
+
+2024-02-01 22:04:46,986 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-01 22:04:46,987 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-01 22:04:46,987 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-01 22:04:46,988 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-01 22:04:46,989 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-01 22:04:46,989 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-01 22:04:47,002 kombu.connection WARNING  No hostname was supplied. Reverting to default 'localhost'
+2024-02-01 22:05:59,128 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-01 22:05:59,128 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-01 22:05:59,129 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-01 22:05:59,129 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-01 22:05:59,129 celery.utils.functional DEBUG    
+def delete_expired_photos():
+    return 1
+
+2024-02-01 22:05:59,130 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-01 22:05:59,130 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-01 22:05:59,130 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-01 22:05:59,131 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-01 22:05:59,131 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-01 22:05:59,131 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-01 22:05:59,138 kombu.connection WARNING  No hostname was supplied. Reverting to default 'localhost'
+2024-02-01 22:06:31,278 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-01 22:06:31,278 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-01 22:06:31,278 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-01 22:06:31,279 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-01 22:06:31,279 celery.utils.functional DEBUG    
+def delete_expired_photos():
+    return 1
+
+2024-02-01 22:06:31,279 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-01 22:06:31,280 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-01 22:06:31,280 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-01 22:06:31,281 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-01 22:06:31,281 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-01 22:06:31,281 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-01 22:06:31,290 kombu.connection WARNING  No hostname was supplied. Reverting to default 'localhost'
+2024-02-01 22:13:04,400 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-01 22:13:59,623 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\delete.py changed, reloading.
+2024-02-01 22:14:00,427 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-01 22:17:10,167 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\models_app\models\photo\model.py changed, reloading.
+2024-02-01 22:17:10,868 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-01 22:17:13,878 django.request WARNING  Not Found: /
+2024-02-01 22:17:13,920 django.request WARNING  Not Found: /favicon.ico
+2024-02-01 22:17:42,626 django.request ERROR    Internal Server Error: /core_api/photo/7/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo.py", line 36, in delete
+    outcome = ServiceOutcome(PhotoDeleteService, {'id': kwargs['id'], 'current_user': request.user})
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\delete.py", line 22, in process
+    self.result = self._status()
+                  ^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\delete.py", line 26, in _status
+    self.get_photo.schedule_deletion()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django_fsm\__init__.py", line 573, in _change_state
+    return fsm_meta.field.change_state(instance, func, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django_fsm\__init__.py", line 339, in change_state
+    raise TransitionNotAllowed(
+django_fsm.TransitionNotAllowed: Can't switch from state 'Rejected' using method 'schedule_deletion'
+2024-02-01 22:20:27,060 PIL.TiffImagePlugin DEBUG    tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-02-01 22:20:27,060 PIL.TiffImagePlugin DEBUG    tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-01 22:20:27,061 PIL.TiffImagePlugin DEBUG    tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-01 22:20:27,061 PIL.TiffImagePlugin DEBUG    tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-02-01 22:20:27,061 PIL.TiffImagePlugin DEBUG    tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Adobe Photoshop CC (Macintosh)\x00'
+2024-02-01 22:20:27,061 PIL.TiffImagePlugin DEBUG    tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 145 - value: b'2018:09:07 19:04:00\x00'
+2024-02-01 22:20:27,061 PIL.TiffImagePlugin DEBUG    tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xa8'
+2024-02-01 22:20:27,061 PIL.Image    DEBUG    Importing BlpImagePlugin
+2024-02-01 22:20:27,062 PIL.Image    DEBUG    Importing BmpImagePlugin
+2024-02-01 22:20:27,062 PIL.Image    DEBUG    Importing BufrStubImagePlugin
+2024-02-01 22:20:27,063 PIL.Image    DEBUG    Importing CurImagePlugin
+2024-02-01 22:20:27,064 PIL.Image    DEBUG    Importing DcxImagePlugin
+2024-02-01 22:20:27,065 PIL.Image    DEBUG    Importing DdsImagePlugin
+2024-02-01 22:20:27,068 PIL.Image    DEBUG    Importing EpsImagePlugin
+2024-02-01 22:20:27,069 PIL.Image    DEBUG    Importing FitsImagePlugin
+2024-02-01 22:20:27,070 PIL.Image    DEBUG    Importing FliImagePlugin
+2024-02-01 22:20:27,071 PIL.Image    DEBUG    Importing FpxImagePlugin
+2024-02-01 22:20:27,073 PIL.Image    DEBUG    Importing FtexImagePlugin
+2024-02-01 22:20:27,074 PIL.Image    DEBUG    Importing GbrImagePlugin
+2024-02-01 22:20:27,075 PIL.Image    DEBUG    Importing GifImagePlugin
+2024-02-01 22:20:27,075 PIL.Image    DEBUG    Importing GribStubImagePlugin
+2024-02-01 22:20:27,076 PIL.Image    DEBUG    Importing Hdf5StubImagePlugin
+2024-02-01 22:20:27,077 PIL.Image    DEBUG    Importing IcnsImagePlugin
+2024-02-01 22:20:27,079 PIL.Image    DEBUG    Importing IcoImagePlugin
+2024-02-01 22:20:27,080 PIL.Image    DEBUG    Importing ImImagePlugin
+2024-02-01 22:20:27,081 PIL.Image    DEBUG    Importing ImtImagePlugin
+2024-02-01 22:20:27,082 PIL.Image    DEBUG    Importing IptcImagePlugin
+2024-02-01 22:20:27,082 PIL.Image    DEBUG    Importing JpegImagePlugin
+2024-02-01 22:20:27,084 PIL.Image    DEBUG    Importing Jpeg2KImagePlugin
+2024-02-01 22:20:27,084 PIL.Image    DEBUG    Importing McIdasImagePlugin
+2024-02-01 22:20:27,085 PIL.Image    DEBUG    Importing MicImagePlugin
+2024-02-01 22:20:27,085 PIL.Image    DEBUG    Importing MpegImagePlugin
+2024-02-01 22:20:27,086 PIL.Image    DEBUG    Importing MpoImagePlugin
+2024-02-01 22:20:27,087 PIL.Image    DEBUG    Importing MspImagePlugin
+2024-02-01 22:20:27,087 PIL.Image    DEBUG    Importing PalmImagePlugin
+2024-02-01 22:20:27,090 PIL.Image    DEBUG    Importing PcdImagePlugin
+2024-02-01 22:20:27,091 PIL.Image    DEBUG    Importing PcxImagePlugin
+2024-02-01 22:20:27,091 PIL.Image    DEBUG    Importing PdfImagePlugin
+2024-02-01 22:20:27,094 PIL.Image    DEBUG    Importing PixarImagePlugin
+2024-02-01 22:20:27,095 PIL.Image    DEBUG    Importing PngImagePlugin
+2024-02-01 22:20:27,095 PIL.Image    DEBUG    Importing PpmImagePlugin
+2024-02-01 22:20:27,095 PIL.Image    DEBUG    Importing PsdImagePlugin
+2024-02-01 22:20:27,096 PIL.Image    DEBUG    Importing QoiImagePlugin
+2024-02-01 22:20:27,097 PIL.Image    DEBUG    Importing SgiImagePlugin
+2024-02-01 22:20:27,098 PIL.Image    DEBUG    Importing SpiderImagePlugin
+2024-02-01 22:20:27,099 PIL.Image    DEBUG    Importing SunImagePlugin
+2024-02-01 22:20:27,099 PIL.Image    DEBUG    Importing TgaImagePlugin
+2024-02-01 22:20:27,100 PIL.Image    DEBUG    Importing TiffImagePlugin
+2024-02-01 22:20:27,100 PIL.Image    DEBUG    Importing WebPImagePlugin
+2024-02-01 22:20:27,117 PIL.Image    DEBUG    Importing WmfImagePlugin
+2024-02-01 22:20:27,119 PIL.Image    DEBUG    Importing XbmImagePlugin
+2024-02-01 22:20:27,120 PIL.Image    DEBUG    Importing XpmImagePlugin
+2024-02-01 22:20:27,121 PIL.Image    DEBUG    Importing XVThumbImagePlugin
+2024-02-01 22:20:37,917 django.request ERROR    Internal Server Error: /core_api/photo/8/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo.py", line 23, in get
+    outcome = ServiceOutcome(PhotoService, {'id': kwargs['id']})
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 227, in execute
+    raise ServiceObjectLogicError(errors_dict=outcome.errors, response_status=response_status)
+utils.errors.ServiceObjectLogicError: Invalid request data
+2024-02-01 22:21:07,525 PIL.TiffImagePlugin DEBUG    tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-02-01 22:21:07,525 PIL.TiffImagePlugin DEBUG    tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-01 22:21:07,525 PIL.TiffImagePlugin DEBUG    tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-01 22:21:07,525 PIL.TiffImagePlugin DEBUG    tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-02-01 22:21:07,525 PIL.TiffImagePlugin DEBUG    tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Adobe Photoshop CC (Macintosh)\x00'
+2024-02-01 22:21:07,525 PIL.TiffImagePlugin DEBUG    tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 145 - value: b'2018:09:07 19:04:00\x00'
+2024-02-01 22:21:07,525 PIL.TiffImagePlugin DEBUG    tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xa8'
+2024-02-01 22:22:14,525 PIL.TiffImagePlugin DEBUG    tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-02-01 22:22:14,525 PIL.TiffImagePlugin DEBUG    tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-01 22:22:14,525 PIL.TiffImagePlugin DEBUG    tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-01 22:22:14,526 PIL.TiffImagePlugin DEBUG    tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-02-01 22:22:14,526 PIL.TiffImagePlugin DEBUG    tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Adobe Photoshop CC (Macintosh)\x00'
+2024-02-01 22:22:14,526 PIL.TiffImagePlugin DEBUG    tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 145 - value: b'2018:09:07 19:04:00\x00'
+2024-02-01 22:22:14,526 PIL.TiffImagePlugin DEBUG    tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xa8'
+2024-02-01 22:27:15,556 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-01 22:27:20,482 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-01 22:27:20,483 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-01 22:27:20,483 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-01 22:27:20,484 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-01 22:27:20,484 celery.utils.functional DEBUG    
+def delete_expired_photos():
+    return 1
+
+2024-02-01 22:27:20,484 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-01 22:27:20,484 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-01 22:27:20,485 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-01 22:27:20,485 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-01 22:27:20,486 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-01 22:27:20,486 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-01 22:27:20,493 kombu.connection WARNING  No hostname was supplied. Reverting to default 'localhost'
+2024-02-01 22:35:25,590 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-01 22:35:25,590 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-01 22:35:25,591 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-01 22:35:25,591 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-01 22:35:25,592 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-01 22:35:25,592 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-01 22:35:25,592 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-01 22:35:25,593 celery.utils.functional DEBUG    
+def delete_photos_with_status_delete():
+    return 1
+
+2024-02-01 22:35:25,593 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-01 22:35:25,594 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-01 22:35:25,594 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-01 22:37:20,054 django.request WARNING  Not Found: /favicon.ico
+2024-02-01 22:37:27,133 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-01 22:37:27,133 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-01 22:37:27,134 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-01 22:37:27,134 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-01 22:37:27,134 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-01 22:37:27,134 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-01 22:37:27,135 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-01 22:37:27,135 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-01 22:37:27,135 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-01 22:37:27,135 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-01 22:41:47,216 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-01 22:41:47,216 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-01 22:41:47,217 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-01 22:41:47,217 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-01 22:41:47,217 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-01 22:41:47,217 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-01 22:41:47,218 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-01 22:41:47,218 celery.utils.functional DEBUG    
+def delete_photos_with_status_delete():
+    return 1
+
+2024-02-01 22:41:47,218 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-01 22:41:47,218 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-01 22:41:47,219 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-01 22:45:18,317 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-01 22:45:18,317 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-01 22:45:18,318 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-01 22:45:18,318 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-01 22:45:18,318 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-01 22:45:18,319 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-01 22:45:18,319 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-01 22:45:18,319 celery.utils.functional DEBUG    
+def delete_photos_with_status_delete():
+    return 1
+
+2024-02-01 22:45:18,319 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-01 22:45:18,320 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-01 22:45:18,320 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-01 22:50:24,274 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-01 22:50:24,275 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-01 22:50:24,275 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-01 22:50:24,276 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-01 22:50:24,276 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-01 22:50:24,276 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-01 22:50:24,277 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-01 22:50:24,277 celery.utils.functional DEBUG    
+def delete_photos_with_status_delete():
+    return 1
+
+2024-02-01 22:50:24,277 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-01 22:50:24,278 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-01 22:50:24,278 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-01 22:55:14,985 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-01 22:55:14,986 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-01 22:55:14,986 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-01 22:55:14,987 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-01 22:55:14,987 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-01 22:55:14,987 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-01 22:55:14,987 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-01 22:55:14,988 celery.utils.functional DEBUG    
+def delete_photos_with_status_delete():
+    return 1
+
+2024-02-01 22:55:14,988 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-01 22:55:14,988 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-01 22:55:14,989 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-01 23:06:02,413 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-01 23:06:02,413 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-01 23:06:02,413 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-01 23:06:02,413 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-01 23:06:02,414 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-01 23:06:02,414 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-01 23:06:02,415 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-01 23:06:02,415 celery.utils.functional DEBUG    
+def delete_photos_with_status_delete():
+    return 1
+
+2024-02-01 23:06:02,416 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-01 23:06:02,417 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-01 23:06:02,418 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-01 23:06:48,691 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-01 23:06:48,691 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-01 23:06:48,691 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-01 23:06:48,691 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-01 23:06:48,693 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-01 23:06:48,693 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-01 23:06:48,693 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-01 23:06:48,694 celery.utils.functional DEBUG    
+def delete_photos_with_status_delete():
+    return 1
+
+2024-02-01 23:06:48,694 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-01 23:06:48,694 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-01 23:06:48,695 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-02 00:00:49,181 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-02 00:01:01,584 django.request WARNING  Not Found: /
+2024-02-02 00:26:46,548 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\settings\__init__.py changed, reloading.
+2024-02-02 00:26:47,271 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-02 00:27:30,120 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\settings\__init__.py changed, reloading.
+2024-02-02 00:27:30,911 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-02 00:27:43,809 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\settings\__init__.py changed, reloading.
+2024-02-02 00:27:44,653 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-02 00:29:22,291 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\settings\celery.py changed, reloading.
+2024-02-02 02:46:25,316 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-02 02:46:25,318 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-02 02:46:25,318 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-02 02:46:25,319 celery.utils.functional DEBUG    
+def debug_task(self):
+    return 1
+
+2024-02-02 02:46:25,319 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-02 02:46:25,320 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-02 02:46:25,320 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-02 02:46:25,321 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-02 02:46:25,321 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-02 02:46:25,322 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-02 02:46:25,323 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-02 02:46:25,323 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-02 22:28:45,296 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-02 22:28:47,350 django.request WARNING  Not Found: /
+2024-02-02 22:28:47,472 django.request WARNING  Not Found: /favicon.ico
+2024-02-02 22:30:08,603 PIL.TiffImagePlugin DEBUG    tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-02-02 22:30:08,603 PIL.TiffImagePlugin DEBUG    tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-02 22:30:08,603 PIL.TiffImagePlugin DEBUG    tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-02 22:30:08,604 PIL.TiffImagePlugin DEBUG    tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-02-02 22:30:08,604 PIL.TiffImagePlugin DEBUG    tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Adobe Photoshop CC (Macintosh)\x00'
+2024-02-02 22:30:08,604 PIL.TiffImagePlugin DEBUG    tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 145 - value: b'2018:09:07 19:04:00\x00'
+2024-02-02 22:30:08,604 PIL.TiffImagePlugin DEBUG    tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xa8'
+2024-02-02 22:30:08,604 PIL.Image    DEBUG    Importing BlpImagePlugin
+2024-02-02 22:30:08,606 PIL.Image    DEBUG    Importing BmpImagePlugin
+2024-02-02 22:30:08,606 PIL.Image    DEBUG    Importing BufrStubImagePlugin
+2024-02-02 22:30:08,607 PIL.Image    DEBUG    Importing CurImagePlugin
+2024-02-02 22:30:08,608 PIL.Image    DEBUG    Importing DcxImagePlugin
+2024-02-02 22:30:08,609 PIL.Image    DEBUG    Importing DdsImagePlugin
+2024-02-02 22:30:08,613 PIL.Image    DEBUG    Importing EpsImagePlugin
+2024-02-02 22:30:08,614 PIL.Image    DEBUG    Importing FitsImagePlugin
+2024-02-02 22:30:08,616 PIL.Image    DEBUG    Importing FliImagePlugin
+2024-02-02 22:30:08,616 PIL.Image    DEBUG    Importing FpxImagePlugin
+2024-02-02 22:30:08,621 PIL.Image    DEBUG    Importing FtexImagePlugin
+2024-02-02 22:30:08,622 PIL.Image    DEBUG    Importing GbrImagePlugin
+2024-02-02 22:30:08,623 PIL.Image    DEBUG    Importing GifImagePlugin
+2024-02-02 22:30:08,623 PIL.Image    DEBUG    Importing GribStubImagePlugin
+2024-02-02 22:30:08,624 PIL.Image    DEBUG    Importing Hdf5StubImagePlugin
+2024-02-02 22:30:08,625 PIL.Image    DEBUG    Importing IcnsImagePlugin
+2024-02-02 22:30:08,627 PIL.Image    DEBUG    Importing IcoImagePlugin
+2024-02-02 22:30:08,628 PIL.Image    DEBUG    Importing ImImagePlugin
+2024-02-02 22:30:08,629 PIL.Image    DEBUG    Importing ImtImagePlugin
+2024-02-02 22:30:08,630 PIL.Image    DEBUG    Importing IptcImagePlugin
+2024-02-02 22:30:08,632 PIL.Image    DEBUG    Importing JpegImagePlugin
+2024-02-02 22:30:08,632 PIL.Image    DEBUG    Importing Jpeg2KImagePlugin
+2024-02-02 22:30:08,632 PIL.Image    DEBUG    Importing McIdasImagePlugin
+2024-02-02 22:30:08,633 PIL.Image    DEBUG    Importing MicImagePlugin
+2024-02-02 22:30:08,634 PIL.Image    DEBUG    Importing MpegImagePlugin
+2024-02-02 22:30:08,635 PIL.Image    DEBUG    Importing MpoImagePlugin
+2024-02-02 22:30:08,635 PIL.Image    DEBUG    Importing MspImagePlugin
+2024-02-02 22:30:08,636 PIL.Image    DEBUG    Importing PalmImagePlugin
+2024-02-02 22:30:08,637 PIL.Image    DEBUG    Importing PcdImagePlugin
+2024-02-02 22:30:08,638 PIL.Image    DEBUG    Importing PcxImagePlugin
+2024-02-02 22:30:08,638 PIL.Image    DEBUG    Importing PdfImagePlugin
+2024-02-02 22:30:08,643 PIL.Image    DEBUG    Importing PixarImagePlugin
+2024-02-02 22:30:08,643 PIL.Image    DEBUG    Importing PngImagePlugin
+2024-02-02 22:30:08,645 PIL.Image    DEBUG    Importing PpmImagePlugin
+2024-02-02 22:30:08,645 PIL.Image    DEBUG    Importing PsdImagePlugin
+2024-02-02 22:30:08,646 PIL.Image    DEBUG    Importing QoiImagePlugin
+2024-02-02 22:30:08,647 PIL.Image    DEBUG    Importing SgiImagePlugin
+2024-02-02 22:30:08,649 PIL.Image    DEBUG    Importing SpiderImagePlugin
+2024-02-02 22:30:08,653 PIL.Image    DEBUG    Importing SunImagePlugin
+2024-02-02 22:30:08,654 PIL.Image    DEBUG    Importing TgaImagePlugin
+2024-02-02 22:30:08,657 PIL.Image    DEBUG    Importing TiffImagePlugin
+2024-02-02 22:30:08,657 PIL.Image    DEBUG    Importing WebPImagePlugin
+2024-02-02 22:30:08,660 PIL.Image    DEBUG    Importing WmfImagePlugin
+2024-02-02 22:30:08,661 PIL.Image    DEBUG    Importing XbmImagePlugin
+2024-02-02 22:30:08,663 PIL.Image    DEBUG    Importing XpmImagePlugin
+2024-02-02 22:30:08,666 PIL.Image    DEBUG    Importing XVThumbImagePlugin
+2024-02-02 22:31:14,512 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-02 22:31:14,513 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-02 22:31:14,513 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-02 22:31:14,513 celery.utils.functional DEBUG    
+def debug_task(self):
+    return 1
+
+2024-02-02 22:31:14,515 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-02 22:31:14,515 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-02 22:31:14,515 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-02 22:31:14,515 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-02 22:31:14,516 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-02 22:31:14,516 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-02 22:31:14,516 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-02 22:31:14,517 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-02 22:32:19,411 PIL.TiffImagePlugin DEBUG    tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-02-02 22:32:19,411 PIL.TiffImagePlugin DEBUG    tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-02 22:32:19,411 PIL.TiffImagePlugin DEBUG    tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-02 22:32:19,411 PIL.TiffImagePlugin DEBUG    tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-02-02 22:32:19,411 PIL.TiffImagePlugin DEBUG    tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Adobe Photoshop CC (Macintosh)\x00'
+2024-02-02 22:32:19,411 PIL.TiffImagePlugin DEBUG    tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 145 - value: b'2018:09:07 19:04:00\x00'
+2024-02-02 22:32:19,412 PIL.TiffImagePlugin DEBUG    tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xa8'
+2024-02-02 22:37:45,601 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\settings\celery.py changed, reloading.
+2024-02-02 22:37:46,406 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-02 22:38:16,825 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\settings\celery.py changed, reloading.
+2024-02-02 22:38:17,631 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-02 22:39:30,533 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\settings\celery.py changed, reloading.
+2024-02-02 22:39:31,213 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-02 22:39:40,988 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\settings\celery.py changed, reloading.
+2024-02-02 22:39:41,699 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-02 22:40:17,387 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-02 22:40:17,388 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-02 22:40:17,388 celery.utils.functional DEBUG    
+def debug_task(self):
+    return 1
+
+2024-02-02 22:40:17,389 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-02 22:40:17,389 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-02 22:40:17,390 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-02 22:40:17,390 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-02 22:40:17,391 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-02 22:40:17,391 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-02 22:40:17,392 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-02 22:40:17,392 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-02 22:40:17,392 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-02 22:45:04,884 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-02 22:45:04,885 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-02 22:45:04,885 celery.utils.functional DEBUG    
+def debug_task(self):
+    return 1
+
+2024-02-02 22:45:04,886 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-02 22:45:04,886 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-02 22:45:04,887 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-02 22:45:04,887 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-02 22:45:04,888 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-02 22:45:04,888 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-02 22:45:04,888 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-02 22:45:04,889 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-02 22:45:04,889 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-02 22:48:21,911 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-02 22:48:21,911 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-02 22:48:21,911 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-02 22:48:21,912 celery.utils.functional DEBUG    
+def debug_task(self):
+    return 1
+
+2024-02-02 22:48:21,912 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-02 22:48:21,913 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-02 22:48:21,913 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-02 22:48:21,913 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-02 22:48:21,913 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-02 22:48:21,914 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-02 22:48:21,914 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-02 22:48:21,914 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-02 22:52:29,632 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\settings\celery.py changed, reloading.
+2024-02-02 22:52:30,325 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-02 22:54:02,596 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\settings\celery.py changed, reloading.
+2024-02-02 22:54:03,282 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-02 22:54:23,315 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\settings\celery.py changed, reloading.
+2024-02-02 23:00:05,447 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-02 23:00:05,447 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-02 23:00:05,448 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-02 23:00:05,448 celery.utils.functional DEBUG    
+def debug_task(self):
+    return 1
+
+2024-02-02 23:00:05,448 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-02 23:00:05,449 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-02 23:00:05,449 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-02 23:00:05,449 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-02 23:00:05,451 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-02 23:00:05,451 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-02 23:00:05,451 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-02 23:00:05,451 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-02 23:00:45,368 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-02 23:00:45,368 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-02 23:00:45,368 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-02 23:00:45,369 celery.utils.functional DEBUG    
+def debug_task(self):
+    return 1
+
+2024-02-02 23:00:45,369 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-02 23:00:45,370 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-02 23:00:45,370 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-02 23:00:45,370 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-02 23:00:45,371 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-02 23:00:45,371 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-02 23:00:45,371 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-02 23:00:45,371 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-02 23:01:43,063 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-02 23:02:01,649 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-02 23:02:01,650 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-02 23:02:01,650 celery.utils.functional DEBUG    
+def debug_task(self):
+    return 1
+
+2024-02-02 23:02:01,651 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-02 23:02:01,651 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-02 23:02:01,652 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-02 23:02:01,652 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-02 23:02:01,653 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-02 23:02:01,653 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-02 23:02:01,653 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-02 23:02:01,654 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-02 23:02:01,654 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-02 23:17:39,390 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\settings\celery.py changed, reloading.
+2024-02-02 23:17:40,233 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-02 23:20:48,196 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-02 23:20:48,197 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-02 23:20:48,197 celery.utils.functional DEBUG    
+def debug_task(self):
+    return 1
+
+2024-02-02 23:20:48,197 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-02 23:20:48,198 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-02 23:20:48,198 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-02 23:20:48,199 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-02 23:20:48,199 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-02 23:20:48,199 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-02 23:20:48,200 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-02 23:20:48,200 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-02 23:20:48,200 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-02 23:21:10,424 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\settings\celery.py changed, reloading.
+2024-02-02 23:21:11,116 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-02 23:21:12,796 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-02 23:21:12,797 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-02 23:21:12,797 celery.utils.functional DEBUG    
+def debug_task(self):
+    return 1
+
+2024-02-02 23:21:12,798 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-02 23:21:12,798 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-02 23:21:12,799 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-02 23:21:12,799 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-02 23:21:12,800 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-02 23:21:12,800 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-02 23:21:12,800 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-02 23:21:12,801 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-02 23:21:12,801 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-02 23:25:55,123 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-02 23:25:55,124 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-02 23:25:55,124 celery.utils.functional DEBUG    
+def debug_task(self):
+    return 1
+
+2024-02-02 23:25:55,124 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-02 23:25:55,125 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-02 23:25:55,125 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-02 23:25:55,125 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-02 23:25:55,126 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-02 23:25:55,126 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-02 23:25:55,126 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-02 23:25:55,127 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-02 23:25:55,127 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-02 23:37:20,621 django.utils.autoreload INFO     C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\pytz\lazy.py changed, reloading.
+2024-02-02 23:37:21,743 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-02 23:37:23,212 django.utils.autoreload INFO     C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\contrib\admin\actions.py changed, reloading.
+2024-02-02 23:40:13,879 celery.utils.dispatch.signal ERROR    Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x0000015CE7BD8B10>> raised: ModuleNotFoundError("No module named 'django-celery_results'")
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 97, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 135, in validate_models
+    self.django_setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 131, in django_setup
+    django.setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\config.py", line 193, in create
+    import_module(entry)
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'django-celery_results'
+2024-02-02 23:40:13,877 celery.utils.dispatch.signal ERROR    Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x000001F840338A10>> raised: ModuleNotFoundError("No module named 'django-celery_results'")
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 97, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 135, in validate_models
+    self.django_setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 131, in django_setup
+    django.setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\config.py", line 193, in create
+    import_module(entry)
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'django-celery_results'
+2024-02-02 23:40:13,877 celery.utils.dispatch.signal ERROR    Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x0000016431088A10>> raised: ModuleNotFoundError("No module named 'django-celery_results'")
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 97, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 135, in validate_models
+    self.django_setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 131, in django_setup
+    django.setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\config.py", line 193, in create
+    import_module(entry)
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'django-celery_results'
+2024-02-02 23:40:13,879 celery.utils.dispatch.signal ERROR    Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x0000022E86888B10>> raised: ModuleNotFoundError("No module named 'django-celery_results'")
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 97, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 135, in validate_models
+    self.django_setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 131, in django_setup
+    django.setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\config.py", line 193, in create
+    import_module(entry)
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'django-celery_results'
+2024-02-02 23:40:13,884 celery.utils.dispatch.signal ERROR    Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x0000022F2DC28B10>> raised: ModuleNotFoundError("No module named 'django-celery_results'")
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 97, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 135, in validate_models
+    self.django_setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 131, in django_setup
+    django.setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\config.py", line 193, in create
+    import_module(entry)
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'django-celery_results'
+2024-02-02 23:40:13,880 celery.utils.dispatch.signal ERROR    Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x0000023CBD5D8B10>> raised: ModuleNotFoundError("No module named 'django-celery_results'")
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 97, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 135, in validate_models
+    self.django_setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 131, in django_setup
+    django.setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\config.py", line 193, in create
+    import_module(entry)
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'django-celery_results'
+2024-02-02 23:40:15,372 celery.utils.dispatch.signal ERROR    Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x000002EB98618A90>> raised: ModuleNotFoundError("No module named 'django-celery_results'")
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 97, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 135, in validate_models
+    self.django_setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 131, in django_setup
+    django.setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\config.py", line 193, in create
+    import_module(entry)
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'django-celery_results'
+2024-02-02 23:40:15,373 celery.utils.dispatch.signal ERROR    Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x000001AD3A628A90>> raised: ModuleNotFoundError("No module named 'django-celery_results'")
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 97, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 135, in validate_models
+    self.django_setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 131, in django_setup
+    django.setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\config.py", line 193, in create
+    import_module(entry)
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'django-celery_results'
+2024-02-02 23:40:15,378 celery.utils.dispatch.signal ERROR    Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x000001AEA3668A90>> raised: ModuleNotFoundError("No module named 'django-celery_results'")
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 97, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 135, in validate_models
+    self.django_setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 131, in django_setup
+    django.setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\config.py", line 193, in create
+    import_module(entry)
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'django-celery_results'
+2024-02-02 23:40:15,379 celery.utils.dispatch.signal ERROR    Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x0000026508F98B10>> raised: ModuleNotFoundError("No module named 'django-celery_results'")
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 97, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 135, in validate_models
+    self.django_setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 131, in django_setup
+    django.setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\config.py", line 193, in create
+    import_module(entry)
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'django-celery_results'
+2024-02-02 23:40:15,384 celery.utils.dispatch.signal ERROR    Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x0000017882A08B10>> raised: ModuleNotFoundError("No module named 'django-celery_results'")
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 97, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 135, in validate_models
+    self.django_setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 131, in django_setup
+    django.setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\config.py", line 193, in create
+    import_module(entry)
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'django-celery_results'
+2024-02-02 23:40:16,185 celery.utils.dispatch.signal ERROR    Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x00000233DB438B10>> raised: ModuleNotFoundError("No module named 'django-celery_results'")
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 97, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 135, in validate_models
+    self.django_setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 131, in django_setup
+    django.setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\config.py", line 193, in create
+    import_module(entry)
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'django-celery_results'
+2024-02-02 23:40:16,187 celery.utils.dispatch.signal ERROR    Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x0000027110F58A50>> raised: ModuleNotFoundError("No module named 'django-celery_results'")
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 97, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 135, in validate_models
+    self.django_setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 131, in django_setup
+    django.setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\config.py", line 193, in create
+    import_module(entry)
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'django-celery_results'
+2024-02-02 23:40:16,187 celery.utils.dispatch.signal ERROR    Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x000002750D2B8A90>> raised: ModuleNotFoundError("No module named 'django-celery_results'")
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 97, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 135, in validate_models
+    self.django_setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 131, in django_setup
+    django.setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\config.py", line 193, in create
+    import_module(entry)
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'django-celery_results'
+2024-02-02 23:40:16,189 celery.utils.dispatch.signal ERROR    Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x0000025644558B10>> raised: ModuleNotFoundError("No module named 'django-celery_results'")
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 97, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 135, in validate_models
+    self.django_setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 131, in django_setup
+    django.setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\config.py", line 193, in create
+    import_module(entry)
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'django-celery_results'
+2024-02-02 23:40:16,190 celery.utils.dispatch.signal ERROR    Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x00000220E64B8B10>> raised: ModuleNotFoundError("No module named 'django-celery_results'")
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 97, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 135, in validate_models
+    self.django_setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 131, in django_setup
+    django.setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\config.py", line 193, in create
+    import_module(entry)
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'django-celery_results'
+2024-02-02 23:40:16,191 celery.utils.dispatch.signal ERROR    Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x0000028ADE9E8A10>> raised: ModuleNotFoundError("No module named 'django-celery_results'")
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 97, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 135, in validate_models
+    self.django_setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 131, in django_setup
+    django.setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\config.py", line 193, in create
+    import_module(entry)
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'django-celery_results'
+2024-02-02 23:40:17,047 celery.utils.dispatch.signal ERROR    Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x0000018049CE8A90>> raised: ModuleNotFoundError("No module named 'django-celery_results'")
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 97, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 135, in validate_models
+    self.django_setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 131, in django_setup
+    django.setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\config.py", line 193, in create
+    import_module(entry)
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'django-celery_results'
+2024-02-02 23:40:17,050 celery.utils.dispatch.signal ERROR    Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x000001C2E7D28B10>> raised: ModuleNotFoundError("No module named 'django-celery_results'")
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 97, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 135, in validate_models
+    self.django_setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 131, in django_setup
+    django.setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\config.py", line 193, in create
+    import_module(entry)
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'django-celery_results'
+2024-02-02 23:40:17,051 celery.utils.dispatch.signal ERROR    Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x000001F91F5C8B10>> raised: ModuleNotFoundError("No module named 'django-celery_results'")
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 97, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 135, in validate_models
+    self.django_setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 131, in django_setup
+    django.setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\config.py", line 193, in create
+    import_module(entry)
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'django-celery_results'
+2024-02-02 23:40:17,054 celery.utils.dispatch.signal ERROR    Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x000001A7AB388A10>> raised: ModuleNotFoundError("No module named 'django-celery_results'")
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 97, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 135, in validate_models
+    self.django_setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 131, in django_setup
+    django.setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\config.py", line 193, in create
+    import_module(entry)
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'django-celery_results'
+2024-02-02 23:40:17,055 celery.utils.dispatch.signal ERROR    Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x0000021CA5778A50>> raised: ModuleNotFoundError("No module named 'django-celery_results'")
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 97, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 135, in validate_models
+    self.django_setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 131, in django_setup
+    django.setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\config.py", line 193, in create
+    import_module(entry)
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'django-celery_results'
+2024-02-02 23:40:17,695 celery.utils.dispatch.signal ERROR    Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x0000019F9BF88A10>> raised: ModuleNotFoundError("No module named 'django-celery_results'")
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 97, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 135, in validate_models
+    self.django_setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 131, in django_setup
+    django.setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\config.py", line 193, in create
+    import_module(entry)
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'django-celery_results'
+2024-02-02 23:40:18,695 celery.utils.dispatch.signal ERROR    Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x000001F6BD9E8A10>> raised: ModuleNotFoundError("No module named 'django-celery_results'")
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 97, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 135, in validate_models
+    self.django_setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 131, in django_setup
+    django.setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\config.py", line 193, in create
+    import_module(entry)
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'django-celery_results'
+2024-02-02 23:40:18,695 celery.utils.dispatch.signal ERROR    Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x00000275DAC28B10>> raised: ModuleNotFoundError("No module named 'django-celery_results'")
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 97, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 135, in validate_models
+    self.django_setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 131, in django_setup
+    django.setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\config.py", line 193, in create
+    import_module(entry)
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'django-celery_results'
+2024-02-02 23:40:18,698 celery.utils.dispatch.signal ERROR    Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x000001B1F9BF8B90>> raised: ModuleNotFoundError("No module named 'django-celery_results'")
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 97, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 135, in validate_models
+    self.django_setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 131, in django_setup
+    django.setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\config.py", line 193, in create
+    import_module(entry)
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'django-celery_results'
+2024-02-02 23:40:18,701 celery.utils.dispatch.signal ERROR    Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x000001D417958A90>> raised: ModuleNotFoundError("No module named 'django-celery_results'")
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 97, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 135, in validate_models
+    self.django_setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 131, in django_setup
+    django.setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\config.py", line 193, in create
+    import_module(entry)
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'django-celery_results'
+2024-02-02 23:40:18,701 celery.utils.dispatch.signal ERROR    Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x000002B0F7988AD0>> raised: ModuleNotFoundError("No module named 'django-celery_results'")
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 97, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 135, in validate_models
+    self.django_setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 131, in django_setup
+    django.setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\config.py", line 193, in create
+    import_module(entry)
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'django-celery_results'
+2024-02-02 23:40:18,702 celery.utils.dispatch.signal ERROR    Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x00000161D82E8B10>> raised: ModuleNotFoundError("No module named 'django-celery_results'")
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 97, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 135, in validate_models
+    self.django_setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 131, in django_setup
+    django.setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\config.py", line 193, in create
+    import_module(entry)
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'django-celery_results'
+2024-02-02 23:40:20,290 celery.utils.dispatch.signal ERROR    Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x000001FB62338B90>> raised: ModuleNotFoundError("No module named 'django-celery_results'")
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 97, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 135, in validate_models
+    self.django_setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 131, in django_setup
+    django.setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\config.py", line 193, in create
+    import_module(entry)
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'django-celery_results'
+2024-02-02 23:40:20,295 celery.utils.dispatch.signal ERROR    Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x000001D92CC58A90>> raised: ModuleNotFoundError("No module named 'django-celery_results'")
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 97, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 135, in validate_models
+    self.django_setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 131, in django_setup
+    django.setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\config.py", line 193, in create
+    import_module(entry)
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'django-celery_results'
+2024-02-02 23:40:20,295 celery.utils.dispatch.signal ERROR    Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x000001ED14ED8AD0>> raised: ModuleNotFoundError("No module named 'django-celery_results'")
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 97, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 135, in validate_models
+    self.django_setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 131, in django_setup
+    django.setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\config.py", line 193, in create
+    import_module(entry)
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'django-celery_results'
+2024-02-02 23:40:20,298 celery.utils.dispatch.signal ERROR    Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x0000015876218AD0>> raised: ModuleNotFoundError("No module named 'django-celery_results'")
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 97, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 135, in validate_models
+    self.django_setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 131, in django_setup
+    django.setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\config.py", line 193, in create
+    import_module(entry)
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'django-celery_results'
+2024-02-02 23:40:20,298 celery.utils.dispatch.signal ERROR    Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x000002295FA98AD0>> raised: ModuleNotFoundError("No module named 'django-celery_results'")
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 97, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 135, in validate_models
+    self.django_setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 131, in django_setup
+    django.setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\config.py", line 193, in create
+    import_module(entry)
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'django-celery_results'
+2024-02-02 23:40:20,302 celery.utils.dispatch.signal ERROR    Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x000001F5C2068A90>> raised: ModuleNotFoundError("No module named 'django-celery_results'")
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 97, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 135, in validate_models
+    self.django_setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\celery\fixups\django.py", line 131, in django_setup
+    django.setup()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\apps\config.py", line 193, in create
+    import_module(entry)
+  File "C:\Users\dmstv\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'django-celery_results'
+2024-02-02 23:41:13,631 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-02 23:41:13,632 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-02 23:41:13,632 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-02 23:41:13,632 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-02 23:41:13,633 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-02 23:41:13,633 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-02 23:41:13,633 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-02 23:41:13,633 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-02 23:41:13,634 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-02 23:41:13,634 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-02 23:41:13,634 celery.utils.functional DEBUG    
+def debug_task(self):
+    return 1
+
+2024-02-02 23:41:13,635 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-02 23:52:30,149 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-02 23:52:30,149 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-02 23:52:30,150 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-02 23:52:30,150 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-02 23:52:30,151 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-02 23:52:30,151 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-02 23:52:30,151 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-02 23:52:30,152 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-02 23:52:30,152 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-02 23:52:30,152 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-02 23:52:30,153 celery.utils.functional DEBUG    
+def debug_task(self):
+    return 1
+
+2024-02-02 23:52:30,153 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-02 23:53:49,555 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-02 23:55:18,969 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-02 23:55:18,969 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-02 23:55:18,970 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-02 23:55:18,970 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-02 23:55:18,970 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-02 23:55:18,971 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-02 23:55:18,971 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-02 23:55:18,971 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-02 23:55:18,972 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-02 23:55:18,972 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-02 23:55:18,972 celery.utils.functional DEBUG    
+def debug_task(self):
+    return 1
+
+2024-02-02 23:55:18,973 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-02 23:57:38,595 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\settings\celery.py changed, reloading.
+2024-02-02 23:57:39,404 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-02 23:59:40,428 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-02 23:59:40,428 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-02 23:59:40,428 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-02 23:59:40,429 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-02 23:59:40,429 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-02 23:59:40,429 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-02 23:59:40,430 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-02 23:59:40,430 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-02 23:59:40,431 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-02 23:59:40,431 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-02 23:59:40,431 celery.utils.functional DEBUG    
+def debug_task(self):
+    return 1
+
+2024-02-02 23:59:40,432 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-03 00:06:18,601 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\celery.py changed, reloading.
+2024-02-03 00:06:19,339 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-03 00:13:32,367 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\celery.py changed, reloading.
+2024-02-03 00:13:33,091 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-03 00:13:39,016 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-03 00:13:39,017 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 00:13:39,017 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-03 00:13:39,017 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-03 00:13:39,017 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-03 00:13:39,018 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-03 00:13:39,018 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-03 00:13:39,018 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-03 00:13:39,019 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-03 00:13:39,019 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-03 00:13:39,019 celery.utils.functional DEBUG    
+def debug_task(self):
+    return 1
+
+2024-02-03 00:13:39,019 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-03 00:14:37,469 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-03 00:14:37,469 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-03 00:14:37,470 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-03 00:14:37,470 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-03 00:14:37,470 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-03 00:14:37,470 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-03 00:14:37,471 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-03 00:14:37,471 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 00:14:37,471 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-03 00:14:37,472 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-03 00:14:37,472 celery.utils.functional DEBUG    
+def debug_task(self):
+    return 1
+
+2024-02-03 00:14:37,472 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-03 00:17:32,625 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-03 00:17:32,625 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-03 00:17:32,626 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-03 00:17:32,626 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-03 00:17:32,626 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-03 00:17:32,627 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-03 00:17:32,627 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-03 00:17:32,627 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 00:17:32,628 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-03 00:17:32,628 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-03 00:17:32,628 celery.utils.functional DEBUG    
+def debug_task(self):
+    return 1
+
+2024-02-03 00:17:32,629 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-03 00:18:19,974 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-03 00:18:19,974 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 00:18:19,975 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-03 00:18:19,975 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-03 00:18:19,976 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-03 00:18:19,976 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-03 00:18:19,976 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-03 00:18:19,976 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-03 00:18:19,977 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-03 00:18:19,977 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-03 00:18:19,978 celery.utils.functional DEBUG    
+def debug_task(self):
+    return 1
+
+2024-02-03 00:18:19,978 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-03 00:19:52,634 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-03 00:19:52,635 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 00:19:52,635 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-03 00:19:52,635 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-03 00:19:52,635 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-03 00:19:52,636 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-03 00:19:52,636 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-03 00:19:52,637 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-03 00:19:52,637 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-03 00:19:52,637 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-03 00:19:52,638 celery.utils.functional DEBUG    
+def debug_task(self):
+    return 1
+
+2024-02-03 00:19:52,638 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-03 00:22:54,825 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-03 00:22:54,825 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 00:22:54,826 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-03 00:22:54,826 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-03 00:22:54,826 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-03 00:22:54,827 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-03 00:22:54,827 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-03 00:22:54,828 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-03 00:22:54,828 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-03 00:22:54,829 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-03 00:22:54,829 celery.utils.functional DEBUG    
+def debug_task(self):
+    return 1
+
+2024-02-03 00:22:54,830 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-03 00:23:25,609 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-03 00:23:25,610 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-03 00:23:25,610 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-03 00:23:25,610 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-03 00:23:25,610 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-03 00:23:25,611 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-03 00:23:25,611 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-03 00:23:25,611 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 00:23:25,612 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-03 00:23:25,612 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-03 00:23:25,612 celery.utils.functional DEBUG    
+def debug_task(self):
+    return 1
+
+2024-02-03 00:23:25,613 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-03 00:25:33,803 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-03 00:25:33,804 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-03 00:25:33,804 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-03 00:25:33,804 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-03 00:25:33,805 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-03 00:25:33,805 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-03 00:25:33,806 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-03 00:25:33,806 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 00:25:33,806 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-03 00:25:33,807 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-03 00:25:33,807 celery.utils.functional DEBUG    
+def debug_task(self):
+    return 1
+
+2024-02-03 00:25:33,807 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-03 00:25:45,296 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-03 00:25:45,297 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-03 00:25:45,297 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-03 00:25:45,298 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-03 00:25:45,298 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-03 00:25:45,298 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-03 00:25:45,299 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-03 00:25:45,299 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-03 00:25:45,300 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 00:25:45,300 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-03 00:25:45,301 celery.utils.functional DEBUG    
+def debug_task(self):
+    return 1
+
+2024-02-03 00:25:45,301 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-03 00:28:26,443 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-03 00:28:26,443 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-03 00:28:26,444 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-03 00:28:26,444 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-03 00:28:26,445 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-03 00:28:26,445 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-03 00:28:26,446 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-03 00:28:26,446 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 00:28:26,447 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-03 00:28:26,447 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-03 00:28:26,447 celery.utils.functional DEBUG    
+def debug_task(self):
+    return 1
+
+2024-02-03 00:28:26,448 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-03 00:28:34,318 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-03 00:28:34,319 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-03 00:28:34,319 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-03 00:28:34,319 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-03 00:28:34,320 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-03 00:28:34,320 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-03 00:28:34,321 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-03 00:28:34,321 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-03 00:28:34,322 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 00:28:34,322 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-03 00:28:34,322 celery.utils.functional DEBUG    
+def debug_task(self):
+    return 1
+
+2024-02-03 00:28:34,323 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-03 00:32:16,665 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-03 00:32:16,666 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 00:32:16,666 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-03 00:32:16,667 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-03 00:32:16,667 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-03 00:32:16,667 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-03 00:32:16,667 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-03 00:32:16,668 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-03 00:32:16,668 celery.utils.functional DEBUG    
+def debug_task(self):
+    return 1
+
+2024-02-03 00:32:16,668 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-03 00:32:16,669 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-03 00:32:16,669 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-03 00:32:25,801 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-03 00:32:25,801 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-03 00:32:25,801 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-03 00:32:25,802 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 00:32:25,802 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-03 00:32:25,803 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-03 00:32:25,803 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-03 00:32:25,803 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-03 00:32:25,804 celery.utils.functional DEBUG    
+def debug_task(self):
+    return 1
+
+2024-02-03 00:32:25,804 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-03 00:32:25,804 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-03 00:32:25,805 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-03 00:35:21,652 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-03 00:35:21,653 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-03 00:35:21,653 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-03 00:35:21,653 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-03 00:35:21,654 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-03 00:35:21,654 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-03 00:35:21,654 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 00:35:21,655 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-03 00:35:21,655 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-03 00:35:21,656 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-03 00:35:21,656 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-03 00:36:02,093 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-03 00:36:02,094 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-03 00:36:02,094 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-03 00:36:02,094 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-03 00:36:02,095 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-03 00:36:02,095 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-03 00:36:02,095 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-03 00:36:02,096 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-03 00:36:02,096 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 00:36:02,096 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-03 00:36:02,097 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-03 01:03:12,891 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-03 01:03:12,892 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-03 01:03:12,892 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-03 01:03:12,892 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-03 01:03:12,893 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 01:03:12,893 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-03 01:03:12,893 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-03 01:03:12,893 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-03 01:03:12,894 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-03 01:03:12,894 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-03 01:03:12,894 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-03 01:03:30,195 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-03 01:03:31,608 django.request WARNING  Not Found: /
+2024-02-03 01:03:52,067 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 01:05:26,835 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-03 01:05:45,366 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-03 01:05:45,366 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-03 01:05:45,366 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-03 01:05:45,367 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-03 01:05:45,367 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 01:05:45,367 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-03 01:05:45,367 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-03 01:05:45,368 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-03 01:05:45,368 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-03 01:05:45,368 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-03 01:05:45,369 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-03 01:06:29,817 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 01:11:23,094 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-03 01:11:23,095 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-03 01:11:23,095 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-03 01:11:23,095 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-03 01:11:23,096 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 01:11:23,096 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-03 01:11:23,096 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-03 01:11:23,096 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-03 01:11:23,097 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-03 01:11:23,097 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-03 01:11:23,097 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-03 01:12:25,160 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-03 01:12:29,644 django.request WARNING  Not Found: /
+2024-02-03 01:12:29,679 django.request WARNING  Not Found: /favicon.ico
+2024-02-03 01:12:49,666 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 01:15:30,050 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\tasks.py changed, reloading.
+2024-02-03 01:15:30,790 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-03 01:16:54,836 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\tasks.py changed, reloading.
+2024-02-03 01:16:55,391 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-03 01:16:58,047 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 01:20:54,727 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\settings\celery.py changed, reloading.
+2024-02-03 01:20:55,443 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-03 01:21:18,188 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-03 01:21:18,189 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-03 01:21:18,189 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-03 01:21:18,190 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-03 01:21:18,190 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 01:21:18,190 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-03 01:21:18,191 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-03 01:21:18,191 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-03 01:21:18,192 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-03 01:21:18,192 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-03 01:21:18,193 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-03 01:22:59,721 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\settings\celery.py changed, reloading.
+2024-02-03 01:23:00,267 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-03 01:23:23,900 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-03 01:23:49,061 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-03 01:23:49,062 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-03 01:23:49,062 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-03 01:23:49,062 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-03 01:23:49,063 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 01:23:49,063 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-03 01:23:49,063 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-03 01:23:49,063 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-03 01:23:49,064 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-03 01:23:49,064 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-03 01:23:49,065 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-03 01:25:33,265 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\settings\celery.py changed, reloading.
+2024-02-03 01:25:33,871 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-03 01:25:41,897 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 01:26:14,007 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-03 01:26:14,007 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-03 01:26:14,008 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-03 01:26:14,008 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-03 01:26:14,009 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 01:26:14,009 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-03 01:26:14,009 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-03 01:26:14,010 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-03 01:26:14,010 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-03 01:26:14,011 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-03 01:26:14,011 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
