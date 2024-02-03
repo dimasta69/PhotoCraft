@@ -9,10 +9,8 @@
 
 from photo_craft.celery import app
 from models_app.models.photo.model import Photo
-from utils.fd import dela
 
 
 @app.task
 def my_task():
-    dela()
-    return None
+    Photo.objects.filter(status="Delete").delete()

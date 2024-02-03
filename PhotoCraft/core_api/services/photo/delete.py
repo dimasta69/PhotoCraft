@@ -8,7 +8,7 @@ from functools import lru_cache
 
 from utils.services import ServiceWithResult
 from service_objects.fields import ModelField
-from core_api.tasks import my_task
+
 
 class PhotoDeleteService(ServiceWithResult):
     id = forms.IntegerField(required=True)
@@ -23,17 +23,14 @@ class PhotoDeleteService(ServiceWithResult):
         return self
 
     def _status(self):
-     #   self.get_photo.schedule_deletion()
-        my_task.delay()
-        return {'message': f'The object will be deleted in {self.get_photo.deleted_at}'}
-        # if self.get_photo.status in ('Moderation', 'Reject'):
-        #     self.get_photo.delete()
-        #     return {'message': 'Object deleted successfully.'}
-        # elif self.get_photo.status == 'Delete':
-        #     return {'message': f'The object will be deleted in {self.get_photo.deleted_at}'}
-        # elif self.get_photo.status == 'Published':
-        #     self.get_photo.schedule_deletion()
-        #     return {'message': f'The object will be deleted in {self.get_photo.deleted_at}'}
+        if self.get_photo.status in ('Moderation', 'Reject'):
+            self.get_photo.delete()
+            return {'message': 'Object deleted successfully.'}
+        elif self.get_photo.status == 'Delete':
+            return {'message': f'The object will be deleted'}
+        elif self.get_photo.status == 'Published':
+            self.get_photo.schedule_deletion()
+            return {'message': f'The object will be deleted'}
 
     @property
     @lru_cache()

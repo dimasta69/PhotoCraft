@@ -31576,3 +31576,1177 @@ def chunks(task, it, n):
 def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
     return 1
 
+2024-02-03 12:14:05,693 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-03 12:14:05,694 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-03 12:14:05,694 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-03 12:14:05,695 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-03 12:14:05,695 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 12:14:05,695 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-03 12:14:05,695 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-03 12:14:05,695 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-03 12:14:05,696 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-03 12:14:05,696 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-03 12:14:05,697 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-03 12:14:49,019 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-03 12:14:49,019 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-03 12:14:49,019 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-03 12:14:49,020 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-03 12:14:49,020 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 12:14:49,020 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-03 12:14:49,020 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-03 12:14:49,020 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-03 12:14:49,021 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-03 12:14:49,021 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-03 12:14:49,021 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-03 12:15:57,938 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-03 12:15:57,938 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-03 12:15:57,938 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-03 12:15:57,939 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-03 12:15:57,939 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 12:15:57,939 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-03 12:15:57,939 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-03 12:15:57,939 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-03 12:15:57,940 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-03 12:15:57,940 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-03 12:15:57,940 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-03 12:16:49,858 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-03 12:16:49,859 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-03 12:16:49,859 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-03 12:16:49,859 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-03 12:16:49,860 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 12:16:49,860 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-03 12:16:49,860 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-03 12:16:49,860 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-03 12:16:49,861 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-03 12:16:49,861 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-03 12:16:49,861 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-03 12:17:49,979 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-03 12:17:49,980 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-03 12:17:49,980 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-03 12:17:49,980 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-03 12:17:49,981 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 12:17:49,981 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-03 12:17:49,981 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-03 12:17:49,982 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-03 12:17:49,982 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-03 12:17:49,982 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-03 12:17:49,982 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-03 12:18:21,388 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-03 12:18:21,388 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-03 12:18:21,389 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-03 12:18:21,389 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-03 12:18:21,389 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 12:18:21,390 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-03 12:18:21,390 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-03 12:18:21,390 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-03 12:18:21,390 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-03 12:18:21,391 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-03 12:18:21,391 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-03 12:20:47,312 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-03 12:20:47,313 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-03 12:20:47,313 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-03 12:20:47,313 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-03 12:20:47,314 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-03 12:20:47,314 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 12:20:47,314 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-03 12:20:47,315 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-03 12:20:47,315 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-03 12:20:47,315 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-03 12:20:47,316 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-03 12:21:23,251 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-03 12:21:24,628 django.request WARNING  Not Found: /
+2024-02-03 12:21:24,744 django.request WARNING  Not Found: /favicon.ico
+2024-02-03 12:21:45,635 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 12:24:32,166 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\__init__.py changed, reloading.
+2024-02-03 12:24:32,855 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-03 12:25:21,756 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\tasks.py changed, reloading.
+2024-02-03 12:25:22,529 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-03 12:25:33,439 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\tasks.py changed, reloading.
+2024-02-03 12:25:34,048 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-03 12:25:34,779 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 12:25:47,491 django.request ERROR    Internal Server Error: /core_api/photo/1/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo.py", line 23, in get
+    outcome = ServiceOutcome(PhotoService, {'id': kwargs['id']})
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 227, in execute
+    raise ServiceObjectLogicError(errors_dict=outcome.errors, response_status=response_status)
+utils.errors.ServiceObjectLogicError: Invalid request data
+2024-02-03 12:25:48,576 django.request ERROR    Internal Server Error: /core_api/photo/1/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo.py", line 23, in get
+    outcome = ServiceOutcome(PhotoService, {'id': kwargs['id']})
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 227, in execute
+    raise ServiceObjectLogicError(errors_dict=outcome.errors, response_status=response_status)
+utils.errors.ServiceObjectLogicError: Invalid request data
+2024-02-03 12:27:31,254 PIL.TiffImagePlugin DEBUG    tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-02-03 12:27:31,255 PIL.TiffImagePlugin DEBUG    tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-03 12:27:31,255 PIL.TiffImagePlugin DEBUG    tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-03 12:27:31,255 PIL.TiffImagePlugin DEBUG    tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-02-03 12:27:31,255 PIL.TiffImagePlugin DEBUG    tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Adobe Photoshop CC (Macintosh)\x00'
+2024-02-03 12:27:31,255 PIL.TiffImagePlugin DEBUG    tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 145 - value: b'2018:09:07 19:04:00\x00'
+2024-02-03 12:27:31,255 PIL.TiffImagePlugin DEBUG    tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xa8'
+2024-02-03 12:27:31,256 PIL.Image    DEBUG    Importing BlpImagePlugin
+2024-02-03 12:27:31,257 PIL.Image    DEBUG    Importing BmpImagePlugin
+2024-02-03 12:27:31,258 PIL.Image    DEBUG    Importing BufrStubImagePlugin
+2024-02-03 12:27:31,258 PIL.Image    DEBUG    Importing CurImagePlugin
+2024-02-03 12:27:31,259 PIL.Image    DEBUG    Importing DcxImagePlugin
+2024-02-03 12:27:31,261 PIL.Image    DEBUG    Importing DdsImagePlugin
+2024-02-03 12:27:31,264 PIL.Image    DEBUG    Importing EpsImagePlugin
+2024-02-03 12:27:31,265 PIL.Image    DEBUG    Importing FitsImagePlugin
+2024-02-03 12:27:31,266 PIL.Image    DEBUG    Importing FliImagePlugin
+2024-02-03 12:27:31,267 PIL.Image    DEBUG    Importing FpxImagePlugin
+2024-02-03 12:27:31,271 PIL.Image    DEBUG    Importing FtexImagePlugin
+2024-02-03 12:27:31,272 PIL.Image    DEBUG    Importing GbrImagePlugin
+2024-02-03 12:27:31,272 PIL.Image    DEBUG    Importing GifImagePlugin
+2024-02-03 12:27:31,272 PIL.Image    DEBUG    Importing GribStubImagePlugin
+2024-02-03 12:27:31,273 PIL.Image    DEBUG    Importing Hdf5StubImagePlugin
+2024-02-03 12:27:31,274 PIL.Image    DEBUG    Importing IcnsImagePlugin
+2024-02-03 12:27:31,276 PIL.Image    DEBUG    Importing IcoImagePlugin
+2024-02-03 12:27:31,277 PIL.Image    DEBUG    Importing ImImagePlugin
+2024-02-03 12:27:31,278 PIL.Image    DEBUG    Importing ImtImagePlugin
+2024-02-03 12:27:31,279 PIL.Image    DEBUG    Importing IptcImagePlugin
+2024-02-03 12:27:31,280 PIL.Image    DEBUG    Importing JpegImagePlugin
+2024-02-03 12:27:31,280 PIL.Image    DEBUG    Importing Jpeg2KImagePlugin
+2024-02-03 12:27:31,280 PIL.Image    DEBUG    Importing McIdasImagePlugin
+2024-02-03 12:27:31,281 PIL.Image    DEBUG    Importing MicImagePlugin
+2024-02-03 12:27:31,281 PIL.Image    DEBUG    Importing MpegImagePlugin
+2024-02-03 12:27:31,283 PIL.Image    DEBUG    Importing MpoImagePlugin
+2024-02-03 12:27:31,283 PIL.Image    DEBUG    Importing MspImagePlugin
+2024-02-03 12:27:31,284 PIL.Image    DEBUG    Importing PalmImagePlugin
+2024-02-03 12:27:31,286 PIL.Image    DEBUG    Importing PcdImagePlugin
+2024-02-03 12:27:31,286 PIL.Image    DEBUG    Importing PcxImagePlugin
+2024-02-03 12:27:31,287 PIL.Image    DEBUG    Importing PdfImagePlugin
+2024-02-03 12:27:31,290 PIL.Image    DEBUG    Importing PixarImagePlugin
+2024-02-03 12:27:31,291 PIL.Image    DEBUG    Importing PngImagePlugin
+2024-02-03 12:27:31,291 PIL.Image    DEBUG    Importing PpmImagePlugin
+2024-02-03 12:27:31,291 PIL.Image    DEBUG    Importing PsdImagePlugin
+2024-02-03 12:27:31,292 PIL.Image    DEBUG    Importing QoiImagePlugin
+2024-02-03 12:27:31,293 PIL.Image    DEBUG    Importing SgiImagePlugin
+2024-02-03 12:27:31,293 PIL.Image    DEBUG    Importing SpiderImagePlugin
+2024-02-03 12:27:31,294 PIL.Image    DEBUG    Importing SunImagePlugin
+2024-02-03 12:27:31,295 PIL.Image    DEBUG    Importing TgaImagePlugin
+2024-02-03 12:27:31,296 PIL.Image    DEBUG    Importing TiffImagePlugin
+2024-02-03 12:27:31,296 PIL.Image    DEBUG    Importing WebPImagePlugin
+2024-02-03 12:27:31,314 PIL.Image    DEBUG    Importing WmfImagePlugin
+2024-02-03 12:27:31,315 PIL.Image    DEBUG    Importing XbmImagePlugin
+2024-02-03 12:27:31,317 PIL.Image    DEBUG    Importing XpmImagePlugin
+2024-02-03 12:27:31,318 PIL.Image    DEBUG    Importing XVThumbImagePlugin
+2024-02-03 12:27:37,102 django.request ERROR    Internal Server Error: /core_api/photo/1/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo.py", line 23, in get
+    outcome = ServiceOutcome(PhotoService, {'id': kwargs['id']})
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 227, in execute
+    raise ServiceObjectLogicError(errors_dict=outcome.errors, response_status=response_status)
+utils.errors.ServiceObjectLogicError: Invalid request data
+2024-02-03 12:28:22,465 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\utils\fd.py changed, reloading.
+2024-02-03 12:28:23,135 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-03 12:28:25,440 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 12:29:45,361 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\tasks.py changed, reloading.
+2024-02-03 12:29:46,035 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-03 12:29:58,716 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-03 12:29:58,717 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-03 12:29:58,717 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-03 12:29:58,717 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-03 12:29:58,718 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-03 12:29:58,718 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-03 12:29:58,719 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 12:29:58,719 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-03 12:29:58,719 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-03 12:29:58,720 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-03 12:29:58,720 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-03 12:30:09,229 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-03 12:30:17,026 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 12:31:49,134 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\delete.py changed, reloading.
+2024-02-03 12:31:49,757 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-03 12:31:55,072 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-03 12:31:55,072 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-03 12:31:55,073 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-03 12:31:55,073 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-03 12:31:55,073 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-03 12:31:55,074 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-03 12:31:55,074 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 12:31:55,074 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-03 12:31:55,075 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-03 12:31:55,075 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-03 12:31:55,076 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-03 12:32:01,543 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 12:32:05,611 django.request ERROR    Internal Server Error: /core_api/photo/2/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo.py", line 36, in delete
+    outcome = ServiceOutcome(PhotoDeleteService, {'id': kwargs['id'], 'current_user': request.user})
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\delete.py", line 23, in process
+    self.result = self._status()
+                  ^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\delete.py", line 27, in _status
+    self.get_photo.schedule_deletion()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django_fsm\__init__.py", line 573, in _change_state
+    return fsm_meta.field.change_state(instance, func, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django_fsm\__init__.py", line 339, in change_state
+    raise TransitionNotAllowed(
+django_fsm.TransitionNotAllowed: Can't switch from state 'Delete' using method 'schedule_deletion'
+2024-02-03 12:32:17,925 django.request ERROR    Internal Server Error: /core_api/photo/2/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo.py", line 36, in delete
+    outcome = ServiceOutcome(PhotoDeleteService, {'id': kwargs['id'], 'current_user': request.user})
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 81, in execute
+    return instance.process()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\delete.py", line 23, in process
+    self.result = self._status()
+                  ^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\delete.py", line 27, in _status
+    self.get_photo.schedule_deletion()
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django_fsm\__init__.py", line 573, in _change_state
+    return fsm_meta.field.change_state(instance, func, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django_fsm\__init__.py", line 339, in change_state
+    raise TransitionNotAllowed(
+django_fsm.TransitionNotAllowed: Can't switch from state 'Delete' using method 'schedule_deletion'
+2024-02-03 12:32:43,257 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\delete.py changed, reloading.
+2024-02-03 12:32:43,905 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-03 12:32:44,614 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 12:32:59,696 django.request ERROR    Internal Server Error: /core_api/photo/2/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo.py", line 23, in get
+    outcome = ServiceOutcome(PhotoService, {'id': kwargs['id']})
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 227, in execute
+    raise ServiceObjectLogicError(errors_dict=outcome.errors, response_status=response_status)
+utils.errors.ServiceObjectLogicError: Invalid request data
+2024-02-03 12:33:40,358 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\delete.py changed, reloading.
+2024-02-03 12:33:41,021 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-03 12:33:41,552 django.request ERROR    Internal Server Error: /core_api/photo/2/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo.py", line 23, in get
+    outcome = ServiceOutcome(PhotoService, {'id': kwargs['id']})
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 227, in execute
+    raise ServiceObjectLogicError(errors_dict=outcome.errors, response_status=response_status)
+utils.errors.ServiceObjectLogicError: Invalid request data
+2024-02-03 12:33:54,070 django.request WARNING  Not Found: /
+2024-02-03 12:34:06,471 PIL.TiffImagePlugin DEBUG    tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-02-03 12:34:06,471 PIL.TiffImagePlugin DEBUG    tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-03 12:34:06,471 PIL.TiffImagePlugin DEBUG    tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-03 12:34:06,471 PIL.TiffImagePlugin DEBUG    tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-02-03 12:34:06,471 PIL.TiffImagePlugin DEBUG    tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Adobe Photoshop CC (Macintosh)\x00'
+2024-02-03 12:34:06,471 PIL.TiffImagePlugin DEBUG    tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 145 - value: b'2018:09:07 19:04:00\x00'
+2024-02-03 12:34:06,471 PIL.TiffImagePlugin DEBUG    tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xa8'
+2024-02-03 12:34:06,472 PIL.Image    DEBUG    Importing BlpImagePlugin
+2024-02-03 12:34:06,472 PIL.Image    DEBUG    Importing BmpImagePlugin
+2024-02-03 12:34:06,472 PIL.Image    DEBUG    Importing BufrStubImagePlugin
+2024-02-03 12:34:06,473 PIL.Image    DEBUG    Importing CurImagePlugin
+2024-02-03 12:34:06,473 PIL.Image    DEBUG    Importing DcxImagePlugin
+2024-02-03 12:34:06,474 PIL.Image    DEBUG    Importing DdsImagePlugin
+2024-02-03 12:34:06,477 PIL.Image    DEBUG    Importing EpsImagePlugin
+2024-02-03 12:34:06,478 PIL.Image    DEBUG    Importing FitsImagePlugin
+2024-02-03 12:34:06,479 PIL.Image    DEBUG    Importing FliImagePlugin
+2024-02-03 12:34:06,479 PIL.Image    DEBUG    Importing FpxImagePlugin
+2024-02-03 12:34:06,482 PIL.Image    DEBUG    Importing FtexImagePlugin
+2024-02-03 12:34:06,483 PIL.Image    DEBUG    Importing GbrImagePlugin
+2024-02-03 12:34:06,483 PIL.Image    DEBUG    Importing GifImagePlugin
+2024-02-03 12:34:06,484 PIL.Image    DEBUG    Importing GribStubImagePlugin
+2024-02-03 12:34:06,484 PIL.Image    DEBUG    Importing Hdf5StubImagePlugin
+2024-02-03 12:34:06,484 PIL.Image    DEBUG    Importing IcnsImagePlugin
+2024-02-03 12:34:06,486 PIL.Image    DEBUG    Importing IcoImagePlugin
+2024-02-03 12:34:06,486 PIL.Image    DEBUG    Importing ImImagePlugin
+2024-02-03 12:34:06,487 PIL.Image    DEBUG    Importing ImtImagePlugin
+2024-02-03 12:34:06,487 PIL.Image    DEBUG    Importing IptcImagePlugin
+2024-02-03 12:34:06,488 PIL.Image    DEBUG    Importing JpegImagePlugin
+2024-02-03 12:34:06,488 PIL.Image    DEBUG    Importing Jpeg2KImagePlugin
+2024-02-03 12:34:06,488 PIL.Image    DEBUG    Importing McIdasImagePlugin
+2024-02-03 12:34:06,489 PIL.Image    DEBUG    Importing MicImagePlugin
+2024-02-03 12:34:06,489 PIL.Image    DEBUG    Importing MpegImagePlugin
+2024-02-03 12:34:06,489 PIL.Image    DEBUG    Importing MpoImagePlugin
+2024-02-03 12:34:06,490 PIL.Image    DEBUG    Importing MspImagePlugin
+2024-02-03 12:34:06,490 PIL.Image    DEBUG    Importing PalmImagePlugin
+2024-02-03 12:34:06,491 PIL.Image    DEBUG    Importing PcdImagePlugin
+2024-02-03 12:34:06,491 PIL.Image    DEBUG    Importing PcxImagePlugin
+2024-02-03 12:34:06,491 PIL.Image    DEBUG    Importing PdfImagePlugin
+2024-02-03 12:34:06,495 PIL.Image    DEBUG    Importing PixarImagePlugin
+2024-02-03 12:34:06,495 PIL.Image    DEBUG    Importing PngImagePlugin
+2024-02-03 12:34:06,495 PIL.Image    DEBUG    Importing PpmImagePlugin
+2024-02-03 12:34:06,496 PIL.Image    DEBUG    Importing PsdImagePlugin
+2024-02-03 12:34:06,496 PIL.Image    DEBUG    Importing QoiImagePlugin
+2024-02-03 12:34:06,497 PIL.Image    DEBUG    Importing SgiImagePlugin
+2024-02-03 12:34:06,497 PIL.Image    DEBUG    Importing SpiderImagePlugin
+2024-02-03 12:34:06,497 PIL.Image    DEBUG    Importing SunImagePlugin
+2024-02-03 12:34:06,498 PIL.Image    DEBUG    Importing TgaImagePlugin
+2024-02-03 12:34:06,498 PIL.Image    DEBUG    Importing TiffImagePlugin
+2024-02-03 12:34:06,498 PIL.Image    DEBUG    Importing WebPImagePlugin
+2024-02-03 12:34:06,499 PIL.Image    DEBUG    Importing WmfImagePlugin
+2024-02-03 12:34:06,501 PIL.Image    DEBUG    Importing XbmImagePlugin
+2024-02-03 12:34:06,502 PIL.Image    DEBUG    Importing XpmImagePlugin
+2024-02-03 12:34:06,502 PIL.Image    DEBUG    Importing XVThumbImagePlugin
+2024-02-03 12:35:32,330 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\settings\celery.py changed, reloading.
+2024-02-03 12:35:32,979 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-03 12:35:54,834 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-03 12:35:54,834 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-03 12:35:54,835 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-03 12:35:54,835 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-03 12:35:54,836 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-03 12:35:54,836 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-03 12:35:54,837 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 12:35:54,837 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-03 12:35:54,838 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-03 12:35:54,838 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-03 12:35:54,839 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-03 12:36:21,884 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 12:36:21,885 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-03 12:36:21,885 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-03 12:36:21,885 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-03 12:36:21,886 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-03 12:36:21,886 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-03 12:36:21,886 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-03 12:36:21,886 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-03 12:36:21,887 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-03 12:36:21,887 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-03 12:36:21,888 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-03 12:36:29,786 PIL.TiffImagePlugin DEBUG    tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-02-03 12:36:29,786 PIL.TiffImagePlugin DEBUG    tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-03 12:36:29,787 PIL.TiffImagePlugin DEBUG    tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-03 12:36:29,787 PIL.TiffImagePlugin DEBUG    tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-02-03 12:36:29,787 PIL.TiffImagePlugin DEBUG    tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Adobe Photoshop CC (Macintosh)\x00'
+2024-02-03 12:36:29,787 PIL.TiffImagePlugin DEBUG    tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 145 - value: b'2018:09:07 19:04:00\x00'
+2024-02-03 12:36:29,787 PIL.TiffImagePlugin DEBUG    tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xa8'
+2024-02-03 12:36:29,788 PIL.Image    DEBUG    Importing BlpImagePlugin
+2024-02-03 12:36:29,789 PIL.Image    DEBUG    Importing BmpImagePlugin
+2024-02-03 12:36:29,789 PIL.Image    DEBUG    Importing BufrStubImagePlugin
+2024-02-03 12:36:29,790 PIL.Image    DEBUG    Importing CurImagePlugin
+2024-02-03 12:36:29,790 PIL.Image    DEBUG    Importing DcxImagePlugin
+2024-02-03 12:36:29,791 PIL.Image    DEBUG    Importing DdsImagePlugin
+2024-02-03 12:36:29,794 PIL.Image    DEBUG    Importing EpsImagePlugin
+2024-02-03 12:36:29,795 PIL.Image    DEBUG    Importing FitsImagePlugin
+2024-02-03 12:36:29,795 PIL.Image    DEBUG    Importing FliImagePlugin
+2024-02-03 12:36:29,796 PIL.Image    DEBUG    Importing FpxImagePlugin
+2024-02-03 12:36:29,798 PIL.Image    DEBUG    Importing FtexImagePlugin
+2024-02-03 12:36:29,799 PIL.Image    DEBUG    Importing GbrImagePlugin
+2024-02-03 12:36:29,799 PIL.Image    DEBUG    Importing GifImagePlugin
+2024-02-03 12:36:29,799 PIL.Image    DEBUG    Importing GribStubImagePlugin
+2024-02-03 12:36:29,800 PIL.Image    DEBUG    Importing Hdf5StubImagePlugin
+2024-02-03 12:36:29,800 PIL.Image    DEBUG    Importing IcnsImagePlugin
+2024-02-03 12:36:29,801 PIL.Image    DEBUG    Importing IcoImagePlugin
+2024-02-03 12:36:29,802 PIL.Image    DEBUG    Importing ImImagePlugin
+2024-02-03 12:36:29,803 PIL.Image    DEBUG    Importing ImtImagePlugin
+2024-02-03 12:36:29,803 PIL.Image    DEBUG    Importing IptcImagePlugin
+2024-02-03 12:36:29,804 PIL.Image    DEBUG    Importing JpegImagePlugin
+2024-02-03 12:36:29,804 PIL.Image    DEBUG    Importing Jpeg2KImagePlugin
+2024-02-03 12:36:29,804 PIL.Image    DEBUG    Importing McIdasImagePlugin
+2024-02-03 12:36:29,804 PIL.Image    DEBUG    Importing MicImagePlugin
+2024-02-03 12:36:29,805 PIL.Image    DEBUG    Importing MpegImagePlugin
+2024-02-03 12:36:29,806 PIL.Image    DEBUG    Importing MpoImagePlugin
+2024-02-03 12:36:29,806 PIL.Image    DEBUG    Importing MspImagePlugin
+2024-02-03 12:36:29,807 PIL.Image    DEBUG    Importing PalmImagePlugin
+2024-02-03 12:36:29,807 PIL.Image    DEBUG    Importing PcdImagePlugin
+2024-02-03 12:36:29,808 PIL.Image    DEBUG    Importing PcxImagePlugin
+2024-02-03 12:36:29,808 PIL.Image    DEBUG    Importing PdfImagePlugin
+2024-02-03 12:36:29,812 PIL.Image    DEBUG    Importing PixarImagePlugin
+2024-02-03 12:36:29,813 PIL.Image    DEBUG    Importing PngImagePlugin
+2024-02-03 12:36:29,813 PIL.Image    DEBUG    Importing PpmImagePlugin
+2024-02-03 12:36:29,813 PIL.Image    DEBUG    Importing PsdImagePlugin
+2024-02-03 12:36:29,814 PIL.Image    DEBUG    Importing QoiImagePlugin
+2024-02-03 12:36:29,814 PIL.Image    DEBUG    Importing SgiImagePlugin
+2024-02-03 12:36:29,815 PIL.Image    DEBUG    Importing SpiderImagePlugin
+2024-02-03 12:36:29,815 PIL.Image    DEBUG    Importing SunImagePlugin
+2024-02-03 12:36:29,816 PIL.Image    DEBUG    Importing TgaImagePlugin
+2024-02-03 12:36:29,816 PIL.Image    DEBUG    Importing TiffImagePlugin
+2024-02-03 12:36:29,817 PIL.Image    DEBUG    Importing WebPImagePlugin
+2024-02-03 12:36:29,818 PIL.Image    DEBUG    Importing WmfImagePlugin
+2024-02-03 12:36:29,818 PIL.Image    DEBUG    Importing XbmImagePlugin
+2024-02-03 12:36:29,819 PIL.Image    DEBUG    Importing XpmImagePlugin
+2024-02-03 12:36:29,820 PIL.Image    DEBUG    Importing XVThumbImagePlugin
+2024-02-03 12:36:39,461 django.request ERROR    Internal Server Error: /core_api/photo/1/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo.py", line 23, in get
+    outcome = ServiceOutcome(PhotoService, {'id': kwargs['id']})
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 227, in execute
+    raise ServiceObjectLogicError(errors_dict=outcome.errors, response_status=response_status)
+utils.errors.ServiceObjectLogicError: Invalid request data
+2024-02-03 12:36:52,096 PIL.TiffImagePlugin DEBUG    tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-02-03 12:36:52,096 PIL.TiffImagePlugin DEBUG    tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-03 12:36:52,097 PIL.TiffImagePlugin DEBUG    tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-03 12:36:52,097 PIL.TiffImagePlugin DEBUG    tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-02-03 12:36:52,097 PIL.TiffImagePlugin DEBUG    tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Adobe Photoshop CC (Macintosh)\x00'
+2024-02-03 12:36:52,097 PIL.TiffImagePlugin DEBUG    tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 145 - value: b'2018:09:07 19:04:00\x00'
+2024-02-03 12:36:52,097 PIL.TiffImagePlugin DEBUG    tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xa8'
+2024-02-03 12:36:52,112 PIL.TiffImagePlugin DEBUG    tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-02-03 12:36:52,113 PIL.TiffImagePlugin DEBUG    tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-03 12:36:52,113 PIL.TiffImagePlugin DEBUG    tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-03 12:36:52,113 PIL.TiffImagePlugin DEBUG    tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-02-03 12:36:52,113 PIL.TiffImagePlugin DEBUG    tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Adobe Photoshop CC (Macintosh)\x00'
+2024-02-03 12:36:52,113 PIL.TiffImagePlugin DEBUG    tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 145 - value: b'2018:09:07 19:04:00\x00'
+2024-02-03 12:36:52,113 PIL.TiffImagePlugin DEBUG    tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xa8'
+2024-02-03 12:40:17,676 PIL.TiffImagePlugin DEBUG    tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-02-03 12:40:17,676 PIL.TiffImagePlugin DEBUG    tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-03 12:40:17,676 PIL.TiffImagePlugin DEBUG    tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-03 12:40:17,676 PIL.TiffImagePlugin DEBUG    tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-02-03 12:40:17,676 PIL.TiffImagePlugin DEBUG    tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Adobe Photoshop CC (Macintosh)\x00'
+2024-02-03 12:40:17,676 PIL.TiffImagePlugin DEBUG    tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 145 - value: b'2018:09:07 19:04:00\x00'
+2024-02-03 12:40:17,676 PIL.TiffImagePlugin DEBUG    tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xa8'
+2024-02-03 12:40:35,039 PIL.TiffImagePlugin DEBUG    tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-02-03 12:40:35,039 PIL.TiffImagePlugin DEBUG    tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-03 12:40:35,039 PIL.TiffImagePlugin DEBUG    tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-03 12:40:35,039 PIL.TiffImagePlugin DEBUG    tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-02-03 12:40:35,040 PIL.TiffImagePlugin DEBUG    tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Adobe Photoshop CC (Macintosh)\x00'
+2024-02-03 12:40:35,040 PIL.TiffImagePlugin DEBUG    tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 145 - value: b'2018:09:07 19:04:00\x00'
+2024-02-03 12:40:35,040 PIL.TiffImagePlugin DEBUG    tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xa8'
+2024-02-03 12:42:33,395 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-03 12:42:33,395 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-03 12:42:33,396 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-03 12:42:33,396 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-03 12:42:33,396 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 12:42:33,397 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-03 12:42:33,397 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-03 12:42:33,398 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-03 12:42:33,398 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-03 12:42:33,398 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-03 12:42:33,399 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-03 12:43:58,883 celery.utils.functional DEBUG    
+def _generate_file(backend, file, force=0):
+    return 1
+
+2024-02-03 12:43:58,883 celery.utils.functional DEBUG    
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2024-02-03 12:43:58,883 celery.utils.functional DEBUG    
+def xmap(task, it):
+    return 1
+
+2024-02-03 12:43:58,884 celery.utils.functional DEBUG    
+def backend_cleanup():
+    return 1
+
+2024-02-03 12:43:58,884 celery.utils.functional DEBUG    
+def chain(*args, **kwargs):
+    return 1
+
+2024-02-03 12:43:58,884 celery.utils.functional DEBUG    
+def xstarmap(task, it):
+    return 1
+
+2024-02-03 12:43:58,885 celery.utils.functional DEBUG    
+def my_task():
+    return 1
+
+2024-02-03 12:43:58,885 celery.utils.functional DEBUG    
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2024-02-03 12:43:58,885 celery.utils.functional DEBUG    
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2024-02-03 12:43:58,886 celery.utils.functional DEBUG    
+def chunks(task, it, n):
+    return 1
+
+2024-02-03 12:43:58,886 celery.utils.functional DEBUG    
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2024-02-03 12:44:38,001 PIL.TiffImagePlugin DEBUG    tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-02-03 12:44:38,001 PIL.TiffImagePlugin DEBUG    tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-03 12:44:38,002 PIL.TiffImagePlugin DEBUG    tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-03 12:44:38,002 PIL.TiffImagePlugin DEBUG    tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-02-03 12:44:38,002 PIL.TiffImagePlugin DEBUG    tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Adobe Photoshop CC (Macintosh)\x00'
+2024-02-03 12:44:38,002 PIL.TiffImagePlugin DEBUG    tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 145 - value: b'2018:09:07 19:04:00\x00'
+2024-02-03 12:44:38,002 PIL.TiffImagePlugin DEBUG    tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xa8'
+2024-02-03 12:45:00,937 PIL.TiffImagePlugin DEBUG    tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-02-03 12:45:00,937 PIL.TiffImagePlugin DEBUG    tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-03 12:45:00,937 PIL.TiffImagePlugin DEBUG    tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-03 12:45:00,937 PIL.TiffImagePlugin DEBUG    tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-02-03 12:45:00,937 PIL.TiffImagePlugin DEBUG    tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Adobe Photoshop CC (Macintosh)\x00'
+2024-02-03 12:45:00,937 PIL.TiffImagePlugin DEBUG    tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 145 - value: b'2018:09:07 19:04:00\x00'
+2024-02-03 12:45:00,937 PIL.TiffImagePlugin DEBUG    tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xa8'
+2024-02-03 12:45:45,313 PIL.TiffImagePlugin DEBUG    tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-02-03 12:45:45,313 PIL.TiffImagePlugin DEBUG    tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-03 12:45:45,314 PIL.TiffImagePlugin DEBUG    tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-03 12:45:45,314 PIL.TiffImagePlugin DEBUG    tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-02-03 12:45:45,314 PIL.TiffImagePlugin DEBUG    tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Adobe Photoshop CC (Macintosh)\x00'
+2024-02-03 12:45:45,314 PIL.TiffImagePlugin DEBUG    tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 145 - value: b'2018:09:07 19:04:00\x00'
+2024-02-03 12:45:45,314 PIL.TiffImagePlugin DEBUG    tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xa8'
+2024-02-03 12:46:26,426 PIL.TiffImagePlugin DEBUG    tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-02-03 12:46:26,426 PIL.TiffImagePlugin DEBUG    tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-03 12:46:26,426 PIL.TiffImagePlugin DEBUG    tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-03 12:46:26,426 PIL.TiffImagePlugin DEBUG    tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-02-03 12:46:26,426 PIL.TiffImagePlugin DEBUG    tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Adobe Photoshop CC (Macintosh)\x00'
+2024-02-03 12:46:26,426 PIL.TiffImagePlugin DEBUG    tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 145 - value: b'2018:09:07 19:04:00\x00'
+2024-02-03 12:46:26,426 PIL.TiffImagePlugin DEBUG    tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xa8'
+2024-02-03 12:46:45,738 PIL.TiffImagePlugin DEBUG    tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-02-03 12:46:45,738 PIL.TiffImagePlugin DEBUG    tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-03 12:46:45,739 PIL.TiffImagePlugin DEBUG    tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-03 12:46:45,739 PIL.TiffImagePlugin DEBUG    tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-02-03 12:46:45,739 PIL.TiffImagePlugin DEBUG    tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Adobe Photoshop CC (Macintosh)\x00'
+2024-02-03 12:46:45,739 PIL.TiffImagePlugin DEBUG    tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 145 - value: b'2018:09:07 19:04:00\x00'
+2024-02-03 12:46:45,739 PIL.TiffImagePlugin DEBUG    tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xa8'
+2024-02-03 12:46:45,753 PIL.TiffImagePlugin DEBUG    tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-02-03 12:46:45,753 PIL.TiffImagePlugin DEBUG    tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-03 12:46:45,753 PIL.TiffImagePlugin DEBUG    tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-03 12:46:45,754 PIL.TiffImagePlugin DEBUG    tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-02-03 12:46:45,754 PIL.TiffImagePlugin DEBUG    tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Adobe Photoshop CC (Macintosh)\x00'
+2024-02-03 12:46:45,754 PIL.TiffImagePlugin DEBUG    tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 145 - value: b'2018:09:07 19:04:00\x00'
+2024-02-03 12:46:45,754 PIL.TiffImagePlugin DEBUG    tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xa8'
+2024-02-03 12:50:38,750 django.request WARNING  Not Found: /core_api/photo.7
+2024-02-03 12:51:26,079 django.request ERROR    Internal Server Error: /core_api/photo/7/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo.py", line 23, in get
+    outcome = ServiceOutcome(PhotoService, {'id': kwargs['id']})
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 227, in execute
+    raise ServiceObjectLogicError(errors_dict=outcome.errors, response_status=response_status)
+utils.errors.ServiceObjectLogicError: Invalid request data

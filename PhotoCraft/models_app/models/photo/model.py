@@ -57,8 +57,7 @@ class Photo(models.Model):
         self.status = 'Moderation'
         self.save()
 
-    # @transition(field=status, source='Published', target='Delete')
-    @transition(field=status, source=['Published', 'Moderation'], target='Delete')
+    @transition(field=status, source='Published', target='Delete')
     def schedule_deletion(self):
         self.deleted_at = datetime.now()
         self.status = 'Delete'
