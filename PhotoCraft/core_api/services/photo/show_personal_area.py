@@ -8,17 +8,21 @@ from photo_craft.settings.restframework import *
 
 from models_app.models.photo.model import Photo
 from models_app.models.categories.model import Categories
+from models_app.models.users.model import User
 
 from utils.services import ServiceWithResult
 
+from service_objects.fields import ModelField
 
-class PhotoListService(ServiceWithResult):
+
+class PersonalAreaService(ServiceWithResult):
     page = forms.IntegerField(required=False)
     per_page = forms.IntegerField(required=False)
     category_id = forms.IntegerField(required=False)
     order_by = forms.CharField(required=False)
+    current_user = ModelField(User)
 
-    custom_validations = ['category_presence', 'order_presence']
+    custom_validations = ['category_presence', 'order_presence', 'user_ratio']
 
     def process(self):
         self.run_custom_validations()
@@ -48,8 +52,7 @@ class PhotoListService(ServiceWithResult):
     @property
     @lru_cache()
     def photo(self):
-        # return Photo.objects.filter(status="Published")
-        return Photo.objects.all()
+        return Photo.objects.filter(user_id=self.cleaned_data['current_user'])
 
     @property
     def filter_by_category(self):
@@ -74,3 +77,9 @@ class PhotoListService(ServiceWithResult):
             if not hasattr(Photo, self.cleaned_data.get('order_by')):
                 self.add_error('order_by', ObjectDoesNotExist(f"Field in model with "
                                                               f"{self.cleaned_data['order_by']} not found"))
+
+    def user_ratio(self):
+        if not self.cleaned_data['current_user'].is_superuser:
+            self.add_error('current_user', ObjectDoesNotExist(f"User with id="
+                                                              f"{self.cleaned_data['current_user']} is not the author "
+                                                              f"of the post"))

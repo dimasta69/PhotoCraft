@@ -8,6 +8,7 @@ from core_api.veiws.categories.show import CategoryView
 from core_api.veiws.liked.add_and_del import LikedView
 from core_api.veiws.comments.show_list import CommentsView
 from core_api.veiws.comments.show import CommentView
+from core_api.veiws.photo.personal_area import PersonalAreaView
 from photo_craft import settings
 
 urlpatterns = [
@@ -18,6 +19,7 @@ urlpatterns = [
     path('like/', LikedView.as_view()),
     path('comments/', CommentsView.as_view()),
     path('comment/<int:id>/', CommentView.as_view()),
+    path('profile/', PersonalAreaView.as_view()),
     path('auth/', include('djoser.urls')),
     re_path(r'^auth/', include('djoser.urls.authtoken')),
 

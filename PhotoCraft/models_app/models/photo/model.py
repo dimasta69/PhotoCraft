@@ -16,7 +16,6 @@ class Photo(models.Model):
     category_id = models.ForeignKey(Categories, on_delete=models.SET_NULL, related_name='photo', null=True, blank=True,
                                     verbose_name='Категория')
     user_id = models.ForeignKey(User, on_delete=models.CASCADE, related_name='photo', verbose_name='Автор', null=False)
-    scheduled_deletion_task_id = models.CharField(max_length=255, null=True, blank=True)
 
     title = models.CharField(max_length=100, null=False, verbose_name='Назавние')
     description = models.CharField(max_length=250, verbose_name='Описание', null=True)
@@ -37,7 +36,7 @@ class Photo(models.Model):
     publicated_at = models.DateField(verbose_name='Дата публикации', null=True)
     deleted_at = models.DateField(verbose_name='Дата удаления', null=True)
     updated_at = models.DateField(verbose_name='Дата обновления', null=True)
-    request_at = models.DateField(auto_now_add=True, verbose_name='Дата запроса на публикацию')
+    first_request_at = models.DateField(auto_now_add=True, verbose_name='Дата запроса на публикацию')
 
     @transition(field=status, source='Moderation', target='Published')
     def approve(self):

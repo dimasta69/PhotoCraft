@@ -32750,3 +32750,4 @@ Traceback (most recent call last):
   File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 227, in execute
     raise ServiceObjectLogicError(errors_dict=outcome.errors, response_status=response_status)
 utils.errors.ServiceObjectLogicError: Invalid request data
+2024-02-04 21:43:09,749 django.utils.autoreload INFO     Watching for file changes with StatReloader
