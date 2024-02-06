@@ -1,6 +1,7 @@
 from django.core.paginator import Paginator, EmptyPage
 from django import forms
 from django.core.exceptions import ObjectDoesNotExist
+from service_objects.fields import ModelField
 
 from functools import lru_cache
 
@@ -8,6 +9,7 @@ from photo_craft.settings.restframework import *
 
 from models_app.models.photo.model import Photo
 from models_app.models.categories.model import Categories
+from models_app.models.users.model import User
 
 from utils.services import ServiceWithResult
 
@@ -17,24 +19,26 @@ class PhotoListService(ServiceWithResult):
     per_page = forms.IntegerField(required=False)
     category_id = forms.IntegerField(required=False)
     order_by = forms.CharField(required=False)
+    user_id = forms.IntegerField(required=False)
+    current_user = ModelField(User)
 
-    custom_validations = ['category_presence', 'order_presence']
+    custom_validations = ['category_presence', 'order_presence', 'user_presence']
 
     def process(self):
         self.run_custom_validations()
         if self.is_valid():
-            self.result = self._photo()
+            self.result = self._get_photo()
         return self
 
-    def _photo(self):
+    def _get_photo(self):
         per_page = self.cleaned_data['per_page']
         page = self.cleaned_data['page']
 
         try:
-            return Paginator(self.photo_by_ordering, per_page=(per_page or REST_FRAMEWORK['PAGE_SIZE'])).page(
+            return Paginator(self._checking_user_affiliation, per_page=(per_page or REST_FRAMEWORK['PAGE_SIZE'])).page(
                 page or 1)
         except EmptyPage:
-            return Paginator(self.photo_by_ordering.none(),
+            return Paginator(self._checking_user_affiliation,
                              per_page=(per_page or REST_FRAMEWORK['PAGE_SIZE'])).page(1)
 
     @property
@@ -47,21 +51,40 @@ class PhotoListService(ServiceWithResult):
 
     @property
     @lru_cache()
+    def user(self):
+        try:
+            return User.objects.get(id=self.cleaned_data['user_id'])
+        except User.DoesNotExist:
+            return None
+
+    @property
+    @lru_cache()
     def photo(self):
-        # return Photo.objects.filter(status="Published")
         return Photo.objects.all()
 
     @property
-    def filter_by_category(self):
+    def _filter_by_category(self):
         if self.cleaned_data.get('category_id'):
             return self.photo.filter(category=self.category)
         return self.photo
 
     @property
-    def photo_by_ordering(self):
+    def _photo_by_ordering(self):
         if self.cleaned_data.get('order_by'):
-            return self.filter_by_category.order_by(self.cleaned_data['order_by'])
-        return self.filter_by_category
+            return self._filter_by_category.order_by(self.cleaned_data['order_by'])
+        return self._filter_by_category
+
+    @property
+    def _filter_by_user(self):
+        if self.cleaned_data.get('user_id'):
+            return self._photo_by_ordering.filter(user_id=self.user)
+        return self._photo_by_ordering
+
+    @property
+    def _checking_user_affiliation(self):
+        if self.cleaned_data.get('user_id') == self.cleaned_data.get('current_user').id:
+            return self._filter_by_user
+        return self._filter_by_user.filter(status='Published')
 
     def category_presence(self):
         if self.cleaned_data['category_id']:
@@ -74,3 +97,9 @@ class PhotoListService(ServiceWithResult):
             if not hasattr(Photo, self.cleaned_data.get('order_by')):
                 self.add_error('order_by', ObjectDoesNotExist(f"Field in model with "
                                                               f"{self.cleaned_data['order_by']} not found"))
+
+    def user_presence(self):
+        if self.cleaned_data.get('user_is'):
+            if not self.user:
+                self.add_error('user_id', ObjectDoesNotExist(f"User with id="
+                                                             f"{self.cleaned_data['user_id']} not found"))

@@ -1,12 +1,17 @@
-EMAIL_HOST = 'smtp.mail.ru'
-EMAIL_PORT = 2525
-EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'sanya.sanya.burov.00.burov@mail.ru'
-EMAIL_HOST_PASSWORD = 'UMGtaRusUbc8AFmzBdVk'
-EMAIL_USE_SSL = False
-SERVER_EMAIL = EMAIL_HOST_USER
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+EMAIL_HOST = os.getenv('EMAIL_HOST')
+EMAIL_PORT = os.getenv('EMAIL_PORT')
+EMAIL_USE_TLS = os.getenv('EMAIL_USE_TLS')
+EMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')
+EMAIL_USE_SSL = os.getenv('EMAIL_USE_SSL')
+SERVER_EMAIL = os.getenv('SERVER_EMAIL')
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_BACKEND = os.getenv('EMAIL_BACKEND')
 
 DJOSER = {
     'ACTIVATION_URL': '#/activate/{uid}/{token}',

@@ -47,23 +47,23 @@ class Photo(models.Model):
             self.updated_at = datetime.now()
 
     @transition(field=status, source='Moderation', target='Rejected')
-    def reject(self):
+    def set_reject(self):
         self.status = 'Reject'
         self.save()
 
     @transition(field=status, source=['Published', 'Moderation', 'Rejected'], target='Moderation')
-    def update(self):
+    def set_update(self):
         self.status = 'Moderation'
         self.save()
 
     @transition(field=status, source='Published', target='Delete')
-    def schedule_deletion(self):
+    def set_schedule_deletion(self):
         self.deleted_at = datetime.now()
         self.status = 'Delete'
         self.save()
 
     @transition(field=status, source='Delete', target='Published')
-    def cancel_deletion(self):
+    def set_cancel_deletion(self):
         self.status = 'Published'
         self.deleted_at = None
         self.save()

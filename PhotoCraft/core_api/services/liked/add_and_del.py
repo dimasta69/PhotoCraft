@@ -25,15 +25,15 @@ class LikedService(ServiceWithResult):
         return self
 
     def _check_data(self):
-        if not self.get_liked:
-            like = Liked.objects.create(photo_id=self.get_photo, user_id=self.cleaned_data['current_user'])
+        if not self.liked:
+            like = Liked.objects.create(photo_id=self.photo, user_id=self.cleaned_data['current_user'])
             like.save()
             return like
-        self.get_liked.delete()
+        self.liked.delete()
 
     @property
     @lru_cache()
-    def get_photo(self):
+    def photo(self):
         try:
             return Photo.objects.get(id=self.cleaned_data['photo_id'])
         except Photo.DoesNotExist:
@@ -41,14 +41,14 @@ class LikedService(ServiceWithResult):
 
     @property
     @lru_cache()
-    def get_liked(self):
+    def liked(self):
         try:
-            return Liked.objects.get(photo_id=self.get_photo, user_id=self.cleaned_data['current_user'])
+            return Liked.objects.get(photo_id=self.photo, user_id=self.cleaned_data['current_user'])
         except Liked.DoesNotExist:
             return None
 
     def photo_presence(self):
         if self.cleaned_data['photo_id']:
-            if not self.get_photo:
+            if not self.photo:
                 self.add_error('photo_id', ObjectDoesNotExist(f"Photo with id="
                                                               f"{self.cleaned_data['id']} not found"))

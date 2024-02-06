@@ -21,7 +21,7 @@ class PhotoListView(APIView,
     serializer_class = PhotoSerializer
 
     def get(self, request):
-        outcome = ServiceOutcome(PhotoListService, dict(request.GET.items()))
+        outcome = ServiceOutcome(PhotoListService, {'current_user': request.user} | dict(request.GET.items()))
         if bool(outcome.errors):
             return Response(outcome.errors, status.HTTP_400_BAD_REQUEST)
         return Response({'pagination': CustomPagination(outcome.result, current_page=outcome.service.cleaned_data['page'],

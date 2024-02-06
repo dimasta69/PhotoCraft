@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from PhotoCraft.models_app.models.categories.model import Categories
+from models_app.models.categories.model import Categories
 
 
 class PersonalAreaSerializer(serializers.Serializer):

@@ -20,10 +20,10 @@ class CategoryDeleteServcie(ServiceWithResult):
     def process(self):
         self.run_custom_validations()
         if self.is_valid():
-            self.result = self._delete()
+            self.result = self._delete_obj()
         return self
 
-    def _delete(self):
+    def _delete_obj(self):
         category = self.category
         category.delete()
         return Categories.objects.none()

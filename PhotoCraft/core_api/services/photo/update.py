@@ -29,20 +29,18 @@ class UpdatePhotoService(ServiceWithResult):
         return self
 
     def _update_photo(self):
-        photo = self.get_photo
-        photo.title = self.cleaned_data['title']
-        photo.description = self.cleaned_data['description']
-        photo.category_id = self.get_category
+        self.photo.title = self.cleaned_data['title']
+        self.photo.description = self.cleaned_data['description']
+        self.photo.category_id = self.category
         if self.cleaned_data['photo']:
-            photo.backup_photo = photo.photo
-            photo.photo = self.cleaned_data['photo']
-        photo.update()
-        photo.save()
-        return photo
+            self.photo.backup_photo = self.photo.photo
+            self.photo.photo = self.cleaned_data['photo']
+        self.photo.set_update()
+        return self.photo
 
     @property
     @lru_cache()
-    def get_photo(self):
+    def photo(self):
         try:
             return Photo.objects.get(id=self.cleaned_data['id'])
         except Photo.DoesNotExist:
@@ -50,7 +48,7 @@ class UpdatePhotoService(ServiceWithResult):
 
     @property
     @lru_cache()
-    def get_category(self):
+    def category(self):
         try:
             return Categories.objects.get(id=self.cleaned_data['category_id'])
         except Categories.DoesNotExist:
@@ -58,18 +56,18 @@ class UpdatePhotoService(ServiceWithResult):
 
     def photo_presence(self):
         if self.cleaned_data['id']:
-            if not self.get_photo:
+            if not self.photo:
                 self.add_error('photo_id', ObjectDoesNotExist(f"Photo with id="
                                                               f"{self.cleaned_data['id']} not found"))
 
     def category_presence(self):
         if self.cleaned_data['category_id']:
-            if not self.get_category:
+            if not self.category:
                 self.add_error('category_id', ObjectDoesNotExist(f"Category with id="
                                                                  f"{self.cleaned_data['category_id']} not found"))
 
     def user_ratio(self):
-        if not ((self.get_photo.user_id.id == self.cleaned_data['current_user'].id) or
+        if not ((self.photo.user_id.id == self.cleaned_data['current_user'].id) or
                 self.cleaned_data['current_user'].is_superuser):
             self.add_error('current_user', ObjectDoesNotExist(f"User with id="
                                                               f"{self.cleaned_data['current_user']} is not the author "

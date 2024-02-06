@@ -20,10 +20,10 @@ class CategoryCreateServcie(ServiceWithResult):
     def process(self):
         self.run_custom_validations()
         if self.is_valid():
-            self.result = self._create()
+            self.result = self._create_obj()
         return self
 
-    def _create(self):
+    def _create_obj(self):
         category = Categories.objects.create(title=self.cleaned_data['title'])
         return category
 

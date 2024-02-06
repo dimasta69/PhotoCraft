@@ -16,12 +16,12 @@ class CommentService(ServiceWithResult):
     def process(self):
         self.run_custom_validations()
         if self.is_valid():
-            self.result = self.get_comment
+            self.result = self.comment
         return self
 
     @property
     @lru_cache()
-    def get_comment(self):
+    def comment(self):
         try:
             return Comments.objects.get(id=self.cleaned_data['id'])
         except Comments.DoesNotExist:
@@ -29,6 +29,6 @@ class CommentService(ServiceWithResult):
 
     def comment_presence(self):
         if self.cleaned_data['id']:
-            if not self.get_comment:
+            if not self.comment:
                 self.add_error('id', ObjectDoesNotExist(f"Comment with id="
                                                         f"{self.cleaned_data['id']} not found"))

@@ -8,6 +8,7 @@ from functools import lru_cache
 
 from utils.services import ServiceWithResult
 from service_objects.fields import ModelField
+from photo_craft.settings.celery import OBJECT_TIME_DELETE
 
 
 class PhotoDeleteService(ServiceWithResult):
@@ -19,22 +20,22 @@ class PhotoDeleteService(ServiceWithResult):
     def process(self):
         self.run_custom_validations()
         if self.is_valid():
-            self.result = self._status()
+            self.result = self._delete_obj()
         return self
 
-    def _status(self):
-        if self.get_photo.status in ('Moderation', 'Reject'):
-            self.get_photo.delete()
+    def _delete_obj(self):
+        if self.photo.status in ('Moderation', 'Reject'):
+            self.photo.delete()
             return {'message': 'Object deleted successfully.'}
-        elif self.get_photo.status == 'Delete':
-            return {'message': f'The object will be deleted'}
-        elif self.get_photo.status == 'Published':
-            self.get_photo.schedule_deletion()
-            return {'message': f'The object will be deleted'}
+        elif self.photo.status == 'Delete':
+            return {'message': f'Еhe object will be deleted in {self.photo.deleted_at + OBJECT_TIME_DELETE}'}
+        elif self.photo.status == 'Published':
+            self.photo.set_schedule_deletion()
+            return {'message': f'Еhe object will be deleted in {self.photo.deleted_at + OBJECT_TIME_DELETE}'}
 
     @property
     @lru_cache()
-    def get_photo(self):
+    def photo(self):
         try:
             return Photo.objects.get(id=self.cleaned_data['id'])
         except Photo.DoesNotExist:
@@ -42,12 +43,12 @@ class PhotoDeleteService(ServiceWithResult):
 
     def photo_presence(self):
         if self.cleaned_data['id']:
-            if not self.get_photo:
+            if not self.photo:
                 self.add_error('photo_id', ObjectDoesNotExist(f"Photo with id="
                                                               f"{self.cleaned_data['id']} not found"))
 
     def user_ratio(self):
-        if not ((self.get_photo.user_id.id == self.cleaned_data['current_user'].id) or
+        if not ((self.photo.user_id.id == self.cleaned_data['current_user'].id) or
                 self.cleaned_data['current_user'].is_superuser):
             self.add_error('current_user', ObjectDoesNotExist(f"User with id="
                                                               f"{self.cleaned_data['current_user']} is not the author "

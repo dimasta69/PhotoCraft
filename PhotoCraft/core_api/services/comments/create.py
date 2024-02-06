@@ -22,12 +22,12 @@ class CommentCreateService(ServiceWithResult):
     def process(self):
         self.run_custom_validations()
         if self.is_valid():
-            self.result = self._comment()
+            self.result = self._create_comment()
         return self
 
-    def _comment(self):
-        comment = Comments.objects.create(photo_id=self.get_photo,
-                                          reply_id=self.get_reply,
+    def _create_comment(self):
+        comment = Comments.objects.create(photo_id=self.photo,
+                                          reply_id=self.reply,
                                           text=self.cleaned_data['text'],
                                           user_id=self.cleaned_data['current_user'])
         comment.save()
@@ -35,7 +35,7 @@ class CommentCreateService(ServiceWithResult):
 
     @property
     @lru_cache()
-    def get_photo(self):
+    def photo(self):
         try:
             return Photo.objects.get(id=self.cleaned_data['photo_id'])
         except Photo.DoesNotExist:
@@ -43,7 +43,7 @@ class CommentCreateService(ServiceWithResult):
 
     @property
     @lru_cache()
-    def get_reply(self):
+    def reply(self):
         try:
             return Comments.objects.get(id=self.cleaned_data['reply_id'])
         except Comments.DoesNotExist:
@@ -51,12 +51,12 @@ class CommentCreateService(ServiceWithResult):
 
     def photo_presence(self):
         if self.cleaned_data['photo_id']:
-            if not self.get_photo:
+            if not self.photo:
                 self.add_error('photo_id', ObjectDoesNotExist(f"Photo with id="
                                                               f"{self.cleaned_data['photo_id']} not found"))
 
     def reply_presence(self):
         if self.cleaned_data['reply_id']:
-            if not self.get_reply:
+            if not self.reply:
                 self.add_error('reply_id', ObjectDoesNotExist(f"Reply with id="
                                                               f"{self.cleaned_data['reply_id']} not found"))

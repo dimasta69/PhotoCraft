@@ -19,17 +19,17 @@ class CommentDeleteService(ServiceWithResult):
     def process(self):
         self.run_custom_validations()
         if self.is_valid():
-            self.result = self._delete()
+            self.result = self._delete_obj()
         return self
 
-    def _delete(self):
+    def _delete_obj(self):
         comment = self.get_comment
         comment.delete()
         return Comments.objects.none()
 
     @property
     @lru_cache()
-    def get_comment(self):
+    def comment(self):
         try:
             return Comments.objects.get(id=self.cleaned_data['id'])
         except Comments.DoesNotExist:
@@ -37,12 +37,12 @@ class CommentDeleteService(ServiceWithResult):
 
     def comment_presence(self):
         if self.cleaned_data['id']:
-            if not self.get_comment:
+            if not self.comment:
                 self.add_error('id', ObjectDoesNotExist(f"Comment with id="
                                                         f"{self.cleaned_data['id']} not found"))
 
     def user_ratio(self):
-        if not ((self.get_comment.user_id.id == self.cleaned_data['current_user'].id) or
+        if not ((self.comment.user_id.id == self.cleaned_data['current_user'].id) or
                 self.cleaned_data['current_user'].is_superuser):
             self.add_error('current_user', ObjectDoesNotExist(f"User with id="
                                                               f"{self.cleaned_data['current_user']} is not the author "

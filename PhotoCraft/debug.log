@@ -32751,3 +32751,316 @@ Traceback (most recent call last):
     raise ServiceObjectLogicError(errors_dict=outcome.errors, response_status=response_status)
 utils.errors.ServiceObjectLogicError: Invalid request data
 2024-02-04 21:43:09,749 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-05 11:50:37,648 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-05 11:50:49,370 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\serializers\photo\personal_area.py changed, reloading.
+2024-02-05 11:50:49,984 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-05 11:50:52,790 django.request WARNING  Not Found: /
+2024-02-05 11:50:52,835 django.request WARNING  Not Found: /favicon.ico
+2024-02-05 19:25:51,972 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-05 19:25:59,455 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\show_list.py changed, reloading.
+2024-02-05 19:26:00,065 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-05 19:26:07,554 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-02-05 19:26:08,175 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-05 19:26:13,140 django.request WARNING  Not Found: /
+2024-02-05 19:26:13,255 django.request WARNING  Not Found: /favicon.ico
+2024-02-06 01:46:59,071 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 01:47:01,210 django.request WARNING  Not Found: /
+2024-02-06 01:47:01,314 django.request WARNING  Not Found: /favicon.ico
+2024-02-06 01:50:32,513 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 01:50:34,678 django.request WARNING  Not Found: /
+2024-02-06 01:51:57,807 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-02-06 01:51:58,410 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 01:52:06,890 django.request WARNING  Forbidden: /core_api/profile/
+2024-02-06 01:52:33,559 django.request ERROR    Internal Server Error: /core_api/profile/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\profile\show.py", line 15, in get
+    return Response(ProfileSerializer(request.user))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\response.py", line 38, in __init__
+    raise AssertionError(msg)
+AssertionError: You passed a Serializer instance as data, but probably meant to pass serialized `.data` or `.error`. representation.
+2024-02-06 01:52:50,144 django.request ERROR    Internal Server Error: /core_api/profile/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\profile\show.py", line 15, in get
+    return Response(ProfileSerializer(request.user).data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\response.py", line 38, in __init__
+    raise AssertionError(msg)
+AssertionError: You passed a Serializer instance as data, but probably meant to pass serialized `.data` or `.error`. representation.
+2024-02-06 01:52:50,733 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\profile\show.py changed, reloading.
+2024-02-06 01:52:51,376 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 01:56:42,227 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\settings\djoser.py changed, reloading.
+2024-02-06 01:56:42,907 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 01:57:17,664 PIL.TiffImagePlugin DEBUG    tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-02-06 01:57:17,664 PIL.TiffImagePlugin DEBUG    tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-06 01:57:17,665 PIL.TiffImagePlugin DEBUG    tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-06 01:57:17,665 PIL.TiffImagePlugin DEBUG    tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-02-06 01:57:17,665 PIL.TiffImagePlugin DEBUG    tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Adobe Photoshop CC (Macintosh)\x00'
+2024-02-06 01:57:17,665 PIL.TiffImagePlugin DEBUG    tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 145 - value: b'2018:09:07 19:04:00\x00'
+2024-02-06 01:57:17,665 PIL.TiffImagePlugin DEBUG    tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xa8'
+2024-02-06 01:57:17,665 PIL.Image    DEBUG    Importing BlpImagePlugin
+2024-02-06 01:57:17,667 PIL.Image    DEBUG    Importing BmpImagePlugin
+2024-02-06 01:57:17,668 PIL.Image    DEBUG    Importing BufrStubImagePlugin
+2024-02-06 01:57:17,669 PIL.Image    DEBUG    Importing CurImagePlugin
+2024-02-06 01:57:17,670 PIL.Image    DEBUG    Importing DcxImagePlugin
+2024-02-06 01:57:17,671 PIL.Image    DEBUG    Importing DdsImagePlugin
+2024-02-06 01:57:17,674 PIL.Image    DEBUG    Importing EpsImagePlugin
+2024-02-06 01:57:17,675 PIL.Image    DEBUG    Importing FitsImagePlugin
+2024-02-06 01:57:17,676 PIL.Image    DEBUG    Importing FliImagePlugin
+2024-02-06 01:57:17,677 PIL.Image    DEBUG    Importing FpxImagePlugin
+2024-02-06 01:57:17,680 PIL.Image    DEBUG    Importing FtexImagePlugin
+2024-02-06 01:57:17,681 PIL.Image    DEBUG    Importing GbrImagePlugin
+2024-02-06 01:57:17,682 PIL.Image    DEBUG    Importing GifImagePlugin
+2024-02-06 01:57:17,682 PIL.Image    DEBUG    Importing GribStubImagePlugin
+2024-02-06 01:57:17,683 PIL.Image    DEBUG    Importing Hdf5StubImagePlugin
+2024-02-06 01:57:17,684 PIL.Image    DEBUG    Importing IcnsImagePlugin
+2024-02-06 01:57:17,687 PIL.Image    DEBUG    Importing IcoImagePlugin
+2024-02-06 01:57:17,688 PIL.Image    DEBUG    Importing ImImagePlugin
+2024-02-06 01:57:17,689 PIL.Image    DEBUG    Importing ImtImagePlugin
+2024-02-06 01:57:17,690 PIL.Image    DEBUG    Importing IptcImagePlugin
+2024-02-06 01:57:17,691 PIL.Image    DEBUG    Importing JpegImagePlugin
+2024-02-06 01:57:17,691 PIL.Image    DEBUG    Importing Jpeg2KImagePlugin
+2024-02-06 01:57:17,691 PIL.Image    DEBUG    Importing McIdasImagePlugin
+2024-02-06 01:57:17,692 PIL.Image    DEBUG    Importing MicImagePlugin
+2024-02-06 01:57:17,693 PIL.Image    DEBUG    Importing MpegImagePlugin
+2024-02-06 01:57:17,694 PIL.Image    DEBUG    Importing MpoImagePlugin
+2024-02-06 01:57:17,694 PIL.Image    DEBUG    Importing MspImagePlugin
+2024-02-06 01:57:17,695 PIL.Image    DEBUG    Importing PalmImagePlugin
+2024-02-06 01:57:17,697 PIL.Image    DEBUG    Importing PcdImagePlugin
+2024-02-06 01:57:17,698 PIL.Image    DEBUG    Importing PcxImagePlugin
+2024-02-06 01:57:17,698 PIL.Image    DEBUG    Importing PdfImagePlugin
+2024-02-06 01:57:17,703 PIL.Image    DEBUG    Importing PixarImagePlugin
+2024-02-06 01:57:17,704 PIL.Image    DEBUG    Importing PngImagePlugin
+2024-02-06 01:57:17,704 PIL.Image    DEBUG    Importing PpmImagePlugin
+2024-02-06 01:57:17,704 PIL.Image    DEBUG    Importing PsdImagePlugin
+2024-02-06 01:57:17,706 PIL.Image    DEBUG    Importing QoiImagePlugin
+2024-02-06 01:57:17,707 PIL.Image    DEBUG    Importing SgiImagePlugin
+2024-02-06 01:57:17,708 PIL.Image    DEBUG    Importing SpiderImagePlugin
+2024-02-06 01:57:17,709 PIL.Image    DEBUG    Importing SunImagePlugin
+2024-02-06 01:57:17,710 PIL.Image    DEBUG    Importing TgaImagePlugin
+2024-02-06 01:57:17,710 PIL.Image    DEBUG    Importing TiffImagePlugin
+2024-02-06 01:57:17,710 PIL.Image    DEBUG    Importing WebPImagePlugin
+2024-02-06 01:57:17,729 PIL.Image    DEBUG    Importing WmfImagePlugin
+2024-02-06 01:57:17,730 PIL.Image    DEBUG    Importing XbmImagePlugin
+2024-02-06 01:57:17,731 PIL.Image    DEBUG    Importing XpmImagePlugin
+2024-02-06 01:57:17,733 PIL.Image    DEBUG    Importing XVThumbImagePlugin
+2024-02-06 01:57:17,930 PIL.TiffImagePlugin DEBUG    tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-02-06 01:57:17,930 PIL.TiffImagePlugin DEBUG    tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-06 01:57:17,930 PIL.TiffImagePlugin DEBUG    tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-06 01:57:17,930 PIL.TiffImagePlugin DEBUG    tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-02-06 01:57:17,930 PIL.TiffImagePlugin DEBUG    tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Adobe Photoshop CC (Macintosh)\x00'
+2024-02-06 01:57:17,931 PIL.TiffImagePlugin DEBUG    tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 145 - value: b'2018:09:07 19:04:00\x00'
+2024-02-06 01:57:17,931 PIL.TiffImagePlugin DEBUG    tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xa8'
+2024-02-06 01:57:32,269 PIL.TiffImagePlugin DEBUG    tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-02-06 01:57:32,269 PIL.TiffImagePlugin DEBUG    tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-06 01:57:32,270 PIL.TiffImagePlugin DEBUG    tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-06 01:57:32,270 PIL.TiffImagePlugin DEBUG    tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-02-06 01:57:32,270 PIL.TiffImagePlugin DEBUG    tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Adobe Photoshop CC (Macintosh)\x00'
+2024-02-06 01:57:32,270 PIL.TiffImagePlugin DEBUG    tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 145 - value: b'2018:09:07 19:04:00\x00'
+2024-02-06 01:57:32,270 PIL.TiffImagePlugin DEBUG    tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xa8'
+2024-02-06 01:57:32,291 PIL.TiffImagePlugin DEBUG    tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-02-06 01:57:32,291 PIL.TiffImagePlugin DEBUG    tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-06 01:57:32,291 PIL.TiffImagePlugin DEBUG    tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-06 01:57:32,291 PIL.TiffImagePlugin DEBUG    tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-02-06 01:57:32,291 PIL.TiffImagePlugin DEBUG    tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Adobe Photoshop CC (Macintosh)\x00'
+2024-02-06 01:57:32,291 PIL.TiffImagePlugin DEBUG    tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 145 - value: b'2018:09:07 19:04:00\x00'
+2024-02-06 01:57:32,292 PIL.TiffImagePlugin DEBUG    tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xa8'
+2024-02-06 01:57:47,023 PIL.TiffImagePlugin DEBUG    tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-02-06 01:57:47,024 PIL.TiffImagePlugin DEBUG    tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-06 01:57:47,024 PIL.TiffImagePlugin DEBUG    tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-06 01:57:47,024 PIL.TiffImagePlugin DEBUG    tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-02-06 01:57:47,024 PIL.TiffImagePlugin DEBUG    tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Adobe Photoshop CC (Macintosh)\x00'
+2024-02-06 01:57:47,024 PIL.TiffImagePlugin DEBUG    tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 145 - value: b'2018:09:07 19:04:00\x00'
+2024-02-06 01:57:47,024 PIL.TiffImagePlugin DEBUG    tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xa8'
+2024-02-06 01:58:00,756 django.request WARNING  Not Found: /core_api/photos/user_id=1
+2024-02-06 01:58:19,215 django.request ERROR    Internal Server Error: /core_api/photos/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo_list.py", line 24, in get
+    outcome = ServiceOutcome(PhotoListService, {'current_user': request.user} | dict(request.GET.items()))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 223, in execute
+    outcome = service_object.execute(service_object_attributes, service_object_files)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 79, in execute
+    instance.service_clean()
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 195, in service_clean
+    raise InvalidInputsError(errors, self.non_field_errors())
+utils.errors.InvalidInputsError: ({'user_id': [ValidationError(['Enter a whole number.'])]}, [])
+2024-02-06 01:59:37,009 PIL.TiffImagePlugin DEBUG    tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-02-06 01:59:37,009 PIL.TiffImagePlugin DEBUG    tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-06 01:59:37,009 PIL.TiffImagePlugin DEBUG    tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
+2024-02-06 01:59:37,009 PIL.TiffImagePlugin DEBUG    tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-02-06 01:59:37,009 PIL.TiffImagePlugin DEBUG    tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Adobe Photoshop CC (Macintosh)\x00'
+2024-02-06 01:59:37,009 PIL.TiffImagePlugin DEBUG    tag: DateTime (306) - type: string (2) Tag Location: 82 - Data Location: 145 - value: b'2018:09:07 19:04:00\x00'
+2024-02-06 01:59:37,009 PIL.TiffImagePlugin DEBUG    tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xa8'
+2024-02-06 02:01:29,065 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\show_list.py changed, reloading.
+2024-02-06 02:01:29,708 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 02:01:33,798 django.request ERROR    Internal Server Error: /core_api/photos/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo_list.py", line 24, in get
+    outcome = ServiceOutcome(PhotoListService, {'current_user': request.user} | dict(request.GET.items()))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 220, in __init__
+    self._outcome = self.execute(service_object, service_object_attributes, service_object_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\PhotoCraft\PhotoCraft\utils\services.py", line 227, in execute
+    raise ServiceObjectLogicError(errors_dict=outcome.errors, response_status=response_status)
+utils.errors.ServiceObjectLogicError: Invalid request data
+2024-02-06 02:01:55,145 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\services\photo\show_list.py changed, reloading.
+2024-02-06 02:01:55,748 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 02:03:35,649 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\serializers\photo\photo_list.py changed, reloading.
+2024-02-06 02:03:36,316 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 02:17:24,951 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-02-06 02:17:25,605 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 02:18:57,708 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-02-06 02:18:58,365 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 02:21:17,279 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-02-06 02:21:17,928 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 02:25:38,156 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-02-06 02:25:38,777 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 02:26:37,657 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-02-06 02:26:38,274 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 02:26:49,507 django.request WARNING  Not Found: /auth/
+2024-02-06 02:27:27,514 django.request WARNING  Not Found: /core_api/
+2024-02-06 02:28:56,296 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-02-06 02:28:56,996 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 02:29:57,907 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-02-06 02:29:58,549 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 02:30:22,432 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-02-06 02:30:23,033 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 02:33:26,429 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-02-06 02:33:27,095 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 02:35:13,118 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-02-06 02:35:13,780 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 02:36:32,198 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 02:36:45,136 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-02-06 02:36:45,747 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 02:37:36,586 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 02:38:51,509 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-02-06 02:38:52,168 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 02:40:23,334 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-02-06 02:40:24,016 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 02:41:14,000 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-02-06 02:41:14,674 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 02:41:29,772 django.request WARNING  Not Found: /core_api/
+2024-02-06 02:41:43,344 django.request WARNING  Not Found: /core_api/^auth/
+2024-02-06 02:44:05,046 django.request WARNING  Not Found: /core_api/auth/me/
+2024-02-06 02:47:20,830 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-02-06 02:47:21,479 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 02:47:47,691 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-02-06 02:47:48,397 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 02:48:21,831 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-02-06 02:48:22,435 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 02:55:49,623 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-02-06 02:55:50,294 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 02:56:48,462 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-02-06 02:56:49,092 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 02:57:16,134 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-02-06 02:57:16,747 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 02:59:32,180 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-02-06 02:59:32,887 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 03:08:45,795 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-02-06 03:08:46,521 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 03:10:37,710 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-02-06 03:10:38,323 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 03:12:08,082 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-02-06 03:12:08,733 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 03:13:17,949 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-02-06 03:13:18,652 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 03:30:12,033 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-02-06 03:30:12,627 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 03:30:15,553 django.request WARNING  Not Found: /core_api/auth/me/
+2024-02-06 03:30:40,117 django.request WARNING  Method Not Allowed: /core_api/auth/users/
+2024-02-06 03:30:40,396 django.request WARNING  Method Not Allowed: /core_api/auth/users/
+2024-02-06 03:31:21,439 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.

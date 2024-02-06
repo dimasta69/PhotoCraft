@@ -1,5 +1,7 @@
 from django.conf.urls.static import static
-from django.urls import path, include, re_path
+from django.urls import path
+
+from djoser.views import TokenCreateView, TokenDestroyView, UserViewSet
 
 from core_api.veiws.photo.photo_list import PhotoListView
 from core_api.veiws.photo.photo import PhotoView
@@ -8,7 +10,7 @@ from core_api.veiws.categories.show import CategoryView
 from core_api.veiws.liked.add_and_del import LikedView
 from core_api.veiws.comments.show_list import CommentsView
 from core_api.veiws.comments.show import CommentView
-from core_api.veiws.photo.personal_area import PersonalAreaView
+from core_api.veiws.profile.show import ProfileView
 from photo_craft import settings
 
 urlpatterns = [
@@ -19,11 +21,16 @@ urlpatterns = [
     path('like/', LikedView.as_view()),
     path('comments/', CommentsView.as_view()),
     path('comment/<int:id>/', CommentView.as_view()),
-    path('profile/', PersonalAreaView.as_view()),
-    path('auth/', include('djoser.urls')),
-    re_path(r'^auth/', include('djoser.urls.authtoken')),
-
+    path('profile/', ProfileView.as_view()),
+    path('auth/users/', UserViewSet.as_view({'post': 'create'}), name='user-create'),
+    path('auth/token/login/', TokenCreateView.as_view()),
+    path('auth/token/logout/', TokenDestroyView.as_view()),
+    path('auth/token/refresh/', TokenCreateView.as_view()),
+    path('auth/users/activation/', UserViewSet.as_view({'post': 'activate'})),
 ]
 
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+#  path('auth/', include('djoser.urls')),
+#  re_path(r'^auth/', include('djoser.urls.authtoken')),
