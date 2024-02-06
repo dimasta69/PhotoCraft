@@ -1,3 +1,5 @@
+from drf_yasg import openapi
+from drf_yasg.utils import swagger_auto_schema
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
@@ -14,6 +16,17 @@ class LikedView(APIView):
     queryset = Liked.objects.all()
     serializer_class = LikedSerializer
 
+    @swagger_auto_schema(operation_description='Like the post', tags=['core-api/like'],
+                         request_body=openapi.Schema(
+                             title='core_api_like_schema',
+                             description='Like schema',
+                             type=openapi.TYPE_OBJECT,
+                             properties=dict(
+                                 photo_id=openapi.Schema(type=openapi.TYPE_INTEGER),
+                             ),
+                             required=['photo_id']
+                         ),
+                         responses={201: openapi.Response('Success', LikedSerializer)})
     def post(self, request):
         outcome = ServiceOutcome(LikedService, {'current_user': request.user} | request.data.dict())
         if bool(outcome.errors):

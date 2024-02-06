@@ -1,3 +1,5 @@
+from drf_yasg import openapi
+from drf_yasg.utils import swagger_auto_schema
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
@@ -17,6 +19,9 @@ class CommentsView(APIView):
     queryset = Comments.objects.all()
     serializer_class = CommentsSerializer
 
+    @swagger_auto_schema(operation_description='Get comments', tags=['core-api/comments'],
+                         responses={200: openapi.Response(
+                             'Success', CommentsSerializer)})
     def get(self, request):
         outcome = ServiceOutcome(CommentsListService, dict(request.GET.items()))
         if bool(outcome.errors):
@@ -26,8 +31,22 @@ class CommentsView(APIView):
                                             per_page=outcome.service.cleaned_data['per_page']).to_json(),
              'results': CommentsSerializer(outcome.result.object_list, many=True).data})
 
+    @swagger_auto_schema(operation_description='Update post', tags=['core-api/comments'],
+                         request_body=openapi.Schema(
+                             title='core_api_photo_update_schema',
+                             description='Update photo schema',
+                             type=openapi.TYPE_OBJECT,
+                             properties=dict(
+                                 id=openapi.Schema(type=openapi.TYPE_INTEGER),
+                                 text=openapi.Schema(type=openapi.TYPE_STRING)
+                             ),
+                             required=['id', 'text']
+                         ),
+                         responses={201: openapi.Response('Success', CommentsSerializer)})
     def post(self, request):
-        outcome = ServiceOutcome(CommentCreateService,{'current_user': request.user} | request.data.dict())
+        outcome = ServiceOutcome(CommentCreateService, {'current_user': request.user} | request.data.dict())
         if bool(outcome.errors):
             return Response(outcome.errors, status.HTTP_400_BAD_REQUEST)
         return Response(CommentsSerializer(outcome.result).data, status.HTTP_201_CREATED)
+
+

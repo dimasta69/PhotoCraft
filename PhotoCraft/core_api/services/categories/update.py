@@ -12,8 +12,8 @@ from models_app.models.categories.model import Categories
 
 
 class CategoryUpdateServcie(ServiceWithResult):
-    id = forms.IntegerField()
-    title = forms.CharField()
+    id = forms.IntegerField(required=True)
+    title = forms.CharField(required=True)
     current_user = ModelField(User)
 
     custom_validations = ['user_ratio', 'match_checking']

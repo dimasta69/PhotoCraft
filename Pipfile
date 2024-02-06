@@ -19,6 +19,7 @@ social-auth-app-django = "*"
 django-fsm = "*"
 celery = "*"
 redis = "*"
+drf-yasg = "*"
 
 [requires]
 python_version = "3.11"

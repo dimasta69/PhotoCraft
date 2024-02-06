@@ -33064,3 +33064,149 @@ utils.errors.ServiceObjectLogicError: Invalid request data
 2024-02-06 03:30:40,117 django.request WARNING  Method Not Allowed: /core_api/auth/users/
 2024-02-06 03:30:40,396 django.request WARNING  Method Not Allowed: /core_api/auth/users/
 2024-02-06 03:31:21,439 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-02-06 14:18:30,773 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 14:18:33,266 django.request WARNING  Not Found: /
+2024-02-06 14:18:33,307 django.request WARNING  Not Found: /favicon.ico
+2024-02-06 14:18:55,074 django.request WARNING  Not Found: /core_api/
+2024-02-06 14:19:02,872 django.request ERROR    Internal Server Error: /core_api/swagger/
+Traceback (most recent call last):
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\drf_yasg\renderers.py", line 79, in render
+    return render_to_string(self.template, renderer_context, renderer_context['request'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dmstv\.virtualenvs\PhotoCraft-YY6TIEDM\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: drf-yasg/swagger-ui.html
+2024-02-06 14:20:48,094 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\settings\django.py changed, reloading.
+2024-02-06 14:20:48,746 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 14:34:33,129 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\settings\django.py changed, reloading.
+2024-02-06 14:34:33,826 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 14:35:00,098 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\photo_craft\settings\django.py changed, reloading.
+2024-02-06 14:35:00,892 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 14:38:04,270 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-02-06 14:38:04,998 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 14:38:55,523 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 14:39:03,304 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-02-06 14:39:03,952 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 14:58:18,851 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 14:59:24,580 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-02-06 14:59:25,276 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 15:00:55,666 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\auth\activation.py changed, reloading.
+2024-02-06 15:00:56,338 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 15:01:10,190 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\auth\activation.py changed, reloading.
+2024-02-06 15:01:10,879 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 15:03:29,871 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\auth\activation.py changed, reloading.
+2024-02-06 15:03:30,636 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 15:03:41,520 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\auth\activation.py changed, reloading.
+2024-02-06 15:03:42,183 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 15:04:03,352 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\auth\activation.py changed, reloading.
+2024-02-06 15:04:04,025 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 15:06:55,179 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-02-06 15:06:55,848 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 15:08:43,876 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-02-06 15:08:44,563 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 15:09:12,965 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-02-06 15:09:13,729 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 15:09:18,031 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-02-06 15:09:18,687 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 15:10:02,595 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-02-06 15:10:03,328 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 15:11:49,249 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\auth\users.py changed, reloading.
+2024-02-06 15:11:49,940 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 15:12:32,788 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\auth\users.py changed, reloading.
+2024-02-06 15:12:33,480 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 15:14:01,823 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\auth\users.py changed, reloading.
+2024-02-06 15:14:02,589 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 15:14:26,828 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\urls.py changed, reloading.
+2024-02-06 15:14:27,524 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 15:22:07,943 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\profile\show.py changed, reloading.
+2024-02-06 15:22:08,720 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 15:23:33,963 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\profile\show.py changed, reloading.
+2024-02-06 15:23:34,691 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 15:23:36,215 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\profile\show.py changed, reloading.
+2024-02-06 15:23:36,936 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 15:23:38,964 django.request WARNING  Not Found: /
+2024-02-06 15:24:16,030 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\profile\show.py changed, reloading.
+2024-02-06 15:24:16,695 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 15:25:25,285 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\profile\show.py changed, reloading.
+2024-02-06 15:25:25,978 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 15:26:00,518 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\profile\show.py changed, reloading.
+2024-02-06 15:26:01,224 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 15:31:11,609 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\profile\show.py changed, reloading.
+2024-02-06 15:31:12,347 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 15:31:20,872 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\profile\show.py changed, reloading.
+2024-02-06 15:31:21,632 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 15:33:04,933 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\profile\show.py changed, reloading.
+2024-02-06 15:33:05,703 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 15:33:25,560 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\profile\show.py changed, reloading.
+2024-02-06 15:33:26,247 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 15:34:35,967 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\profile\show.py changed, reloading.
+2024-02-06 15:34:36,693 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 15:35:55,660 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\profile\show.py changed, reloading.
+2024-02-06 15:35:56,298 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 15:36:57,880 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\profile\show.py changed, reloading.
+2024-02-06 15:36:58,605 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 15:43:44,362 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo.py changed, reloading.
+2024-02-06 15:43:45,085 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 15:43:59,122 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo.py changed, reloading.
+2024-02-06 15:43:59,788 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 15:50:50,105 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo.py changed, reloading.
+2024-02-06 15:50:50,851 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 15:51:40,626 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo.py changed, reloading.
+2024-02-06 15:51:41,281 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 15:55:08,675 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo.py changed, reloading.
+2024-02-06 15:55:09,415 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 15:56:45,459 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo.py changed, reloading.
+2024-02-06 15:56:46,198 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 15:58:24,998 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo.py changed, reloading.
+2024-02-06 15:58:25,687 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 15:58:43,419 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo.py changed, reloading.
+2024-02-06 15:58:44,104 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 16:00:12,448 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo.py changed, reloading.
+2024-02-06 16:00:13,172 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 16:31:20,396 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\liked\add_and_del.py changed, reloading.
+2024-02-06 16:31:21,126 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 16:32:24,623 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\liked\add_and_del.py changed, reloading.
+2024-02-06 16:32:25,296 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 16:33:01,103 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\liked\add_and_del.py changed, reloading.
+2024-02-06 16:33:01,851 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 23:30:40,996 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 23:30:44,524 django.request WARNING  Not Found: /
+2024-02-06 23:30:44,628 django.request WARNING  Not Found: /favicon.ico
+2024-02-06 23:31:40,874 django.request WARNING  Method Not Allowed: /core_api/auth/users/
+2024-02-06 23:32:38,765 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo_list.py changed, reloading.
+2024-02-06 23:32:39,616 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 23:36:08,997 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo_list.py changed, reloading.
+2024-02-06 23:36:09,774 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 23:38:43,532 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\photo\photo_list.py changed, reloading.
+2024-02-06 23:38:44,334 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 23:53:23,044 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\comments\show.py changed, reloading.
+2024-02-06 23:53:23,823 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-06 23:55:01,623 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\comments\show.py changed, reloading.
+2024-02-06 23:55:02,390 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-07 00:09:16,178 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\comments\show_list.py changed, reloading.
+2024-02-07 00:09:17,009 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-07 00:11:01,714 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\comments\show_list.py changed, reloading.
+2024-02-07 00:11:02,473 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-07 00:18:37,096 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\comments\show_list.py changed, reloading.
+2024-02-07 00:18:37,897 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-07 00:19:19,770 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\comments\show_list.py changed, reloading.
+2024-02-07 00:19:20,528 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-07 00:40:35,277 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\categories\show.py changed, reloading.
+2024-02-07 00:40:36,070 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-02-07 00:49:55,854 django.utils.autoreload INFO     D:\Projects\PhotoCraft\PhotoCraft\core_api\veiws\categories\category_list.py changed, reloading.
+2024-02-07 00:49:56,623 django.utils.autoreload INFO     Watching for file changes with StatReloader
