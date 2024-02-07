@@ -30,9 +30,9 @@ class CommentsListService(ServiceWithResult):
         page = self.cleaned_data['page']
 
         try:
-            return Paginator(self.get_comment, per_page=(per_page or REST_FRAMEWORK['PAGE_SIZE'])).page(page or 1)
+            return Paginator(self.comment, per_page=(per_page or REST_FRAMEWORK['PAGE_SIZE'])).page(page or 1)
         except EmptyPage:
-            return Paginator(self.get_comment.none(), per_page=(per_page or REST_FRAMEWORK['PAGE_SIZE'])).page(1)
+            return Paginator(self.comment.none(), per_page=(per_page or REST_FRAMEWORK['PAGE_SIZE'])).page(1)
 
     @property
     @lru_cache()

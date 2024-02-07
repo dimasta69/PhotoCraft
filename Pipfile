@@ -20,6 +20,7 @@ django-fsm = "*"
 celery = "*"
 redis = "*"
 drf-yasg = "*"
+factory-boy = "*"
 
 [requires]
 python_version = "3.11"

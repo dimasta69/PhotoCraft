@@ -20,8 +20,48 @@ class CommentsView(APIView):
     serializer_class = CommentsSerializer
 
     @swagger_auto_schema(operation_description='Get comments', tags=['core-api/comments'],
-                         responses={200: openapi.Response(
-                             'Success', CommentsSerializer)})
+                         responses={
+                             '200': openapi.Response(
+                                 description='Success',
+                                 examples={
+                                     "application/json": {
+                                         "pagination": {
+                                             "current_page": 0,
+                                             "per_page": 0,
+                                             "next_page": None,
+                                             "prev_page": None,
+                                             "total_pages": 0,
+                                             "total_count": 0
+                                         },
+                                         "results": [
+                                             {
+                                                 "id": 0,
+                                                 "user_id": 0,
+                                                 "photo_id": 1,
+                                                 "reply_id": "null",
+                                                 "text": "string",
+                                                 "publicated_at": "date",
+                                                 "updated_ad": "date"
+                                             },
+                                         ]
+                                     }
+                                 }
+                             )
+                         },
+                         manual_parameters=[
+                             openapi.Parameter(name="page",
+                                               in_=openapi.IN_QUERY,
+                                               description='Page number',
+                                               type=openapi.TYPE_INTEGER),
+                             openapi.Parameter(name='per_page',
+                                               in_=openapi.IN_QUERY,
+                                               description='Page size',
+                                               type=openapi.TYPE_INTEGER),
+                             openapi.Parameter(name='photo_id',
+                                               in_=openapi.IN_QUERY,
+                                               description='Filter by user',
+                                               type=openapi.TYPE_INTEGER,
+                                               required=True)])
     def get(self, request):
         outcome = ServiceOutcome(CommentsListService, dict(request.GET.items()))
         if bool(outcome.errors):
