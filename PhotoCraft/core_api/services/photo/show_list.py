@@ -65,7 +65,7 @@ class PhotoListService(ServiceWithResult):
     @property
     def _filter_by_category(self):
         if self.cleaned_data.get('category_id'):
-            return self.photo.filter(category=self.category)
+            return self.photo.filter(category_id=self.category)
         return self.photo
 
     @property
@@ -115,6 +115,6 @@ class PhotoListService(ServiceWithResult):
 
     def status_presence(self):
         if self.cleaned_data['status']:
-            if not self.cleaned_data['status'] in Photo.STATUS_CHOICES:
+            if not self.cleaned_data['status'] in [choice[0] for choice in Photo.STATUS_CHOICES]:
                 self.add_error('status', ObjectDoesNotExist("Status with"
                                                             f"{self.cleaned_data['status']} not found"))

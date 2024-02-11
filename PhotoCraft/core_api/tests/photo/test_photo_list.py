@@ -16,8 +16,10 @@ class ListCreatePhotoViewTest(TestCase):
         cls.user_2 = UserFactory.create(create_token=True)
         cls.category_1 = CategoryFactory()
         cls.category_2 = CategoryFactory()
-        cls.photo_1 = PhotoFactory.create_batch(4, user_id=cls.user_1, status='Moderation',
+        cls.photo_1 = PhotoFactory.create_batch(3, user_id=cls.user_1, status='Moderation',
                                                 category_id=cls.category_1)
+        cls.photo_1 = PhotoFactory.create_batch(1, user_id=cls.user_1, status='Moderation',
+                                                category_id=cls.category_2)
         cls.photo_2 = PhotoFactory.create_batch(5, user_id=cls.user_1, status='Published',
                                                 category_id=cls.category_2)
 
@@ -48,4 +50,14 @@ class ListCreatePhotoViewTest(TestCase):
         self.assertTrue(resp_json['pagination']['prev_page'] == 1)
         self.assertTrue(resp_json['pagination']['total_pages'] == 3)
         self.assertTrue(len(resp_json['results']) == REST_FRAMEWORK['PAGE_SIZE'])
+
+    def test_view_maximum_parameters(self):
+        resp = self.client.get('/core_api/photos/',
+                               {'page': 1, 'per_page': 100, 'current_user': self.user_1.id, 'user_id': 1, 'category_id':
+                                self.category_1.id, 'order_by': 'id', 'status': 'Moderation'},
+                               content_type='application/json')
+        self.assertEqual(resp.status_code, 200)
+        resp_json = json.loads(resp.content)
+        self.assertTrue(len(resp_json['results']) == 3)
+
 
