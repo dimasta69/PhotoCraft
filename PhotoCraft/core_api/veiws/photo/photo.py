@@ -1,3 +1,4 @@
+from rest_framework.decorators import action
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
@@ -25,8 +26,8 @@ class PhotoView(APIView,
     @swagger_auto_schema(operation_description='Get photo', tags=['core-api/photo'],
                          responses={200: openapi.Response(
                              'Success', PhotoSerializer)})
-    def get(self, requesst, **kwargs):
-        outcome = ServiceOutcome(PhotoService, {'id': kwargs['id']})
+    def get(self, request, **kwargs):
+        outcome = ServiceOutcome(PhotoService, {'id': kwargs['id'], 'current_user': request.user.id})
         if bool(outcome.errors):
             return Response(outcome.errors, status.HTTP_400_BAD_REQUEST)
         return Response(PhotoSerializer(outcome.result).data)
@@ -37,12 +38,10 @@ class PhotoView(APIView,
                              description='Update photo schema',
                              type=openapi.TYPE_OBJECT,
                              properties=dict(
-                                 id=openapi.Schema(type=openapi.TYPE_INTEGER),
                                  title=openapi.Schema(type=openapi.TYPE_STRING),
                                  photo=openapi.Schema(type=openapi.TYPE_FILE),
                                  category_id=openapi.Schema(type=openapi.TYPE_INTEGER),
                              ),
-                             required=['id']
                          ),
                          responses={201: openapi.Response('Success', PhotoSerializer)})
     def put(self, request, **kwargs):

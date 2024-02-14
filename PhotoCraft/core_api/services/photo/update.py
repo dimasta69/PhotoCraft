@@ -1,5 +1,6 @@
 from django import forms
 from django.core.exceptions import ObjectDoesNotExist
+from rest_framework import status
 
 from models_app.models.photo.model import Photo
 from models_app.models.users.model import User
@@ -29,18 +30,21 @@ class UpdatePhotoService(ServiceWithResult):
         return self
 
     def _update_photo(self):
-        self.photo.title = self.cleaned_data['title']
-        self.photo.description = self.cleaned_data['description']
-        self.photo.category_id = self.category
+        if self.cleaned_data['title']:
+            self.photo_obj.title = self.cleaned_data['title']
+        if self.cleaned_data['description']:
+            self.photo_obj.description = self.cleaned_data['description']
+        if self.cleaned_data['category_id']:
+            self.photo_obj.category_id = self.category
         if self.cleaned_data['photo']:
-            self.photo.backup_photo = self.photo.photo
-            self.photo.photo = self.cleaned_data['photo']
-        self.photo.set_update()
-        return self.photo
+            self.photo_obj.backup_photo = self.photo.photo
+            self.photo_obj.photo = self.cleaned_data['photo']
+        self.photo_obj.set_update()
+        return self.photo_obj
 
     @property
     @lru_cache()
-    def photo(self):
+    def photo_obj(self):
         try:
             return Photo.objects.get(id=self.cleaned_data['id'])
         except Photo.DoesNotExist:
@@ -56,7 +60,7 @@ class UpdatePhotoService(ServiceWithResult):
 
     def photo_presence(self):
         if self.cleaned_data['id']:
-            if not self.photo:
+            if not self.photo_obj:
                 self.add_error('photo_id', ObjectDoesNotExist(f"Photo with id="
                                                               f"{self.cleaned_data['id']} not found"))
 
@@ -67,10 +71,12 @@ class UpdatePhotoService(ServiceWithResult):
                                                                  f"{self.cleaned_data['category_id']} not found"))
 
     def user_ratio(self):
-        if not ((self.photo.user_id.id == self.cleaned_data['current_user'].id) or
+        if not ((self.photo_obj.user_id.id == self.cleaned_data['current_user'].id) or
                 self.cleaned_data['current_user'].is_superuser):
-            self.add_error('current_user', ObjectDoesNotExist(f"User with id="
-                                                              f"{self.cleaned_data['current_user']} is not the author "
-                                                              f"of the post"))
+            self.add_error(
+                "current_user",
+                f"Material with id = {self.cleaned_data['current_user']} does not found",
+            )
+            self.response_status = status.HTTP_403_FORBIDDEN
 
 

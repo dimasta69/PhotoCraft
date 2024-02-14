@@ -1,3 +1,5 @@
+import os
+
 from django import forms
 from django.core.exceptions import ObjectDoesNotExist
 
@@ -25,6 +27,12 @@ class PhotoDeleteService(ServiceWithResult):
 
     def _delete_obj(self):
         if self.photo.status in ('Moderation', 'Reject'):
+            if self.photo.photo:
+                if os.path.isfile(self.photo.photo.path):
+                    os.remove(self.photo.photo.path)
+            if self.photo.backup_photo:
+                if os.path.isfile(self.photo.backup_photo.path):
+                    os.remove(self.photo.backup_photo.path)
             self.photo.delete()
             return {'message': 'Object deleted successfully.'}
         elif self.photo.status == 'Delete':
@@ -48,8 +56,9 @@ class PhotoDeleteService(ServiceWithResult):
                                                               f"{self.cleaned_data['id']} not found"))
 
     def user_ratio(self):
-        if not ((self.photo.user_id.id == self.cleaned_data['current_user'].id) or
+        if not ((self.photo_obj.user_id.id == self.cleaned_data['current_user'].id) or
                 self.cleaned_data['current_user'].is_superuser):
             self.add_error('current_user', ObjectDoesNotExist(f"User with id="
                                                               f"{self.cleaned_data['current_user']} is not the author "
                                                               f"of the post"))
+
