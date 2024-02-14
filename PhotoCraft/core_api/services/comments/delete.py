@@ -23,7 +23,7 @@ class CommentDeleteService(ServiceWithResult):
         return self
 
     def _delete_obj(self):
-        comment = self.get_comment
+        comment = self.comment
         comment.delete()
         return Comments.objects.none()
 

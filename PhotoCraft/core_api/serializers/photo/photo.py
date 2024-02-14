@@ -13,6 +13,7 @@ class PhotoSerializer(serializers.Serializer):
     user_id = serializers.PrimaryKeyRelatedField(queryset=User.objects.all())
     photo = serializers.ImageField()
     category_id = serializers.PrimaryKeyRelatedField(queryset=Categories.objects.all(), allow_null=True, required=False)
+    status = serializers.CharField()
     number_of_likes = serializers.SerializerMethodField()
     number_of_comments = serializers.SerializerMethodField()
 

@@ -35,10 +35,10 @@ class PhotoListService(ServiceWithResult):
         page = self.cleaned_data['page']
 
         try:
-            return Paginator(self._checking_user_affiliation, per_page=(per_page or REST_FRAMEWORK['PAGE_SIZE'])).page(
+            return Paginator(self.get_photo_filtered_ordering, per_page=(per_page or REST_FRAMEWORK['PAGE_SIZE'])).page(
                 page or 1)
         except EmptyPage:
-            return Paginator(self._checking_user_affiliation,
+            return Paginator(self.get_photo_filtered_ordering,
                              per_page=(per_page or REST_FRAMEWORK['PAGE_SIZE'])).page(1)
 
     @property
@@ -63,31 +63,21 @@ class PhotoListService(ServiceWithResult):
         return Photo.objects.all()
 
     @property
-    def _filter_by_category(self):
+    def get_photo_filtered_ordering(self):
+        photos = self.photo
         if self.cleaned_data.get('category_id'):
-            return self.photo.filter(category_id=self.category)
-        return self.photo
-
-    @property
-    def _photo_by_ordering(self):
+            photos = photos.filter(category_id=self.category)
         if self.cleaned_data.get('order_by'):
-            return self._filter_by_category.order_by(self.cleaned_data['order_by'])
-        return self._filter_by_category
-
-    @property
-    def _filter_by_user(self):
+            photos = photos.order_by(self.cleaned_data['order_by'])
         if self.cleaned_data.get('user_id'):
-            return self._photo_by_ordering.filter(user_id=self.user)
-        return self._photo_by_ordering
-
-    @property
-    def _checking_user_affiliation(self):
+            photos = photos.filter(user_id=self.user)
         if (self.cleaned_data.get('user_id') == self.cleaned_data.get('current_user') and
                 self.cleaned_data.get('current_user') is not None):
             if self.cleaned_data['status']:
-                return self._filter_by_user.filter(status=self.cleaned_data['status'])
-            return self._filter_by_user
-        return self._filter_by_user.filter(status='Published')
+                photos = photos.filter(status=self.cleaned_data['status'])
+        else:
+            photos = photos.filter(status='Published')
+        return photos
 
     def category_presence(self):
         if self.cleaned_data['category_id']:

@@ -77,10 +77,11 @@ class CommentsView(APIView):
                              description='Update photo schema',
                              type=openapi.TYPE_OBJECT,
                              properties=dict(
-                                 id=openapi.Schema(type=openapi.TYPE_INTEGER),
-                                 text=openapi.Schema(type=openapi.TYPE_STRING)
+                                 photo_id=openapi.Schema(type=openapi.TYPE_INTEGER),
+                                 text=openapi.Schema(type=openapi.TYPE_STRING),
+                                 reply_id=openapi.Schema(type=openapi.TYPE_INTEGER),
                              ),
-                             required=['id', 'text']
+                             required=['photo_id', 'text']
                          ),
                          responses={201: openapi.Response('Success', CommentsSerializer)})
     def post(self, request):

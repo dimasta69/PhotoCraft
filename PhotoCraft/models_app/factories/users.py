@@ -18,3 +18,9 @@ class UserFactory(DjangoModelFactory):
         if create:
             self.save()
             Token.objects.create(user=self)
+
+    @factory.post_generation
+    def set_superuser(obj, create, extracted, **kwargs):
+        if extracted is not None:
+            obj.is_superuser = extracted
+            obj.save()

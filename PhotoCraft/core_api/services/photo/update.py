@@ -37,7 +37,7 @@ class UpdatePhotoService(ServiceWithResult):
         if self.cleaned_data['category_id']:
             self.photo_obj.category_id = self.category
         if self.cleaned_data['photo']:
-            self.photo_obj.backup_photo = self.photo.photo
+            self.photo_obj.backup_photo = self.photo_obj.photo
             self.photo_obj.photo = self.cleaned_data['photo']
         self.photo_obj.set_update()
         return self.photo_obj

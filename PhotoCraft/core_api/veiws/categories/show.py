@@ -45,7 +45,7 @@ class CategoryView(APIView):
                                  request.data.dict(), request.FILES)
         if bool(outcome.errors):
             return Response(outcome.errors, status.HTTP_400_BAD_REQUEST)
-        return Response(CategoriesSerializer(outcome.result).data, status.HTTP_200_OK)
+        return Response(CategoriesSerializer(outcome.result).data, status.HTTP_201_CREATED)
 
     @swagger_auto_schema(operation_description='Delete category',
                          tags=['core-api/category'])
@@ -54,4 +54,4 @@ class CategoryView(APIView):
                                  {'id': kwargs['id'], 'current_user': request.user})
         if bool(outcome.errors):
             return Response(outcome.errors, status.HTTP_400_BAD_REQUEST)
-        return Response({'message': 'Object deleted successfully.'}, status.HTTP_200_OK)
+        return Response({'message': 'Object deleted successfully.'}, status.HTTP_204_NO_CONTENT)

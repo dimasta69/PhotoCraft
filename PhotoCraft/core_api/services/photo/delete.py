@@ -1,4 +1,5 @@
 import os
+from datetime import timedelta
 
 from django import forms
 from django.core.exceptions import ObjectDoesNotExist
@@ -36,10 +37,10 @@ class PhotoDeleteService(ServiceWithResult):
             self.photo.delete()
             return {'message': 'Object deleted successfully.'}
         elif self.photo.status == 'Delete':
-            return {'message': f'Еhe object will be deleted in {self.photo.deleted_at + OBJECT_TIME_DELETE}'}
+            return {'message': f'Еhe object will be deleted in {self.photo.deleted_at + timedelta(seconds=int(OBJECT_TIME_DELETE))}'}
         elif self.photo.status == 'Published':
             self.photo.set_schedule_deletion()
-            return {'message': f'Еhe object will be deleted in {self.photo.deleted_at + OBJECT_TIME_DELETE}'}
+            return {'message': f'Еhe object will be deleted in {self.photo.deleted_at + timedelta(seconds=int(OBJECT_TIME_DELETE))}'}
 
     @property
     @lru_cache()
@@ -56,7 +57,7 @@ class PhotoDeleteService(ServiceWithResult):
                                                               f"{self.cleaned_data['id']} not found"))
 
     def user_ratio(self):
-        if not ((self.photo_obj.user_id.id == self.cleaned_data['current_user'].id) or
+        if not ((self.photo.user_id.id == self.cleaned_data['current_user'].id) or
                 self.cleaned_data['current_user'].is_superuser):
             self.add_error('current_user', ObjectDoesNotExist(f"User with id="
                                                               f"{self.cleaned_data['current_user']} is not the author "
