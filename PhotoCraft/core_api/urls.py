@@ -1,4 +1,3 @@
-from django.conf.urls.static import static
 from django.urls import path
 
 from drf_yasg import openapi
@@ -15,7 +14,6 @@ from core_api.veiws.profile.show import ProfileView
 from core_api.veiws.auth.activation import TokenCreateView
 from core_api.veiws.auth.logout import TokenDestroyView
 from core_api.veiws.auth.users import UserViewSet
-from photo_craft import settings
 
 schema_view = get_schema_view(
     openapi.Info(
@@ -41,7 +39,4 @@ urlpatterns = [
     path('auth/token/refresh/', TokenCreateView.as_view()),
     path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
 ]
-
-if settings.DEBUG:
-    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
