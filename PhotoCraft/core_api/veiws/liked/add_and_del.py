@@ -30,5 +30,5 @@ class LikedView(APIView):
     def post(self, request):
         outcome = ServiceOutcome(LikedService, {'current_user': request.user} | request.data.dict())
         if bool(outcome.errors):
-            return Response(outcome.errors, status.HTTP_400_BAD_REQUEST)
+            return Response(outcome.errors, status=outcome.response_status)
         return Response(LikedSerializer(outcome.result).data, status.HTTP_201_CREATED)

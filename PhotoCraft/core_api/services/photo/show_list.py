@@ -4,6 +4,8 @@ from django.core.exceptions import ObjectDoesNotExist
 
 from functools import lru_cache
 
+from rest_framework import status
+
 from photo_craft.settings.restframework import *
 
 from models_app.models.photo.model import Photo
@@ -84,27 +86,32 @@ class PhotoListService(ServiceWithResult):
             if not self.category:
                 self.add_error('category_id', ObjectDoesNotExist(f"Category with id="
                                                                  f"{self.cleaned_data['category_id']} not found"))
+                self.response_status = status.HTTP_404_NOT_FOUND
 
     def order_presence(self):
         if self.cleaned_data.get('order_by'):
             if not self.cleaned_data.get('order_by') in ['id', 'category_id', 'user_id', 'publicated_at', 'updated_at']:
                 self.add_error('order_by', ObjectDoesNotExist(f"Field in model with "
                                                               f"{self.cleaned_data['order_by']} not found"))
+                self.response_status = status.HTTP_404_NOT_FOUND
 
     def user_presence(self):
         if self.cleaned_data.get('user_id'):
             if not self.user:
                 self.add_error('user_id', ObjectDoesNotExist(f"User with id="
                                                              f"{self.cleaned_data['user_id']} not found"))
+                self.response_status = status.HTTP_404_NOT_FOUND
 
     def current_user_presence(self):
         if self.cleaned_data.get('current_user'):
             if not self.user:
                 self.add_error('current_user', ObjectDoesNotExist(f"User with id="
                                                                   f"{self.cleaned_data['current_user']} not found"))
+                self.response_status = status.HTTP_403_FORBIDDEN
 
     def status_presence(self):
         if self.cleaned_data['status']:
             if not self.cleaned_data['status'] in [choice[0] for choice in Photo.STATUS_CHOICES]:
                 self.add_error('status', ObjectDoesNotExist("Status with"
                                                             f"{self.cleaned_data['status']} not found"))
+                self.response_status = status.HTTP_404_NOT_FOUND

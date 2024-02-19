@@ -2,6 +2,7 @@ from functools import lru_cache
 
 from django import forms
 from django.core.exceptions import ObjectDoesNotExist
+from rest_framework import status
 
 from service_objects.fields import ModelField
 
@@ -40,6 +41,7 @@ class CommentDeleteService(ServiceWithResult):
             if not self.comment:
                 self.add_error('id', ObjectDoesNotExist(f"Comment with id="
                                                         f"{self.cleaned_data['id']} not found"))
+                self.response_status = status.HTTP_404_NOT_FOUND
 
     def user_ratio(self):
         if not ((self.comment.user_id.id == self.cleaned_data['current_user'].id) or
@@ -47,3 +49,4 @@ class CommentDeleteService(ServiceWithResult):
             self.add_error('current_user', ObjectDoesNotExist(f"User with id="
                                                               f"{self.cleaned_data['current_user']} is not the author "
                                                               f"of the post"))
+            self.response_status = status.HTTP_403_FORBIDDEN

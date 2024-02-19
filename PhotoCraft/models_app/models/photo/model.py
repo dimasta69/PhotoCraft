@@ -26,32 +26,33 @@ class Photo(models.Model):
                                  options={'quality': 60})
     backup_photo = models.ImageField(verbose_name='Фотография до изменения', null=True, upload_to=uploaded_file_path)
     STATUS_CHOICES = (
-        ('Moderation', 'moderation'),
-        ('Published', 'published'),
-        ('Reject', 'reject'),
-        ('Delete', 'delete'),
+        ('Moderation', 'Модерация'),
+        ('Published', 'Опубликовано'),
+        ('Reject', 'Отклонено'),
+        ('Delete', 'Удаление'),
     )
     status = FSMField(choices=STATUS_CHOICES, default='Moderation')
 
-    publicated_at = models.DateField(verbose_name='Дата публикации', null=True)
-    deleted_at = models.DateField(verbose_name='Дата удаления', null=True)
-    updated_at = models.DateField(verbose_name='Дата обновления', null=True)
-    first_request_at = models.DateField(auto_now_add=True, verbose_name='Дата запроса на публикацию')
+    publicated_at = models.DateTimeField(verbose_name='Дата публикации', null=True)
+    deleted_at = models.DateTimeField(verbose_name='Дата удаления', null=True)
+    updated_at = models.DateTimeField(verbose_name='Дата обновления', null=True)
+    first_request_at = models.DateTimeField(auto_now_add=True, verbose_name='Дата запроса на публикацию')
 
-    @transition(field=status, source='Moderation', target='Published')
-    def approve(self):
+    @transition(field=status, source=['Moderation', 'Reject'], target='Published')
+    def set_approve(self):
         self.status = 'Published'
         if not self.publicated_at:
             self.publicated_at = datetime.now()
         else:
             self.updated_at = datetime.now()
+        self.save()
 
-    @transition(field=status, source='Moderation', target='Rejected')
+    @transition(field=status, source='Moderation', target='Reject')
     def set_reject(self):
         self.status = 'Reject'
         self.save()
 
-    @transition(field=status, source=['Published', 'Moderation', 'Rejected'], target='Moderation')
+    @transition(field=status, source=['Published', 'Moderation', 'Reject'], target='Moderation')
     def set_update(self):
         self.status = 'Moderation'
         self.save()
@@ -72,5 +73,5 @@ class Photo(models.Model):
         verbose_name = 'Фотография'
         verbose_name_plural = 'Фотографии'
 
-    def __str__(self):
+    def str(self):
         return self.title

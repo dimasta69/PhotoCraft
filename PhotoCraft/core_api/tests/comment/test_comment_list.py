@@ -55,7 +55,7 @@ class ListCreateCommentViewTest(TestCase):
                                     'text': 'text',
                                 })
 
-        self.assertEqual(resp.status_code, 403)
+        self.assertEqual(resp.status_code, 401)
 
     def test_view_create_return_201_maximum_parameters_auth_token_true(self):
         resp = self.client.post('/core_api/comments/',

@@ -1,4 +1,5 @@
 import json
+import os
 
 from django.test import TestCase
 from django.test.client import encode_multipart
@@ -33,15 +34,15 @@ class PhotoDeleteUpdateViewTest(TestCase):
                                content_type='application/json')
         self.assertEqual(resp.status_code, 200)
 
-    # def test_view_return_400_invalid_id(self):
-    #     resp = self.client.get(f'/core_api/photo/99/',
-    #                            content_type='application/json')
-    #     self.assertEqual(resp.status_code, 400)
+    def test_view_return_404_invalid_id(self):
+        resp = self.client.get(f'/core_api/photo/99/',
+                               content_type='application/json')
+        self.assertEqual(resp.status_code, 404)
 
-    # def test_view_return_403_not_auth_token_status_moderation(self):
-    #     resp = self.client.get(f'/core_api/photo/{self.photo_1.id}/',
-    #                            content_type='application/json')
-    #     self.assertEqual(resp.status_code, 403)
+    def test_view_return_404_not_auth_token_status_moderation(self):
+        resp = self.client.get(f'/core_api/photo/{self.photo_1.id}/',
+                               content_type='application/json')
+        self.assertEqual(resp.status_code, 404)
 
     def test_view_return_200_auth_token_status_moderation(self):
         resp = self.client.get(f'/core_api/photo/{self.photo_1.id}/',
@@ -49,11 +50,11 @@ class PhotoDeleteUpdateViewTest(TestCase):
                                HTTP_AUTHORIZATION=f'Token {self.user_1.auth_token}')
         self.assertEqual(resp.status_code, 200)
 
-    # def test_view_return_403_auth_token_status_moderation(self):
-    #     resp = self.client.get(f'/core_api/photo/{self.photo_1.id}/',
-    #                            content_type='application/json',
-    #                            HTTP_AUTHORIZATION=f'Token {self.user_2.auth_token}')
-    #     self.assertEqual(resp.status_code, 403)
+    def test_view_return_404_auth_token_status_moderation(self):
+        resp = self.client.get(f'/core_api/photo/{self.photo_1.id}/',
+                               content_type='application/json',
+                               HTTP_AUTHORIZATION=f'Token {self.user_2.auth_token}')
+        self.assertEqual(resp.status_code, 404)
 
     def test_update_return_200_minimum_parameters_auth_token_valid(self):
         factory = APIClient()
@@ -65,15 +66,15 @@ class PhotoDeleteUpdateViewTest(TestCase):
                            HTTP_AUTHORIZATION=f'Token {self.user_1.auth_token}')
         self.assertEqual(resp.status_code, 201)
 
-    # def test_update_return_403_auth_token_invalid(self):
-    #     factory = APIClient()
-    #     content = encode_multipart('BoUnDaRyStRiNg', {'title': 'adsasda'})
-    #     content_type = 'multipart/form-data; boundary=BoUnDaRyStRiNg'
-    #     resp = factory.put(f'/core_api/photo/{self.photo_1.id}/',
-    #                        content,
-    #                        content_type=content_type,
-    #                        HTTP_AUTHORIZATION=f'Token {self.user_2.auth_token}')
-    #     self.assertEqual(resp.status_code, 403)
+    def test_update_return_403_auth_token_invalid(self):
+        factory = APIClient()
+        content = encode_multipart('BoUnDaRyStRiNg', {'title': 'adsasda'})
+        content_type = 'multipart/form-data; boundary=BoUnDaRyStRiNg'
+        resp = factory.put(f'/core_api/photo/{self.photo_1.id}/',
+                           content,
+                           content_type=content_type,
+                           HTTP_AUTHORIZATION=f'Token {self.user_2.auth_token}')
+        self.assertEqual(resp.status_code, 403)
 
     def test_update_return_200_maximum_parameters(self):
         with open('./core_api/tests/photo/pixel.jpg', 'rb') as image:
@@ -94,22 +95,22 @@ class PhotoDeleteUpdateViewTest(TestCase):
             resp_json = json.loads(resp.content)
             self.assertTrue(resp_json['status'] == 'Moderation')
 
-    # def test_update_return__invalid_category(self):
-    #     with open('./core_api/tests/photo/pixel.jpg', 'rb') as image:
-    #         factory = APIClient()
-    #         params = {
-    #             'title': 'adada',
-    #             'description': 'asdadas',
-    #             'photo': image,
-    #             'category_id': 99,
-    #         }
-    #         content = encode_multipart('BoUnDaRyStRiNg', params)
-    #         content_type = 'multipart/form-data; boundary=BoUnDaRyStRiNg'
-    #         resp = factory.put(f'/core_api/photo/{self.photo_1.id}/',
-    #                            content,
-    #                            content_type=content_type,
-    #                            HTTP_AUTHORIZATION=f'Token {self.user_1.auth_token}')
-    #         self.assertEqual(resp.status_code, 400)
+    def test_update_return_404_invalid_category(self):
+        with open('./core_api/tests/photo/pixel.jpg', 'rb') as image:
+            factory = APIClient()
+            params = {
+                'title': 'adada',
+                'description': 'asdadas',
+                'photo': image,
+                'category_id': 99,
+            }
+            content = encode_multipart('BoUnDaRyStRiNg', params)
+            content_type = 'multipart/form-data; boundary=BoUnDaRyStRiNg'
+            resp = factory.put(f'/core_api/photo/{self.photo_1.id}/',
+                               content,
+                               content_type=content_type,
+                               HTTP_AUTHORIZATION=f'Token {self.user_1.auth_token}')
+            self.assertEqual(resp.status_code, 404)
 
     def test_delete_return_204_token_valid(self):
         resp = self.client.delete(f'/core_api/photo/{self.photo_2.id}/',
@@ -117,16 +118,16 @@ class PhotoDeleteUpdateViewTest(TestCase):
                                   HTTP_AUTHORIZATION=f'Token {self.user_2.auth_token}')
         self.assertEqual(resp.status_code, 204)
 
-    # def test_delete_return_403_token_invalid(self):
-    #     resp = self.client.delete(f'/core_api/photo/{self.photo_1.id}/',
-    #                               content_type='application/json',
-    #                               HTTP_AUTHORIZATION=f'Token {self.user_2.auth_token}')
-    #     self.assertEqual(resp.status_code, 403)
+    def test_delete_return_403_token_invalid(self):
+        resp = self.client.delete(f'/core_api/photo/{self.photo_1.id}/',
+                                  content_type='application/json',
+                                  HTTP_AUTHORIZATION=f'Token {self.user_2.auth_token}')
+        self.assertEqual(resp.status_code, 403)
 
     def test_delete_return_403_token_false(self):
         resp = self.client.delete(f'/core_api/photo/{self.photo_2.id}/',
                                   content_type='application/json')
-        self.assertEqual(resp.status_code, 403)
+        self.assertEqual(resp.status_code, 401)
 
     def test_count_liked(self):
         resp = self.client.get(f'/core_api/photo/{self.photo_1.id}/',

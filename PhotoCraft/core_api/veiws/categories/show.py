@@ -25,7 +25,7 @@ class CategoryView(APIView):
     def get(self, request, **kwargs):
         outcome = ServiceOutcome(CategoryService, {'id': kwargs['id']})
         if bool(outcome.errors):
-            return Response(outcome.errors, status.HTTP_400_BAD_REQUEST)
+            return Response(outcome.errors, status=outcome.response_status)
         return Response(CategoriesSerializer(outcome.result).data)
 
     @swagger_auto_schema(operation_description='Update category', tags=['core-api/category'],
@@ -44,7 +44,7 @@ class CategoryView(APIView):
         outcome = ServiceOutcome(CategoryUpdateServcie, {'id': kwargs['id'], 'current_user': request.user} |
                                  request.data.dict(), request.FILES)
         if bool(outcome.errors):
-            return Response(outcome.errors, status.HTTP_400_BAD_REQUEST)
+            return Response(outcome.errors, status=outcome.response_status)
         return Response(CategoriesSerializer(outcome.result).data, status.HTTP_201_CREATED)
 
     @swagger_auto_schema(operation_description='Delete category',
@@ -53,5 +53,5 @@ class CategoryView(APIView):
         outcome = ServiceOutcome(CategoryDeleteServcie,
                                  {'id': kwargs['id'], 'current_user': request.user})
         if bool(outcome.errors):
-            return Response(outcome.errors, status.HTTP_400_BAD_REQUEST)
+            return Response(outcome.errors, status=outcome.response_status)
         return Response({'message': 'Object deleted successfully.'}, status.HTTP_204_NO_CONTENT)

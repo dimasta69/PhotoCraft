@@ -2,6 +2,7 @@ from functools import lru_cache
 
 from django import forms
 from django.core.exceptions import ObjectDoesNotExist
+from rest_framework import status
 
 from service_objects.fields import ModelField
 
@@ -54,9 +55,11 @@ class CommentCreateService(ServiceWithResult):
             if not self.photo:
                 self.add_error('photo_id', ObjectDoesNotExist(f"Photo with id="
                                                               f"{self.cleaned_data['photo_id']} not found"))
+                self.response_status = status.HTTP_404_NOT_FOUND
 
     def reply_presence(self):
         if self.cleaned_data['reply_id']:
             if not self.reply:
                 self.add_error('reply_id', ObjectDoesNotExist(f"Reply with id="
                                                               f"{self.cleaned_data['reply_id']} not found"))
+                self.response_status = status.HTTP_404_NOT_FOUND

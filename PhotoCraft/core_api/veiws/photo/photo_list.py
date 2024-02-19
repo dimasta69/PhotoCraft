@@ -82,7 +82,7 @@ class PhotoListView(APIView,
     def get(self, request):
         outcome = ServiceOutcome(PhotoListService, {'current_user': request.user.id} | dict(request.GET.items()))
         if bool(outcome.errors):
-            return Response(outcome.errors, status.HTTP_400_BAD_REQUEST)
+            return Response(outcome.errors, status=outcome.response_status)
         return Response(
             {'pagination': CustomPagination(outcome.result, current_page=outcome.service.cleaned_data['page'],
                                             per_page=outcome.service.cleaned_data['per_page']).to_json(),
@@ -107,5 +107,5 @@ class PhotoListView(APIView,
         outcome = ServiceOutcome(CreatePhotoService, {'current_user': request.user} | request.data.dict(),
                                  request.FILES)
         if bool(outcome.errors):
-            return Response(outcome.errors, status.HTTP_400_BAD_REQUEST)
+            return Response(outcome.errors, status=outcome.response_status)
         return Response(PhotoSerializer(outcome.result).data, status.HTTP_201_CREATED)

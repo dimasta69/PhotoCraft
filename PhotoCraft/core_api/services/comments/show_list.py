@@ -1,3 +1,5 @@
+from rest_framework import status
+
 from utils.services import ServiceWithResult
 
 from django import forms
@@ -55,3 +57,4 @@ class CommentsListService(ServiceWithResult):
             if not self.photo:
                 self.add_error('photo_id', ObjectDoesNotExist(f"Photo with id="
                                                               f"{self.cleaned_data['id']} not found"))
+                self.response_status = status.HTTP_404_NOT_FOUND

@@ -1,5 +1,6 @@
 from django import forms
 from django.core.exceptions import ObjectDoesNotExist
+from rest_framework import status
 
 from models_app.models.categories.model import Categories
 from models_app.models.users.model import User
@@ -41,9 +42,11 @@ class CategoryDeleteServcie(ServiceWithResult):
             if not self.category:
                 self.add_error('id', ObjectDoesNotExist(f"Category with id="
                                                         f"{self.cleaned_data['category_id']} not found"))
+                self.response_status = status.HTTP_404_NOT_FOUND
 
     def user_ratio(self):
         if not self.cleaned_data['current_user'].is_superuser:
             self.add_error('current_user', ObjectDoesNotExist(f"User with id="
                                                               f"{self.cleaned_data['current_user']} is not the author "
                                                               f"of the post"))
+            self.response_status = status.HTTP_403_FORBIDDEN

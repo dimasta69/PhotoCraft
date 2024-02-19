@@ -72,7 +72,7 @@ class ListCreatePhotoViewTest(TestCase):
             resp = self.client.post('/core_api/photos/',
                                     params,
                                     format='multipart')
-            self.assertEqual(resp.status_code, 403)
+            self.assertEqual(resp.status_code, 401)
 
     def test_view_create_return_201_minimum_parameters_auth_token_true(self):
         with open('./core_api/tests/photo/pixel.jpg', 'rb') as image:

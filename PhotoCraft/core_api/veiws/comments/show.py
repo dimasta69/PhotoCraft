@@ -43,7 +43,8 @@ class CommentView(APIView):
         outcome = ServiceOutcome(CommentUpdatedService,  {'current_user': request.user} | {'id': kwargs['id']} |
                                  request.data.dict())
         if bool(outcome.errors):
-            return Response(outcome.errors, status.HTTP_400_BAD_REQUEST)
+            print(123)
+            return Response(outcome.errors, status=outcome.response_status)
         return Response(CommentsSerializer(outcome.result).data, status.HTTP_201_CREATED)
 
     @swagger_auto_schema(operation_description='Delete comment',
@@ -51,7 +52,7 @@ class CommentView(APIView):
     def delete(self, request, **kwargs):
         outcome = ServiceOutcome(CommentDeleteService, {'current_user': request.user} | {'id': kwargs['id']})
         if bool(outcome.errors):
-            return Response(outcome.errors, status.HTTP_400_BAD_REQUEST)
+            return Response(outcome.errors, status=outcome.response_status)
         return Response({'message': 'Object deleted successfully.'}, status.HTTP_204_NO_CONTENT)
 
 

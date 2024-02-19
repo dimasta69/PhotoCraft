@@ -2,6 +2,7 @@ from functools import lru_cache
 
 from django.core.exceptions import ObjectDoesNotExist
 from django import forms
+from rest_framework import status
 
 from service_objects.fields import ModelField
 
@@ -51,7 +52,9 @@ class CategoryUpdateServcie(ServiceWithResult):
             self.add_error('current_user', ObjectDoesNotExist(f"User with id="
                                                               f"{self.cleaned_data['current_user']} is not the author "
                                                               f"of the post"))
+            self.response_status = status.HTTP_403_FORBIDDEN
 
     def match_checking(self):
         if self.categories.filter(title__iexact=self.cleaned_data['title']).exists():
             self.add_error('title', f"Category {self.cleaned_data['title']} already exists")
+            self.response_status = status.HTTP_400_BAD_REQUEST

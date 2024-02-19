@@ -65,7 +65,7 @@ class CommentsView(APIView):
     def get(self, request):
         outcome = ServiceOutcome(CommentsListService, dict(request.GET.items()))
         if bool(outcome.errors):
-            return Response(outcome.errors, status.HTTP_400_BAD_REQUEST)
+            return Response(outcome.errors, status=outcome.response_status)
         return Response(
             {'pagination': CustomPagination(outcome.result, current_page=outcome.service.cleaned_data['page'],
                                             per_page=outcome.service.cleaned_data['per_page']).to_json(),
@@ -87,7 +87,7 @@ class CommentsView(APIView):
     def post(self, request):
         outcome = ServiceOutcome(CommentCreateService, {'current_user': request.user} | request.data.dict())
         if bool(outcome.errors):
-            return Response(outcome.errors, status.HTTP_400_BAD_REQUEST)
+            return Response(outcome.errors, status=outcome.response_status)
         return Response(CommentsSerializer(outcome.result).data, status.HTTP_201_CREATED)
 
 

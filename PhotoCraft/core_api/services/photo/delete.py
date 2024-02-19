@@ -3,6 +3,7 @@ from datetime import timedelta
 
 from django import forms
 from django.core.exceptions import ObjectDoesNotExist
+from rest_framework import status
 
 from models_app.models.photo.model import Photo
 from models_app.models.users.model import User
@@ -37,10 +38,10 @@ class PhotoDeleteService(ServiceWithResult):
             self.photo.delete()
             return {'message': 'Object deleted successfully.'}
         elif self.photo.status == 'Delete':
-            return {'message': f'Еhe object will be deleted in {self.photo.deleted_at + timedelta(seconds=int(OBJECT_TIME_DELETE))}'}
+            return {'message': f'Еhe object will be deleted in {self.photo.deleted_at + OBJECT_TIME_DELETE}'}
         elif self.photo.status == 'Published':
             self.photo.set_schedule_deletion()
-            return {'message': f'Еhe object will be deleted in {self.photo.deleted_at + timedelta(seconds=int(OBJECT_TIME_DELETE))}'}
+            return {'message': f'Еhe object will be deleted in {self.photo.deleted_at + OBJECT_TIME_DELETE}'}
 
     @property
     @lru_cache()
@@ -55,6 +56,7 @@ class PhotoDeleteService(ServiceWithResult):
             if not self.photo:
                 self.add_error('photo_id', ObjectDoesNotExist(f"Photo with id="
                                                               f"{self.cleaned_data['id']} not found"))
+                self.response_status = status.HTTP_404_NOT_FOUND
 
     def user_ratio(self):
         if not ((self.photo.user_id.id == self.cleaned_data['current_user'].id) or
@@ -62,4 +64,5 @@ class PhotoDeleteService(ServiceWithResult):
             self.add_error('current_user', ObjectDoesNotExist(f"User with id="
                                                               f"{self.cleaned_data['current_user']} is not the author "
                                                               f"of the post"))
+            self.response_status = status.HTTP_403_FORBIDDEN
 

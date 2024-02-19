@@ -29,7 +29,7 @@ class PhotoView(APIView,
     def get(self, request, **kwargs):
         outcome = ServiceOutcome(PhotoService, {'id': kwargs['id'], 'current_user': request.user.id})
         if bool(outcome.errors):
-            return Response(outcome.errors, status.HTTP_400_BAD_REQUEST)
+            return Response(outcome.errors, status=outcome.response_status)
         return Response(PhotoSerializer(outcome.result).data)
 
     @swagger_auto_schema(operation_description='Update post', tags=['core-api/photo'],
@@ -48,7 +48,7 @@ class PhotoView(APIView,
         outcome = ServiceOutcome(UpdatePhotoService, {'id': kwargs['id'], 'current_user': request.user} |
                                  request.data.dict(), request.FILES)
         if bool(outcome.errors):
-            return Response(outcome.errors, status.HTTP_400_BAD_REQUEST)
+            return Response(outcome.errors, status=outcome.response_status)
         return Response(PhotoSerializer(outcome.result).data, status.HTTP_201_CREATED)
 
     @swagger_auto_schema(operation_description='Delete post',
@@ -56,5 +56,5 @@ class PhotoView(APIView,
     def delete(self, request, **kwargs):
         outcome = ServiceOutcome(PhotoDeleteService, {'id': kwargs['id'], 'current_user': request.user})
         if bool(outcome.errors):
-            return Response(outcome.errors, status.HTTP_400_BAD_REQUEST)
+            return Response(outcome.errors, status=outcome.response_status)
         return Response(outcome.result, status.HTTP_204_NO_CONTENT)

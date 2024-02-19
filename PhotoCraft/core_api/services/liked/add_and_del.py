@@ -2,6 +2,7 @@ from functools import lru_cache
 
 from django import forms
 from django.core.exceptions import ObjectDoesNotExist
+from rest_framework import status
 
 from service_objects.fields import ModelField
 
@@ -52,3 +53,4 @@ class LikedService(ServiceWithResult):
             if not self.photo:
                 self.add_error('photo_id', ObjectDoesNotExist(f"Photo with id="
                                                               f"{self.cleaned_data['id']} not found"))
+                self.response_status = status.HTTP_404_NOT_FOUND

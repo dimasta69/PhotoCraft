@@ -1,5 +1,6 @@
 from django.core.exceptions import ObjectDoesNotExist
 from django import forms
+from rest_framework import status
 
 from utils.services import ServiceWithResult
 
@@ -31,4 +32,5 @@ class CategoryService(ServiceWithResult):
         if self.cleaned_data['id']:
             if not self.category:
                 self.add_error('id', ObjectDoesNotExist(f"Category with id="
-                                                        f"{self.cleaned_data['category_id']} not found"))
+                                                        f"{self.cleaned_data['id']} not found"))
+                self.response_status = status.HTTP_404_NOT_FOUND

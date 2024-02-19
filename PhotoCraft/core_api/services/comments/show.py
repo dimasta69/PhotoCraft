@@ -1,3 +1,5 @@
+from rest_framework import status
+
 from utils.services import ServiceWithResult
 
 from django import forms
@@ -32,3 +34,4 @@ class CommentService(ServiceWithResult):
             if not self.comment:
                 self.add_error('id', ObjectDoesNotExist(f"Comment with id="
                                                         f"{self.cleaned_data['id']} not found"))
+                self.response_status = status.HTTP_404_NOT_FOUND

@@ -63,12 +63,14 @@ class UpdatePhotoService(ServiceWithResult):
             if not self.photo_obj:
                 self.add_error('photo_id', ObjectDoesNotExist(f"Photo with id="
                                                               f"{self.cleaned_data['id']} not found"))
+                self.response_status = status.HTTP_404_NOT_FOUND
 
     def category_presence(self):
         if self.cleaned_data['category_id']:
             if not self.category:
                 self.add_error('category_id', ObjectDoesNotExist(f"Category with id="
                                                                  f"{self.cleaned_data['category_id']} not found"))
+                self.response_status = status.HTTP_404_NOT_FOUND
 
     def user_ratio(self):
         if not ((self.photo_obj.user_id.id == self.cleaned_data['current_user'].id) or

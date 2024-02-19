@@ -32,18 +32,18 @@ class ListCreateCategoryViewTest(TestCase):
                                 HTTP_AUTHORIZATION=f'Token {self.user_1.auth_token}')
         self.assertEqual(resp.status_code, 201)
 
-    # def test_create_return_403_not_superuser(self):
-    #     resp = self.client.post('/core_api/categories/',
-    #                             {
-    #                                 'title': 'dada'
-    #                             },
-    #                             HTTP_AUTHORIZATION=f'Token {self.user_2.auth_token}')
-    #     self.assertEqual(resp.status_code, 403)
+    def test_create_return_403_not_superuser(self):
+        resp = self.client.post('/core_api/categories/',
+                                {
+                                    'title': 'dada'
+                                },
+                                HTTP_AUTHORIZATION=f'Token {self.user_2.auth_token}')
+        self.assertEqual(resp.status_code, 403)
 
-    # def test_create_return__already_exists(self):
-    #     resp = self.client.post('/core_api/categories/',
-    #                             {
-    #                                 'title': 'ABCD'
-    #                             },
-    #                             HTTP_AUTHORIZATION=f'Token {self.user_1.auth_token}')
-    #     self.assertEqual(resp.status_code, 400)
+    def test_create_return_404_already_exists(self):
+        resp = self.client.post('/core_api/categories/',
+                                {
+                                    'title': 'ABCD'
+                                },
+                                HTTP_AUTHORIZATION=f'Token {self.user_1.auth_token}')
+        self.assertEqual(resp.status_code, 404)

@@ -1,5 +1,6 @@
 from django.core.exceptions import ObjectDoesNotExist
 from django import forms
+from rest_framework import status
 
 from service_objects.fields import ModelField
 
@@ -49,3 +50,5 @@ class CreatePhotoService(ServiceWithResult):
             if not self.category:
                 self.add_error('category_id', ObjectDoesNotExist(f"Category with id="
                                                                  f"{self.cleaned_data['category_id']} not found"))
+                self.response_status = status.HTTP_404_NOT_FOUND
+
