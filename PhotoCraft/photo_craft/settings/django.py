@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'djoser',
     'social_django',
     'drf_yasg',
+    'channels',
 ]
 
 MIDDLEWARE = [

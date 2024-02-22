@@ -1,7 +1,11 @@
+import asyncio
+
 from django.db import models
 
 from datetime import datetime
 
+from django.db.models.signals import post_save
+from django.dispatch import receiver
 from django_fsm import FSMField, transition
 from imagekit.models import ImageSpecField
 from imagekit.processors import ResizeToFill
@@ -10,6 +14,9 @@ from models_app.models.categories.model import Categories
 from models_app.models.users.model import User
 
 from utils.file_uploader import uploaded_file_path
+
+from channels.layers import get_channel_layer
+from asgiref.sync import async_to_sync
 
 
 class Photo(models.Model):
@@ -75,3 +82,24 @@ class Photo(models.Model):
 
     def str(self):
         return self.title
+
+
+@receiver(post_save, sender=Photo)
+def send_notification(sender, instance, **kwargs):
+    channel_layer = get_channel_layer()
+    id = instance.id
+    user_id = instance.user_id.id
+    status = instance.status
+
+    async def send_notification_async():
+        await channel_layer.group_send(
+            'name',
+            {
+                'type': 'change_status',
+                'user_id': user_id,
+                'status': status,
+                'id': id
+            }
+        )
+
+    asyncio.run(send_notification_async())

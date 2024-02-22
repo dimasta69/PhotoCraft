@@ -22,6 +22,7 @@ drf-yasg = "*"
 factory-boy = "*"
 kombu = "*"
 django-service-objects = "*"
+channels = "*"
 
 [requires]
 python_version = "3.11"

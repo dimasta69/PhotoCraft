@@ -6,3 +6,4 @@ from .logging import *
 from .djoser import *
 from .social import *
 from .celery import *
+from .channels import *
