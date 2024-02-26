@@ -23,6 +23,7 @@ factory-boy = "*"
 kombu = "*"
 django-service-objects = "*"
 channels = "*"
+axios = "*"
 
 [requires]
 python_version = "3.11"
