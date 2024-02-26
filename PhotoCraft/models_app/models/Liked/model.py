@@ -1,13 +1,14 @@
 from django.db import models
 
-from models_app.models.Photo.model import Photo
-from models_app.models.Users.model import Users
+from models_app.models.photo.model import Photo
+from models_app.models.users.model import User
 
 
 class Liked(models.Model):
-    id = models.AutoField(primary_key=True)
-    photo_id = models.ForeignKey(Photo, on_delete=models.CASCADE, related_name='like', verbose_name='Фотография')
-    users_id = models.ForeignKey(Users, on_delete=models.CASCADE, related_name='like', verbose_name='Пользователь')
+    photo_id = models.ForeignKey(Photo, on_delete=models.CASCADE, related_name='like', verbose_name='Фотография',
+                              null=False)
+    user_id = models.ForeignKey(User, on_delete=models.CASCADE, related_name='like', verbose_name='Пользователь',
+                              null=False)
 
     class Meta:
         verbose_name = 'Лайк'

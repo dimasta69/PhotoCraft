@@ -6,10 +6,25 @@
  - Python 3.11.4
 ## 3. Наименования и версии используемых в проекте баз данных
  - PostgreSQL 16
+### В проекте подключение к базе данных осуществляется с помощью .env файла.
+Пример того, что должен содержать файл .env. DB_NAME=dm_name
+                   DB_USER=db_user
+                   DB_PASSWORD=db_password
+                   DB_HOST=db_host
+                   DB_PORT=db_port
 ## 4. Информация о зависимостях проекта и их версиях
- - Django 5.0.1
+ - django 
  - psycopg2
- - ImageKit
+ - django-imagekit
+ - djangorestframework
+ - rich
+ - djoser
+ - django-service-objects
+ - django-bootstrap-v5
+ - coreapi
+ - social-auth-app-django
+ - drf-yasg
+ - python-dotenv
 ## 5. Инструкция по установке проекта на локальной машине разработчика
  -  Склонируйте репозиторий проекта с git clone https://github.com/dimasta69/PhotoCraft.git.
  -  Перейдите в директорию проекта с помощью команды cd PhotoCraft.
@@ -27,5 +42,6 @@
    - pipenv --python 3.
    - pipenv install
 ## 8. Схема используемой базы данных 
-![UML class (1)](https://github.com/dimasta69/PhotoCraft/assets/136033339/f4a2020f-363c-442d-91d1-101ad73763c1)
+![UML class](https://github.com/dimasta69/PhotoCraft/assets/136033339/62353e92-bba8-48af-a321-273d22d37efc)
+
 

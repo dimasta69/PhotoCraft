@@ -1,7 +1,7 @@
-from models_app.models.Users.model import Users
+from models_app.models.users.model import User
 
 
-class Administrators(Users):
+class Administrators(User):
     class Meta:
         proxy = True
         verbose_name = 'Администратор'
