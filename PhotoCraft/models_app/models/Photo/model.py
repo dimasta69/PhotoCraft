@@ -17,6 +17,10 @@ from utils.file_uploader import uploaded_file_path
 
 from channels.layers import get_channel_layer
 from asgiref.sync import async_to_sync
+import pdb
+
+from websocket_app.consumers import PhotoConsumer
+from websocket_app.change_status_service import StatusService
 
 
 class Photo(models.Model):
@@ -86,20 +90,27 @@ class Photo(models.Model):
 
 @receiver(post_save, sender=Photo)
 def send_notification(sender, instance, **kwargs):
-    channel_layer = get_channel_layer()
     id = instance.id
     user_id = instance.user_id.id
     status = instance.status
 
-    async def send_notification_async():
-        await channel_layer.group_send(
-            'name',
-            {
-                'type': 'change_status',
-                'user_id': user_id,
-                'status': status,
-                'id': id
-            }
-        )
+    # async def send_notification_async():
+    #     await channel_layer.group_send(
+    #         'name',
+    #         {
+    #             'type': 'change_status',
+    #             'user_id': user_id,
+    #             'status': status,
+    #             'id': id
+    #         }
+    #     )
 
-    asyncio.run(send_notification_async())
+    # pdb.set_trace()
+    # asyncio.run(send_notification_async())
+    def send_notification_async():
+        message = StatusService({'user_id': user_id, 'id': id, 'status': status})
+        message.process()
+    send_notification_async()
+
+
+
