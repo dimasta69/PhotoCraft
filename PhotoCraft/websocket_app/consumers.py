@@ -1,27 +1,48 @@
 from channels.generic.websocket import AsyncWebsocketConsumer
-
+import json
 
 class PhotoConsumer(AsyncWebsocketConsumer):
-    users_connections = {}
-
     async def connect(self):
-        user_id = self.scope['url_route']['kwargs']['user_id']
-        if user_id not in self.users_connections:
-            self.users_connections[user_id] = []
-        self.users_connections[user_id].append(self)
+        self.user_id = self.scope['url_route']['kwargs']['user_id']
+        self.room_group_name = f'user_{self.user_id}'
+
+        await self.channel_layer.group_add(
+            self.room_group_name,
+            self.channel_name
+        )
+        await self.channel_layer.group_send(
+            'user_1',
+            {
+                'type': 'status_change',
+                'message': 'Статус был изменен'
+            }
+        )
+
         await self.accept()
-        await self.channel_layer.group_add('name', self.channel_name)
-        print(len(self.users_connections))
 
-    async def disconnect(self, code):
-        user_id = self.scope['url_route']['kwargs']['user_id']
-        if user_id in self.users_connections:
-            self.users_connections[user_id].remove(self)
+    async def disconnect(self, close_code):
+        await self.channel_layer.group_discard(
+            self.room_group_name,
+            self.channel_name
+        )
 
-            if not self.users_connections[user_id]:
-                del self.users_connections[user_id]
+    async def receive(self, text_data):
+        text_data_json = json.loads(text_data)
+        message = text_data_json['message']
+        print(123)
 
-    @staticmethod
-    async def get_channels():
-        print(123123123)
-        return PhotoConsumer.users_connections
+        await self.channel_layer.group_send(
+            self.room_group_name,
+            {
+                'type': 'status_change',
+                'message': message
+            }
+        )
+
+    async def status_change(self, event):
+        message = event['message']
+        print(456)
+
+        await self.send(text_data=json.dumps({
+            'message': message
+        }))

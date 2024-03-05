@@ -20,7 +20,7 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.CreateModel(
-            name='Categories',
+            name='categories',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('title', models.CharField(max_length=150, verbose_name='Название')),
@@ -57,7 +57,7 @@ class Migration(migrations.Migration):
             ],
         ),
         migrations.CreateModel(
-            name='Administrators',
+            name='administrators',
             fields=[
             ],
             options={
@@ -73,7 +73,7 @@ class Migration(migrations.Migration):
             ],
         ),
         migrations.CreateModel(
-            name='Authors',
+            name='authors',
             fields=[
             ],
             options={
@@ -89,7 +89,7 @@ class Migration(migrations.Migration):
             ],
         ),
         migrations.CreateModel(
-            name='Photo',
+            name='photo',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('title', models.CharField(max_length=100, verbose_name='Назавние')),
@@ -110,7 +110,7 @@ class Migration(migrations.Migration):
             },
         ),
         migrations.CreateModel(
-            name='Liked',
+            name='liked',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('user_id', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='like', to=settings.AUTH_USER_MODEL, verbose_name='Пользователь')),
@@ -122,7 +122,7 @@ class Migration(migrations.Migration):
             },
         ),
         migrations.CreateModel(
-            name='Comments',
+            name='comments',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('text', models.CharField(max_length=200)),

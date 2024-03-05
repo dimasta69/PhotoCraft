@@ -15,4 +15,4 @@ AUTH_PASSWORD_VALIDATORS = [
 
 AUTH_USER_MODEL = 'models_app.User'
 AUTH_ADMIN_MODEL = 'models_app.Administrator'
-AUTH_AUTHOR_MODEL = 'models_app.Authors'
+AUTH_AUTHOR_MODEL = 'models_app.authors'
