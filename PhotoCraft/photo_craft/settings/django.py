@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'social_django',
     'drf_yasg',
     'channels',
+    'channels_redis',
 ]
 
 MIDDLEWARE = [
@@ -76,6 +77,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'photo_craft.wsgi.application'
+ASGI_APPLICATION = 'websocket_app.asgi.application'
 
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
@@ -100,6 +102,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
+
 
 
 

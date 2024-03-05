@@ -25,6 +25,8 @@ django-service-objects = "*"
 channels = "*"
 axios = "*"
 daphne = "*"
+twisted = {extras = ["tls", "http2"], version = "*"}
+channels-redis = "*"
 
 [requires]
 python_version = "3.11"

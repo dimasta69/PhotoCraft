@@ -1,6 +1,9 @@
 from channels.generic.websocket import AsyncWebsocketConsumer
 import json
 
+from channels.layers import get_channel_layer
+
+
 class PhotoConsumer(AsyncWebsocketConsumer):
     async def connect(self):
         self.user_id = self.scope['url_route']['kwargs']['user_id']
@@ -10,6 +13,7 @@ class PhotoConsumer(AsyncWebsocketConsumer):
             self.room_group_name,
             self.channel_name
         )
+        print(get_channel_layer())
         await self.channel_layer.group_send(
             'user_1',
             {
@@ -27,9 +31,9 @@ class PhotoConsumer(AsyncWebsocketConsumer):
         )
 
     async def receive(self, text_data):
+        print(123)
         text_data_json = json.loads(text_data)
         message = text_data_json['message']
-        print(123)
 
         await self.channel_layer.group_send(
             self.room_group_name,

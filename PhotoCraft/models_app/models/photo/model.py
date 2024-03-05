@@ -90,6 +90,7 @@ class Photo(models.Model):
 @receiver(post_save, sender=Photo)
 def status_changed(sender, instance, **kwargs):
     channel_layer = get_channel_layer()
+    print(channel_layer)
     async_to_sync(channel_layer.group_send)(
         f'user_{instance.user_id.id}',
         {
