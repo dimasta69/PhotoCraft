@@ -95,7 +95,10 @@ def status_changed(sender, instance, **kwargs):
         f'user_{instance.user_id.id}',
         {
             'type': 'status_change',
-            'message': 'Статус был изменен'
+                'message': 'Status changed',
+                'photo_id': instance.id,
+                'title': instance.title,
+                'status': instance.status,
         }
     )
 
