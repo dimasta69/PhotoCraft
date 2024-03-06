@@ -25,10 +25,10 @@ class CreatePhotoService(ServiceWithResult):
     def process(self):
         self.run_custom_validations()
         if self.is_valid():
-            self.result = self._create_obj()
+            self.result = self._create_photo()
         return self
 
-    def _create_obj(self):
+    def _create_photo(self):
         photo = Photo.objects.create(title=self.cleaned_data['title'],
                                      user_id=self.cleaned_data.get('current_user'),
                                      category_id=self.category,

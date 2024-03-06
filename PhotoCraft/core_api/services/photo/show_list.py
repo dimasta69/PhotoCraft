@@ -22,26 +22,24 @@ class PhotoListService(ServiceWithResult):
     order_by = forms.CharField(required=False)
     user_id = forms.IntegerField(required=False)
     current_user = forms.IntegerField(required=False)
-    status = forms.CharField(required=False)
+    status = forms.ChoiceField(choices=Photo.STATUS_CHOICES, required=False)
 
     custom_validations = ['category_presence', 'order_presence', 'user_presence', 'status_presence']
 
     def process(self):
         self.run_custom_validations()
         if self.is_valid():
-            self.result = self._get_photo()
+            self.result = self._get_photos()
         return self
 
-    def _get_photo(self):
-        per_page = self.cleaned_data['per_page']
-        page = self.cleaned_data['page']
-
+    def _get_photos(self):
         try:
-            return Paginator(self.get_photo_filtered_ordering, per_page=(per_page or REST_FRAMEWORK['PAGE_SIZE'])).page(
-                page or 1)
+            return Paginator(self.get_photos_filtered_ordering, per_page=(self.cleaned_data['per_page'] or
+                                                                         REST_FRAMEWORK['PAGE_SIZE'])).page(
+                self.cleaned_data['page'] or 1)
         except EmptyPage:
-            return Paginator(self.get_photo_filtered_ordering,
-                             per_page=(per_page or REST_FRAMEWORK['PAGE_SIZE'])).page(1)
+            return Paginator(self.get_photos_filtered_ordering,
+                             per_page=(self.cleaned_data['per_page'] or REST_FRAMEWORK['PAGE_SIZE'])).page(1)
 
     @property
     @lru_cache()
@@ -61,12 +59,12 @@ class PhotoListService(ServiceWithResult):
 
     @property
     @lru_cache()
-    def photo(self):
+    def photos(self):
         return Photo.objects.all()
 
     @property
-    def get_photo_filtered_ordering(self):
-        photos = self.photo
+    def get_photos_filtered_ordering(self):
+        photos = self.photos
         if self.cleaned_data.get('category_id'):
             photos = photos.filter(category_id=self.category)
         if self.cleaned_data.get('order_by'):

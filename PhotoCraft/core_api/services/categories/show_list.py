@@ -9,12 +9,12 @@ class CategoriesService(ServiceWithResult):
     def process(self):
         self.run_custom_validations()
         if self.is_valid():
-            self.result = self.category
+            self.result = self.categories
         return self
 
     @property
     @lru_cache()
-    def category(self):
+    def categories(self):
         try:
             return Categories.objects.all()
         except Categories.DoesNotExist:

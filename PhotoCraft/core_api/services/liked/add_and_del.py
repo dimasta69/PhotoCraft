@@ -27,9 +27,7 @@ class LikedService(ServiceWithResult):
 
     def _check_data(self):
         if not self.liked:
-            like = Liked.objects.create(photo_id=self.photo, user_id=self.cleaned_data['current_user'])
-            like.save()
-            return like
+            return Liked.objects.create(photo_id=self.photo, user_id=self.cleaned_data['current_user'])
         self.liked.delete()
 
     @property

@@ -1,11 +1,9 @@
 from rest_framework import serializers
 
-from models_app.models.categories.model import Categories
-
 
 class PersonalAreaSerializer(serializers.Serializer):
     id = serializers.IntegerField(required=True)
-    category_id = serializers.PrimaryKeyRelatedField(queryset=Categories.objects.all(), required=False)
+    category_id = serializers.SerializerMethodField()
 
     title = serializers.CharField(required=True)
     description = serializers.CharField(required=False)
@@ -17,3 +15,10 @@ class PersonalAreaSerializer(serializers.Serializer):
     updated_at = serializers.DateTimeField(required=False)
     first_request_at = serializers.DateTimeField(required=True)
 
+    def get_category_id(self, obj):
+        if obj.category_id:
+            return {
+                'id': obj.category_id.id,
+                'title': obj.category_id.title,
+            }
+        return None

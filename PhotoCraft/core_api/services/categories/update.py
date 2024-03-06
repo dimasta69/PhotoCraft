@@ -22,14 +22,13 @@ class CategoryUpdateServcie(ServiceWithResult):
     def process(self):
         self.run_custom_validations()
         if self.is_valid():
-            self.result = self._update()
+            self.result = self._update_category()
         return self
 
-    def _update(self):
-        category = self.category
-        category.title = self.cleaned_data['title']
-        category.save()
-        return category
+    def _update_category(self):
+        self.category.title = self.cleaned_data['title']
+        self.category.save()
+        return self.category
 
     @property
     @lru_cache()

@@ -20,12 +20,11 @@ class CommentDeleteService(ServiceWithResult):
     def process(self):
         self.run_custom_validations()
         if self.is_valid():
-            self.result = self._delete_obj()
+            self.result = self._delete_comment()
         return self
 
-    def _delete_obj(self):
-        comment = self.comment
-        comment.delete()
+    def _delete_comment(self):
+        self.comment.delete()
         return Comments.objects.none()
 
     @property

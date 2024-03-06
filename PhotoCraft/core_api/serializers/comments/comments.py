@@ -1,15 +1,32 @@
 from rest_framework import serializers
 
-from models_app.models.photo.model import Photo
-from models_app.models.users.model import User
-from models_app.models.comments.model import Comments
-
 
 class CommentsSerializer(serializers.Serializer):
     id = serializers.IntegerField()
-    user_id = serializers.PrimaryKeyRelatedField(queryset=User.objects.all())
-    photo_id = serializers.PrimaryKeyRelatedField(queryset=Photo.objects.all())
-    reply_id = serializers.PrimaryKeyRelatedField(queryset=Comments.objects.all(), allow_null=True, required=False)
+    user_id = serializers.SerializerMethodField()
+    photo_id = serializers.SerializerMethodField()
+    reply_id = serializers.SerializerMethodField()
     text = serializers.CharField()
     publicated_at = serializers.DateTimeField()
     updated_at = serializers.BooleanField()
+
+    def get_user_id(self, obj):
+        return {
+            'id': obj.user_id.id,
+            'is_superuser': obj.user_id.is_superuser,
+            'username': obj.user_id.username,
+        }
+
+    def get_photo_id(self, obj):
+        return {
+            'id': obj.photo_id.id,
+        }
+
+    def get_reply_id(self, obj):
+        if obj.reply_id:
+            return {
+                'id': obj.reply_id.id
+            }
+        return None
+
+

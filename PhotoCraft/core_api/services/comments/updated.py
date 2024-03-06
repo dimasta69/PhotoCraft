@@ -21,15 +21,14 @@ class CommentUpdatedService(ServiceWithResult):
     def process(self):
         self.run_custom_validations()
         if self.is_valid():
-            self.result = self._update()
+            self.result = self._update_comment()
         return self
 
-    def _update(self):
-        comment = self.comment
-        comment.text = self.cleaned_data['text']
-        comment.updated_at = True
-        comment.save()
-        return comment
+    def _update_comment(self):
+        self.comment.text = self.cleaned_data['text']
+        self.comment.updated_at = True
+        self.comment.save()
+        return self.comment
 
     @property
     @lru_cache()
@@ -42,7 +41,6 @@ class CommentUpdatedService(ServiceWithResult):
     def comment_presence(self):
         if self.cleaned_data['id']:
             if not self.comment:
-                print(2)
                 self.add_error('id', ObjectDoesNotExist(f"Comment with id="
                                                         f"{self.cleaned_data['id']} not found"))
                 self.response_status = status.HTTP_404_NOT_FOUND

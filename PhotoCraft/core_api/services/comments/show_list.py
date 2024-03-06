@@ -28,13 +28,12 @@ class CommentsListService(ServiceWithResult):
         return self
 
     def _get_comments(self):
-        per_page = self.cleaned_data['per_page']
-        page = self.cleaned_data['page']
-
         try:
-            return Paginator(self.comment, per_page=(per_page or REST_FRAMEWORK['PAGE_SIZE'])).page(page or 1)
+            return Paginator(self.comment, per_page=(self.cleaned_data['per_page'] or
+                                                     REST_FRAMEWORK['PAGE_SIZE'])).page(self.cleaned_data['page'] or 1)
         except EmptyPage:
-            return Paginator(self.comment.none(), per_page=(per_page or REST_FRAMEWORK['PAGE_SIZE'])).page(1)
+            return Paginator(self.comment.none(), per_page=(self.cleaned_data['per_page'] or
+                                                            REST_FRAMEWORK['PAGE_SIZE'])).page(1)
 
     @property
     @lru_cache()

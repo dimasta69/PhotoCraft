@@ -27,12 +27,11 @@ class CommentCreateService(ServiceWithResult):
         return self
 
     def _create_comment(self):
-        comment = Comments.objects.create(photo_id=self.photo,
-                                          reply_id=self.reply,
-                                          text=self.cleaned_data['text'],
-                                          user_id=self.cleaned_data['current_user'])
-        comment.save()
-        return comment
+
+        return Comments.objects.create(photo_id=self.photo,
+                                       reply_id=self.reply,
+                                       text=self.cleaned_data['text'],
+                                       user_id=self.cleaned_data['current_user'])
 
     @property
     @lru_cache()

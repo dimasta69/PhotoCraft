@@ -79,6 +79,7 @@ class ListCreatePhotoViewTest(TestCase):
             params = {'id': 55,
                       'title': 'title',
                       'photo': image}
+            print(self.user_1.username)
 
             resp = self.client.post('/core_api/photos/',
                                     params,

@@ -17,9 +17,6 @@ from utils.file_uploader import uploaded_file_path
 
 from channels.layers import get_channel_layer
 from asgiref.sync import async_to_sync
-import pdb
-
-from websocket_app.consumers import PhotoConsumer
 
 
 class Photo(models.Model):
@@ -90,17 +87,12 @@ class Photo(models.Model):
 @receiver(post_save, sender=Photo)
 def status_changed(sender, instance, **kwargs):
     channel_layer = get_channel_layer()
-    print(channel_layer)
     async_to_sync(channel_layer.group_send)(
         f'user_{instance.user_id.id}',
-        {
-            'type': 'status_change',
-                'message': 'Status changed',
-                'photo_id': instance.id,
-                'title': instance.title,
-                'status': instance.status,
-        }
+        {'type': 'status_change',
+         'message': 'Status changed',
+         'photo_id': instance.id,
+         'title': instance.title,
+         'status': instance.status,
+         }
     )
-
-
-

@@ -21,16 +21,15 @@ class CategoryCreateServcie(ServiceWithResult):
     def process(self):
         self.run_custom_validations()
         if self.is_valid():
-            self.result = self._create_obj()
+            self.result = self._create_category()
         return self
 
-    def _create_obj(self):
-        category = Categories.objects.create(title=self.cleaned_data['title'])
-        return category
+    def _create_category(self):
+        return Categories.objects.create(title=self.cleaned_data['title'])
 
     @property
     @lru_cache()
-    def category(self):
+    def categories(self):
         try:
             return Categories.objects.all()
         except Categories.DoesNotExist:
@@ -44,6 +43,6 @@ class CategoryCreateServcie(ServiceWithResult):
             self.response_status = status.HTTP_403_FORBIDDEN
 
     def match_checking(self):
-        if self.category.filter(title__iexact=self.cleaned_data['title']).exists():
+        if self.categories.filter(title__iexact=self.cleaned_data['title']).exists():
             self.add_error('title', f"Category {self.cleaned_data['title']} already exists")
             self.response_status = status.HTTP_404_NOT_FOUND
