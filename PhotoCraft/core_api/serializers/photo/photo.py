@@ -1,3 +1,5 @@
+import json
+
 from rest_framework import serializers
 
 from models_app.models.liked.model import Liked
@@ -15,20 +17,20 @@ class PhotoSerializer(serializers.Serializer):
     number_of_likes = serializers.SerializerMethodField()
     number_of_comments = serializers.SerializerMethodField()
 
-    def get_number_of_likes(self, obj):
+    def get_number_of_likes(self, obj) -> int:
         return Liked.objects.filter(photo_id=obj.id).count()
 
-    def get_number_of_comments(self, obj):
+    def get_number_of_comments(self, obj) -> int:
         return Comments.objects.filter(photo_id=obj.id).count()
 
-    def get_user_id(self, obj):
+    def get_user_id(self, obj) -> json:
         return {
             'id': obj.user_id.id,
             'is_superuser': obj.user_id.is_superuser,
             'username': obj.user_id.username,
             }
 
-    def get_category_id(self, obj):
+    def get_category_id(self, obj) -> json:
         if obj.category_id:
             return {
                 'id': obj.category_id.id,

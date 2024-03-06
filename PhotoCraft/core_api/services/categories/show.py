@@ -8,6 +8,8 @@ from functools import lru_cache
 
 from models_app.models.categories.model import Categories
 
+from typing import Union
+
 
 class CategoryService(ServiceWithResult):
     id = forms.IntegerField(required=True)
@@ -22,7 +24,7 @@ class CategoryService(ServiceWithResult):
 
     @property
     @lru_cache()
-    def category(self):
+    def category(self) -> Union[Categories, None]:
         try:
             return Categories.objects.get(id=self.cleaned_data['id'])
         except Categories.DoesNotExist:

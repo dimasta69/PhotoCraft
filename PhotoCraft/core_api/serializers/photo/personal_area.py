@@ -1,3 +1,5 @@
+import json
+
 from rest_framework import serializers
 
 
@@ -15,7 +17,7 @@ class PersonalAreaSerializer(serializers.Serializer):
     updated_at = serializers.DateTimeField(required=False)
     first_request_at = serializers.DateTimeField(required=True)
 
-    def get_category_id(self, obj):
+    def get_category_id(self, obj) -> json:
         if obj.category_id:
             return {
                 'id': obj.category_id.id,

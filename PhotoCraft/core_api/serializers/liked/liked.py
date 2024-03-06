@@ -1,3 +1,5 @@
+import json
+
 from rest_framework import serializers
 
 
@@ -6,12 +8,12 @@ class LikedSerializer(serializers.Serializer):
     photo_id = serializers.SerializerMethodField()
     user_id = serializers.SerializerMethodField()
 
-    def get_user_id(self, obj):
+    def get_user_id(self, obj) -> json:
         return {
             'id': obj.user_id.id,
             }
 
-    def get_photo_id(self, obj):
+    def get_photo_id(self, obj) -> json:
         return {
             'id': obj.photo_id.id,
             }

@@ -1,5 +1,7 @@
 from functools import lru_cache
 
+from typing import Union, List
+
 from django.core.exceptions import ObjectDoesNotExist
 from django import forms
 from rest_framework import status
@@ -24,12 +26,12 @@ class CategoryCreateServcie(ServiceWithResult):
             self.result = self._create_category()
         return self
 
-    def _create_category(self):
+    def _create_category(self) -> Categories:
         return Categories.objects.create(title=self.cleaned_data['title'])
 
     @property
     @lru_cache()
-    def categories(self):
+    def categories(self) -> Union[List[Categories], None]:
         try:
             return Categories.objects.all()
         except Categories.DoesNotExist:

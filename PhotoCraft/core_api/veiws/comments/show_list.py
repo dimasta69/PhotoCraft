@@ -4,7 +4,6 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 
-
 from models_app.models.comments.model import Comments
 from core_api.serializers.comments.comments import CommentsSerializer
 from core_api.services.comments.show_list import CommentsListService
@@ -36,8 +35,13 @@ class CommentsView(APIView):
                                          "results": [
                                              {
                                                  "id": 0,
-                                                 "user_id": 0,
-                                                 "photo_id": 1,
+                                                 "user_id": {
+                                                     "id": 1,
+                                                     "is_superuser": "bool",
+                                                     "username": "name"
+                                                 },
+                                                 "photo_id": {'id': 0,
+                                                              },
                                                  "reply_id": "null",
                                                  "text": "string",
                                                  "publicated_at": "date",
@@ -89,5 +93,3 @@ class CommentsView(APIView):
         if bool(outcome.errors):
             return Response(outcome.errors, status=outcome.response_status)
         return Response(CommentsSerializer(outcome.result).data, status.HTTP_201_CREATED)
-
-

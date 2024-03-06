@@ -24,7 +24,7 @@ class CommentUpdatedService(ServiceWithResult):
             self.result = self._update_comment()
         return self
 
-    def _update_comment(self):
+    def _update_comment(self) -> Comments:
         self.comment.text = self.cleaned_data['text']
         self.comment.updated_at = True
         self.comment.save()
@@ -32,7 +32,7 @@ class CommentUpdatedService(ServiceWithResult):
 
     @property
     @lru_cache()
-    def comment(self):
+    def comment(self) -> Comments:
         try:
             return Comments.objects.get(id=self.cleaned_data['id'])
         except Comments.DoesNotExist:

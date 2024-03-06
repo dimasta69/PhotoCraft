@@ -12,6 +12,8 @@ from models_app.models.photo.model import Photo
 from models_app.models.users.model import User
 from models_app.models.categories.model import Categories
 
+from typing import Union
+
 
 class CreatePhotoService(ServiceWithResult):
     title = forms.CharField(required=True)
@@ -28,7 +30,7 @@ class CreatePhotoService(ServiceWithResult):
             self.result = self._create_photo()
         return self
 
-    def _create_photo(self):
+    def _create_photo(self) -> Photo:
         photo = Photo.objects.create(title=self.cleaned_data['title'],
                                      user_id=self.cleaned_data.get('current_user'),
                                      category_id=self.category,
@@ -39,7 +41,7 @@ class CreatePhotoService(ServiceWithResult):
 
     @property
     @lru_cache()
-    def category(self):
+    def category(self) -> Union[Categories, None]:
         try:
             return Categories.objects.get(id=self.cleaned_data['category_id'])
         except Categories.DoesNotExist:

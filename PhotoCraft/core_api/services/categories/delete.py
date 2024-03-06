@@ -11,6 +11,8 @@ from functools import lru_cache
 
 from utils.services import ServiceWithResult
 
+from typing import Union, List
+
 
 class CategoryDeleteServcie(ServiceWithResult):
     id = forms.IntegerField(required=True)
@@ -30,7 +32,7 @@ class CategoryDeleteServcie(ServiceWithResult):
 
     @property
     @lru_cache()
-    def category(self):
+    def category(self) -> Union[List[Categories], None]:
         try:
             return Categories.objects.get(id=self.cleaned_data['id'])
         except Categories.DoesNotExist:

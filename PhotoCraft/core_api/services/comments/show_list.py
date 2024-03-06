@@ -13,6 +13,8 @@ from models_app.models.comments.model import Comments
 
 from photo_craft.settings.restframework import *
 
+from typing import Union, List
+
 
 class CommentsListService(ServiceWithResult):
     photo_id = forms.IntegerField(required=True)
@@ -27,7 +29,7 @@ class CommentsListService(ServiceWithResult):
             self.result = self._get_comments()
         return self
 
-    def _get_comments(self):
+    def _get_comments(self) -> Paginator:
         try:
             return Paginator(self.comment, per_page=(self.cleaned_data['per_page'] or
                                                      REST_FRAMEWORK['PAGE_SIZE'])).page(self.cleaned_data['page'] or 1)
@@ -37,7 +39,7 @@ class CommentsListService(ServiceWithResult):
 
     @property
     @lru_cache()
-    def photo(self):
+    def photo(self) -> Union[Photo, None]:
         try:
             return Photo.objects.get(id=self.cleaned_data['photo_id'])
         except Photo.DoesNotExist:
@@ -45,7 +47,7 @@ class CommentsListService(ServiceWithResult):
 
     @property
     @lru_cache()
-    def comment(self):
+    def comment(self) -> List[Comments]:
         try:
             return Comments.objects.filter(photo_id=self.photo)
         except Comments.DoesNotExist:

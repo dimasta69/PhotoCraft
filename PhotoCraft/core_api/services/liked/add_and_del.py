@@ -12,6 +12,8 @@ from models_app.models.users.model import User
 
 from utils.services import ServiceWithResult
 
+from typing import Union
+
 
 class LikedService(ServiceWithResult):
     photo_id = forms.IntegerField(required=True)
@@ -32,7 +34,7 @@ class LikedService(ServiceWithResult):
 
     @property
     @lru_cache()
-    def photo(self):
+    def photo(self) -> Union[Photo, None]:
         try:
             return Photo.objects.get(id=self.cleaned_data['photo_id'])
         except Photo.DoesNotExist:
@@ -40,7 +42,7 @@ class LikedService(ServiceWithResult):
 
     @property
     @lru_cache()
-    def liked(self):
+    def liked(self) -> Union[Liked, None]:
         try:
             return Liked.objects.get(photo_id=self.photo, user_id=self.cleaned_data['current_user'])
         except Liked.DoesNotExist:

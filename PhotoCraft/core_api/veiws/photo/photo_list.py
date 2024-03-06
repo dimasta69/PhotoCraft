@@ -40,8 +40,12 @@ class PhotoListView(APIView,
                                          "results": [
                                              {
                                                  "id": 0,
-                                                 "category_id": 0,
-                                                 "user_id": 0,
+                                                 "category_id": 'null',
+                                                 "user_id": {
+                                                     "id": 0,
+                                                     "is_superuser": 'bool',
+                                                     "username": "name"
+                                                 },
                                                  "title": "string",
                                                  "photo_space": "string",
                                                  "status": "string",

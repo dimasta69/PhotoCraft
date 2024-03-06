@@ -4,6 +4,8 @@ from models_app.models.categories.model import Categories
 
 from functools import lru_cache
 
+from typing import Union, List
+
 
 class CategoriesService(ServiceWithResult):
     def process(self):
@@ -14,9 +16,9 @@ class CategoriesService(ServiceWithResult):
 
     @property
     @lru_cache()
-    def categories(self):
+    def categories(self) -> Union[List[Categories], None]:
         try:
             return Categories.objects.all()
         except Categories.DoesNotExist:
-            return 0
+            return None
 

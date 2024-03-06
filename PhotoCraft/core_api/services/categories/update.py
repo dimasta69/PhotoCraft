@@ -11,6 +11,8 @@ from utils.services import ServiceWithResult
 from models_app.models.users.model import User
 from models_app.models.categories.model import Categories
 
+from typing import Union, List
+
 
 class CategoryUpdateServcie(ServiceWithResult):
     id = forms.IntegerField(required=True)
@@ -25,14 +27,14 @@ class CategoryUpdateServcie(ServiceWithResult):
             self.result = self._update_category()
         return self
 
-    def _update_category(self):
+    def _update_category(self) -> Categories:
         self.category.title = self.cleaned_data['title']
         self.category.save()
         return self.category
 
     @property
     @lru_cache()
-    def category(self):
+    def category(self) -> Union[Categories, None]:
         try:
             return Categories.objects.get(id=self.cleaned_data['id'])
         except Categories.DoesNotExist:
@@ -40,7 +42,7 @@ class CategoryUpdateServcie(ServiceWithResult):
 
     @property
     @lru_cache()
-    def categories(self):
+    def categories(self) -> Union[List[Categories], None]:
         try:
             return Categories.objects.all()
         except Categories.DoesNotExist:

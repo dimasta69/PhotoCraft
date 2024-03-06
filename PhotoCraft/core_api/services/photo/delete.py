@@ -1,5 +1,5 @@
+import json
 import os
-from datetime import timedelta
 
 from django import forms
 from django.core.exceptions import ObjectDoesNotExist
@@ -14,6 +14,8 @@ from utils.services import ServiceWithResult
 from service_objects.fields import ModelField
 from photo_craft.settings.celery import OBJECT_TIME_DELETE
 
+from typing import Union
+
 
 class PhotoDeleteService(ServiceWithResult):
     id = forms.IntegerField(required=True)
@@ -27,7 +29,7 @@ class PhotoDeleteService(ServiceWithResult):
             self.result = self._delete_obj()
         return self
 
-    def _delete_obj(self):
+    def _delete_obj(self) -> json:
         if self.photo.status in ('Moderation', 'Reject'):
             if self.photo.photo:
                 if os.path.isfile(self.photo.photo.path):
@@ -45,7 +47,7 @@ class PhotoDeleteService(ServiceWithResult):
 
     @property
     @lru_cache()
-    def photo(self):
+    def photo(self) -> Union[Photo, None]:
         try:
             return Photo.objects.get(id=self.cleaned_data['id'])
         except Photo.DoesNotExist:

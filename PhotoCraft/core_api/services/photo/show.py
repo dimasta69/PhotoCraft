@@ -9,7 +9,7 @@ from utils.services import ServiceWithResult
 
 from functools import lru_cache
 
-from service_objects.fields import ModelField
+from typing import Union
 
 
 class PhotoService(ServiceWithResult):
@@ -24,7 +24,7 @@ class PhotoService(ServiceWithResult):
             self.result = self._show()
         return self
 
-    def _show(self):
+    def _show(self) -> Union[Photo, None]:
         if self.cleaned_data['current_user']:
             if self.user.is_superuser or self.user == self.photo.user_id:
                 return self.photo
@@ -40,7 +40,7 @@ class PhotoService(ServiceWithResult):
 
     @property
     @lru_cache()
-    def photo(self):
+    def photo(self) -> Union[Photo, None]:
         try:
             return Photo.objects.get(id=self.cleaned_data['id'])
         except Photo.DoesNotExist:
@@ -48,7 +48,7 @@ class PhotoService(ServiceWithResult):
 
     @property
     @lru_cache()
-    def user(self):
+    def user(self) -> Union[User, None]:
         try:
             return User.objects.get(id=self.cleaned_data['current_user'])
         except User.DoesNotExist:

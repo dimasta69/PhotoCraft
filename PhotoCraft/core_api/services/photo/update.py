@@ -12,6 +12,8 @@ from utils.services import ServiceWithResult
 
 from service_objects.fields import ModelField
 
+from typing import Union, List
+
 
 class UpdatePhotoService(ServiceWithResult):
     id = forms.IntegerField(required=True)
@@ -29,7 +31,7 @@ class UpdatePhotoService(ServiceWithResult):
             self.result = self._update_photo()
         return self
 
-    def _update_photo(self):
+    def _update_photo(self) -> Photo:
         if self.cleaned_data['title']:
             self.photo_obj.title = self.cleaned_data['title']
         if self.cleaned_data['description']:
@@ -44,7 +46,7 @@ class UpdatePhotoService(ServiceWithResult):
 
     @property
     @lru_cache()
-    def photo_obj(self):
+    def photo_obj(self) -> Union[Photo, None]:
         try:
             return Photo.objects.get(id=self.cleaned_data['id'])
         except Photo.DoesNotExist:
@@ -52,7 +54,7 @@ class UpdatePhotoService(ServiceWithResult):
 
     @property
     @lru_cache()
-    def category(self):
+    def category(self) -> Union[Categories, None]:
         try:
             return Categories.objects.get(id=self.cleaned_data['category_id'])
         except Categories.DoesNotExist:

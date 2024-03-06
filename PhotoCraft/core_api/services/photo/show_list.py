@@ -14,6 +14,8 @@ from models_app.models.users.model import User
 
 from utils.services import ServiceWithResult
 
+from typing import Union, List
+
 
 class PhotoListService(ServiceWithResult):
     page = forms.IntegerField(required=False)
@@ -32,7 +34,7 @@ class PhotoListService(ServiceWithResult):
             self.result = self._get_photos()
         return self
 
-    def _get_photos(self):
+    def _get_photos(self) -> Paginator:
         try:
             return Paginator(self.get_photos_filtered_ordering, per_page=(self.cleaned_data['per_page'] or
                                                                          REST_FRAMEWORK['PAGE_SIZE'])).page(
@@ -43,7 +45,7 @@ class PhotoListService(ServiceWithResult):
 
     @property
     @lru_cache()
-    def category(self):
+    def category(self) -> Union[Categories, None]:
         try:
             return Categories.objects.get(id=self.cleaned_data['category_id'])
         except Categories.DoesNotExist:
@@ -51,7 +53,7 @@ class PhotoListService(ServiceWithResult):
 
     @property
     @lru_cache()
-    def user(self):
+    def user(self) -> Union[User, None]:
         try:
             return User.objects.get(id=self.cleaned_data['user_id'])
         except User.DoesNotExist:
@@ -59,11 +61,11 @@ class PhotoListService(ServiceWithResult):
 
     @property
     @lru_cache()
-    def photos(self):
+    def photos(self) -> List[Photo]:
         return Photo.objects.all()
 
     @property
-    def get_photos_filtered_ordering(self):
+    def get_photos_filtered_ordering(self) -> Photo:
         photos = self.photos
         if self.cleaned_data.get('category_id'):
             photos = photos.filter(category_id=self.category)

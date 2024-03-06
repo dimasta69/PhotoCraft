@@ -10,6 +10,8 @@ from utils.services import ServiceWithResult
 from models_app.models.users.model import User
 from models_app.models.comments.model import Comments
 
+from typing import Union
+
 
 class CommentDeleteService(ServiceWithResult):
     id = forms.IntegerField(required=True)
@@ -29,7 +31,7 @@ class CommentDeleteService(ServiceWithResult):
 
     @property
     @lru_cache()
-    def comment(self):
+    def comment(self) -> Union[Comments, None]:
         try:
             return Comments.objects.get(id=self.cleaned_data['id'])
         except Comments.DoesNotExist:

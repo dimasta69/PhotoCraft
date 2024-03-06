@@ -11,6 +11,8 @@ from models_app.models.users.model import User
 from models_app.models.photo.model import Photo
 from models_app.models.comments.model import Comments
 
+from typing import Union
+
 
 class CommentCreateService(ServiceWithResult):
     photo_id = forms.IntegerField(required=True)
@@ -26,7 +28,7 @@ class CommentCreateService(ServiceWithResult):
             self.result = self._create_comment()
         return self
 
-    def _create_comment(self):
+    def _create_comment(self) -> Comments:
 
         return Comments.objects.create(photo_id=self.photo,
                                        reply_id=self.reply,
@@ -35,7 +37,7 @@ class CommentCreateService(ServiceWithResult):
 
     @property
     @lru_cache()
-    def photo(self):
+    def photo(self) -> Union[Photo, None]:
         try:
             return Photo.objects.get(id=self.cleaned_data['photo_id'])
         except Photo.DoesNotExist:
@@ -43,7 +45,7 @@ class CommentCreateService(ServiceWithResult):
 
     @property
     @lru_cache()
-    def reply(self):
+    def reply(self) -> Union[Comments, None]:
         try:
             return Comments.objects.get(id=self.cleaned_data['reply_id'])
         except Comments.DoesNotExist:
