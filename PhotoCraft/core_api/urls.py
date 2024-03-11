@@ -1,4 +1,5 @@
-from django.urls import path
+from django.contrib.auth.views import LogoutView
+from django.urls import path, include
 
 from drf_yasg import openapi
 from drf_yasg.views import get_schema_view
@@ -38,5 +39,6 @@ urlpatterns = [
     path('auth/token/logout/', TokenDestroyView.as_view()),
     path('auth/token/refresh/', TokenCreateView.as_view()),
     path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
+    path('social/', include('social_django.urls', namespace='social')),
 ]
 

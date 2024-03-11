@@ -6,6 +6,7 @@ REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework.authentication.SessionAuthentication',
         'rest_framework.authentication.TokenAuthentication',
-        'social_core.backends.vk.VKOAuth2',
     ]
 }
+
+AUTHENTICATION_BACKENDS = ['social_core.backends.google.GoogleOAuth2']
