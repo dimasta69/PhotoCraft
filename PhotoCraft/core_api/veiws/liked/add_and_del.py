@@ -6,6 +6,7 @@ from rest_framework import status
 
 from core_api.permissions import IsAuthenticatedAndIsPostRequest
 from core_api.services.liked.add_and_del import LikedService
+from core_api.serializers.liked.create_like import CreateLikedSerializer
 from core_api.serializers.liked.liked import LikedSerializer
 from models_app.models.liked.model import Liked
 from utils.services import ServiceOutcome
@@ -14,7 +15,7 @@ from utils.services import ServiceOutcome
 class LikedView(APIView):
     permission_classes = [IsAuthenticatedAndIsPostRequest]
     queryset = Liked.objects.all()
-    serializer_class = LikedSerializer
+    serializer_class = CreateLikedSerializer
 
     @swagger_auto_schema(operation_description='Like the post', tags=['core-api/like'],
                          request_body=openapi.Schema(

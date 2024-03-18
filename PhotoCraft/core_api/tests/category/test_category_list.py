@@ -12,12 +12,12 @@ class ListCreateCategoryViewTest(TestCase):
         cls.user_2 = UserFactory.create(create_token=True)
         cls.category_1 = CategoryFactory(title='abcd')
         cls.category_2 = CategoryFactory()
-        cls.photo_1 = PhotoFactory.create_batch(3, user_id=cls.user_1, status='Moderation',
-                                                category_id=cls.category_1)
-        cls.photo_1 = PhotoFactory.create_batch(1, user_id=cls.user_1, status='Moderation',
-                                                category_id=cls.category_2)
-        cls.photo_2 = PhotoFactory.create_batch(5, user_id=cls.user_1, status='Published',
-                                                category_id=cls.category_2)
+        cls.photo_1 = PhotoFactory.create_batch(3, user=cls.user_1, status='Moderation',
+                                                category=cls.category_1)
+        cls.photo_1 = PhotoFactory.create_batch(1, user=cls.user_1, status='Moderation',
+                                                category=cls.category_2)
+        cls.photo_2 = PhotoFactory.create_batch(5, user=cls.user_1, status='Published',
+                                                category=cls.category_2)
 
     def test_view_return_200_if_api_token_not_passed(self):
         resp = self.client.get('/core_api/categories/',

@@ -68,11 +68,11 @@ class PhotoListService(ServiceWithResult):
     def get_photos_filtered_ordering(self) -> Photo:
         photos = self.photos
         if self.cleaned_data.get('category_id'):
-            photos = photos.filter(category_id=self.category)
+            photos = photos.filter(category=self.category)
         if self.cleaned_data.get('order_by'):
             photos = photos.order_by(self.cleaned_data['order_by'])
         if self.cleaned_data.get('user_id'):
-            photos = photos.filter(user_id=self.user)
+            photos = photos.filter(user=self.user)
         if (self.cleaned_data.get('user_id') == self.cleaned_data.get('current_user') and
                 self.cleaned_data.get('current_user') is not None):
             if self.cleaned_data['status']:

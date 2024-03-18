@@ -46,7 +46,7 @@ class CommentUpdatedService(ServiceWithResult):
                 self.response_status = status.HTTP_404_NOT_FOUND
 
     def user_ratio(self):
-        if not ((self.comment.user_id.id == self.cleaned_data['current_user'].id) or
+        if not ((self.comment.user.id == self.cleaned_data['current_user'].id) or
                 self.cleaned_data['current_user'].is_superuser):
             self.add_error('current_user', ObjectDoesNotExist(f"User with id="
                                                               f"{self.cleaned_data['current_user']} is not the author "

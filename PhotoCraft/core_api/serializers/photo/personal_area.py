@@ -5,7 +5,7 @@ from rest_framework import serializers
 
 class PersonalAreaSerializer(serializers.Serializer):
     id = serializers.IntegerField(required=True)
-    category_id = serializers.SerializerMethodField()
+    category = serializers.SerializerMethodField()
 
     title = serializers.CharField(required=True)
     description = serializers.CharField(required=False)
@@ -17,10 +17,10 @@ class PersonalAreaSerializer(serializers.Serializer):
     updated_at = serializers.DateTimeField(required=False)
     first_request_at = serializers.DateTimeField(required=True)
 
-    def get_category_id(self, obj) -> json:
-        if obj.category_id:
+    def get_category(self, obj) -> json:
+        if obj.category:
             return {
-                'id': obj.category_id.id,
-                'title': obj.category_id.title,
+                'id': obj.category.id,
+                'title': obj.category.title,
             }
         return None

@@ -8,6 +8,7 @@ from models_app.models.comments.model import Comments
 from core_api.serializers.comments.comments import CommentsSerializer
 from core_api.services.comments.show_list import CommentsListService
 from core_api.services.comments.create import CommentCreateService
+from core_api.serializers.comments.create_comment import CreateCommentsSerializer
 from core_api.permissions import IsAuthenticatedAndIsPostRequest
 from utils.services import ServiceOutcome
 from utils.pagination import CustomPagination
@@ -16,7 +17,7 @@ from utils.pagination import CustomPagination
 class CommentsView(APIView):
     permission_classes = [IsAuthenticatedAndIsPostRequest]
     queryset = Comments.objects.all()
-    serializer_class = CommentsSerializer
+    serializer_class = CreateCommentsSerializer
 
     @swagger_auto_schema(operation_description='Get comments', tags=['core-api/comments'],
                          responses={
@@ -35,14 +36,14 @@ class CommentsView(APIView):
                                          "results": [
                                              {
                                                  "id": 0,
-                                                 "user_id": {
+                                                 "user": {
                                                      "id": 1,
                                                      "is_superuser": "bool",
                                                      "username": "name"
                                                  },
-                                                 "photo_id": {'id': 0,
+                                                 "photo": {'id': 0,
                                                               },
-                                                 "reply_id": "null",
+                                                 "reply": "null",
                                                  "text": "string",
                                                  "publicated_at": "date",
                                                  "updated_ad": "date"

@@ -6,7 +6,7 @@ from models_app.admin.comment import CommentAdmin
 
 @admin.register(Photo)
 class PhotoAdmin(admin.ModelAdmin):
-    list_display = ['title', 'status', 'description', 'photo', 'backup_photo', 'category_id', 'user_id',
+    list_display = ['title', 'status', 'description', 'photo', 'backup_photo', 'category', 'user_id',
                     'publicated_at', 'updated_at', 'first_request_at', 'deleted_at']
     list_display_links = ['title']
     readonly_fields = ['backup_photo', 'user_id', 'publicated_at', 'updated_at', 'first_request_at', 'deleted_at',

@@ -14,13 +14,13 @@ class ListCreateCommentViewTest(TestCase):
         cls.user_1 = UserFactory.create(create_token=True)
         cls.user_2 = UserFactory.create(create_token=True)
         cls.category_1 = CategoryFactory()
-        cls.photo_1 = PhotoFactory.create(user_id=cls.user_1, status='Moderation',
-                                          category_id=cls.category_1)
-        cls.photo_2 = PhotoFactory.create(user_id=cls.user_2, status='Moderation',
-                                          category_id=cls.category_1)
+        cls.photo_1 = PhotoFactory.create(user=cls.user_1, status='Moderation',
+                                          category=cls.category_1)
+        cls.photo_2 = PhotoFactory.create(user=cls.user_2, status='Moderation',
+                                          category=cls.category_1)
 
-        cls.comment_1 = CommentFactory.create(photo_id=cls.photo_1, user_id=cls.user_1)
-        cls.comment_2 = CommentFactory.create(photo_id=cls.photo_1, user_id=cls.user_2, reply_id=cls.comment_1)
+        cls.comment_1 = CommentFactory.create(photo=cls.photo_1, user=cls.user_1)
+        cls.comment_2 = CommentFactory.create(photo=cls.photo_1, user=cls.user_2, reply=cls.comment_1)
 
     def test_view_return_200_if_api_token_not_passed(self):
         resp = self.client.get('/core_api/comments/',

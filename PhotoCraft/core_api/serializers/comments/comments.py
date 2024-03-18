@@ -5,29 +5,29 @@ from rest_framework import serializers
 
 class CommentsSerializer(serializers.Serializer):
     id = serializers.IntegerField()
-    user_id = serializers.SerializerMethodField()
-    photo_id = serializers.SerializerMethodField()
-    reply_id = serializers.SerializerMethodField()
+    user = serializers.SerializerMethodField()
+    photo = serializers.SerializerMethodField()
+    reply = serializers.SerializerMethodField()
     text = serializers.CharField()
     publicated_at = serializers.DateTimeField()
     updated_at = serializers.BooleanField()
 
-    def get_user_id(self, obj) -> json:
+    def get_user(self, obj) -> json:
         return {
-            'id': obj.user_id.id,
-            'is_superuser': obj.user_id.is_superuser,
-            'username': obj.user_id.username,
+            'id': obj.user.id,
+            'is_superuser': obj.user.is_superuser,
+            'username': obj.user.username,
         }
 
-    def get_photo_id(self, obj) -> json:
+    def get_photo(self, obj) -> json:
         return {
-            'id': obj.photo_id.id,
+            'id': obj.photo.id,
         }
 
-    def get_reply_id(self, obj) -> json:
-        if obj.reply_id:
+    def get_reply(self, obj) -> json:
+        if obj.reply:
             return {
-                'id': obj.reply_id.id
+                'id': obj.reply.id
             }
         return None
 

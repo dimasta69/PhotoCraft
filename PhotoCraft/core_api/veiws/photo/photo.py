@@ -1,4 +1,3 @@
-from rest_framework.decorators import action
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
@@ -12,6 +11,7 @@ from core_api.serializers.photo.photo import PhotoSerializer
 from core_api.services.photo.show import PhotoService
 from core_api.services.photo.update import UpdatePhotoService
 from core_api.services.photo.delete import PhotoDeleteService
+from core_api.serializers.photo.create_photo import CreatePhotoSerializer
 from core_api.permissions import IsAuthenticatedAndIsPostRequest
 
 from utils.services import ServiceOutcome
@@ -21,7 +21,7 @@ class PhotoView(APIView,
                 MultiPartParser):
     permission_classes = [IsAuthenticatedAndIsPostRequest]
     queryset = Photo.objects.all()
-    serializer_class = PhotoSerializer
+    serializer_class = CreatePhotoSerializer
 
     @swagger_auto_schema(operation_description='Get photo', tags=['core-api/photo'],
                          responses={200: openapi.Response(
@@ -49,7 +49,7 @@ class PhotoView(APIView,
                                  request.data.dict(), request.FILES)
         if bool(outcome.errors):
             return Response(outcome.errors, status=outcome.response_status)
-        return Response(PhotoSerializer(outcome.result).data, status.HTTP_201_CREATED)
+        return Response(CreatePhotoSerializer(outcome.result).data, status.HTTP_201_CREATED)
 
     @swagger_auto_schema(operation_description='Delete post',
                          tags=['core-api/photo'])

@@ -11,6 +11,7 @@ from models_app.models.photo.model import Photo
 from core_api.serializers.photo.photo_list import PhotoListSerializer
 from core_api.serializers.photo.photo import PhotoSerializer
 from core_api.services.photo.show_list import PhotoListService
+from core_api.serializers.photo.create_photo import CreatePhotoSerializer
 from core_api.services.photo.create import CreatePhotoService
 
 from utils.pagination import CustomPagination
@@ -21,7 +22,7 @@ class PhotoListView(APIView,
                     MultiPartParser):
     permission_classes = [IsAuthenticatedAndIsPostRequest]
     queryset = Photo.objects.all()
-    serializer_class = PhotoSerializer
+    serializer_class = CreatePhotoSerializer
 
     @swagger_auto_schema(operation_description='Get photo list', tags=['core-api/photos'],
                          responses={
@@ -40,8 +41,8 @@ class PhotoListView(APIView,
                                          "results": [
                                              {
                                                  "id": 0,
-                                                 "category_id": 'null',
-                                                 "user_id": {
+                                                 "category": 'null',
+                                                 "user": {
                                                      "id": 0,
                                                      "is_superuser": 'bool',
                                                      "username": "name"

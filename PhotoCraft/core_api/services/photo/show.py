@@ -26,7 +26,7 @@ class PhotoService(ServiceWithResult):
 
     def _show(self) -> Union[Photo, None]:
         if self.cleaned_data['current_user']:
-            if self.user.is_superuser or self.user == self.photo.user_id:
+            if self.user.is_superuser or self.user == self.photo.user:
                 return self.photo
             self.add_error('photo_id', ObjectDoesNotExist(f"Photo with id="
                                                           f"{self.cleaned_data['id']} i don't have access rights to "

@@ -22,12 +22,12 @@ class PhotoDeleteUpdateViewTest(TestCase):
         cls.user_2 = UserFactory.create(create_token=True)
         cls.category_1 = CategoryFactory()
         cls.category_2 = CategoryFactory()
-        cls.photo_1 = PhotoFactory.create(user_id=cls.user_1, status='Moderation',
-                                          category_id=cls.category_1)
-        cls.photo_2 = PhotoFactory.create(user_id=cls.user_2, status='Published',
-                                          category_id=cls.category_2)
-        cls.like_1 = LikeFactory.create(user_id=cls.user_1, photo_id=cls.photo_1)
-        cls.comment_1 = CommentFactory.create(photo_id=cls.photo_1, user_id=cls.user_1, reply_id=None)
+        cls.photo_1 = PhotoFactory.create(user=cls.user_1, status='Moderation',
+                                          category=cls.category_1)
+        cls.photo_2 = PhotoFactory.create(user=cls.user_2, status='Published',
+                                          category=cls.category_2)
+        cls.like_1 = LikeFactory.create(user=cls.user_1, photo=cls.photo_1)
+        cls.comment_1 = CommentFactory.create(photo=cls.photo_1, user=cls.user_1, reply=None)
 
     def test_view_return_200_not_auth_token_status_published(self):
         resp = self.client.get(f'/core_api/photo/{self.photo_2.id}/',

@@ -9,4 +9,4 @@ class CategoriesSerializer(serializers.Serializer):
     count = serializers.SerializerMethodField()
 
     def get_count(self, obj) -> int:
-        return Photo.objects.filter(category_id=obj.id).count()
+        return Photo.objects.filter(category=obj.id).count()

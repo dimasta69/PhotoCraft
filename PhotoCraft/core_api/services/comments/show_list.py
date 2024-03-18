@@ -49,7 +49,7 @@ class CommentsListService(ServiceWithResult):
     @lru_cache()
     def comment(self) -> List[Comments]:
         try:
-            return Comments.objects.filter(photo_id=self.photo)
+            return Comments.objects.filter(photo=self.photo)
         except Comments.DoesNotExist:
             return Comments.objects.none()
 

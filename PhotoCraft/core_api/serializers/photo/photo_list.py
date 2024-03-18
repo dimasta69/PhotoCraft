@@ -8,8 +8,8 @@ from models_app.models.comments.model import Comments
 
 class PhotoListSerializer(serializers.Serializer):
     id = serializers.IntegerField()
-    user_id = serializers.SerializerMethodField()
-    category_id = serializers.SerializerMethodField()
+    user = serializers.SerializerMethodField()
+    category = serializers.SerializerMethodField()
     title = serializers.CharField()
     photo_space = serializers.ImageField()
     status = serializers.CharField()
@@ -23,18 +23,18 @@ class PhotoListSerializer(serializers.Serializer):
     def get_number_of_comments(self, obj) -> int:
         return Comments.objects.filter(photo_id=obj.id).count()
 
-    def get_user_id(self, obj) -> json:
+    def get_user(self, obj) -> json:
         return {
-            'id': obj.user_id.id,
-            'is_superuser': obj.user_id.is_superuser,
-            'username': obj.user_id.username,
+            'id': obj.user.id,
+            'is_superuser': obj.user.is_superuser,
+            'username': obj.user.username,
             }
 
-    def get_category_id(self, obj) -> json:
-        if obj.category_id:
+    def get_category(self, obj) -> json:
+        if obj.category:
             return {
-                'id': obj.category_id.id,
-                'title': obj.category_id.title,
+                'id': obj.category.id,
+                'title': obj.category.title,
             }
 
     class Meta:

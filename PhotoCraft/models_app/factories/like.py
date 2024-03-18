@@ -10,5 +10,5 @@ class LikeFactory(DjangoModelFactory):
     class Meta:
         model = Liked
 
-    photo_id = factory.Iterator(Photo.objects.all().values_list('id', flat=True))
-    user_id = factory.Iterator(User.objects.all().values_list('id', flat=True))
+    photo = factory.Iterator(Photo.objects.all().values_list('id', flat=True))
+    user = factory.Iterator(User.objects.all().values_list('id', flat=True))

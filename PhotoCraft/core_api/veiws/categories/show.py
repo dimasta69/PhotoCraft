@@ -6,6 +6,7 @@ from rest_framework import status
 
 from models_app.models.categories.model import Categories
 from core_api.serializers.categories.categories_list import CategoriesSerializer
+from core_api.serializers.categories.create_category import CreateCategoriesSerializer
 from core_api.services.categories.show import CategoryService
 from core_api.services.categories.delete import CategoryDeleteServcie
 from core_api.services.categories.update import CategoryUpdateServcie
@@ -17,7 +18,7 @@ from utils.services import ServiceOutcome
 class CategoryView(APIView):
     permission_classes = [IsAuthenticatedAndIsPostRequest]
     queryset = Categories.objects.all()
-    serializer_class = CategoriesSerializer
+    serializer_class = CreateCategoriesSerializer
 
     @swagger_auto_schema(operation_description='Get category', tags=['core-api/category'],
                          responses={200: openapi.Response(

@@ -29,7 +29,7 @@ class LikedService(ServiceWithResult):
 
     def _check_data(self):
         if not self.liked:
-            return Liked.objects.create(photo_id=self.photo, user_id=self.cleaned_data['current_user'])
+            return Liked.objects.create(photo=self.photo, user=self.cleaned_data['current_user'])
         self.liked.delete()
 
     @property
@@ -44,7 +44,7 @@ class LikedService(ServiceWithResult):
     @lru_cache()
     def liked(self) -> Union[Liked, None]:
         try:
-            return Liked.objects.get(photo_id=self.photo, user_id=self.cleaned_data['current_user'])
+            return Liked.objects.get(photo=self.photo, user=self.cleaned_data['current_user'])
         except Liked.DoesNotExist:
             return None
 

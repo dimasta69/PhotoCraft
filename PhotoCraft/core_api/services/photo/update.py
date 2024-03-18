@@ -37,7 +37,7 @@ class UpdatePhotoService(ServiceWithResult):
         if self.cleaned_data['description']:
             self.photo_obj.description = self.cleaned_data['description']
         if self.cleaned_data['category_id']:
-            self.photo_obj.category_id = self.category
+            self.photo_obj.category = self.category
         if self.cleaned_data['photo']:
             self.photo_obj.backup_photo = self.photo_obj.photo
             self.photo_obj.photo = self.cleaned_data['photo']
@@ -75,7 +75,7 @@ class UpdatePhotoService(ServiceWithResult):
                 self.response_status = status.HTTP_404_NOT_FOUND
 
     def user_ratio(self):
-        if not ((self.photo_obj.user_id.id == self.cleaned_data['current_user'].id) or
+        if not ((self.photo_obj.user.id == self.cleaned_data['current_user'].id) or
                 self.cleaned_data['current_user'].is_superuser):
             self.add_error(
                 "current_user",

@@ -15,9 +15,8 @@ from utils.file_uploader import uploaded_file_path
 class PhotoFactory(DjangoModelFactory):
     class Meta:
         model = Photo
-
-    category_id = factory.Iterator(Categories.objects.all().values_list('id', flat=True))
-    user_id = factory.Iterator(User.objects.all().values_list('id', flat=True))
+    category = factory.Iterator(Categories.objects.all().values_list('id', flat=True))
+    user = factory.Iterator(User.objects.all().values_list('id', flat=True))
     title = factory.Faker('sentence', nb_words=3)
     description = factory.Faker('text', max_nb_chars=250)
     status = factory.Iterator(['Moderation', 'Published', 'Reject', 'Delete'])
