@@ -27,6 +27,7 @@ axios = "*"
 daphne = "*"
 twisted = {extras = ["tls", "http2"], version = "*"}
 channels-redis = "*"
+django-cors-headers = "*"
 
 [requires]
 python_version = "3.11"
