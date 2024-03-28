@@ -27,6 +27,7 @@ class PhotoDeleteService(ServiceWithResult):
         self.run_custom_validations()
         if self.is_valid():
             self.result = self._delete_obj()
+            self.response_status = status.HTTP_204_NO_CONTENT
         return self
 
     def _delete_obj(self) -> json:

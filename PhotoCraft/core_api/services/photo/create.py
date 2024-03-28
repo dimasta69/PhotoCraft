@@ -28,6 +28,7 @@ class CreatePhotoService(ServiceWithResult):
         self.run_custom_validations()
         if self.is_valid():
             self.result = self._create_photo()
+            self.response_status = status.HTTP_201_CREATED
         return self
 
     def _create_photo(self) -> Photo:

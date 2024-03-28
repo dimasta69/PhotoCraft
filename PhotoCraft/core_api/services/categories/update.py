@@ -25,6 +25,7 @@ class CategoryUpdateServcie(ServiceWithResult):
         self.run_custom_validations()
         if self.is_valid():
             self.result = self._update_category()
+            self.response_status = status.HTTP_201_CREATED
         return self
 
     def _update_category(self) -> Categories:
@@ -43,10 +44,7 @@ class CategoryUpdateServcie(ServiceWithResult):
     @property
     @lru_cache()
     def categories(self) -> Union[List[Categories], None]:
-        try:
-            return Categories.objects.all()
-        except Categories.DoesNotExist:
-            return None
+        return Categories.objects.all()
 
     def user_ratio(self):
         if not self.cleaned_data['current_user'].is_superuser:

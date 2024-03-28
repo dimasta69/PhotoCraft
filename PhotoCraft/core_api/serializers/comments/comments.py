@@ -6,8 +6,8 @@ from rest_framework import serializers
 class CommentsSerializer(serializers.Serializer):
     id = serializers.IntegerField()
     user = serializers.SerializerMethodField()
-    photo = serializers.SerializerMethodField()
-    reply = serializers.SerializerMethodField()
+    photo_id = serializers.SerializerMethodField()
+    reply_id = serializers.SerializerMethodField()
     text = serializers.CharField()
     publicated_at = serializers.DateTimeField()
     updated_at = serializers.BooleanField()
@@ -19,16 +19,10 @@ class CommentsSerializer(serializers.Serializer):
             'username': obj.user.username,
         }
 
-    def get_photo(self, obj) -> json:
-        return {
-            'id': obj.photo.id,
-        }
+    def get_photo_id(self, obj) -> int:
+        return obj.photo.id
 
-    def get_reply(self, obj) -> json:
+    def get_reply_id(self, obj) -> int:
         if obj.reply:
-            return {
-                'id': obj.reply.id
-            }
+            return obj.reply.id
         return None
-
-

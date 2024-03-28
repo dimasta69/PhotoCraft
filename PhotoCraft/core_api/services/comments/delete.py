@@ -23,6 +23,7 @@ class CommentDeleteService(ServiceWithResult):
         self.run_custom_validations()
         if self.is_valid():
             self.result = self._delete_comment()
+            self.response_status = status.HTTP_204_NO_CONTENT
         return self
 
     def _delete_comment(self):

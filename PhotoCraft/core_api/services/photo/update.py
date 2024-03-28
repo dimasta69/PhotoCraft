@@ -29,6 +29,7 @@ class UpdatePhotoService(ServiceWithResult):
         self.run_custom_validations()
         if self.is_valid():
             self.result = self._update_photo()
+            self.response_status = status.HTTP_201_CREATED
         return self
 
     def _update_photo(self) -> Photo:

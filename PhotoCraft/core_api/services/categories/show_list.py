@@ -17,8 +17,4 @@ class CategoriesService(ServiceWithResult):
     @property
     @lru_cache()
     def categories(self) -> Union[List[Categories], None]:
-        try:
-            return Categories.objects.all()
-        except Categories.DoesNotExist:
-            return None
-
+        return Categories.objects.all()

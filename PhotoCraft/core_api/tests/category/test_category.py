@@ -81,11 +81,11 @@ class CategoryDeleteUpdateViewTest(TestCase):
         self.assertEqual(resp.status_code, 200)
 
         resp_json = json.loads(resp.content)
-        self.assertTrue(resp_json['count'] == 3)
+        self.assertTrue(resp_json['count_photo'] == 3)
 
         resp_2 = self.client.get(f'/core_api/category/{self.category_2.id}/',
                                  content_type='application/json')
         self.assertEqual(resp_2.status_code, 200)
 
         resp_json_2 = json.loads(resp_2.content)
-        self.assertTrue(resp_json_2['count'] == 6)
+        self.assertTrue(resp_json_2['count_photo'] == 6)
